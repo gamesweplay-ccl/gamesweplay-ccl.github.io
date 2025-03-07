@@ -1,0 +1,40 @@
+---
+airtable_id: recBOfvk16F2Uz5M6
+complexity: ''
+external_links: ''
+format:
+  html:
+    css: ../_templates/styles.css
+    page-layout: full
+game_format: Game Board
+min_age: Primary
+players: '2'
+summary: Players take turn placing dominos on a boards hoping to be the one having
+  the last laugh.
+time: ''
+title: Domineering
+type: ''
+video_docs: ''
+---
+
+# Domineering
+
+:::{.game-info-box}
+:::{.game-stats}
+:::{.left-stats}
+Player Count: 2  
+Time: 
+:::
+:::{.right-stats}
+Format: Game Board  
+Complexity: 
+:::
+:::
+:::
+
+Players take turn placing dominos on a boards hoping to be the one having the last laugh.
+
+:::{.game-actions}
+<a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-watch"><i class="fa fa-video"></i> Watch a video</a>
+:::

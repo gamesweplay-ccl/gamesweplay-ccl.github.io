@@ -1,0 +1,40 @@
+---
+airtable_id: recsZD0R1v37I8eEx
+complexity: ''
+external_links: ''
+format:
+  html:
+    css: ../_templates/styles.css
+    page-layout: full
+game_format: Playing Cards
+min_age: High
+players: '1'
+summary: A solo card game that involves heavy strategy and a brilliant scoring system
+  all within a bowling theme.
+time: ''
+title: Bowling Solitaire
+type: ''
+video_docs: ''
+---
+
+# Bowling Solitaire
+
+:::{.game-info-box}
+:::{.game-stats}
+:::{.left-stats}
+Player Count: 1  
+Time: 
+:::
+:::{.right-stats}
+Format: Playing Cards  
+Complexity: 
+:::
+:::
+:::
+
+A solo card game that involves heavy strategy and a brilliant scoring system all within a bowling theme.
+
+:::{.game-actions}
+<a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-watch"><i class="fa fa-video"></i> Watch a video</a>
+:::

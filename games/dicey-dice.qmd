@@ -1,0 +1,39 @@
+---
+airtable_id: reci2PISwVIr8P3ml
+complexity: ''
+external_links: ''
+format:
+  html:
+    css: ../_templates/styles.css
+    page-layout: full
+game_format: Game Board
+min_age: High
+players: 3-6
+summary: A gambler stands at the table, wondering if there was a way to beat the house.
+time: ''
+title: Dicey Dice
+type: ''
+video_docs: ''
+---
+
+# Dicey Dice
+
+:::{.game-info-box}
+:::{.game-stats}
+:::{.left-stats}
+Player Count: 3-6  
+Time: 
+:::
+:::{.right-stats}
+Format: Game Board  
+Complexity: 
+:::
+:::
+:::
+
+A gambler stands at the table, wondering if there was a way to beat the house.
+
+:::{.game-actions}
+<a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-watch"><i class="fa fa-video"></i> Watch a video</a>
+:::

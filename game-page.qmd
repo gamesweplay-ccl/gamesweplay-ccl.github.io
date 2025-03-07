@@ -1,0 +1,29 @@
+---
+title: "Game Page Template"
+---
+
+```{=html}
+<div class="game-info-box">
+  <div class="game-stats">
+    <div class="left-stats">
+      Player Count: {{< meta players >}}<br>
+      Time: {{< meta time >}}
+    </div>
+    <div class="right-stats">
+      Format: {{< meta game_format >}}<br>
+      Complexity: {{< meta complexity >}}
+    </div>
+  </div>
+</div>
+
+<p>{{< meta summary >}}</p>
+
+<div class="game-actions">
+  {{#if (meta external_links)}}
+  <a href="{{< meta external_links >}}" class="btn btn-play">Play the game</a>
+  {{/if}}
+  {{#if (meta video_docs)}}
+  <a href="{{< meta video_docs >}}" class="btn btn-watch">Watch a video</a>
+  {{/if}}
+</div>
+```

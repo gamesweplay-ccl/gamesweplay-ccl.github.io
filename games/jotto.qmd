@@ -1,0 +1,39 @@
+---
+airtable_id: rec2skPsEr6h6iAGa
+complexity: ''
+external_links: ''
+format:
+  html:
+    css: ../_templates/styles.css
+    page-layout: full
+game_format: Nothing
+min_age: Primary
+players: '2'
+summary: ''
+time: ''
+title: Jotto
+type: ''
+video_docs: ''
+---
+
+# Jotto
+
+:::{.game-info-box}
+:::{.game-stats}
+:::{.left-stats}
+Player Count: 2  
+Time: 
+:::
+:::{.right-stats}
+Format: Nothing  
+Complexity: 
+:::
+:::
+:::
+
+Game summary not available yet.
+
+:::{.game-actions}
+<a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-watch"><i class="fa fa-video"></i> Watch a video</a>
+:::

@@ -1,0 +1,39 @@
+---
+airtable_id: rec654SFfwjCU3jgV
+complexity: ''
+external_links: ''
+format:
+  html:
+    css: ../_templates/styles.css
+    page-layout: full
+game_format: Custom
+min_age: Primary
+players: '2'
+summary: Players count out loud, trying to avoid saying the cursed number.
+time: ''
+title: Don't say 13
+type: ''
+video_docs: ''
+---
+
+# Don't say 13
+
+:::{.game-info-box}
+:::{.game-stats}
+:::{.left-stats}
+Player Count: 2  
+Time: 
+:::
+:::{.right-stats}
+Format: Custom  
+Complexity: 
+:::
+:::
+:::
+
+Players count out loud, trying to avoid saying the cursed number.
+
+:::{.game-actions}
+<a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-watch"><i class="fa fa-video"></i> Watch a video</a>
+:::

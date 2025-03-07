@@ -1,0 +1,27 @@
+---
+title: "Games We Play"
+format:
+  html:
+    css: _templates/styles.css
+    page-layout: full
+listing:
+  contents: games
+  type: table
+  fields: [title, type, game_format, min_age, players, time, complexity]
+  field-display-names:
+    title: "Game"
+    type: "Type"
+    game_format: "Format"
+    min_age: "Age Group"
+    players: "Players"
+    time: "Duration"
+    complexity: "Complexity"
+  sort: title
+  sort-ui: true
+  filter-ui: true
+  table-hover: true
+  table-striped: true
+page-layout: full
+---
+
+Welcome to our collection of games and puzzles! Browse through our catalog below to find games suitable for different age groups and player counts.

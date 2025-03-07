@@ -1,0 +1,39 @@
+---
+airtable_id: recbAPaW7j6jhsqbL
+complexity: ''
+external_links: ''
+format:
+  html:
+    css: ../_templates/styles.css
+    page-layout: full
+game_format: Writable Board
+min_age: High
+players: 3-6
+summary: ''
+time: ''
+title: Saesara
+type: ''
+video_docs: ''
+---
+
+# Saesara
+
+:::{.game-info-box}
+:::{.game-stats}
+:::{.left-stats}
+Player Count: 3-6  
+Time: 
+:::
+:::{.right-stats}
+Format: Writable Board  
+Complexity: 
+:::
+:::
+:::
+
+Game summary not available yet.
+
+:::{.game-actions}
+<a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-watch"><i class="fa fa-video"></i> Watch a video</a>
+:::

@@ -1,0 +1,26 @@
+<!-- Game template -->
+<h1>$title$</h1>
+
+<div class="game-info-box">
+  <div class="game-stats">
+    <div class="left-stats">
+      Player Count: $players$<br>
+      Time: $time$
+    </div>
+    <div class="right-stats">
+      Format: $game_format$<br>
+      Complexity: $complexity$
+    </div>
+  </div>
+</div>
+
+<p>$summary$</p>
+
+<div class="game-actions">
+  $if(external_links)$
+  <a href="$external_links$" class="btn btn-play">Play the game</a>
+  $endif$
+  $if(video_docs)$
+  <a href="$video_docs$" class="btn btn-watch">Watch a video</a>
+  $endif$
+</div>

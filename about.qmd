@@ -1,0 +1,28 @@
+---
+title: "About Our Games"
+---
+
+Welcome to our curated collection of games and puzzles! Our collection includes a diverse range of activities suitable for various age groups and player counts:
+
+### Game Formats
+
+- **Game Board**: Traditional board-based games
+- **Writable Board**: Games that use erasable surfaces
+- **Playing Cards**: Card-based games
+- **Custom**: Specially designed game materials
+- **Nothing**: Games that require no special equipment
+
+### Age Groups
+
+- **Primary**: Suitable for younger players
+- **Middle**: Intermediate complexity
+- **High**: More challenging games
+
+### Player Counts
+
+Our games support various group sizes:
+
+- Single-player puzzles
+- Two-player strategy games
+- Small group games (3-6 players)
+- Whole class activities

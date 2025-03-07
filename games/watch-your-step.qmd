@@ -1,0 +1,39 @@
+---
+airtable_id: recN3XevfaLMeu582
+complexity: ''
+external_links: ''
+format:
+  html:
+    css: ../_templates/styles.css
+    page-layout: full
+game_format: Game Board
+min_age: Primary
+players: 2-4
+summary: ''
+time: ''
+title: Watch your Step
+type: ''
+video_docs: ''
+---
+
+# Watch your Step
+
+:::{.game-info-box}
+:::{.game-stats}
+:::{.left-stats}
+Player Count: 2-4  
+Time: 
+:::
+:::{.right-stats}
+Format: Game Board  
+Complexity: 
+:::
+:::
+:::
+
+Game summary not available yet.
+
+:::{.game-actions}
+<a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-watch"><i class="fa fa-video"></i> Watch a video</a>
+:::

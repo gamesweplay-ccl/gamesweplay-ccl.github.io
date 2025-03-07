@@ -1,0 +1,29 @@
+---
+title: "$title$"
+---
+
+# $title$
+
+::: {.game-info-box}
+::: {.game-stats}
+::: {.left-stats}
+Player Count: $players$  
+Time: $time$
+:::
+::: {.right-stats}
+Format: $game_format$  
+Complexity: $complexity$
+:::
+:::
+:::
+
+$summary$
+
+::: {.game-actions}
+$if(external_links)$
+[Play the game]{.btn .btn-play}($external_links$)
+$endif$
+$if(video_docs)$
+[Watch a video]{.btn .btn-watch}($video_docs$)
+$endif$
+:::
