@@ -1,18 +1,17 @@
 ---
 airtable_id: recEXQu56YVpKzzxd
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: High
 players: '2'
 summary: ''
-time: ''
+time: '20'
 title: Lines of Action
-type: ''
+type: Strategy
 video_docs: ''
 ---
 
@@ -22,11 +21,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2  
-Time: 
+Time: 20
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

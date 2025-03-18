@@ -1,18 +1,17 @@
 ---
 airtable_id: recdBf1QK67XgI2mh
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: High
 players: 2-4
 summary: ''
-time: ''
+time: '30'
 title: Regicide
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -22,11 +21,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2-4  
-Time: 
+Time: 30
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

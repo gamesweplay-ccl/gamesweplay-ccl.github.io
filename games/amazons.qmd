@@ -1,19 +1,18 @@
 ---
 airtable_id: recdhPMZzrMkhKlI4
-complexity: ''
+complexity: Middle
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: Middle
 players: '2'
 summary: Warrior queens move across an battlefield, leaving barriers behind as they
   attempt to trap their opponents.
-time: ''
+time: '20'
 title: Amazons
-type: ''
+type: Strategy
 video_docs: ''
 ---
 
@@ -23,11 +22,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2  
-Time: 
+Time: 20
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: Middle
 :::
 :::
 :::

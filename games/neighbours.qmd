@@ -1,18 +1,17 @@
 ---
 airtable_id: recejrAfW0bncfwss
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Writable Board
-min_age: Primary
-players: 1-1
+players: 1-100
 summary: ''
-time: ''
+time: '20'
 title: Neighbours
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 1-1  
-Time: 
+Player Count: 1-100  
+Time: 20
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

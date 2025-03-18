@@ -1,18 +1,18 @@
 ---
 airtable_id: recIKDcgn36X3EIkm
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Writable Board
-min_age: Primary
 players: '2'
-summary: ''
-time: ''
+summary: Players extend a line, trying to keep control of the board without crossing
+  paths.
+time: '10'
 title: Hold that line
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -22,16 +22,16 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2  
-Time: 
+Time: 10
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::
 
-Game summary not available yet.
+Players extend a line, trying to keep control of the board without crossing paths.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>

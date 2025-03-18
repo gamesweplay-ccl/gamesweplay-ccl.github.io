@@ -1,18 +1,17 @@
 ---
 airtable_id: reco9Hx5C2jeojmqx
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Custom
-min_age: Primary
-players: Whole Class
+players: 4-20
 summary: ''
-time: ''
+time: '20'
 title: Monikers
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: Whole Class  
-Time: 
+Player Count: 4-20  
+Time: 20
 :::
 :::{.right-stats}
 Format: Custom  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

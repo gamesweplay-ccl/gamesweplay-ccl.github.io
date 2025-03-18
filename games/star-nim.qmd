@@ -1,18 +1,17 @@
 ---
 airtable_id: recJhKdZbi0jlaW6Y
-complexity: ''
+complexity: Middle
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: Middle
-players: 1-1
+players: '2'
 summary: ''
-time: ''
+time: '10'
 title: Star Nim
-type: ''
+type: Strategy
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 1-1  
-Time: 
+Player Count: 2  
+Time: 10
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: Middle
 :::
 :::
 :::

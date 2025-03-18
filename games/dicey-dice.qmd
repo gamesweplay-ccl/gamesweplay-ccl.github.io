@@ -1,18 +1,17 @@
 ---
 airtable_id: reci2PISwVIr8P3ml
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: High
-players: 3-6
+players: 2-100
 summary: A gambler stands at the table, wondering if there was a way to beat the house.
-time: ''
+time: '10'
 title: Dicey Dice
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 3-6  
-Time: 
+Player Count: 2-100  
+Time: 10
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

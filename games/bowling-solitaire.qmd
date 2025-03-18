@@ -1,19 +1,18 @@
 ---
 airtable_id: recsZD0R1v37I8eEx
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Playing Cards
-min_age: High
 players: '1'
 summary: A solo card game that involves heavy strategy and a brilliant scoring system
   all within a bowling theme.
-time: ''
+time: '20'
 title: Bowling Solitaire
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -23,11 +22,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 1  
-Time: 
+Time: 20
 :::
 :::{.right-stats}
 Format: Playing Cards  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

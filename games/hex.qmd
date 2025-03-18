@@ -1,18 +1,17 @@
 ---
 airtable_id: recVf1vb7XOur3GLC
-complexity: ''
+complexity: Middle
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Writable Board
-min_age: Middle
 players: '2'
-summary: ''
-time: ''
+summary: Players race to build a bridge across an hexagonal grid.
+time: '20'
 title: Hex
-type: ''
+type: Strategy
 video_docs: ''
 ---
 
@@ -22,16 +21,16 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2  
-Time: 
+Time: 20
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: 
+Complexity: Middle
 :::
 :::
 :::
 
-Game summary not available yet.
+Players race to build a bridge across an hexagonal grid.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>

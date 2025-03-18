@@ -1,18 +1,17 @@
 ---
 airtable_id: rec3Wfys5MVZkEU1y
-complexity: ''
+complexity: Middle
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Writable Board
-min_age: Middle
 players: '2'
 summary: ''
-time: ''
+time: '20'
 title: The flower and the wind
-type: ''
+type: Science/Deduction
 video_docs: ''
 ---
 
@@ -22,11 +21,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2  
-Time: 
+Time: 20
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: 
+Complexity: Middle
 :::
 :::
 :::

@@ -7,15 +7,14 @@ format:
 listing:
   contents: games
   type: table
-  fields: [title, type, game_format, min_age, players, time, complexity]
+  fields: [title, type, game_format, players, time]
   field-display-names:
     title: "Game"
     type: "Type"
-    game_format: "Format"
-    min_age: "Age Group"
+    game_format: "Material"
+    complexity: "Complexity"
     players: "Players"
     time: "Duration"
-    complexity: "Complexity"
   sort: title
   sort-ui: true
   filter-ui: true

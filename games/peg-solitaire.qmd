@@ -1,18 +1,17 @@
 ---
 airtable_id: recUAqC05FMBCyjRP
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: Primary
 players: '1'
 summary: ''
-time: ''
+time: '20'
 title: Peg Solitaire
-type: ''
+type: Strategy
 video_docs: ''
 ---
 
@@ -22,11 +21,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 1  
-Time: 
+Time: 20
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

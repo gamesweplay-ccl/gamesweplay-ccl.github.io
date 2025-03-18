@@ -3,6 +3,8 @@ import yaml
 import os
 import sys
 from pathlib import Path
+import requests
+
 
 def sanitize_filename(name):
     """Create a safe filename from a game name."""
@@ -20,20 +22,18 @@ def create_game_file(game_dir, fields, record_id):
     
     # Get field values
     game_format = fields.get('Format', '').strip()
-    min_age = fields.get('MinAge', '').strip()
+    complexity = fields.get('Complexity', '').strip()
     players = fields.get('Number of Players', '').strip()
     external_links = fields.get('External Links', '').strip()
     video_docs = fields.get('Video Docs', '').strip()
     summary = fields.get('Summary', '').strip()
     game_type = fields.get('Type', '').strip()
     time = fields.get('Time', '').strip()
-    complexity = fields.get('Complexity', '').strip()
     
     # Create basic frontmatter
     frontmatter = {
         'title': game_name,
         'game_format': game_format,
-        'min_age': min_age,
         'players': players,
         'external_links': external_links,
         'video_docs': video_docs,
@@ -52,6 +52,9 @@ def create_game_file(game_dir, fields, record_id):
     
     # Create the game page content
     with open(qmd_path, 'w') as f:
+        print(f"Creating game file: {qmd_path}")
+
+        
         f.write('---\n')
         yaml.dump(frontmatter, f, default_flow_style=False, allow_unicode=True)
         f.write('---\n\n')
@@ -109,6 +112,7 @@ def main():
         # Create games directory if it doesn't exist
         games_dir = Path("../../games")
         games_dir.mkdir(exist_ok=True)
+        print(f"Game files will be saved in: {games_dir.resolve()}")
         
         # Fetch all records
         records = table.all()

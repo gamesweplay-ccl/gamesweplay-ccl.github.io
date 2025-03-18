@@ -1,18 +1,17 @@
 ---
 airtable_id: rec6wvRKOw4MFRJlR
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Nothing
-min_age: Primary
-players: Whole Class
+players: 3-8
 summary: A game of drawings, funny phrases and miscommunication, leading to hilarity.
-time: ''
+time: '10'
 title: Eat Poop You Cat
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: Whole Class  
-Time: 
+Player Count: 3-8  
+Time: 10
 :::
 :::{.right-stats}
 Format: Nothing  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

@@ -1,18 +1,17 @@
 ---
 airtable_id: rec3my94BfA3HJ3ok
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: Primary
-players: 6-7
+players: 2-6
 summary: ''
-time: ''
+time: '30'
 title: The Great Races
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 6-7  
-Time: 
+Player Count: 2-6  
+Time: 30
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

@@ -1,18 +1,17 @@
 ---
 airtable_id: recWEqBsBFgV7bOfv
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Writable Board
-min_age: High
-players: 3-6
+players: 1-4
 summary: ''
-time: ''
+time: '40'
 title: Racetrack
-type: ''
+type: Science/Deduction
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 3-6  
-Time: 
+Player Count: 1-4  
+Time: 40
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

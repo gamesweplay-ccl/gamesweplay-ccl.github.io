@@ -1,18 +1,17 @@
 ---
 airtable_id: recvYTMDnW23ffmuA
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Playing Cards
-min_age: High
-players: 6-7
+players: 4-5
 summary: ''
-time: ''
+time: '40'
 title: Eleusis Express
-type: ''
+type: Science/Deduction
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 6-7  
-Time: 
+Player Count: 4-5  
+Time: 40
 :::
 :::{.right-stats}
 Format: Playing Cards  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

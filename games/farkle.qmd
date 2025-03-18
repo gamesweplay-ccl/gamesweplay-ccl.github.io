@@ -1,19 +1,18 @@
 ---
 airtable_id: recxok39e823dShFQ
-complexity: ''
+complexity: Middle
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Game Board
-min_age: Middle
-players: 6-7
+players: 3-5
 summary: Keep rolling the dice to build a fortune, but one unlucky roll could wipe
   you out.
-time: ''
+time: '30'
 title: Farkle
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -22,12 +21,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 6-7  
-Time: 
+Player Count: 3-5  
+Time: 30
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: 
+Complexity: Middle
 :::
 :::
 :::

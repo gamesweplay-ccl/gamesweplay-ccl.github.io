@@ -1,18 +1,17 @@
 ---
 airtable_id: recdnoonK7cnr8ehT
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Nothing
-min_age: High
-players: 6-7
+players: 3-6
 summary: ''
-time: ''
+time: '30'
 title: Liar's Dice
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 6-7  
-Time: 
+Player Count: 3-6  
+Time: 30
 :::
 :::{.right-stats}
 Format: Nothing  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

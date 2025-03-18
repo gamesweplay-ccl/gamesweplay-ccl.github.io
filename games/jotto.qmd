@@ -1,18 +1,17 @@
 ---
 airtable_id: rec2skPsEr6h6iAGa
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Nothing
-min_age: Primary
 players: '2'
 summary: ''
-time: ''
+time: '10'
 title: Jotto
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -22,11 +21,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2  
-Time: 
+Time: 10
 :::
 :::{.right-stats}
 Format: Nothing  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

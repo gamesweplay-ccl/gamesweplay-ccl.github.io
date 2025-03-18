@@ -1,32 +1,31 @@
 ---
 airtable_id: recYasYtKJOmUpti0
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
-game_format: 1 Black
-min_age: Playing Cards
-players: 3-6
+game_format: Playing Cards
+players: 3-8
 summary: ''
-time: ''
-title: 3 Red
-type: ''
+time: '20'
+title: 3 Red 1 Black
+type: Language/Social
 video_docs: ''
 ---
 
-# 3 Red
+# 3 Red 1 Black
 
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 3-6  
-Time: 
+Player Count: 3-8  
+Time: 20
 :::
 :::{.right-stats}
-Format: 1 Black  
-Complexity: 
+Format: Playing Cards  
+Complexity: High
 :::
 :::
 :::

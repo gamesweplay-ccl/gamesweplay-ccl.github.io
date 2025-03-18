@@ -1,19 +1,18 @@
 ---
 airtable_id: recDHAVk7SFdtRGD7
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Custom
-min_age: High
 players: 3-6
 summary: A group of investigators race to uncover the hidden criminal before they
   escape justice.
-time: ''
+time: '40'
 title: Detectives
-type: ''
+type: Science/Deduction
 video_docs: ''
 ---
 
@@ -23,11 +22,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 3-6  
-Time: 
+Time: 40
 :::
 :::{.right-stats}
 Format: Custom  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

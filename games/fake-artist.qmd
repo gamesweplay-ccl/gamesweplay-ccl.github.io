@@ -1,19 +1,18 @@
 ---
 airtable_id: recKZsZp8bo5rhfoO
-complexity: ''
+complexity: Middle
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Custom
-min_age: Middle
-players: 6-7
+players: 3-8
 summary: A group of artists work together to finish a drawing, whilst having an impostor
   amongst them.
-time: ''
+time: '10'
 title: Fake Artist
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -22,12 +21,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 6-7  
-Time: 
+Player Count: 3-8  
+Time: 10
 :::
 :::{.right-stats}
 Format: Custom  
-Complexity: 
+Complexity: Middle
 :::
 :::
 :::

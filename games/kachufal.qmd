@@ -1,18 +1,17 @@
 ---
 airtable_id: recbxYhEpaJXYCVFf
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Playing Cards
-min_age: High
-players: 6-7
+players: 3-7
 summary: ''
-time: ''
+time: '30'
 title: Kachufal
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 6-7  
-Time: 
+Player Count: 3-7  
+Time: 30
 :::
 :::{.right-stats}
 Format: Playing Cards  
-Complexity: 
+Complexity: High
 :::
 :::
 :::

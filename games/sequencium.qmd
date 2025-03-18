@@ -1,18 +1,17 @@
 ---
 airtable_id: recH8XaXaoebd0rH2
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Writable Board
-min_age: Primary
 players: 1-1
 summary: ''
-time: ''
+time: '10'
 title: Sequencium
-type: ''
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -22,11 +21,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 1-1  
-Time: 
+Time: 10
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

@@ -1,19 +1,18 @@
 ---
 airtable_id: rec9kILYHjrxNmtj8
-complexity: ''
+complexity: Primary
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Custom
-min_age: Primary
 players: '2'
 summary: Two naval commanders secretly place their ships and try to sink each other’s
   ships before their own are destroyed.
-time: ''
+time: '20'
 title: Battle Ship
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -23,11 +22,11 @@ video_docs: ''
 :::{.game-stats}
 :::{.left-stats}
 Player Count: 2  
-Time: 
+Time: 20
 :::
 :::{.right-stats}
 Format: Custom  
-Complexity: 
+Complexity: Primary
 :::
 :::
 :::

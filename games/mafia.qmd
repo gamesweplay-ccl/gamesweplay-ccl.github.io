@@ -1,18 +1,17 @@
 ---
 airtable_id: recZSWEJ7QnEevZEp
-complexity: ''
+complexity: Middle
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Custom
-min_age: Middle
-players: Whole Class
+players: 3-20
 summary: ''
-time: ''
+time: '30'
 title: Mafia
-type: ''
+type: Language/Social
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: Whole Class  
-Time: 
+Player Count: 3-20  
+Time: 30
 :::
 :::{.right-stats}
 Format: Custom  
-Complexity: 
+Complexity: Middle
 :::
 :::
 :::

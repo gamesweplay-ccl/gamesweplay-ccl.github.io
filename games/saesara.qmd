@@ -1,18 +1,17 @@
 ---
 airtable_id: recbAPaW7j6jhsqbL
-complexity: ''
+complexity: High
 external_links: ''
 format:
   html:
     css: ../_templates/styles.css
     page-layout: full
 game_format: Writable Board
-min_age: High
-players: 3-6
+players: 3-5
 summary: ''
-time: ''
+time: '20'
 title: Saesara
-type: ''
+type: Science/Deduction
 video_docs: ''
 ---
 
@@ -21,12 +20,12 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 3-6  
-Time: 
+Player Count: 3-5  
+Time: 20
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: 
+Complexity: High
 :::
 :::
 :::
