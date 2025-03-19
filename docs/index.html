@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-game_format','listing-players','listing-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-game_format','listing-players','listing-time','listing-complexity',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-game_format"],
+      searchColumns: ["listing-title","listing-type","listing-game_format","listing-complexity"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -220,6 +220,9 @@ window.Quarto = {
          <option value="listing-game_format" data-direction="asc">
           Material
         </option>
+         <option value="listing-complexity" data-direction="asc">
+          Complexity
+        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -245,6 +248,9 @@ window.Quarto = {
 <th>
 <a class="sort" data-sort="listing-time" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
 </th>
+<th>
+<a class="sort" data-sort="listing-complexity" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Complexity</a>
+</th>
 </tr>
 </thead>
 <tbody class="list">
@@ -265,6 +271,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">30</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="1" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="3 Red 1 Black" data-listing-filename-sort="3-red-1-black.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -282,6 +291,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="2" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Aces and Faces" data-listing-filename-sort="aces-and-faces.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -301,6 +313,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="3" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-title-sort="Amazons" data-listing-filename-sort="amazons.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -318,6 +333,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="4" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="44" data-listing-title-sort="Battle Ship" data-listing-filename-sort="battle-ship.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -337,6 +355,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="5" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Black box" data-listing-filename-sort="black-box.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -354,6 +375,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">40</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="6" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="44" data-listing-title-sort="Bowling Solitaire" data-listing-filename-sort="bowling-solitaire.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -373,6 +397,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="7" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Char Par" data-listing-filename-sort="char-par.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -390,6 +417,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="8" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Corners" data-listing-filename-sort="corners.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -409,6 +439,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="9" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="39" data-listing-title-sort="Detectives" data-listing-filename-sort="detectives.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -426,6 +459,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">40</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="10" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-title-sort="Dicey Dice" data-listing-filename-sort="dicey-dice.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -445,6 +481,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="11" data-listing-file-modified-sort="1742375103367" data-listing-reading-time-sort="1" data-listing-word-count-sort="38" data-listing-title-sort="Digit Party" data-listing-filename-sort="digit-party.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -462,6 +501,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="12" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="38" data-listing-title-sort="Dodgem" data-listing-filename-sort="dodgem.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -481,6 +523,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="13" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="43" data-listing-title-sort="Domineering" data-listing-filename-sort="domineering.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -498,6 +543,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="14" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="36" data-listing-title-sort="Don't say 13" data-listing-filename-sort="dont-say-13.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -517,6 +565,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="15" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="36" data-listing-title-sort="Eat Poop You Cat" data-listing-filename-sort="eat-poop-you-cat.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -534,6 +585,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="16" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Eleusis Express" data-listing-filename-sort="eleusis-express.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -553,6 +607,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">40</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="17" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="41" data-listing-title-sort="Fake Artist" data-listing-filename-sort="fake-artist.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -570,6 +627,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="18" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-title-sort="Farkle" data-listing-filename-sort="farkle.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -589,6 +649,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">30</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="19" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="38" data-listing-title-sort="Goats and Tigers" data-listing-filename-sort="goats-and-tigers.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -606,6 +669,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="20" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="36" data-listing-title-sort="Hex" data-listing-filename-sort="hex.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -625,6 +691,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="21" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Hold that line" data-listing-filename-sort="hold-that-line.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -642,6 +711,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="22" data-listing-file-modified-sort="1742375103368" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Jotto" data-listing-filename-sort="jotto.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -661,6 +733,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="23" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Kachufal" data-listing-filename-sort="kachufal.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -678,6 +753,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">30</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="24" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Khatti Mithai" data-listing-filename-sort="khatti-mithai.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -697,6 +775,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="25" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Konane" data-listing-filename-sort="konane.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -714,6 +795,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">30</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="26" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="LAP" data-listing-filename-sort="lap.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -733,6 +817,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">30</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="27" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Liar's Dice" data-listing-filename-sort="liars-dice.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -750,6 +837,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">30</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="28" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Lines of Action" data-listing-filename-sort="lines-of-action.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -769,6 +859,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="29" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Mafia" data-listing-filename-sort="mafia.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -786,6 +879,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">30</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="30" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Monikers" data-listing-filename-sort="monikers.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -805,6 +901,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="31" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Neighbours" data-listing-filename-sort="neighbours.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -822,6 +921,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="32" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="No Thanks" data-listing-filename-sort="no-thanks.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -841,6 +943,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">30</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="33" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Order and Chaos" data-listing-filename-sort="order-and-chaos.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -858,6 +963,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="34" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Paper boxing" data-listing-filename-sort="paper-boxing.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -877,6 +985,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="35" data-listing-file-modified-sort="1742375103369" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Peg Solitaire" data-listing-filename-sort="peg-solitaire.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -894,6 +1005,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="36" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Racetrack" data-listing-filename-sort="racetrack.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -913,6 +1027,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">40</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="37" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Regicide" data-listing-filename-sort="regicide.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -930,6 +1047,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">30</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="38" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Saesara" data-listing-filename-sort="saesara.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -949,6 +1069,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="39" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Sequencium" data-listing-filename-sort="sequencium.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -966,6 +1089,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="40" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Sprouts" data-listing-filename-sort="sprouts.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -985,6 +1111,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="41" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Star Nim" data-listing-filename-sort="star-nim.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -1002,6 +1131,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="42" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Tablut" data-listing-filename-sort="tablut.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -1021,6 +1153,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">30</span>
 </td>
+<td>
+<span class="listing-complexity">High</span>
+</td>
 </tr>
 <tr data-index="43" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Tac Tix" data-listing-filename-sort="tac-tix.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -1038,6 +1173,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 <tr data-index="44" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="The Great Races" data-listing-filename-sort="the-great-races.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -1057,6 +1195,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">30</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="45" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="The flower and the wind" data-listing-filename-sort="the-flower-and-the-wind.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -1074,6 +1215,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">20</span>
+</td>
+<td>
+<span class="listing-complexity">Middle</span>
 </td>
 </tr>
 <tr data-index="46" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Toads and Frogs" data-listing-filename-sort="toads-and-frogs.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -1093,6 +1237,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">10</span>
 </td>
+<td>
+<span class="listing-complexity">Primary</span>
+</td>
 </tr>
 <tr data-index="47" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Two Rooms and a Boom" data-listing-filename-sort="two-rooms-and-a-boom.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -1110,6 +1257,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">High</span>
 </td>
 </tr>
 <tr data-index="48" data-listing-file-modified-sort="1742375103370" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Ultimate Tic Tac Toe" data-listing-filename-sort="ultimate-tic-tac-toe.qmd" onclick="href = this.querySelector('a').getAttribute('href');
@@ -1129,6 +1279,9 @@ window.Quarto = {
 <td>
 <span class="listing-time">20</span>
 </td>
+<td>
+<span class="listing-complexity">Middle</span>
+</td>
 </tr>
 <tr data-index="49" data-listing-file-modified-sort="1742375103371" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Watch your Step" data-listing-filename-sort="watch-your-step.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
@@ -1146,6 +1299,9 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-time">10</span>
+</td>
+<td>
+<span class="listing-complexity">Primary</span>
 </td>
 </tr>
 </tbody>
