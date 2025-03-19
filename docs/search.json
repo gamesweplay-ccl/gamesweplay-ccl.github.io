@@ -1,0 +1,373 @@
+[
+  {
+    "objectID": "game-page.html",
+    "href": "game-page.html",
+    "title": "Game Page Template",
+    "section": "",
+    "text": "Player Count: ?meta:players\n      Time: ?meta:time\n    \n    \n      Format: ?meta:game_format\n      Complexity: ?meta:complexity\n    \n  \n\n\n?meta:summary\n\n\n  {{#if (meta external_links)}}\n  Play the game\n  {{/if}}\n  {{#if (meta video_docs)}}\n  Watch a video\n  {{/if}}"
+  },
+  {
+    "objectID": "games/bowling-solitaire.html",
+    "href": "games/bowling-solitaire.html",
+    "title": "Bowling Solitaire",
+    "section": "",
+    "text": "Bowling Solitaire\n\n\n\nPlayer Count: 1\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nA solo card game that involves heavy strategy and a brilliant scoring system all within a bowling theme.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/the-flower-and-the-wind.html",
+    "href": "games/the-flower-and-the-wind.html",
+    "title": "The flower and the wind",
+    "section": "",
+    "text": "The flower and the wind\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/dont-say-13.html",
+    "href": "games/dont-say-13.html",
+    "title": "Don’t say 13",
+    "section": "",
+    "text": "Don’t say 13\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nPlayers count out loud, trying to avoid saying the cursed number.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/lines-of-action.html",
+    "href": "games/lines-of-action.html",
+    "title": "Lines of Action",
+    "section": "",
+    "text": "Lines of Action\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/eat-poop-you-cat.html",
+    "href": "games/eat-poop-you-cat.html",
+    "title": "Eat Poop You Cat",
+    "section": "",
+    "text": "Eat Poop You Cat\n\n\n\nPlayer Count: 3-8\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nA game of drawings, funny phrases and miscommunication, leading to hilarity.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/the-great-races.html",
+    "href": "games/the-great-races.html",
+    "title": "The Great Races",
+    "section": "",
+    "text": "The Great Races\n\n\n\nPlayer Count: 2-6\nTime: 30\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/peg-solitaire.html",
+    "href": "games/peg-solitaire.html",
+    "title": "Peg Solitaire",
+    "section": "",
+    "text": "Peg Solitaire\n\n\n\nPlayer Count: 1\nTime: 20\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/corners.html",
+    "href": "games/corners.html",
+    "title": "Corners",
+    "section": "",
+    "text": "Corners\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/fake-artist.html",
+    "href": "games/fake-artist.html",
+    "title": "Fake Artist",
+    "section": "",
+    "text": "Fake Artist\n\n\n\nPlayer Count: 3-8\nTime: 10\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nA group of artists work together to finish a drawing, whilst having an impostor amongst them.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/monikers.html",
+    "href": "games/monikers.html",
+    "title": "Monikers",
+    "section": "",
+    "text": "Monikers\n\n\n\nPlayer Count: 4-20\nTime: 20\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/ultimate-tic-tac-toe.html",
+    "href": "games/ultimate-tic-tac-toe.html",
+    "title": "Ultimate Tic Tac Toe",
+    "section": "",
+    "text": "Ultimate Tic Tac Toe\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/tablut.html",
+    "href": "games/tablut.html",
+    "title": "Tablut",
+    "section": "",
+    "text": "Tablut\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/regicide.html",
+    "href": "games/regicide.html",
+    "title": "Regicide",
+    "section": "",
+    "text": "Regicide\n\n\n\nPlayer Count: 2-4\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/star-nim.html",
+    "href": "games/star-nim.html",
+    "title": "Star Nim",
+    "section": "",
+    "text": "Star Nim\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/two-rooms-and-a-boom.html",
+    "href": "games/two-rooms-and-a-boom.html",
+    "title": "Two Rooms and a Boom",
+    "section": "",
+    "text": "Two Rooms and a Boom\n\n\n\nPlayer Count: 10-30\nTime: 10\n\n\nFormat: Custom\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/sequencium.html",
+    "href": "games/sequencium.html",
+    "title": "Sequencium",
+    "section": "",
+    "text": "Sequencium\n\n\n\nPlayer Count: 1-1\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/neighbours.html",
+    "href": "games/neighbours.html",
+    "title": "Neighbours",
+    "section": "",
+    "text": "Neighbours\n\n\n\nPlayer Count: 1-100\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/aces-and-faces.html",
+    "href": "games/aces-and-faces.html",
+    "title": "Aces and Faces",
+    "section": "",
+    "text": "Aces and Faces\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/saesara.html",
+    "href": "games/saesara.html",
+    "title": "Saesara",
+    "section": "",
+    "text": "Saesara\n\n\n\nPlayer Count: 3-5\nTime: 20\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/liars-dice.html",
+    "href": "games/liars-dice.html",
+    "title": "Liar’s Dice",
+    "section": "",
+    "text": "Liar’s Dice\n\n\n\nPlayer Count: 3-6\nTime: 30\n\n\nFormat: Nothing\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/sprouts.html",
+    "href": "games/sprouts.html",
+    "title": "Sprouts",
+    "section": "",
+    "text": "Sprouts\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/order-and-chaos.html",
+    "href": "games/order-and-chaos.html",
+    "title": "Order and Chaos",
+    "section": "",
+    "text": "Order and Chaos\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/toads-and-frogs.html",
+    "href": "games/toads-and-frogs.html",
+    "title": "Toads and Frogs",
+    "section": "",
+    "text": "Toads and Frogs\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/no-thanks.html",
+    "href": "games/no-thanks.html",
+    "title": "No Thanks",
+    "section": "",
+    "text": "No Thanks\n\n\n\nPlayer Count: 3-6\nTime: 30\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/char-par.html",
+    "href": "games/char-par.html",
+    "title": "Char Par",
+    "section": "",
+    "text": "Char Par\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nAn ancient Indian game involving holding off your opponent’s pieces while fortifying your own.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Games We Play",
+    "section": "",
+    "text": "Welcome to our collection of games and puzzles! Browse through our catalog below to find games suitable for different age groups and player counts.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Game\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nGame\n\n\nType\n\n\nMaterial\n\n\nPlayers\n\n\nDuration\n\n\n\n\n\n\n13 Sheep\n\n\nMathematics/Probability\n\n\nWritable Board\n\n\n1-100\n\n\n30\n\n\n\n\n3 Red 1 Black\n\n\nLanguage/Social\n\n\nPlaying Cards\n\n\n3-8\n\n\n20\n\n\n\n\nAces and Faces\n\n\nMathematics/Probability\n\n\nPlaying Cards\n\n\n2\n\n\n20\n\n\n\n\nAmazons\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n20\n\n\n\n\nBattle Ship\n\n\nLanguage/Social\n\n\nCustom\n\n\n2\n\n\n20\n\n\n\n\nBlack box\n\n\nScience/Deduction\n\n\nWritable Board\n\n\n2\n\n\n40\n\n\n\n\nBowling Solitaire\n\n\nMathematics/Probability\n\n\nPlaying Cards\n\n\n1\n\n\n20\n\n\n\n\nChar Par\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n20\n\n\n\n\nCorners\n\n\nMathematics/Probability\n\n\nWritable Board\n\n\n2\n\n\n10\n\n\n\n\nDetectives\n\n\nScience/Deduction\n\n\nCustom\n\n\n3-6\n\n\n40\n\n\n\n\nDicey Dice\n\n\nMathematics/Probability\n\n\nGame Board\n\n\n2-100\n\n\n10\n\n\n\n\nDigit Party\n\n\nMathematics/Probability\n\n\nWritable Board\n\n\n1-100\n\n\n20\n\n\n\n\nDodgem\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n10\n\n\n\n\nDomineering\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n10\n\n\n\n\nDon’t say 13\n\n\nMathematics/Probability\n\n\nCustom\n\n\n2\n\n\n10\n\n\n\n\nEat Poop You Cat\n\n\nLanguage/Social\n\n\nNothing\n\n\n3-8\n\n\n10\n\n\n\n\nEleusis Express\n\n\nScience/Deduction\n\n\nPlaying Cards\n\n\n4-5\n\n\n40\n\n\n\n\nFake Artist\n\n\nLanguage/Social\n\n\nCustom\n\n\n3-8\n\n\n10\n\n\n\n\nFarkle\n\n\nMathematics/Probability\n\n\nGame Board\n\n\n3-5\n\n\n30\n\n\n\n\nGoats and Tigers\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n20\n\n\n\n\nHex\n\n\nStrategy\n\n\nWritable Board\n\n\n2\n\n\n20\n\n\n\n\nHold that line\n\n\nMathematics/Probability\n\n\nWritable Board\n\n\n2\n\n\n10\n\n\n\n\nJotto\n\n\nLanguage/Social\n\n\nNothing\n\n\n2\n\n\n10\n\n\n\n\nKachufal\n\n\nLanguage/Social\n\n\nPlaying Cards\n\n\n3-7\n\n\n30\n\n\n\n\nKhatti Mithai\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n10\n\n\n\n\nKonane\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n30\n\n\n\n\nLAP\n\n\nScience/Deduction\n\n\nCustom\n\n\n2\n\n\n30\n\n\n\n\nLiar’s Dice\n\n\nMathematics/Probability\n\n\nNothing\n\n\n3-6\n\n\n30\n\n\n\n\nLines of Action\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n20\n\n\n\n\nMafia\n\n\nLanguage/Social\n\n\nCustom\n\n\n3-20\n\n\n30\n\n\n\n\nMonikers\n\n\nLanguage/Social\n\n\nCustom\n\n\n4-20\n\n\n20\n\n\n\n\nNeighbours\n\n\nMathematics/Probability\n\n\nWritable Board\n\n\n1-100\n\n\n20\n\n\n\n\nNo Thanks\n\n\nMathematics/Probability\n\n\nCustom\n\n\n3-6\n\n\n30\n\n\n\n\nOrder and Chaos\n\n\nStrategy\n\n\nWritable Board\n\n\n2\n\n\n20\n\n\n\n\nPaper boxing\n\n\nMathematics/Probability\n\n\nWritable Board\n\n\n2\n\n\n20\n\n\n\n\nPeg Solitaire\n\n\nStrategy\n\n\nGame Board\n\n\n1\n\n\n20\n\n\n\n\nRacetrack\n\n\nScience/Deduction\n\n\nWritable Board\n\n\n1-4\n\n\n40\n\n\n\n\nRegicide\n\n\nLanguage/Social\n\n\nGame Board\n\n\n2-4\n\n\n30\n\n\n\n\nSaesara\n\n\nScience/Deduction\n\n\nWritable Board\n\n\n3-5\n\n\n20\n\n\n\n\nSequencium\n\n\nMathematics/Probability\n\n\nWritable Board\n\n\n1-1\n\n\n10\n\n\n\n\nSprouts\n\n\nMathematics/Probability\n\n\nNothing\n\n\n2\n\n\n10\n\n\n\n\nStar Nim\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n10\n\n\n\n\nTablut\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n30\n\n\n\n\nTac Tix\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n10\n\n\n\n\nThe Great Races\n\n\nMathematics/Probability\n\n\nGame Board\n\n\n2-6\n\n\n30\n\n\n\n\nThe flower and the wind\n\n\nScience/Deduction\n\n\nWritable Board\n\n\n2\n\n\n20\n\n\n\n\nToads and Frogs\n\n\nStrategy\n\n\nGame Board\n\n\n2\n\n\n10\n\n\n\n\nTwo Rooms and a Boom\n\n\nLanguage/Social\n\n\nCustom\n\n\n10-30\n\n\n10\n\n\n\n\nUltimate Tic Tac Toe\n\n\nStrategy\n\n\nWritable Board\n\n\n2\n\n\n20\n\n\n\n\nWatch your Step\n\n\nMathematics/Probability\n\n\nGame Board\n\n\n2-4\n\n\n10\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Our Games",
+    "section": "",
+    "text": "Welcome to our curated collection of games and puzzles! Our collection includes a diverse range of activities suitable for various age groups and player counts:\n\nGame Formats\n\nGame Board: Traditional board-based games\nWritable Board: Games that use erasable surfaces\nPlaying Cards: Card-based games\nCustom: Specially designed game materials\nNothing: Games that require no special equipment\n\n\n\nAge Groups\n\nPrimary: Suitable for younger players\nMiddle: Intermediate complexity\nHigh: More challenging games\n\n\n\nPlayer Counts\nOur games support various group sizes:\n\nSingle-player puzzles\nTwo-player strategy games\nSmall group games (3-6 players)\nWhole class activities"
+  },
+  {
+    "objectID": "games/goats-and-tigers.html",
+    "href": "games/goats-and-tigers.html",
+    "title": "Goats and Tigers",
+    "section": "",
+    "text": "Goats and Tigers\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nAn asymmetrical battle between a herd of goats and some hungry tigers\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/battle-ship.html",
+    "href": "games/battle-ship.html",
+    "title": "Battle Ship",
+    "section": "",
+    "text": "Battle Ship\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nTwo naval commanders secretly place their ships and try to sink each other’s ships before their own are destroyed.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/farkle.html",
+    "href": "games/farkle.html",
+    "title": "Farkle",
+    "section": "",
+    "text": "Farkle\n\n\n\nPlayer Count: 3-5\nTime: 30\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nKeep rolling the dice to build a fortune, but one unlucky roll could wipe you out.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/black-box.html",
+    "href": "games/black-box.html",
+    "title": "Black box",
+    "section": "",
+    "text": "Black box\n\n\n\nPlayer Count: 2\nTime: 40\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/racetrack.html",
+    "href": "games/racetrack.html",
+    "title": "Racetrack",
+    "section": "",
+    "text": "Racetrack\n\n\n\nPlayer Count: 1-4\nTime: 40\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/hex.html",
+    "href": "games/hex.html",
+    "title": "Hex",
+    "section": "",
+    "text": "Hex\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nPlayers race to build a bridge across an hexagonal grid.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/tac-tix.html",
+    "href": "games/tac-tix.html",
+    "title": "Tac Tix",
+    "section": "",
+    "text": "Tac Tix\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/domineering.html",
+    "href": "games/domineering.html",
+    "title": "Domineering",
+    "section": "",
+    "text": "Domineering\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nPlayers take turn placing dominos on a boards hoping to be the one having the last laugh.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/lap.html",
+    "href": "games/lap.html",
+    "title": "LAP",
+    "section": "",
+    "text": "LAP\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Custom\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/3-red-1-black.html",
+    "href": "games/3-red-1-black.html",
+    "title": "3 Red 1 Black",
+    "section": "",
+    "text": "3 Red 1 Black\n\n\n\nPlayer Count: 3-8\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/watch-your-step.html",
+    "href": "games/watch-your-step.html",
+    "title": "Watch your Step",
+    "section": "",
+    "text": "Watch your Step\n\n\n\nPlayer Count: 2-4\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/dicey-dice.html",
+    "href": "games/dicey-dice.html",
+    "title": "Dicey Dice",
+    "section": "",
+    "text": "Dicey Dice\n\n\n\nPlayer Count: 2-100\nTime: 10\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nA gambler stands at the table, wondering if there was a way to beat the house.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/13-sheep.html",
+    "href": "games/13-sheep.html",
+    "title": "13 Sheep",
+    "section": "",
+    "text": "13 Sheep\n\n\n\nPlayer Count: 1-100\nTime: 30\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nFence in the most number of sheep to maximise points\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/hold-that-line.html",
+    "href": "games/hold-that-line.html",
+    "title": "Hold that line",
+    "section": "",
+    "text": "Hold that line\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nPlayers extend a line, trying to keep control of the board without crossing paths.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/amazons.html",
+    "href": "games/amazons.html",
+    "title": "Amazons",
+    "section": "",
+    "text": "Amazons\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nWarrior queens move across an battlefield, leaving barriers behind as they attempt to trap their opponents.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/konane.html",
+    "href": "games/konane.html",
+    "title": "Konane",
+    "section": "",
+    "text": "Konane\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/dodgem.html",
+    "href": "games/dodgem.html",
+    "title": "Dodgem",
+    "section": "",
+    "text": "Dodgem\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nTwo drivers manoeuver their cars, trying to reach the finish line first.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/digit-party.html",
+    "href": "games/digit-party.html",
+    "title": "Digit Party",
+    "section": "",
+    "text": "Digit Party\n\n\n\nPlayer Count: 1-100\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nA fast paced number party game which is simple fun for all\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/jotto.html",
+    "href": "games/jotto.html",
+    "title": "Jotto",
+    "section": "",
+    "text": "Jotto\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/paper-boxing.html",
+    "href": "games/paper-boxing.html",
+    "title": "Paper boxing",
+    "section": "",
+    "text": "Paper boxing\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/kachufal.html",
+    "href": "games/kachufal.html",
+    "title": "Kachufal",
+    "section": "",
+    "text": "Kachufal\n\n\n\nPlayer Count: 3-7\nTime: 30\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/detectives.html",
+    "href": "games/detectives.html",
+    "title": "Detectives",
+    "section": "",
+    "text": "Detectives\n\n\n\nPlayer Count: 3-6\nTime: 40\n\n\nFormat: Custom\nComplexity: High\n\n\n\nA group of investigators race to uncover the hidden criminal before they escape justice.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/khatti-mithai.html",
+    "href": "games/khatti-mithai.html",
+    "title": "Khatti Mithai",
+    "section": "",
+    "text": "Khatti Mithai\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/eleusis-express.html",
+    "href": "games/eleusis-express.html",
+    "title": "Eleusis Express",
+    "section": "",
+    "text": "Eleusis Express\n\n\n\nPlayer Count: 4-5\nTime: 40\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  },
+  {
+    "objectID": "games/mafia.html",
+    "href": "games/mafia.html",
+    "title": "Mafia",
+    "section": "",
+    "text": "Mafia\n\n\n\nPlayer Count: 3-20\nTime: 30\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+  }
+]
