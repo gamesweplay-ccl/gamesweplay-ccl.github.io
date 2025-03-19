@@ -4,7 +4,7 @@ complexity: Primary
 external_links: ''
 format:
   html:
-    css: ../_templates/styles.css
+    css: ../styles.css
     page-layout: full
 game_format: Game Board
 players: '1'

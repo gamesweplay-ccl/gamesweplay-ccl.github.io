@@ -4,7 +4,7 @@ complexity: High
 external_links: ''
 format:
   html:
-    css: ../_templates/styles.css
+    css: ../styles.css
     page-layout: full
 game_format: Playing Cards
 players: 3-7

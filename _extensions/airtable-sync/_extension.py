@@ -44,7 +44,7 @@ def create_game_file(game_dir, fields, record_id):
         'airtable_id': record_id,
         'format': {
             'html': {
-                'css': '../_templates/styles.css',
+                'css': '../styles.css',
                 'page-layout': 'full'
             }
         }
