@@ -3,7 +3,6 @@ title: "Games We Play"
 format:
   html:
     css: _templates/styles.css
-    page-layout: full
 listing:
   contents: games
   page-size: 51

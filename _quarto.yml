@@ -16,7 +16,6 @@ website:
 format:
     html:
         theme: litera
-        css: styles.css
         toc: false
         page-layout: full
         include-in-header:

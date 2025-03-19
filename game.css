@@ -18,7 +18,6 @@ body {
 }
 
 .game-stats {
-	border: 1px solid #ddd;
 	padding: 1.5rem;
 	display: flex;
 	justify-content: space-between;
