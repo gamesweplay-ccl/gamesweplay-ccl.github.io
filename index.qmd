@@ -6,6 +6,7 @@ format:
     page-layout: full
 listing:
   contents: games
+  page-size: 51
   type: table
   fields: [title, type, game_format, players, time]
   field-display-names:
@@ -16,8 +17,8 @@ listing:
     players: "Players"
     time: "Duration"
   sort: title
-  sort-ui: true
-  filter-ui: true
+  sort-ui: [title, players, time, type, game_format]
+  filter-ui: [title, type, game_format]
   table-hover: true
   table-striped: true
 page-layout: full
