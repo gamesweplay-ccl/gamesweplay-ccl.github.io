@@ -112,6 +112,13 @@ p {
 	display: none;
 }
 
+.disabled-button {
+	pointer-events: none; /* Prevent clicks */
+	opacity: 0.5; /* Make it look disabled */
+	background-color: #ccc; /* Grey background */
+	color: #666; /* Darker text */
+}
+
 /* Remove default Quarto margins */
 .quarto-title-block {
 	display: none;

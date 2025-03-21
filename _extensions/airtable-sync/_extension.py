@@ -88,12 +88,12 @@ def create_game_file(game_dir, fields, record_id):
         if external_links:
             f.write(f"<a href=\"{external_links}\" class=\"btn btn-play\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
         else:
-            f.write(f"<a href=\"#\" class=\"btn btn-play\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
+            f.write(f"<a href=\"#\" class=\"btn btn-play disabled-button\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
             
         if video_docs:
             f.write(f"<a href=\"{video_docs}\" class=\"btn btn-watch\"><i class=\"fa fa-video\"></i> Watch a video</a>\n")
         else:
-            f.write(f"<a href=\"#\" class=\"btn btn-watch\"><i class=\"fa fa-video\"></i> Watch a video</a>\n")
+            f.write(f"<a href=\"#\" class=\"btn btn-watch disabled-button\"><i class=\"fa fa-video\"></i> Watch a video</a>\n")
         f.write(":::")
     
     return qmd_path
