@@ -1,8 +1,12 @@
 from pyairtable import Api
 import json
+from dotenv import load_dotenv
+import os
 
-api_key = "patSoZ4kfvUsjRRrF.761267e621dd2cd92550c59807adbbb50ec764057a3d370a29965142003bc936"
-base_id = "appz6D97kDKNboXOW"
+
+load_dotenv()
+api_key = os.getenv("AIRTABLE_API_KEY")
+base_id = os.getenv("AIRTABLE_BASE_ID")
 table_name = "Games"
 
 api = Api(api_key)

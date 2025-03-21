@@ -4,6 +4,7 @@ import os
 import sys
 from pathlib import Path
 import requests
+from dotenv import load_dotenv
 
 
 def sanitize_filename(name):
@@ -100,8 +101,9 @@ def create_game_file(game_dir, fields, record_id):
 def main():
     try:
         # Airtable configuration
-        api_key = "patSoZ4kfvUsjRRrF.761267e621dd2cd92550c59807adbbb50ec764057a3d370a29965142003bc936"
-        base_id = "appz6D97kDKNboXOW"  # Base ID for CCL Games We Play
+        load_dotenv()
+        api_key = os.getenv("AIRTABLE_API_KEY")
+        base_id = os.getenv("AIRTABLE_BASE_ID")  # Base ID for CCL Games We Play
         table_name = "Games"
 
         # Initialize Airtable API

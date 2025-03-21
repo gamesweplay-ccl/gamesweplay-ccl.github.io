@@ -8,7 +8,8 @@ format:
     page-layout: full
 game_format: Nothing
 players: '2'
-summary: ''
+summary: A delightfully simple game about drawing vines and dots all the while literally
+  trapping your opponent.
 time: '10'
 title: Sprouts
 type: Mathematics/Probability
@@ -30,7 +31,7 @@ Complexity: Primary
 :::
 :::
 
-Game summary not available yet.
+A delightfully simple game about drawing vines and dots all the while literally trapping your opponent.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
