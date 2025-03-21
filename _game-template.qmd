@@ -26,4 +26,7 @@ $endif$
 $if(video_docs)$
 [Watch a video]{.btn .btn-watch}($video_docs$)
 $endif$
+$if(manual_links)$
+[Read the manual]{.btn .btn-manual}($manual_links$)
+$endif$
 :::

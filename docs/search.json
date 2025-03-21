@@ -4,182 +4,182 @@
     "href": "game-page.html",
     "title": "Game Page Template",
     "section": "",
-    "text": "Player Count: ?meta:players\n      Time: ?meta:time\n    \n    \n      Format: ?meta:game_format\n      Complexity: ?meta:complexity\n    \n  \n\n\n?meta:summary\n\n\n  {{#if (meta external_links)}}\n  Play the game\n  {{/if}}\n  {{#if (meta video_docs)}}\n  Watch a video\n  {{/if}}"
+    "text": "Player Count: ?meta:players\n      Time: ?meta:time\n    \n    \n      Format: ?meta:game_format\n      Complexity: ?meta:complexity\n    \n  \n\n\n?meta:summary\n\n\n  {{#if (meta external_links)}}\n  Play the game\n  {{/if}}\n  {{#if (meta video_docs)}}\n  Watch a video\n  {{/if}}\n  {{#if (meta manual_links)}}\n  Read the manual\n  {{/if}}"
   },
   {
     "objectID": "games/bowling-solitaire.html",
     "href": "games/bowling-solitaire.html",
     "title": "Bowling Solitaire",
     "section": "",
-    "text": "Bowling Solitaire\n\n\n\nPlayer Count: 1\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nA solo card game that involves heavy strategy and a brilliant scoring system all within a bowling theme.\n\n Play the game  Watch a video"
+    "text": "Bowling Solitaire\n\n\n\nPlayer Count: 1\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nA solo card game that involves heavy strategy and a brilliant scoring system all within a bowling theme.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/the-flower-and-the-wind.html",
     "href": "games/the-flower-and-the-wind.html",
     "title": "The flower and the wind",
     "section": "",
-    "text": "The flower and the wind\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "The flower and the wind\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/dont-say-13.html",
     "href": "games/dont-say-13.html",
     "title": "Don’t say 13",
     "section": "",
-    "text": "Don’t say 13\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nPlayers count out loud, trying to avoid saying the cursed number.\n\n Play the game  Watch a video"
+    "text": "Don’t say 13\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nPlayers count out loud, trying to avoid saying the cursed number.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/lines-of-action.html",
     "href": "games/lines-of-action.html",
     "title": "Lines of Action",
     "section": "",
-    "text": "Lines of Action\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Lines of Action\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/eat-poop-you-cat.html",
     "href": "games/eat-poop-you-cat.html",
     "title": "Eat Poop You Cat",
     "section": "",
-    "text": "Eat Poop You Cat\n\n\n\nPlayer Count: 3-8\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nA game of drawings, funny phrases and miscommunication, leading to hilarity.\n\n Play the game  Watch a video"
+    "text": "Eat Poop You Cat\n\n\n\nPlayer Count: 3-8\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nA game of drawings, funny phrases and miscommunication, leading to hilarity.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/the-great-races.html",
     "href": "games/the-great-races.html",
     "title": "The Great Races",
     "section": "",
-    "text": "The Great Races\n\n\n\nPlayer Count: 2-6\nTime: 30\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "The Great Races\n\n\n\nPlayer Count: 2-6\nTime: 30\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/peg-solitaire.html",
     "href": "games/peg-solitaire.html",
     "title": "Peg Solitaire",
     "section": "",
-    "text": "Peg Solitaire\n\n\n\nPlayer Count: 1\nTime: 20\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Peg Solitaire\n\n\n\nPlayer Count: 1\nTime: 20\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/corners.html",
     "href": "games/corners.html",
     "title": "Corners",
     "section": "",
-    "text": "Corners\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Corners\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/fake-artist.html",
     "href": "games/fake-artist.html",
     "title": "Fake Artist",
     "section": "",
-    "text": "Fake Artist\n\n\n\nPlayer Count: 3-8\nTime: 10\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nA group of artists work together to finish a drawing, whilst having an impostor amongst them.\n\n Play the game  Watch a video"
+    "text": "Fake Artist\n\n\n\nPlayer Count: 3-8\nTime: 10\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nA group of artists work together to finish a drawing, whilst having an impostor amongst them.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/monikers.html",
     "href": "games/monikers.html",
     "title": "Monikers",
     "section": "",
-    "text": "Monikers\n\n\n\nPlayer Count: 4-20\nTime: 20\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Monikers\n\n\n\nPlayer Count: 4-20\nTime: 20\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/ultimate-tic-tac-toe.html",
     "href": "games/ultimate-tic-tac-toe.html",
     "title": "Ultimate Tic Tac Toe",
     "section": "",
-    "text": "Ultimate Tic Tac Toe\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Ultimate Tic Tac Toe\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/tablut.html",
     "href": "games/tablut.html",
     "title": "Tablut",
     "section": "",
-    "text": "Tablut\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Tablut\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/regicide.html",
     "href": "games/regicide.html",
     "title": "Regicide",
     "section": "",
-    "text": "Regicide\n\n\n\nPlayer Count: 2-4\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Regicide\n\n\n\nPlayer Count: 2-4\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/star-nim.html",
     "href": "games/star-nim.html",
     "title": "Star Nim",
     "section": "",
-    "text": "Star Nim\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Star Nim\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/two-rooms-and-a-boom.html",
     "href": "games/two-rooms-and-a-boom.html",
     "title": "Two Rooms and a Boom",
     "section": "",
-    "text": "Two Rooms and a Boom\n\n\n\nPlayer Count: 10-30\nTime: 10\n\n\nFormat: Custom\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Two Rooms and a Boom\n\n\n\nPlayer Count: 10-30\nTime: 10\n\n\nFormat: Custom\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/sequencium.html",
     "href": "games/sequencium.html",
     "title": "Sequencium",
     "section": "",
-    "text": "Sequencium\n\n\n\nPlayer Count: 1-1\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Sequencium\n\n\n\nPlayer Count: 1-1\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/neighbours.html",
     "href": "games/neighbours.html",
     "title": "Neighbours",
     "section": "",
-    "text": "Neighbours\n\n\n\nPlayer Count: 1-100\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Neighbours\n\n\n\nPlayer Count: 1-100\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/aces-and-faces.html",
     "href": "games/aces-and-faces.html",
     "title": "Aces and Faces",
     "section": "",
-    "text": "Aces and Faces\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Aces and Faces\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/saesara.html",
     "href": "games/saesara.html",
     "title": "Saesara",
     "section": "",
-    "text": "Saesara\n\n\n\nPlayer Count: 3-5\nTime: 20\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Saesara\n\n\n\nPlayer Count: 3-5\nTime: 20\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/liars-dice.html",
     "href": "games/liars-dice.html",
     "title": "Liar’s Dice",
     "section": "",
-    "text": "Liar’s Dice\n\n\n\nPlayer Count: 3-6\nTime: 30\n\n\nFormat: Nothing\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Liar’s Dice\n\n\n\nPlayer Count: 3-6\nTime: 30\n\n\nFormat: Nothing\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/sprouts.html",
     "href": "games/sprouts.html",
     "title": "Sprouts",
     "section": "",
-    "text": "Sprouts\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nA delightfully simple game about drawing vines and dots all the while literally trapping your opponent.\n\n Play the game  Watch a video"
+    "text": "Sprouts\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nA delightfully simple game about drawing vines and dots all the while literally trapping your opponent.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/order-and-chaos.html",
     "href": "games/order-and-chaos.html",
     "title": "Order and Chaos",
     "section": "",
-    "text": "Order and Chaos\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Order and Chaos\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/toads-and-frogs.html",
     "href": "games/toads-and-frogs.html",
     "title": "Toads and Frogs",
     "section": "",
-    "text": "Toads and Frogs\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Toads and Frogs\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/no-thanks.html",
     "href": "games/no-thanks.html",
     "title": "No Thanks",
     "section": "",
-    "text": "No Thanks\n\n\n\nPlayer Count: 3-6\nTime: 30\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "No Thanks\n\n\n\nPlayer Count: 3-6\nTime: 30\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/char-par.html",
     "href": "games/char-par.html",
     "title": "Char Par",
     "section": "",
-    "text": "Char Par\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nAn ancient Indian game involving holding off your opponent’s pieces while fortifying your own.\n\n Play the game  Watch a video"
+    "text": "Char Par\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nAn ancient Indian game involving holding off your opponent’s pieces while fortifying your own.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "index.html",
@@ -200,174 +200,174 @@
     "href": "games/goats-and-tigers.html",
     "title": "Goats and Tigers",
     "section": "",
-    "text": "Goats and Tigers\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nAn asymmetrical battle between a herd of goats and some hungry tigers\n\n Play the game  Watch a video"
+    "text": "Goats and Tigers\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nAn asymmetrical battle between a herd of goats and some hungry tigers\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/battle-ship.html",
     "href": "games/battle-ship.html",
     "title": "Battle Ship",
     "section": "",
-    "text": "Battle Ship\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nTwo naval commanders secretly place their ships and try to sink each other’s ships before their own are destroyed.\n\n Play the game  Watch a video"
+    "text": "Battle Ship\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Custom\nComplexity: Primary\n\n\n\nTwo naval commanders secretly place their ships and try to sink each other’s ships before their own are destroyed.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/farkle.html",
     "href": "games/farkle.html",
     "title": "Farkle",
     "section": "",
-    "text": "Farkle\n\n\n\nPlayer Count: 3-5\nTime: 30\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nKeep rolling the dice to build a fortune, but one unlucky roll could wipe you out.\n\n Play the game  Watch a video"
+    "text": "Farkle\n\n\n\nPlayer Count: 3-5\nTime: 30\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nKeep rolling the dice to build a fortune, but one unlucky roll could wipe you out.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/black-box.html",
     "href": "games/black-box.html",
     "title": "Black box",
     "section": "",
-    "text": "Black box\n\n\n\nPlayer Count: 2\nTime: 40\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Black box\n\n\n\nPlayer Count: 2\nTime: 40\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/racetrack.html",
     "href": "games/racetrack.html",
     "title": "Racetrack",
     "section": "",
-    "text": "Racetrack\n\n\n\nPlayer Count: 1-4\nTime: 40\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Racetrack\n\n\n\nPlayer Count: 1-4\nTime: 40\n\n\nFormat: Writable Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/hex.html",
     "href": "games/hex.html",
     "title": "Hex",
     "section": "",
-    "text": "Hex\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nPlayers race to build a bridge across an hexagonal grid.\n\n Play the game  Watch a video"
+    "text": "Hex\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nPlayers race to build a bridge across an hexagonal grid.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/tac-tix.html",
     "href": "games/tac-tix.html",
     "title": "Tac Tix",
     "section": "",
-    "text": "Tac Tix\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Tac Tix\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/domineering.html",
     "href": "games/domineering.html",
     "title": "Domineering",
     "section": "",
-    "text": "Domineering\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nPlayers take turn placing dominos on a boards hoping to be the one having the last laugh.\n\n Play the game  Watch a video"
+    "text": "Domineering\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nPlayers take turn placing dominos on a boards hoping to be the one having the last laugh.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/lap.html",
     "href": "games/lap.html",
     "title": "LAP",
     "section": "",
-    "text": "LAP\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Custom\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "LAP\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Custom\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/3-red-1-black.html",
     "href": "games/3-red-1-black.html",
     "title": "3 Red 1 Black",
     "section": "",
-    "text": "3 Red 1 Black\n\n\n\nPlayer Count: 3-8\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "3 Red 1 Black\n\n\n\nPlayer Count: 3-8\nTime: 20\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/watch-your-step.html",
     "href": "games/watch-your-step.html",
     "title": "Watch your Step",
     "section": "",
-    "text": "Watch your Step\n\n\n\nPlayer Count: 2-4\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Watch your Step\n\n\n\nPlayer Count: 2-4\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/dicey-dice.html",
     "href": "games/dicey-dice.html",
     "title": "Dicey Dice",
     "section": "",
-    "text": "Dicey Dice\n\n\n\nPlayer Count: 2-100\nTime: 10\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nA gambler stands at the table, wondering if there was a way to beat the house.\n\n Play the game  Watch a video"
+    "text": "Dicey Dice\n\n\n\nPlayer Count: 2-100\nTime: 10\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nA gambler stands at the table, wondering if there was a way to beat the house.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/13-sheep.html",
     "href": "games/13-sheep.html",
     "title": "13 Sheep",
     "section": "",
-    "text": "13 Sheep\n\n\n\nPlayer Count: 1-100\nTime: 30\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nFence in the most number of sheep to maximise points\n\n Play the game  Watch a video"
+    "text": "13 Sheep\n\n\n\nPlayer Count: 1-100\nTime: 30\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nFence in the most number of sheep to maximise points\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/hold-that-line.html",
     "href": "games/hold-that-line.html",
     "title": "Hold that line",
     "section": "",
-    "text": "Hold that line\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nPlayers extend a line, trying to keep control of the board without crossing paths.\n\n Play the game  Watch a video"
+    "text": "Hold that line\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Writable Board\nComplexity: Primary\n\n\n\nPlayers extend a line, trying to keep control of the board without crossing paths.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/amazons.html",
     "href": "games/amazons.html",
     "title": "Amazons",
     "section": "",
-    "text": "Amazons\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nWarrior queens move across an battlefield, leaving barriers behind as they attempt to trap their opponents.\n\n Play the game  Watch a video"
+    "text": "Amazons\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nWarrior queens move across an battlefield, leaving barriers behind as they attempt to trap their opponents.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/konane.html",
     "href": "games/konane.html",
     "title": "Konane",
     "section": "",
-    "text": "Konane\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Konane\n\n\n\nPlayer Count: 2\nTime: 30\n\n\nFormat: Game Board\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/dodgem.html",
     "href": "games/dodgem.html",
     "title": "Dodgem",
     "section": "",
-    "text": "Dodgem\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nTwo drivers manoeuver their cars, trying to reach the finish line first.\n\n Play the game  Watch a video"
+    "text": "Dodgem\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Primary\n\n\n\nTwo drivers manoeuver their cars, trying to reach the finish line first.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/digit-party.html",
     "href": "games/digit-party.html",
     "title": "Digit Party",
     "section": "",
-    "text": "Digit Party\n\n\n\nPlayer Count: 1-100\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nA fast paced number party game which is simple fun for all\n\n Play the game  Watch a video"
+    "text": "Digit Party\n\n\n\nPlayer Count: 1-100\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nA fast paced number party game which is simple fun for all\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/jotto.html",
     "href": "games/jotto.html",
     "title": "Jotto",
     "section": "",
-    "text": "Jotto\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Jotto\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Nothing\nComplexity: Primary\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/paper-boxing.html",
     "href": "games/paper-boxing.html",
     "title": "Paper boxing",
     "section": "",
-    "text": "Paper boxing\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Paper boxing\n\n\n\nPlayer Count: 2\nTime: 20\n\n\nFormat: Writable Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/kachufal.html",
     "href": "games/kachufal.html",
     "title": "Kachufal",
     "section": "",
-    "text": "Kachufal\n\n\n\nPlayer Count: 3-7\nTime: 30\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Kachufal\n\n\n\nPlayer Count: 3-7\nTime: 30\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/detectives.html",
     "href": "games/detectives.html",
     "title": "Detectives",
     "section": "",
-    "text": "Detectives\n\n\n\nPlayer Count: 3-6\nTime: 40\n\n\nFormat: Custom\nComplexity: High\n\n\n\nA group of investigators race to uncover the hidden criminal before they escape justice.\n\n Play the game  Watch a video"
+    "text": "Detectives\n\n\n\nPlayer Count: 3-6\nTime: 40\n\n\nFormat: Custom\nComplexity: High\n\n\n\nA group of investigators race to uncover the hidden criminal before they escape justice.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/khatti-mithai.html",
     "href": "games/khatti-mithai.html",
     "title": "Khatti Mithai",
     "section": "",
-    "text": "Khatti Mithai\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Khatti Mithai\n\n\n\nPlayer Count: 2\nTime: 10\n\n\nFormat: Game Board\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/eleusis-express.html",
     "href": "games/eleusis-express.html",
     "title": "Eleusis Express",
     "section": "",
-    "text": "Eleusis Express\n\n\n\nPlayer Count: 4-5\nTime: 40\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Eleusis Express\n\n\n\nPlayer Count: 4-5\nTime: 40\n\n\nFormat: Playing Cards\nComplexity: High\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   },
   {
     "objectID": "games/mafia.html",
     "href": "games/mafia.html",
     "title": "Mafia",
     "section": "",
-    "text": "Mafia\n\n\n\nPlayer Count: 3-20\nTime: 30\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video"
+    "text": "Mafia\n\n\n\nPlayer Count: 3-20\nTime: 30\n\n\nFormat: Custom\nComplexity: Middle\n\n\n\nGame summary not available yet.\n\n Play the game  Watch a video  Read the manual"
   }
 ]

@@ -1,5 +1,6 @@
 ---
 airtable_id: rec9kILYHjrxNmtj8
+board_links: ''
 complexity: Primary
 external_links: ''
 format:
@@ -7,6 +8,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Custom
+manual_links: https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing
 players: '2'
 summary: Two naval commanders secretly place their ships and try to sink each other’s
   ships before their own are destroyed.
@@ -36,4 +38,5 @@ Two naval commanders secretly place their ships and try to sink each other’s s
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
 :::

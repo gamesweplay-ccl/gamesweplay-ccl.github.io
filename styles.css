@@ -107,6 +107,17 @@ p {
 	text-decoration: none;
 }
 
+.btn-manual {
+	background-color: #d0ebd0;
+	color: #333;
+	border: none;
+}
+
+.btn-manual:hover {
+	background-color: #a8d5a8;
+	text-decoration: none;
+}
+
 /* Hide empty buttons */
 .game-actions:empty {
 	display: none;

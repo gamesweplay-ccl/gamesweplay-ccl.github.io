@@ -1,5 +1,6 @@
 ---
 airtable_id: recOIoXbwh11pV1j7
+board_links: https://drive.google.com/file/d/1EhINPHFXH49A4t0TqwejbaPFEivPFhei/view?usp=drive_link
 complexity: Middle
 external_links: ''
 format:
@@ -7,6 +8,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Writable Board
+manual_links: https://drive.google.com/file/d/1NHuhux2q0Ixmp-bzfRY35fJNdWkh8Hsq/view?usp=sharing
 players: '2'
 summary: ''
 time: '10'
@@ -35,4 +37,5 @@ Game summary not available yet.
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="https://drive.google.com/file/d/1NHuhux2q0Ixmp-bzfRY35fJNdWkh8Hsq/view?usp=sharing" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
 :::

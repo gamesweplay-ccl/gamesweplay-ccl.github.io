@@ -25,5 +25,8 @@ title: "Game Page Template"
   {{#if (meta video_docs)}}
   <a href="{{< meta video_docs >}}" class="btn btn-watch">Watch a video</a>
   {{/if}}
+  {{#if (meta manual_links)}}
+  <a href="{{< meta manual_links >}}" class="btn btn-manual">Read the manual</a>
+  {{/if}}
 </div>
 ```

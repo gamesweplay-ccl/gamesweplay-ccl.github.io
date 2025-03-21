@@ -1,5 +1,6 @@
 ---
 airtable_id: recDHAVk7SFdtRGD7
+board_links: ''
 complexity: High
 external_links: ''
 format:
@@ -7,6 +8,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Custom
+manual_links: https://drive.google.com/file/d/1h-IrOrQuj7IfEWNcrWDhgHHVLaW6IaLq/view?usp=drive_link
 players: 3-6
 summary: A group of investigators race to uncover the hidden criminal before they
   escape justice.
@@ -36,4 +38,5 @@ A group of investigators race to uncover the hidden criminal before they escape 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="https://drive.google.com/file/d/1h-IrOrQuj7IfEWNcrWDhgHHVLaW6IaLq/view?usp=drive_link" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
 :::

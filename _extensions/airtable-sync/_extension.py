@@ -30,6 +30,8 @@ def create_game_file(game_dir, fields, record_id):
     summary = fields.get('Summary', '').strip()
     game_type = fields.get('Type', '').strip()
     time = fields.get('Time', '').strip()
+    manual_links = fields.get('Manual Links', '').strip()
+    board_links = fields.get('Board Links', '').strip()
     
     # Create basic frontmatter
     frontmatter = {
@@ -37,6 +39,8 @@ def create_game_file(game_dir, fields, record_id):
         'game_format': game_format,
         'players': players,
         'external_links': external_links,
+        'manual_links': manual_links,
+        'board_links': board_links,
         'video_docs': video_docs,
         'summary': summary,
         'type': game_type,
@@ -94,6 +98,11 @@ def create_game_file(game_dir, fields, record_id):
             f.write(f"<a href=\"{video_docs}\" class=\"btn btn-watch\"><i class=\"fa fa-video\"></i> Watch a video</a>\n")
         else:
             f.write(f"<a href=\"#\" class=\"btn btn-watch disabled-button\"><i class=\"fa fa-video\"></i> Watch a video</a>\n")
+
+        if manual_links:
+            f.write(f"<a href=\"{manual_links}\" class=\"btn btn-manual\"><i class=\"fa\"></i> Read the manual</a>\n")
+        else:
+            f.write(f"<a href=\"#\" class=\"btn btn-manual disabled-button\"><i class=\"fa\"></i> Read the manual</a>\n")
         f.write(":::")
     
     return qmd_path

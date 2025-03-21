@@ -1,5 +1,6 @@
 ---
 airtable_id: recsZD0R1v37I8eEx
+board_links: ''
 complexity: High
 external_links: https://www.novelgames.com/en/bowlingsolitaire/
 format:
@@ -7,6 +8,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Playing Cards
+manual_links: https://drive.google.com/file/d/1DmoAtOqVi_FfZYc7MWAkPeUDsuWowOja/view?usp=drive_link
 players: '1'
 summary: A solo card game that involves heavy strategy and a brilliant scoring system
   all within a bowling theme.
@@ -36,4 +38,5 @@ A solo card game that involves heavy strategy and a brilliant scoring system all
 :::{.game-actions}
 <a href="https://www.novelgames.com/en/bowlingsolitaire/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="https://drive.google.com/file/d/1DmoAtOqVi_FfZYc7MWAkPeUDsuWowOja/view?usp=drive_link" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
 :::

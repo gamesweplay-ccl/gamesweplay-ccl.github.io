@@ -1,5 +1,6 @@
 ---
 airtable_id: recsgdK71JmunRlB4
+board_links: https://drive.google.com/file/d/1qA-4q9CrrOOWuIH1H62R5oNyC6JZ-dU0/view?usp=drive_link
 complexity: Primary
 external_links: ''
 format:
@@ -7,6 +8,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Game Board
+manual_links: https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link
 players: '2'
 summary: Two drivers manoeuver their cars, trying to reach the finish line first.
 time: '10'
@@ -35,4 +37,5 @@ Two drivers manoeuver their cars, trying to reach the finish line first.
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
 :::

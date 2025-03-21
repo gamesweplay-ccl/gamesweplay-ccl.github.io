@@ -1,5 +1,6 @@
 ---
 airtable_id: recH5oRhQingC8rMj
+board_links: https://drive.google.com/file/d/1s6SXXOR-RB9xofVoMzS1IrgwdXuha31l/view?usp=drive_link
 complexity: Middle
 external_links: ''
 format:
@@ -7,6 +8,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Writable Board
+manual_links: https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing
 players: 1-100
 summary: Fence in the most number of sheep to maximise points
 time: '30'
@@ -35,4 +37,5 @@ Fence in the most number of sheep to maximise points
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
 :::
