@@ -37,5 +37,6 @@ Game summary not available yet.
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
-<a href="https://drive.google.com/file/d/1TQm7fA2AhwwJOtOJMNyrD53yHUTEwkDk/view?usp=drive_link" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1TQm7fA2AhwwJOtOJMNyrD53yHUTEwkDk/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/10B7dghWYM6nEWNIMr-nn6HKdMeljrMci/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
 :::

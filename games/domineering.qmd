@@ -38,5 +38,6 @@ Players take turn placing dominos on a boards hoping to be the one having the la
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
-<a href="https://drive.google.com/file/d/16RX9LRveNHxE4oXdhU6-Q_eTkBk0HHmC/view?usp=drive_link" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/16RX9LRveNHxE4oXdhU6-Q_eTkBk0HHmC/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/18uOflUnfwiKUTlixTUwZah2Ob_FUWrUQ/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
 :::

@@ -28,5 +28,8 @@ title: "Game Page Template"
   {{#if (meta manual_links)}}
   <a href="{{< meta manual_links >}}" class="btn btn-manual">Read the manual</a>
   {{/if}}
+  {{#if (meta board_links)}}
+  <a href="{{< meta board_links >}}" class="btn btn-board">Board PDF</a>
+  {{/if}}
 </div>
 ```

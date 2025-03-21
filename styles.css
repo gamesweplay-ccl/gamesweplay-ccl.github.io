@@ -85,36 +85,47 @@ p {
 	cursor: pointer;
 }
 
+/* Play game button */
 .btn-play {
 	background-color: #d0ebd0;
 	color: #333;
 	border: none;
 }
-
 .btn-play:hover {
 	background-color: #a8d5a8;
 	text-decoration: none;
 }
 
+/* Watch video button */
 .btn-watch {
 	background-color: #d6e0ec;
 	color: #333;
 	border: none;
 }
-
 .btn-watch:hover {
 	background-color: #b8c5d6;
 	text-decoration: none;
 }
 
+/* Manual button */
 .btn-manual {
-	background-color: #d0ebd0;
+	background-color: #ebc5d0;
 	color: #333;
 	border: none;
 }
-
 .btn-manual:hover {
-	background-color: #a8d5a8;
+	background-color: #d6a8b8;
+	text-decoration: none;
+}
+
+/* Board PDF button */
+.btn-board {
+	background-color: #f1e1a0;
+	color: #333;
+	border: none;
+}
+.btn-board:hover {
+	background-color: #e0c88a;
 	text-decoration: none;
 }
 

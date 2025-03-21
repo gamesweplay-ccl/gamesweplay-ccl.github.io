@@ -37,5 +37,6 @@ A fast paced number party game which is simple fun for all
 :::{.game-actions}
 <a href="https://digit.party/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
-<a href="https://drive.google.com/file/d/1yu0yOjksxdbzbJU_uVMdLNKSDdRwZGUt/view?usp=drive_link" class="btn btn-manual"><i class="fa"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1yu0yOjksxdbzbJU_uVMdLNKSDdRwZGUt/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1bDt4NotUcxE0huk6yZtLTgJjT6IAp0VR/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
 :::

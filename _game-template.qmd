@@ -29,4 +29,7 @@ $endif$
 $if(manual_links)$
 [Read the manual]{.btn .btn-manual}($manual_links$)
 $endif$
+$if(board_links)$
+[Board PDF]{.btn .btn-board}($board_links$)
+$endif$
 :::
