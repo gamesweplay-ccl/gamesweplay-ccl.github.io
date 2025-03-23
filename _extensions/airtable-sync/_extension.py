@@ -107,9 +107,30 @@ def create_game_file(game_dir, fields, record_id):
         if board_links:
             f.write(f"<a href=\"{board_links}\" class=\"btn btn-board\"><i class=\"fa fa-file-pdf\"></i> Board PDF</a>\n")
         else:
-            f.write(f"<a href=\"#\" class=\"btn btn-board disabled-button\"><i class=\"fa fa-file-pdf\"></i> Board PDF</a>\n")
+            # f.write(f"<a href=\"#\" class=\"btn btn-board disabled-button\"><i class=\"fa fa-file-pdf\"></i> Board PDF</a>\n")
+            pass
 
         f.write(":::")
+
+        # Add Giscus comments
+        f.write(""" \n\n
+<script src="https://giscus.app/client.js"
+data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
+data-repo-id="R_kgDOOLGMiQ"
+data-category="Announcements"
+data-category-id="DIC_kwDOOLGMic4CoVQN"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="bottom"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>
+        """
+        )
     
     return qmd_path
 

@@ -39,4 +39,22 @@ A gambler stands at the table, wondering if there was a way to beat the house.
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/13BHzB_uUj2DKUcR5sCV9mXHlcQpxr-gt/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/14Rd2_pCprt4LTNcJZ7pFjs7wkDJ_EY2k/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
-:::
+::: 
+
+
+<script src="https://giscus.app/client.js"
+data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
+data-repo-id="R_kgDOOLGMiQ"
+data-category="Announcements"
+data-category-id="DIC_kwDOOLGMic4CoVQN"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="bottom"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>
+        

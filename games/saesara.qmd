@@ -39,4 +39,22 @@ Game summary not available yet.
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/18VMyS6HhrIRSEMbLOkfZDpBQmmGLVwGF/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1fjzJDLJas--Qj3FHcY6uXMcf1nmJyZvx/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
-:::
+::: 
+
+
+<script src="https://giscus.app/client.js"
+data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
+data-repo-id="R_kgDOOLGMiQ"
+data-category="Announcements"
+data-category-id="DIC_kwDOOLGMic4CoVQN"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="bottom"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>
+        
