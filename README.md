@@ -19,7 +19,8 @@ A Quarto website showcasing our collection of games and puzzles, with data synch
 3. Set up your Airtable API key in the extension configuration
 4. Run the sync command to fetch game data:
    ```bash
-   quarto run _extensions/airtable-sync
+   cd _extentions/airtable-sync
+   python _extension.py
    ```
 5. Preview the website:
    ```bash
