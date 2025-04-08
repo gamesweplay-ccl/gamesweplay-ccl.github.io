@@ -1,8 +1,9 @@
 ---
 airtable_id: recJhKdZbi0jlaW6Y
 board_links: https://drive.google.com/file/d/1QsTVap6l7ymMRonS_DaMgP--4Cbexz3r/view?usp=drive_link
-complexity: Middle
+complexity: ★★
 external_links: https://tautology.in/starnim/
+filename: star-nim
 format:
   html:
     css: ../styles.css
@@ -10,7 +11,8 @@ format:
 game_format: Game Board
 manual_links: https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link
 players: '2'
-summary: ''
+summary: Take one or take two — just don’t leave the last move to your opponent. A
+  quick game of clever choices where the final token decides it all.
 time: '10'
 title: Star Nim
 type: Strategy
@@ -27,34 +29,16 @@ Time: 10
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: Middle
+Complexity: ★★
 :::
 :::
 :::
 
-Game summary not available yet.
+Take one or take two — just don’t leave the last move to your opponent. A quick game of clever choices where the final token decides it all.
 
 :::{.game-actions}
 <a href="https://tautology.in/starnim/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1QsTVap6l7ymMRonS_DaMgP--4Cbexz3r/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

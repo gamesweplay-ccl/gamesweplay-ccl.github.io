@@ -1,0 +1,27 @@
+---
+title: "All Games"
+format:
+  html:
+    css: styles.css
+listing:
+  contents: games
+  page-size: 51
+  type: table
+  fields: [title, type, game_format, players, time, complexity]
+  field-display-names:
+    title: "Game"
+    type: "Type"
+    game_format: "Material"
+    complexity: "Complexity"
+    players: "Players"
+    time: "Duration"
+  sort: title
+  sort-ui: [title, players, time, type, game_format, complexity]
+  filter-ui: [title, type, game_format, complexity]
+  table-hover: true
+  table-striped: true
+page-layout: full
+---
+
+Welcome to our collection of games and puzzles! Browse through our catalog below to find games suitable for different age groups and player counts.
+

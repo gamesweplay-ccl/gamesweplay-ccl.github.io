@@ -1,6 +1,8 @@
 project:
     type: website
     output-dir: docs
+    resources:
+        - static
 
 website:
     title: "Games We Play"
@@ -9,6 +11,7 @@ website:
             - href: index.qmd
               text: Home
             - about.qmd
+            - all_games.qmd
         tools:
             - icon: github
               href: https://github.com/neeldhara/GamesWePlay

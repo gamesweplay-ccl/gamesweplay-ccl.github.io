@@ -1,8 +1,9 @@
 ---
 airtable_id: recH5oRhQingC8rMj
 board_links: https://drive.google.com/file/d/1s6SXXOR-RB9xofVoMzS1IrgwdXuha31l/view?usp=drive_link
-complexity: Middle
+complexity: ★★
 external_links: ''
+filename: 13-sheep
 format:
   html:
     css: ../styles.css
@@ -27,7 +28,7 @@ Time: 30
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: Middle
+Complexity: ★★
 :::
 :::
 :::
@@ -39,22 +40,4 @@ Fence in the most number of sheep to maximise points
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1s6SXXOR-RB9xofVoMzS1IrgwdXuha31l/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

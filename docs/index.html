@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Games We Play</title>
+<title>Home – Games We Play</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,66 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-type','listing-game_format','listing-players','listing-time','listing-complexity',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-type","listing-game_format","listing-complexity"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -157,6 +97,10 @@ window.Quarto = {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About Our Games</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./all_games.html"> 
+<span class="menu-text">All Games</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -175,7 +119,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Games We Play</h1>
+<h1 class="title">Home</h1>
 </div>
 
 
@@ -192,1123 +136,248 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to our collection of games and puzzles! Browse through our catalog below to find games suitable for different age groups and player counts.</p>
+<section id="welcome" class="level1">
+<h1><strong>Welcome!</strong></h1>
+<section id="what-game-should-you-play" class="level2">
+<h2 class="anchored" data-anchor-id="what-game-should-you-play">What game should you play?</h2>
+<style>
+  #game-filter {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
+  .form-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
 
+  .form-row label {
+    flex: 1 1 200px;
+    font-weight: 600;
+    color: #333;
+  }
 
+  .form-row select {
+    flex: 2 1 300px;
+    padding: 0.6rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #f2faff;
+    transition: border-color 0.2s ease;
+  }
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Game
-        </option>
-         <option value="listing-players" data-direction="asc">
-          Players
-        </option>
-         <option value="listing-time" data-direction="asc">
-          Duration
-        </option>
-         <option value="listing-type" data-direction="asc">
-          Type
-        </option>
-         <option value="listing-game_format" data-direction="asc">
-          Material
-        </option>
-         <option value="listing-complexity" data-direction="asc">
-          Complexity
-        </option>
-     </select>
+  .form-row select:focus {
+    outline: none;
+    border-color: #7ec4cf;
+  }
+
+  #results {
+    margin-top: 2rem;
+    background-color: #fff7f0;
+    border: 1px solid #ffe0c2;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #results h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  #find-button {
+    padding: 0.6rem 1.2rem;
+    background-color: #7ec4cf;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  #find-button:hover {
+    background-color: #5bb2bd;
+  }
+
+  #lucky-button {
+    padding: 0.6rem 1.4rem;
+    background-color: #fcbf49;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+
+  #lucky-button:hover {
+    background-color: #fca311;
+  }
+</style>
+
+<form id="game-filter">
+  <div class="form-row">
+  <label for="time">How much time do you have?</label>
+  <select name="time" id="time">
+    <option value="">Select time</option>
+    <option value="10">10 mins</option>
+    <option value="20">20 mins</option>
+    <option value="30">30 mins</option>
+    <option value="40">40 mins</option>
+  </select>
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table table-striped table-hover">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Game</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-type" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Type</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-game_format" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Material</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-players" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Players</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-time" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-complexity" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Complexity</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1742588869086" data-listing-reading-time-sort="1" data-listing-word-count-sort="63" data-listing-title-sort="13 Sheep" data-listing-filename-sort="13-sheep.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/13-sheep.html" class="title listing-title">13 Sheep</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">1-100</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1742588869109" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="3 Red 1 Black" data-listing-filename-sort="3-red-1-black.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/3-red-1-black.html" class="title listing-title">3 Red 1 Black</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Playing Cards</span>
-</td>
-<td>
-<span class="listing-players">3-8</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1742588869123" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Aces and Faces" data-listing-filename-sort="aces-and-faces.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/aces-and-faces.html" class="title listing-title">Aces and Faces</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Playing Cards</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1742588869116" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Amazons" data-listing-filename-sort="amazons.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/amazons.html" class="title listing-title">Amazons</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1742588869075" data-listing-reading-time-sort="1" data-listing-word-count-sort="64" data-listing-title-sort="Battle Ship" data-listing-filename-sort="battle-ship.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/battle-ship.html" class="title listing-title">Battle Ship</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-file-modified-sort="1742588869107" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Black box" data-listing-filename-sort="black-box.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/black-box.html" class="title listing-title">Black box</a>
-</td>
-<td>
-<span class="listing-type">Science/Deduction</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">40</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-file-modified-sort="1742588869127" data-listing-reading-time-sort="1" data-listing-word-count-sort="63" data-listing-title-sort="Bowling Solitaire" data-listing-filename-sort="bowling-solitaire.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/bowling-solitaire.html" class="title listing-title">Bowling Solitaire</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Playing Cards</span>
-</td>
-<td>
-<span class="listing-players">1</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-file-modified-sort="1742588869084" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Char Par" data-listing-filename-sort="char-par.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/char-par.html" class="title listing-title">Char Par</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-file-modified-sort="1742588869101" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Corners" data-listing-filename-sort="corners.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/corners.html" class="title listing-title">Corners</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="9" data-listing-file-modified-sort="1742588869079" data-listing-reading-time-sort="1" data-listing-word-count-sort="59" data-listing-title-sort="Detectives" data-listing-filename-sort="detectives.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/detectives.html" class="title listing-title">Detectives</a>
-</td>
-<td>
-<span class="listing-type">Science/Deduction</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">3-6</span>
-</td>
-<td>
-<span class="listing-time">40</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="10" data-listing-file-modified-sort="1742588869122" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Dicey Dice" data-listing-filename-sort="dicey-dice.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/dicey-dice.html" class="title listing-title">Dicey Dice</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2-100</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="11" data-listing-file-modified-sort="1742588869121" data-listing-reading-time-sort="1" data-listing-word-count-sort="64" data-listing-title-sort="Digit Party" data-listing-filename-sort="digit-party.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/digit-party.html" class="title listing-title">Digit Party</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">1-100</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="12" data-listing-file-modified-sort="1742588869128" data-listing-reading-time-sort="1" data-listing-word-count-sort="65" data-listing-title-sort="Dodgem" data-listing-filename-sort="dodgem.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/dodgem.html" class="title listing-title">Dodgem</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="13" data-listing-file-modified-sort="1742588869077" data-listing-reading-time-sort="1" data-listing-word-count-sort="70" data-listing-title-sort="Domineering" data-listing-filename-sort="domineering.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/domineering.html" class="title listing-title">Domineering</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="14" data-listing-file-modified-sort="1742588869069" data-listing-reading-time-sort="1" data-listing-word-count-sort="56" data-listing-title-sort="Don't say 13" data-listing-filename-sort="dont-say-13.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/dont-say-13.html" class="title listing-title">Don’t say 13</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="15" data-listing-file-modified-sort="1742588869070" data-listing-reading-time-sort="1" data-listing-word-count-sort="56" data-listing-title-sort="Eat Poop You Cat" data-listing-filename-sort="eat-poop-you-cat.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/eat-poop-you-cat.html" class="title listing-title">Eat Poop You Cat</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Nothing</span>
-</td>
-<td>
-<span class="listing-players">3-8</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="16" data-listing-file-modified-sort="1742588869129" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Eleusis Express" data-listing-filename-sort="eleusis-express.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/eleusis-express.html" class="title listing-title">Eleusis Express</a>
-</td>
-<td>
-<span class="listing-type">Science/Deduction</span>
-</td>
-<td>
-<span class="listing-game_format">Playing Cards</span>
-</td>
-<td>
-<span class="listing-players">4-5</span>
-</td>
-<td>
-<span class="listing-time">40</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="17" data-listing-file-modified-sort="1742588869097" data-listing-reading-time-sort="1" data-listing-word-count-sort="61" data-listing-title-sort="Fake Artist" data-listing-filename-sort="fake-artist.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/fake-artist.html" class="title listing-title">Fake Artist</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">3-8</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="18" data-listing-file-modified-sort="1742588869130" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Farkle" data-listing-filename-sort="farkle.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/farkle.html" class="title listing-title">Farkle</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">3-5</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="19" data-listing-file-modified-sort="1742588869099" data-listing-reading-time-sort="1" data-listing-word-count-sort="65" data-listing-title-sort="Goats and Tigers" data-listing-filename-sort="goats-and-tigers.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/goats-and-tigers.html" class="title listing-title">Goats and Tigers</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="20" data-listing-file-modified-sort="1742588869106" data-listing-reading-time-sort="1" data-listing-word-count-sort="63" data-listing-title-sort="Hex" data-listing-filename-sort="hex.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/hex.html" class="title listing-title">Hex</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="21" data-listing-file-modified-sort="1742588869092" data-listing-reading-time-sort="1" data-listing-word-count-sort="60" data-listing-title-sort="Hold that line" data-listing-filename-sort="hold-that-line.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/hold-that-line.html" class="title listing-title">Hold that line</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="22" data-listing-file-modified-sort="1742588869059" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Jotto" data-listing-filename-sort="jotto.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/jotto.html" class="title listing-title">Jotto</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Nothing</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="23" data-listing-file-modified-sort="1742588869113" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Kachufal" data-listing-filename-sort="kachufal.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/kachufal.html" class="title listing-title">Kachufal</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Playing Cards</span>
-</td>
-<td>
-<span class="listing-players">3-7</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="24" data-listing-file-modified-sort="1742588869126" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Khatti Mithai" data-listing-filename-sort="khatti-mithai.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/khatti-mithai.html" class="title listing-title">Khatti Mithai</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="25" data-listing-file-modified-sort="1742588869090" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Konane" data-listing-filename-sort="konane.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/konane.html" class="title listing-title">Konane</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="26" data-listing-file-modified-sort="1742588869066" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="LAP" data-listing-filename-sort="lap.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/lap.html" class="title listing-title">LAP</a>
-</td>
-<td>
-<span class="listing-type">Science/Deduction</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="27" data-listing-file-modified-sort="1742588869118" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Liar's Dice" data-listing-filename-sort="liars-dice.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/liars-dice.html" class="title listing-title">Liar’s Dice</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Nothing</span>
-</td>
-<td>
-<span class="listing-players">3-6</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="28" data-listing-file-modified-sort="1742588869080" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Lines of Action" data-listing-filename-sort="lines-of-action.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/lines-of-action.html" class="title listing-title">Lines of Action</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="29" data-listing-file-modified-sort="1742588869110" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Mafia" data-listing-filename-sort="mafia.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/mafia.html" class="title listing-title">Mafia</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">3-20</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="30" data-listing-file-modified-sort="1742588869125" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Monikers" data-listing-filename-sort="monikers.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/monikers.html" class="title listing-title">Monikers</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">4-20</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="31" data-listing-file-modified-sort="1742588869119" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Neighbours" data-listing-filename-sort="neighbours.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/neighbours.html" class="title listing-title">Neighbours</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">1-100</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="32" data-listing-file-modified-sort="1742588869072" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="No Thanks" data-listing-filename-sort="no-thanks.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/no-thanks.html" class="title listing-title">No Thanks</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">3-6</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="33" data-listing-file-modified-sort="1742588869111" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Order and Chaos" data-listing-filename-sort="order-and-chaos.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/order-and-chaos.html" class="title listing-title">Order and Chaos</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="34" data-listing-file-modified-sort="1742588869104" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Paper boxing" data-listing-filename-sort="paper-boxing.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/paper-boxing.html" class="title listing-title">Paper boxing</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="35" data-listing-file-modified-sort="1742588869103" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Peg Solitaire" data-listing-filename-sort="peg-solitaire.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/peg-solitaire.html" class="title listing-title">Peg Solitaire</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">1</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="36" data-listing-file-modified-sort="1742588869108" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Racetrack" data-listing-filename-sort="racetrack.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/racetrack.html" class="title listing-title">Racetrack</a>
-</td>
-<td>
-<span class="listing-type">Science/Deduction</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">1-4</span>
-</td>
-<td>
-<span class="listing-time">40</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="37" data-listing-file-modified-sort="1742588869115" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Regicide" data-listing-filename-sort="regicide.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/regicide.html" class="title listing-title">Regicide</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2-4</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="38" data-listing-file-modified-sort="1742588869112" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Saesara" data-listing-filename-sort="saesara.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/saesara.html" class="title listing-title">Saesara</a>
-</td>
-<td>
-<span class="listing-type">Science/Deduction</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">3-5</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="39" data-listing-file-modified-sort="1742588869087" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Sequencium" data-listing-filename-sort="sequencium.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/sequencium.html" class="title listing-title">Sequencium</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">1-1</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="40" data-listing-file-modified-sort="1742588869093" data-listing-reading-time-sort="1" data-listing-word-count-sort="61" data-listing-title-sort="Sprouts" data-listing-filename-sort="sprouts.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/sprouts.html" class="title listing-title">Sprouts</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Nothing</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="41" data-listing-file-modified-sort="1742588869095" data-listing-reading-time-sort="1" data-listing-word-count-sort="57" data-listing-title-sort="Star Nim" data-listing-filename-sort="star-nim.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/star-nim.html" class="title listing-title">Star Nim</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="42" data-listing-file-modified-sort="1742588869082" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Tablut" data-listing-filename-sort="tablut.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/tablut.html" class="title listing-title">Tablut</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="43" data-listing-file-modified-sort="1742588869057" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Tac Tix" data-listing-filename-sort="tac-tix.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/tac-tix.html" class="title listing-title">Tac Tix</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="44" data-listing-file-modified-sort="1742588869064" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="The Great Races" data-listing-filename-sort="the-great-races.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/the-great-races.html" class="title listing-title">The Great Races</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2-6</span>
-</td>
-<td>
-<span class="listing-time">30</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="45" data-listing-file-modified-sort="1742588869062" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="The flower and the wind" data-listing-filename-sort="the-flower-and-the-wind.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/the-flower-and-the-wind.html" class="title listing-title">The flower and the wind</a>
-</td>
-<td>
-<span class="listing-type">Science/Deduction</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="46" data-listing-file-modified-sort="1742588869117" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Toads and Frogs" data-listing-filename-sort="toads-and-frogs.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/toads-and-frogs.html" class="title listing-title">Toads and Frogs</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-<tr data-index="47" data-listing-file-modified-sort="1742588869089" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Two Rooms and a Boom" data-listing-filename-sort="two-rooms-and-a-boom.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/two-rooms-and-a-boom.html" class="title listing-title">Two Rooms and a Boom</a>
-</td>
-<td>
-<span class="listing-type">Language/Social</span>
-</td>
-<td>
-<span class="listing-game_format">Custom</span>
-</td>
-<td>
-<span class="listing-players">10-30</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">High</span>
-</td>
-</tr>
-<tr data-index="48" data-listing-file-modified-sort="1742588869102" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Ultimate Tic Tac Toe" data-listing-filename-sort="ultimate-tic-tac-toe.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/ultimate-tic-tac-toe.html" class="title listing-title">Ultimate Tic Tac Toe</a>
-</td>
-<td>
-<span class="listing-type">Strategy</span>
-</td>
-<td>
-<span class="listing-game_format">Writable Board</span>
-</td>
-<td>
-<span class="listing-players">2</span>
-</td>
-<td>
-<span class="listing-time">20</span>
-</td>
-<td>
-<span class="listing-complexity">Middle</span>
-</td>
-</tr>
-<tr data-index="49" data-listing-file-modified-sort="1742588869098" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="Watch your Step" data-listing-filename-sort="watch-your-step.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./games/watch-your-step.html" class="title listing-title">Watch your Step</a>
-</td>
-<td>
-<span class="listing-type">Mathematics/Probability</span>
-</td>
-<td>
-<span class="listing-game_format">Game Board</span>
-</td>
-<td>
-<span class="listing-players">2-4</span>
-</td>
-<td>
-<span class="listing-time">10</span>
-</td>
-<td>
-<span class="listing-complexity">Primary</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+  <div class="form-row">
+  <label for="players">How many players?</label>
+  <select name="players" id="players">
+    <option value="">Select players</option>
+    <option value="1">Solo</option>
+    <option value="2">Duet</option>
+    <option value="4">Group</option>
+    <option value="10">Class</option>
+  </select>
+  </div>
+  <!-- <div class="form-row">
+  <label for="material">What material do you have?</label>
+  <select name="material" id="material">
+    <option value="">Select material</option>
+    <option value="cards">Cards</option>
+    <option value="dice">Dice</option>
+    <option value="board">Board</option>
+    <option value="none">None</option>
+  </select>
+  </div> -->
+  <div class="form-row">
+  <label for="difficulty">What difficulty?</label>
+  <select name="difficulty" id="difficulty">
+    <option value="">Select difficulty</option>
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+  </select>
+  </div>
+  <div class="form-actions">
+      <button type="button" id="lucky-button" class="lucky-btn">Pick one for me!</button>
+      <button type="submit" id="find-button">Find Games</button>
+  </div>
+</form>
+  <div id="results" style="display: none;">
+    <h3 class="anchored"><em>Suggestions</em></h3>
+    <p id="results-content"></p>
+  </div>
+<script>
+  const difficultyMap = {
+    easy: "★",
+    medium: "★★",
+    hard: "★★★"
+  };
+
+  // Load JSON once and reuse
+  let gameData = [];
+
+  async function loadGames() {
+    if (gameData.length === 0) {
+      const res = await fetch('/static/all_metadata.json');  // adjust path as needed
+      gameData = await res.json();
+    }
+    return gameData;
+  }
+
+  function getFilters() {
+    return {
+      difficulty: document.getElementById("difficulty").value,
+      maxTime: document.getElementById("time").value,
+      players: document.getElementById("players").value
+    };
+  }
+
+  function isPlayerCountInRange(selected, rangeStr) {
+    const selectedNum = parseInt(selected);
+    if (!rangeStr) return false;
+
+    if (rangeStr.includes('-')) {
+      const [min, max] = rangeStr.split('-').map(s => parseInt(s.trim()));
+      return selectedNum >= min && selectedNum <= max;
+    }
+
+    // Single number match
+    return parseInt(rangeStr) === selectedNum;
+}
+
+  function filterGames(games, { difficulty, maxTime, players }) {
+    return games.filter(game => {
+      const matchesDifficulty = !difficulty || game.complexity === difficultyMap[difficulty];
+      const matchesTime = !maxTime || parseInt(game.time) <= parseInt(maxTime);
+      const matchesPlayers = !players || isPlayerCountInRange(players, game.players);
+      return matchesDifficulty && matchesTime && matchesPlayers;
+    });
+  }
+
+  // "Find Games" Button
+  document.getElementById("game-filter").addEventListener("submit", async function (e) {
+  e.preventDefault();
+
+  const filters = getFilters();
+  const games = await loadGames();
+  const matchingGames = filterGames(games, filters);
+
+  const resultsEl = document.getElementById("results-content");
+
+  if (matchingGames.length > 0) {
+    resultsEl.innerHTML = `<ul>${matchingGames.map(g => `
+      <li style="margin-bottom: 1rem;">
+        <a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
+        <small>${g.summary || 'No description available.'}</small>
+      </li>`).join('')}
+    </ul>`;
+  } else {
+    resultsEl.innerHTML = "<p>No games found matching your filters.</p>";
+  }
+
+  document.getElementById("results").style.display = "block";
+});
+
+  // "I'm Feeling Lucky" Button
+  document.getElementById("lucky-button").addEventListener("click", async function () {
+    const filters = getFilters();
+    const games = await loadGames();
+    const matchingGames = filterGames(games, filters);
+
+    if (matchingGames.length > 0) {
+      const randomGame = matchingGames[Math.floor(Math.random() * matchingGames.length)];
+      window.location.href = `/games/${randomGame.filename}.html`;
+    } else {
+      alert("No matching games to choose from!");
+    }
+  });
+</script>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

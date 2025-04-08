@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 import requests
 from dotenv import load_dotenv
+import json
 
 
 def sanitize_filename(name):
@@ -24,6 +25,7 @@ def create_game_file(game_dir, fields, record_id):
     # Get field values
     game_format = fields.get('Format', '').strip()
     complexity = fields.get('Complexity', '').strip()
+    complexity = '★' * (1 + ['Primary', 'Middle', 'High'].index(complexity))
     players = fields.get('Number of Players', '').strip()
     external_links = fields.get('External Links', '').strip()
     video_docs = fields.get('Video Docs', '').strip()
@@ -47,6 +49,7 @@ def create_game_file(game_dir, fields, record_id):
         'time': time,
         'complexity': complexity,
         'airtable_id': record_id,
+        'filename': filename,
         'format': {
             'html': {
                 'css': '../styles.css',
@@ -112,27 +115,27 @@ def create_game_file(game_dir, fields, record_id):
 
         f.write(":::")
 
-        # Add Giscus comments
-        f.write(""" \n\n
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        """
-        )
+#         # Add Giscus comments
+#         f.write(""" \n\n
+# <script src="https://giscus.app/client.js"
+# data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
+# data-repo-id="R_kgDOOLGMiQ"
+# data-category="Announcements"
+# data-category-id="DIC_kwDOOLGMic4CoVQN"
+# data-mapping="title"
+# data-strict="0"
+# data-reactions-enabled="1"
+# data-emit-metadata="0"
+# data-input-position="bottom"
+# data-theme="light"
+# data-lang="en"
+# crossorigin="anonymous"
+# async>
+# </script>
+#         """
+#         )
     
-    return qmd_path
+    return qmd_path, frontmatter
 
 def main():
     try:
@@ -158,15 +161,23 @@ def main():
         
         # Process each record
         created_files = []
+        all_metadata = []
         for record in records:
             try:
-                qmd_path = create_game_file(games_dir, record['fields'], record['id'])
+                qmd_path, frontmatter = create_game_file(games_dir, record['fields'], record['id'])
                 if qmd_path:
                     created_files.append(qmd_path)
+                    all_metadata.append(frontmatter)
             except Exception as e:
                 print(f"Error processing game {record.get('fields', {}).get('Game Name', 'Unknown')}: {str(e)}")
         
         print(f"Successfully created {len(created_files)} game files")
+
+        # Dump all frontmatter as all_metadata.json
+        json_output_path = Path("../../static/all_metadata.json")
+        with open(json_output_path, "w", encoding="utf-8") as jf:
+            json.dump(all_metadata, jf, ensure_ascii=False, indent=2)
+        print(f"Dumped metadata to: {json_output_path.resolve()}")
         
     except Exception as e:
         print(f"Error: {str(e)}")

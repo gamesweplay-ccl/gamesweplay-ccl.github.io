@@ -1,8 +1,9 @@
 ---
 airtable_id: recdBf1QK67XgI2mh
 board_links: https://drive.google.com/file/d/13m-y7B0a3-5TzqiLabt_M9LlgL1OxZSM/view?usp=drive_link
-complexity: High
+complexity: ★★★
 external_links: ''
+filename: regicide
 format:
   html:
     css: ../styles.css
@@ -10,7 +11,8 @@ format:
 game_format: Game Board
 manual_links: https://drive.google.com/file/d/1n6-IZz-bfaVb67xJ97Z1-0d1fzqAg0tf/view?usp=drive_link
 players: 2-4
-summary: ''
+summary: Unite your cards and your powers — defeat the nobles with teamwork and strategy.
+  A tense cooperative showdown where every suit has a role, and every turn counts.
 time: '30'
 title: Regicide
 type: Language/Social
@@ -27,34 +29,16 @@ Time: 30
 :::
 :::{.right-stats}
 Format: Game Board  
-Complexity: High
+Complexity: ★★★
 :::
 :::
 :::
 
-Game summary not available yet.
+Unite your cards and your powers — defeat the nobles with teamwork and strategy. A tense cooperative showdown where every suit has a role, and every turn counts.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1n6-IZz-bfaVb67xJ97Z1-0d1fzqAg0tf/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/13m-y7B0a3-5TzqiLabt_M9LlgL1OxZSM/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

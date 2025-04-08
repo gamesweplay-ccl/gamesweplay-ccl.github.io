@@ -1,8 +1,9 @@
 ---
 airtable_id: rec2skPsEr6h6iAGa
 board_links: ''
-complexity: Primary
+complexity: ★
 external_links: ''
+filename: jotto
 format:
   html:
     css: ../styles.css
@@ -10,7 +11,8 @@ format:
 game_format: Nothing
 manual_links: https://drive.google.com/file/d/1vXkZZ3UaeVwy_PcPCbVh03L6epdJ-ICJ/view?usp=sharing
 players: '2'
-summary: ''
+summary: Crack the code with clever guesses — five letters, endless possibilities.
+  A battle of words and wits where every number is a clue.
 time: '10'
 title: Jotto
 type: Language/Social
@@ -27,33 +29,15 @@ Time: 10
 :::
 :::{.right-stats}
 Format: Nothing  
-Complexity: Primary
+Complexity: ★
 :::
 :::
 :::
 
-Game summary not available yet.
+Crack the code with clever guesses — five letters, endless possibilities. A battle of words and wits where every number is a clue.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1vXkZZ3UaeVwy_PcPCbVh03L6epdJ-ICJ/view?usp=sharing" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

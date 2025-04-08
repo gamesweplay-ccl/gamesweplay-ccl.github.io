@@ -1,0 +1,1052 @@
+[
+  {
+    "title": "Tac Tix",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1TQm7fA2AhwwJOtOJMNyrD53yHUTEwkDk/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/10B7dghWYM6nEWNIMr-nn6HKdMeljrMci/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Pick a row or column and clear a stretch — no gaps allowed! A minimalist logic game where every move counts toward the last token.",
+    "type": "Strategy",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "rec1ZKd8BmyhWxR8x",
+    "filename": "tac-tix",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Jotto",
+    "game_format": "Nothing",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1vXkZZ3UaeVwy_PcPCbVh03L6epdJ-ICJ/view?usp=sharing",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Crack the code with clever guesses — five letters, endless possibilities. A battle of words and wits where every number is a clue.",
+    "type": "Language/Social",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "rec2skPsEr6h6iAGa",
+    "filename": "jotto",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "The flower and the wind",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1x9OM1qh65mkb-0Yi5Ib5rAL54He0sDCU/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1YgDGUs3dqtsWbcbprCk9G3GUYMMXoe0Q/view?usp=sharing",
+    "video_docs": "",
+    "summary": "Can the flower bloom and fill the grid before the wind runs out of breath? A poetic battle of growth and gusts where every direction matters.",
+    "type": "Science/Deduction",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "rec3Wfys5MVZkEU1y",
+    "filename": "the-flower-and-the-wind",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "The Great Races",
+    "game_format": "Game Board",
+    "players": "2-6",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1Uq2r1TlepSXszlsNb42wyqcVD6qvDIBp/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1hBBNV3KRXOaAZMiubyK8PWPCLR-mX1Z5/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-paced game of smart choices, lucky rolls, and point-packed finishes.",
+    "type": "Mathematics/Probability",
+    "time": "30",
+    "complexity": "★",
+    "airtable_id": "rec3my94BfA3HJ3ok",
+    "filename": "the-great-races",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "LAP",
+    "game_format": "Custom",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1mzrDQ7F_aN5smMnXV7xuLHWCAhysu3Jd/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A mind game of maps and logic — deduce your opponent’s secret layout before they crack yours. Probe, analyze, and outwit in this strategic twist on Battleship.",
+    "type": "Science/Deduction",
+    "time": "30",
+    "complexity": "★★★",
+    "airtable_id": "rec4mxRyI8ER10jmj",
+    "filename": "lap",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Don't say 13",
+    "game_format": "Custom",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1-sSYwoBogwWmKTx8EtPy3RLV_5AVUmod/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Players count out loud, trying to avoid saying the cursed number.",
+    "type": "Mathematics/Probability",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "rec654SFfwjCU3jgV",
+    "filename": "dont-say-13",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Eat Poop You Cat",
+    "game_format": "Nothing",
+    "players": "3-8",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/11AHIvGjAgl5i8jBqqbmLXywcYA_ETGf4/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A game of drawings, funny phrases and miscommunication, leading to hilarity.",
+    "type": "Language/Social",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "rec6wvRKOw4MFRJlR",
+    "filename": "eat-poop-you-cat",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "No Thanks",
+    "game_format": "Custom",
+    "players": "3-6",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1FSNLMKU-NYrwof5tUsS4Omx4dPG44MPM/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Take the card or say ‘No Thanks!’ — every choice risks points or gains buttons. A quick, clever game of math, bluff, and perfectly timed passes.",
+    "type": "Mathematics/Probability",
+    "time": "30",
+    "complexity": "★★",
+    "airtable_id": "rec7fVibpglEXLpGq",
+    "filename": "no-thanks",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Battle Ship",
+    "game_format": "Custom",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Two naval commanders secretly place their ships and try to sink each other’s ships before their own are destroyed.",
+    "type": "Language/Social",
+    "time": "20",
+    "complexity": "★",
+    "airtable_id": "rec9kILYHjrxNmtj8",
+    "filename": "battle-ship",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Domineering",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/16RX9LRveNHxE4oXdhU6-Q_eTkBk0HHmC/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/18uOflUnfwiKUTlixTUwZah2Ob_FUWrUQ/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Players take turn placing dominos on a boards hoping to be the one having the last laugh.",
+    "type": "Strategy",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "recBOfvk16F2Uz5M6",
+    "filename": "domineering",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Detectives",
+    "game_format": "Custom",
+    "players": "3-6",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1h-IrOrQuj7IfEWNcrWDhgHHVLaW6IaLq/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A group of investigators race to uncover the hidden criminal before they escape justice.",
+    "type": "Science/Deduction",
+    "time": "40",
+    "complexity": "★★★",
+    "airtable_id": "recDHAVk7SFdtRGD7",
+    "filename": "detectives",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Lines of Action",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/19thqJLJxLezWS_ps7O21Cw0YSv6rzx0v/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1Aaky_lbNU-lkRo6jZeS8dfLwF0e5i6A8/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Outmaneuver your opponent and connect your pieces — every move reshapes the board. Think ahead, strike smart, and be the first to unite your tokens.",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★★★",
+    "airtable_id": "recEXQu56YVpKzzxd",
+    "filename": "lines-of-action",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Tablut",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1uJNVbvkjTnhLI57UJxIBL9LiMUrTwyac/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/16vWFk7C_Kpqd9ODNDRA0c1AfCOO9PvA4/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Protect the King or bring him down — one side escapes, the other surrounds. A battle of bold moves and clever captures in this ancient game of siege and survival.",
+    "type": "Strategy",
+    "time": "30",
+    "complexity": "★★★",
+    "airtable_id": "recFunbhsN75ugF8g",
+    "filename": "tablut",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Char Par",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/14DUaLtE1E5h8ON-fVxxeEVLlHYvFuuJ7/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/178pcSDCnYC4h1h4jiNdE-cJs6NrVvseW/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "An ancient Indian game involving holding off your opponent's pieces while fortifying your own.",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recGOTKf37dxd14Iv",
+    "filename": "char-par",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "13 Sheep",
+    "game_format": "Writable Board",
+    "players": "1-100",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing",
+    "board_links": "https://drive.google.com/file/d/1s6SXXOR-RB9xofVoMzS1IrgwdXuha31l/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Fence in the most number of sheep to maximise points",
+    "type": "Mathematics/Probability",
+    "time": "30",
+    "complexity": "★★",
+    "airtable_id": "recH5oRhQingC8rMj",
+    "filename": "13-sheep",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Sequencium",
+    "game_format": "Writable Board",
+    "players": "1",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1kyEmPBFa5BTi0fLDugru-mPEZLnlGRWM/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Grow your chain, block your rival — build the biggest number before the board fills up. A fast and tactical game of math, movement, and sharp strategy.",
+    "type": "Mathematics/Probability",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "recH8XaXaoebd0rH2",
+    "filename": "sequencium",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Two Rooms and a Boom",
+    "game_format": "Custom",
+    "players": "10-30",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1yW1a6gF713iOJ6q4_mBLAWTxQm0xPbuv/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Can you protect the President — or place the Bomber by their side? A fast-paced game of hidden roles, shifting rooms, and explosive outcomes.",
+    "type": "Language/Social",
+    "time": "10",
+    "complexity": "★★★",
+    "airtable_id": "recHdajo3i7AEcW96",
+    "filename": "two-rooms-and-a-boom",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Konane",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1HiqqtAlv03W--5phx8m_2HmEXFrAW1N2/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1ZqKbWWsFx2tXSewrJjOa5VQTvGRoVMvz/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Outjump, outthink, outlast — leap over your opponent in this ancient Hawaiian game of strategy. Every move counts in the battle to be the last one standing.",
+    "type": "Strategy",
+    "time": "30",
+    "complexity": "★★★",
+    "airtable_id": "recI77nk1riFZ8sBN",
+    "filename": "konane",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Hold that line",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1cxv52ijg6W6cILcnib5IRg7psTNPSPt8/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Players extend a line, trying to keep control of the board without crossing paths.",
+    "type": "Mathematics/Probability",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "recIKDcgn36X3EIkm",
+    "filename": "hold-that-line",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Sprouts",
+    "game_format": "Nothing",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1nyAccEEIpGZQr5r8nVZnIDDugohxvVvE/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A delightfully simple game about drawing vines and dots all the while literally trapping your opponent.",
+    "type": "Mathematics/Probability",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "recIfDXSwTfOlLBrI",
+    "filename": "sprouts",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Star Nim",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "https://tautology.in/starnim/",
+    "manual_links": "https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1QsTVap6l7ymMRonS_DaMgP--4Cbexz3r/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Take one or take two — just don’t leave the last move to your opponent. A quick game of clever choices where the final token decides it all.",
+    "type": "Strategy",
+    "time": "10",
+    "complexity": "★★",
+    "airtable_id": "recJhKdZbi0jlaW6Y",
+    "filename": "star-nim",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Fake Artist",
+    "game_format": "Custom",
+    "players": "3-8",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/10fFwFbS87xZffMh4bjHpf8MNUC5iLjEm/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A group of artists work together to finish a drawing, whilst having an impostor amongst them.",
+    "type": "Language/Social",
+    "time": "10",
+    "complexity": "★★",
+    "airtable_id": "recKZsZp8bo5rhfoO",
+    "filename": "fake-artist",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Watch your Step",
+    "game_format": "Game Board",
+    "players": "2-4",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1nf_vMfSDTFmWL5fhQ6EabCy1YlZB-A_r/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1ZsgIXQCSZBkvvqgJ0L4MCg9K1WlLPrOP/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Climb the cliff, roll the dice — will you play it safe or push for more? A thrilling race of risk and reward where every step could tip the balance.",
+    "type": "Mathematics/Probability",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "recN3XevfaLMeu582",
+    "filename": "watch-your-step",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Goats and Tigers",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1qqNAclsCYLhMR6jximMigqq-y5x0SaZL/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1dw_v9VlSAAd81Kt50TOYFoaw9bEY9Qjl/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "An asymmetrical battle between a herd of goats and some hungry tigers",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recNBH7JOkfX7wOL5",
+    "filename": "goats-and-tigers",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Corners",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1NHuhux2q0Ixmp-bzfRY35fJNdWkh8Hsq/view?usp=sharing",
+    "board_links": "https://drive.google.com/file/d/1EhINPHFXH49A4t0TqwejbaPFEivPFhei/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Mark the grid, spot the shape — claim corners and outscore your rival. Squares hide in plain sight, but only the sharpest eye wins.",
+    "type": "Mathematics/Probability",
+    "time": "10",
+    "complexity": "★★",
+    "airtable_id": "recOIoXbwh11pV1j7",
+    "filename": "corners",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Ultimate Tic Tac Toe",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1xowHu2tQxKcz1t2qHjovcCImUKOBhvHx/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1bRZJyc9u0wSyXxFYDLSKSs55QkoFYxp2/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Win the small boards to conquer the big one — but every move sends your opponent somewhere new. A layered twist on a classic game where strategy and foresight rule the grid.",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recSsJu9zqB9r5M50",
+    "filename": "ultimate-tic-tac-toe",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Peg Solitaire",
+    "game_format": "Game Board",
+    "players": "1",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1O_VlHPxupbK_3JrhfvIfRZHzU-o8ST__/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/17VKbEzGDYQB4dKmy6AAcMH4LYWmwdSX4/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Leap, remove, and repeat — can you clear the board down to just one? A timeless solo challenge of planning, precision, and perfect moves.",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★",
+    "airtable_id": "recUAqC05FMBCyjRP",
+    "filename": "peg-solitaire",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Paper boxing",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Plan your path and pick your battles — only the bigger number wins the bout! A fast-paced grid game of memory, movement, and head-to-head strategy.",
+    "type": "Mathematics/Probability",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recUgHe40W8IRDkTj",
+    "filename": "paper-boxing",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Hex",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/19ySZoTVvp9luktBIP_KHNxTuYp4-bNJN/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1Lgtw9PGmerLkIe5syGGQQJFfxnqDOYOO/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Players race to build a bridge across an hexagonal grid.",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recVf1vb7XOur3GLC",
+    "filename": "hex",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Black box",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1xfm2AnKdzXZ5TpoaJto2yxvae1hz4aEO/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1I059yxoqyFgJfmGete3ISGItB2vOMvbQ/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Shine a light, trace its path — can you crack Nature’s hidden code? Use logic and the laws of scattering to reveal the invisible atoms.",
+    "type": "Science/Deduction",
+    "time": "40",
+    "complexity": "★★★",
+    "airtable_id": "recVt52MgHUw1XTg9",
+    "filename": "black-box",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Racetrack",
+    "game_format": "Writable Board",
+    "players": "1-4",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1T6Z_Xx0BaWO4MnQ7wxyZrAFwgAgrlDEV/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1FLE-XX6sGL198ilI-0IHQ6pF4odbM4R9/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Plot your path, pick your speed — it’s a race of vectors, not just velocity. Navigate sharp turns and avoid collisions to speed past the finish line!",
+    "type": "Science/Deduction",
+    "time": "40",
+    "complexity": "★★★",
+    "airtable_id": "recWEqBsBFgV7bOfv",
+    "filename": "racetrack",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "3 Red 1 Black",
+    "game_format": "Playing Cards",
+    "players": "3-8",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1SUQVSwbQg1vFJ_1ZQdLaJAs2Te6N1dCV/view?usp=sharing",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A high-stakes game of bluffing and bold bids — can you outwit your friends and dodge the black cards? Play your hand wisely: it’s all about risk, reads, and revealing just enough.",
+    "type": "Language/Social",
+    "time": "20",
+    "complexity": "★★★",
+    "airtable_id": "recYasYtKJOmUpti0",
+    "filename": "3-red-1-black",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Mafia",
+    "game_format": "Custom",
+    "players": "3-20",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1egpHyvOLyeYUHRNILwN_iISMn5EmBSZS/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Deceive, deduce, and survive — will you root out the Mafia or be silenced in the night? A gripping game of hidden roles, bold accusations, and social strategy.",
+    "type": "Language/Social",
+    "time": "30",
+    "complexity": "★★",
+    "airtable_id": "recZSWEJ7QnEevZEp",
+    "filename": "mafia",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Order and Chaos",
+    "game_format": "Writable Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1knXAygjb8p1VdBJPmf0IR0hqtws56FsH/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1BSLBy2hBeIYGWWL97tsfPu62NOBToN6D/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "One player builds, the other blocks — will order prevail or will chaos reign? A twist on Tic-Tac-Toe where both sides share the symbols but not the goal.",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★",
+    "airtable_id": "recb7rskgBEsSrjot",
+    "filename": "order-and-chaos",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Saesara",
+    "game_format": "Writable Board",
+    "players": "3-5",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/18VMyS6HhrIRSEMbLOkfZDpBQmmGLVwGF/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1fjzJDLJas--Qj3FHcY6uXMcf1nmJyZvx/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Can you crack the hidden rule? Place numbers, spot patterns, and guess wisely. A strategic puzzle of logic and deduction where every move reveals a clue.",
+    "type": "Science/Deduction",
+    "time": "20",
+    "complexity": "★★★",
+    "airtable_id": "recbAPaW7j6jhsqbL",
+    "filename": "saesara",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Kachufal",
+    "game_format": "Playing Cards",
+    "players": "3-7",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1Hlja1Yvi4L78o6r8YDy4fb0WIDcx7_YV/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Bid bold, play smart — win just what you claim, no more, no less. Kachuful is a game of precision, prediction, and perfectly timed plays.",
+    "type": "Language/Social",
+    "time": "30",
+    "complexity": "★★★",
+    "airtable_id": "recbxYhEpaJXYCVFf",
+    "filename": "kachufal",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Regicide",
+    "game_format": "Game Board",
+    "players": "2-4",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1n6-IZz-bfaVb67xJ97Z1-0d1fzqAg0tf/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/13m-y7B0a3-5TzqiLabt_M9LlgL1OxZSM/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Unite your cards and your powers — defeat the nobles with teamwork and strategy. A tense cooperative showdown where every suit has a role, and every turn counts.",
+    "type": "Language/Social",
+    "time": "30",
+    "complexity": "★★★",
+    "airtable_id": "recdBf1QK67XgI2mh",
+    "filename": "regicide",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Amazons",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1rQRDcDD8ifHQvya6Cy-BByJ2PdKk1_WI/view?usp=sharing",
+    "board_links": "https://drive.google.com/file/d/17WI_CRUKmV_MpVmpPrNn44HZfoW_iWRv/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Warrior queens move across an battlefield, leaving barriers behind as they attempt to trap their opponents.",
+    "type": "Strategy",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recdhPMZzrMkhKlI4",
+    "filename": "amazons",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Toads and Frogs",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1Iqlusoyy3uOvBbKYigQd7Bqvch5Z_P4I/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1P5vZh4qXjEF11h_XpkQgkaD2lfOfeK2P/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Toads and frogs take turns to leap — but only one will land the final move. A simple game of logic and planning where every hop counts.",
+    "type": "Strategy",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "recdjPLhFk2TFNOt3",
+    "filename": "toads-and-frogs",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Liar's Dice",
+    "game_format": "Nothing",
+    "players": "3-6",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1dlaZzIWw8uuu0MTfcongbW6-eHr2_dTF/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Shake, bid, and bluff your way to victory — can you spot the liar or will you be caught? A fast-paced game of probability, deception, and bold calls.",
+    "type": "Mathematics/Probability",
+    "time": "30",
+    "complexity": "★★★",
+    "airtable_id": "recdnoonK7cnr8ehT",
+    "filename": "liars-dice",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Neighbours",
+    "game_format": "Writable Board",
+    "players": "1-100",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1Bjg7IOfACGYggsUoPD9FbkTp9XSR_eGG/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1zF2orNe2y3juExpmDews-ZVvxuV2n4zL/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Roll, place, and plan ahead — group matching numbers to rack up the highest score. A simple yet clever game of probability, patterns, and smart choices.",
+    "type": "Mathematics/Probability",
+    "time": "20",
+    "complexity": "★",
+    "airtable_id": "recejrAfW0bncfwss",
+    "filename": "neighbours",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Digit Party",
+    "game_format": "Writable Board",
+    "players": "1-100",
+    "external_links": "https://digit.party/",
+    "manual_links": "https://drive.google.com/file/d/1yu0yOjksxdbzbJU_uVMdLNKSDdRwZGUt/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1bDt4NotUcxE0huk6yZtLTgJjT6IAp0VR/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "A fast paced number party game which is simple fun for all",
+    "type": "Mathematics/Probability",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recgm1bBRhwRjIy1X",
+    "filename": "digit-party",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Dicey Dice",
+    "game_format": "Game Board",
+    "players": "2-100",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/13BHzB_uUj2DKUcR5sCV9mXHlcQpxr-gt/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/14Rd2_pCprt4LTNcJZ7pFjs7wkDJ_EY2k/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "A gambler stands at the table, wondering if there was a way to beat the house.",
+    "type": "Mathematics/Probability",
+    "time": "10",
+    "complexity": "★★★",
+    "airtable_id": "reci2PISwVIr8P3ml",
+    "filename": "dicey-dice",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Aces and Faces",
+    "game_format": "Playing Cards",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1Yfgln3WH1Uh53vWBRCI0H5ONlsxBz1ZG/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A battle of wits and patterns — place cards with care, but your opponent picks your move. Match traits to form a winning line… just don’t forget to call it!",
+    "type": "Mathematics/Probability",
+    "time": "20",
+    "complexity": "★★",
+    "airtable_id": "recld0lLmshZbJ3pA",
+    "filename": "aces-and-faces",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Monikers",
+    "game_format": "Custom",
+    "players": "4-20",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1abyOmIgzibQRwP_k_dUAbEUjNPWQyKRh/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Act, speak, or say just one word — can your team guess them all? A fast-paced memory and clue-giving game that gets better every round!",
+    "type": "Language/Social",
+    "time": "20",
+    "complexity": "★",
+    "airtable_id": "reco9Hx5C2jeojmqx",
+    "filename": "monikers",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Khatti Mithai",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1aBI0X-n-PE4bPYi8wEjXN3wpN3aLIMmw/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/17uZhIarRvcftBSE531L2NCRvkTOr-it2/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Sweet strategy with a sour twist — don’t be the one to bite the spoiled sweet! Think ahead, play smart, and leave your opponent with the last bitter bite.",
+    "type": "Strategy",
+    "time": "10",
+    "complexity": "★★",
+    "airtable_id": "recqXoqZsfMMncGvF",
+    "filename": "khatti-mithai",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Bowling Solitaire",
+    "game_format": "Playing Cards",
+    "players": "1",
+    "external_links": "https://www.novelgames.com/en/bowlingsolitaire/",
+    "manual_links": "https://drive.google.com/file/d/1DmoAtOqVi_FfZYc7MWAkPeUDsuWowOja/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "A solo card game that involves heavy strategy and a brilliant scoring system all within a bowling theme.",
+    "type": "Mathematics/Probability",
+    "time": "20",
+    "complexity": "★★★",
+    "airtable_id": "recsZD0R1v37I8eEx",
+    "filename": "bowling-solitaire",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Dodgem",
+    "game_format": "Game Board",
+    "players": "2",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1qA-4q9CrrOOWuIH1H62R5oNyC6JZ-dU0/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Two drivers manoeuver their cars, trying to reach the finish line first.",
+    "type": "Strategy",
+    "time": "10",
+    "complexity": "★",
+    "airtable_id": "recsgdK71JmunRlB4",
+    "filename": "dodgem",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Eleusis Express",
+    "game_format": "Playing Cards",
+    "players": "4-5",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1uGI9MMViZDtBZzm_vY0gL9rVhntk4SnQ/view?usp=drive_link",
+    "board_links": "",
+    "video_docs": "",
+    "summary": "Crack the hidden rule, one card at a time — experiment, observe, and outwit Nature. A game of logic, bluff, and scientific thinking where every move is a clue.",
+    "type": "Science/Deduction",
+    "time": "40",
+    "complexity": "★★★",
+    "airtable_id": "recvYTMDnW23ffmuA",
+    "filename": "eleusis-express",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Farkle",
+    "game_format": "Game Board",
+    "players": "3-5",
+    "external_links": "",
+    "manual_links": "https://drive.google.com/file/d/1_Gvn02bJwCNphDnARwlE_hITJqXxroNg/view?usp=drive_link",
+    "board_links": "https://drive.google.com/file/d/1ZevsKDsm9NApJWs90n02ocWjKV_tlOOj/view?usp=drive_link",
+    "video_docs": "",
+    "summary": "Keep rolling the dice to build a fortune, but one unlucky roll could wipe you out.",
+    "type": "Mathematics/Probability",
+    "time": "30",
+    "complexity": "★★",
+    "airtable_id": "recxok39e823dShFQ",
+    "filename": "farkle",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  }
+]

@@ -1,8 +1,9 @@
 ---
 airtable_id: recld0lLmshZbJ3pA
 board_links: ''
-complexity: Middle
+complexity: ★★
 external_links: ''
+filename: aces-and-faces
 format:
   html:
     css: ../styles.css
@@ -10,7 +11,9 @@ format:
 game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/1Yfgln3WH1Uh53vWBRCI0H5ONlsxBz1ZG/view?usp=drive_link
 players: '2'
-summary: ''
+summary: A battle of wits and patterns — place cards with care, but your opponent
+  picks your move. Match traits to form a winning line… just don’t forget to call
+  it!
 time: '20'
 title: Aces and Faces
 type: Mathematics/Probability
@@ -27,33 +30,15 @@ Time: 20
 :::
 :::{.right-stats}
 Format: Playing Cards  
-Complexity: Middle
+Complexity: ★★
 :::
 :::
 :::
 
-Game summary not available yet.
+A battle of wits and patterns — place cards with care, but your opponent picks your move. Match traits to form a winning line… just don’t forget to call it!
 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1Yfgln3WH1Uh53vWBRCI0H5ONlsxBz1ZG/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

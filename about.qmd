@@ -1,6 +1,11 @@
 ---
 title: "About Our Games"
+format:
+  html:
+    css: styles.css
 ---
+
+# **About Our Games**
 
 Welcome to our curated collection of games and puzzles! Our collection includes a diverse range of activities suitable for various age groups and player counts:
 
@@ -19,9 +24,6 @@ Welcome to our curated collection of games and puzzles! Our collection includes 
 - **High**: More challenging games
 
 ### Player Counts
-
-Our games support various group sizes:
-
 - Single-player puzzles
 - Two-player strategy games
 - Small group games (3-6 players)

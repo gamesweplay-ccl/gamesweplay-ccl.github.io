@@ -1,8 +1,9 @@
 ---
 airtable_id: recUgHe40W8IRDkTj
 board_links: ''
-complexity: Middle
+complexity: ★★
 external_links: ''
+filename: paper-boxing
 format:
   html:
     css: ../styles.css
@@ -10,7 +11,8 @@ format:
 game_format: Writable Board
 manual_links: https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link
 players: '2'
-summary: ''
+summary: Plan your path and pick your battles — only the bigger number wins the bout!
+  A fast-paced grid game of memory, movement, and head-to-head strategy.
 time: '20'
 title: Paper boxing
 type: Mathematics/Probability
@@ -27,33 +29,15 @@ Time: 20
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: Middle
+Complexity: ★★
 :::
 :::
 :::
 
-Game summary not available yet.
+Plan your path and pick your battles — only the bigger number wins the bout! A fast-paced grid game of memory, movement, and head-to-head strategy.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

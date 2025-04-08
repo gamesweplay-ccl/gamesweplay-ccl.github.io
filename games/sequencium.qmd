@@ -1,16 +1,18 @@
 ---
 airtable_id: recH8XaXaoebd0rH2
 board_links: https://drive.google.com/file/d/1kyEmPBFa5BTi0fLDugru-mPEZLnlGRWM/view?usp=drive_link
-complexity: Primary
+complexity: ★
 external_links: ''
+filename: sequencium
 format:
   html:
     css: ../styles.css
     page-layout: full
 game_format: Writable Board
 manual_links: https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link
-players: 1-1
-summary: ''
+players: '1'
+summary: Grow your chain, block your rival — build the biggest number before the board
+  fills up. A fast and tactical game of math, movement, and sharp strategy.
 time: '10'
 title: Sequencium
 type: Mathematics/Probability
@@ -22,39 +24,21 @@ video_docs: ''
 :::{.game-info-box}
 :::{.game-stats}
 :::{.left-stats}
-Player Count: 1-1  
+Player Count: 1  
 Time: 10
 :::
 :::{.right-stats}
 Format: Writable Board  
-Complexity: Primary
+Complexity: ★
 :::
 :::
 :::
 
-Game summary not available yet.
+Grow your chain, block your rival — build the biggest number before the board fills up. A fast and tactical game of math, movement, and sharp strategy.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1kyEmPBFa5BTi0fLDugru-mPEZLnlGRWM/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

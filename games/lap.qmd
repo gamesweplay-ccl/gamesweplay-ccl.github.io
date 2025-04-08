@@ -1,8 +1,9 @@
 ---
 airtable_id: rec4mxRyI8ER10jmj
 board_links: ''
-complexity: High
+complexity: ★★★
 external_links: ''
+filename: lap
 format:
   html:
     css: ../styles.css
@@ -10,7 +11,8 @@ format:
 game_format: Custom
 manual_links: https://drive.google.com/file/d/1mzrDQ7F_aN5smMnXV7xuLHWCAhysu3Jd/view?usp=drive_link
 players: '2'
-summary: ''
+summary: A mind game of maps and logic — deduce your opponent’s secret layout before
+  they crack yours. Probe, analyze, and outwit in this strategic twist on Battleship.
 time: '30'
 title: LAP
 type: Science/Deduction
@@ -27,33 +29,15 @@ Time: 30
 :::
 :::{.right-stats}
 Format: Custom  
-Complexity: High
+Complexity: ★★★
 :::
 :::
 :::
 
-Game summary not available yet.
+A mind game of maps and logic — deduce your opponent’s secret layout before they crack yours. Probe, analyze, and outwit in this strategic twist on Battleship.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1mzrDQ7F_aN5smMnXV7xuLHWCAhysu3Jd/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::

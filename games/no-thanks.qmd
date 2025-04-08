@@ -1,8 +1,9 @@
 ---
 airtable_id: rec7fVibpglEXLpGq
 board_links: ''
-complexity: Middle
+complexity: ★★
 external_links: ''
+filename: no-thanks
 format:
   html:
     css: ../styles.css
@@ -10,7 +11,8 @@ format:
 game_format: Custom
 manual_links: https://drive.google.com/file/d/1FSNLMKU-NYrwof5tUsS4Omx4dPG44MPM/view?usp=drive_link
 players: 3-6
-summary: ''
+summary: Take the card or say ‘No Thanks!’ — every choice risks points or gains buttons.
+  A quick, clever game of math, bluff, and perfectly timed passes.
 time: '30'
 title: No Thanks
 type: Mathematics/Probability
@@ -27,33 +29,15 @@ Time: 30
 :::
 :::{.right-stats}
 Format: Custom  
-Complexity: Middle
+Complexity: ★★
 :::
 :::
 :::
 
-Game summary not available yet.
+Take the card or say ‘No Thanks!’ — every choice risks points or gains buttons. A quick, clever game of math, bluff, and perfectly timed passes.
 
 :::{.game-actions}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
 <a href="https://drive.google.com/file/d/1FSNLMKU-NYrwof5tUsS4Omx4dPG44MPM/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-::: 
-
-
-<script src="https://giscus.app/client.js"
-data-repo="gamesweplay-ccl/gamesweplay-ccl.github.io"
-data-repo-id="R_kgDOOLGMiQ"
-data-category="Announcements"
-data-category-id="DIC_kwDOOLGMic4CoVQN"
-data-mapping="title"
-data-strict="0"
-data-reactions-enabled="1"
-data-emit-metadata="0"
-data-input-position="bottom"
-data-theme="light"
-data-lang="en"
-crossorigin="anonymous"
-async>
-</script>
-        
+:::
