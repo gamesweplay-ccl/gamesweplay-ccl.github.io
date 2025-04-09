@@ -1,0 +1,95 @@
+<div class="reaction-container">
+	<div class="emoji" data-reaction="happy">
+		😄
+		<div class="count" id="happy-count">0</div>
+	</div>
+	<div class="emoji" data-reaction="love">
+		😍
+		<div class="count" id="love-count">0</div>
+	</div>
+	<div class="emoji" data-reaction="surprised">
+		😲
+		<div class="count" id="surprised-count">0</div>
+	</div>
+	<div class="emoji" data-reaction="sad">
+		😢
+		<div class="count" id="sad-count">0</div>
+	</div>
+	<div class="emoji" data-reaction="angry">
+		😠
+		<div class="count" id="angry-count">0</div>
+	</div>
+</div>
+
+<style>
+	.reaction-container {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		padding: 20px;
+		font-size: 3rem;
+		margin-top: 40px;
+	}
+
+	.emoji {
+		cursor: pointer;
+		text-align: center;
+		position: relative;
+		transition: transform 0.2s;
+	}
+
+	.emoji.clicked {
+		animation: pop 0.4s ease;
+	}
+
+	.count {
+		font-size: 1rem;
+		color: #555;
+		margin-top: 5px;
+	}
+
+	@keyframes pop {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(1.4);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+</style>
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const emojis = document.querySelectorAll(".emoji");
+		const gameId = window.location.pathname; // Use the page path as a unique game ID
+
+		// Load existing counts from localStorage (or later: your backend)
+		emojis.forEach((emoji) => {
+			const reaction = emoji.dataset.reaction;
+			const countKey = `reaction-${gameId}-${reaction}`;
+			const count = localStorage.getItem(countKey) || 0;
+			document.getElementById(`${reaction}-count`).textContent = count;
+		});
+
+		emojis.forEach((emoji) => {
+			emoji.addEventListener("click", () => {
+				const reaction = emoji.dataset.reaction;
+				const countKey = `reaction-${gameId}-${reaction}`;
+				let count = parseInt(localStorage.getItem(countKey)) || 0;
+				count += 1;
+				localStorage.setItem(countKey, count);
+				document.getElementById(`${reaction}-count`).textContent =
+					count;
+
+				// Animation
+				emoji.classList.add("clicked");
+				setTimeout(() => emoji.classList.remove("clicked"), 400);
+
+				// TODO: Send the updated count to your backend
+			});
+		});
+	});
+</script>

@@ -9,6 +9,8 @@ format:
 
 ## What game should you play?
 
+Answer the questions below to see all the games you can play! Or let us pick one for you!
+
 ```{=html}
 <style>
   #game-filter {
@@ -76,7 +78,7 @@ format:
     align-items: center;
   }
 
-  #find-button {
+  #lucky-button {
     padding: 0.6rem 1.2rem;
     background-color: #7ec4cf;
     color: white;
@@ -87,11 +89,11 @@ format:
     font-size: 1rem;
   }
 
-  #find-button:hover {
+  #lucky-button:hover {
     background-color: #5bb2bd;
   }
 
-  #lucky-button {
+  #find-button, #filtered-random-btn{
     padding: 0.6rem 1.4rem;
     background-color: #fcbf49;
     color: #000;
@@ -102,7 +104,7 @@ format:
     font-size: 1.1rem;
   }
 
-  #lucky-button:hover {
+  #find-button:hover {
     background-color: #fca311;
   }
 </style>
@@ -111,7 +113,7 @@ format:
   <div class="form-row">
   <label for="time">How much time do you have?</label>
   <select name="time" id="time">
-    <option value="">Select time</option>
+    <option value="">Any amount of time</option>
     <option value="10">10 mins</option>
     <option value="20">20 mins</option>
     <option value="30">30 mins</option>
@@ -121,7 +123,7 @@ format:
   <div class="form-row">
   <label for="players">How many players?</label>
   <select name="players" id="players">
-    <option value="">Select players</option>
+    <option value="">Any number of players</option>
     <option value="1">Solo</option>
     <option value="2">Duet</option>
     <option value="4">Group</option>
@@ -141,20 +143,23 @@ format:
   <div class="form-row">
   <label for="difficulty">What difficulty?</label>
   <select name="difficulty" id="difficulty">
-    <option value="">Select difficulty</option>
+    <option value="">Any difficulty</option>
     <option value="easy">Easy</option>
     <option value="medium">Medium</option>
     <option value="hard">Hard</option>
   </select>
   </div>
   <div class="form-actions">
+      <button type="submit" id="find-button">Submit</button>
       <button type="button" id="lucky-button" class="lucky-btn">Pick one for me!</button>
-      <button type="submit" id="find-button">Find Games</button>
   </div>
 </form>
   <div id="results" style="display: none;">
     <h3><em>Suggestions</em></h3>
     <p id="results-content"></p>
+  </div>
+  <div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">
+    <button id="filtered-random-btn" class="lucky-btn">Pick random from these</button>
   </div>
 ```
 
@@ -167,6 +172,7 @@ format:
 
   // Load JSON once and reuse
   let gameData = [];
+  let lastFilteredGames = [];
 
   async function loadGames() {
     if (gameData.length === 0) {
@@ -206,41 +212,48 @@ format:
     });
   }
 
-  // "Find Games" Button
+ // "Find Games" Button
   document.getElementById("game-filter").addEventListener("submit", async function (e) {
-  e.preventDefault();
+    e.preventDefault();
 
-  const filters = getFilters();
-  const games = await loadGames();
-  const matchingGames = filterGames(games, filters);
-
-  const resultsEl = document.getElementById("results-content");
-
-  if (matchingGames.length > 0) {
-    resultsEl.innerHTML = `<ul>${matchingGames.map(g => `
-      <li style="margin-bottom: 1rem;">
-        <a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
-        <small>${g.summary || 'No description available.'}</small>
-      </li>`).join('')}
-    </ul>`;
-  } else {
-    resultsEl.innerHTML = "<p>No games found matching your filters.</p>";
-  }
-
-  document.getElementById("results").style.display = "block";
-});
-
-  // "I'm Feeling Lucky" Button
-  document.getElementById("lucky-button").addEventListener("click", async function () {
     const filters = getFilters();
     const games = await loadGames();
     const matchingGames = filterGames(games, filters);
+    lastFilteredGames = matchingGames;
+
+    const resultsEl = document.getElementById("results-content");
 
     if (matchingGames.length > 0) {
-      const randomGame = matchingGames[Math.floor(Math.random() * matchingGames.length)];
+      resultsEl.innerHTML = `<ul>${matchingGames.map(g => `
+        <li style="margin-bottom: 1rem;">
+          <a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
+          <small>${g.summary || 'No description available.'}</small>
+        </li>`).join('')}
+      </ul>`;
+
+      document.getElementById("random-from-filtered-container").style.display = "block";
+    } else {
+      resultsEl.innerHTML = "<p>No games found matching your filters.</p>";
+      document.getElementById("random-from-filtered-container").style.display = "none";
+    }
+
+    document.getElementById("results").style.display = "block";
+  });
+
+  // "I'm Feeling Lucky" Button
+  document.getElementById("lucky-button").addEventListener("click", async function () {
+    const games = await loadGames(); // no filters applied
+    const randomGame = games[Math.floor(Math.random() * games.length)];
+    window.location.href = `/games/${randomGame.filename}.html`;
+  });
+
+  // Filtered random button
+  document.getElementById("filtered-random-btn").addEventListener("click", function () {
+    if (lastFilteredGames.length > 0) {
+      const randomGame = lastFilteredGames[Math.floor(Math.random() * lastFilteredGames.length)];
       window.location.href = `/games/${randomGame.filename}.html`;
     } else {
-      alert("No matching games to choose from!");
+      alert("No games available in the current filtered list.");
     }
   });
 </script>
