@@ -5,13 +5,15 @@ format:
     css: styles.css
 ---
 
-# **Welcome!**
+# **Welcome to our games website!**
 
-## What game should you play?
+This is a selection of games (for the classroom and beyond) curated at the Centre for Creative Learning, IIT Gandhinagar. These games are easy to recreate with easily available material and you will find rules, videos and boards to play them here. Let us find you a game to play. :-) \
 
-Answer the questions below to see all the games you can play! Or let us pick one for you!
+What kind of game are you looking for? Answer these questions for a more customized selection or let us <a href="#" id="lucky-link" style="font-weight: bold;">pick one for you!</a> \
+
 
 ```{=html}
+
 <style>
   #game-filter {
     background: #ffffff;
@@ -24,6 +26,7 @@ Answer the questions below to see all the games you can play! Or let us pick one
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-top: 50px;
   }
 
   .form-row {
@@ -78,7 +81,7 @@ Answer the questions below to see all the games you can play! Or let us pick one
     align-items: center;
   }
 
-  #lucky-button {
+  /* #lucky-button {
     padding: 0.6rem 1.2rem;
     background-color: #7ec4cf;
     color: white;
@@ -91,7 +94,7 @@ Answer the questions below to see all the games you can play! Or let us pick one
 
   #lucky-button:hover {
     background-color: #5bb2bd;
-  }
+  } */
 
   #find-button, #filtered-random-btn{
     padding: 0.6rem 1.4rem;
@@ -125,9 +128,9 @@ Answer the questions below to see all the games you can play! Or let us pick one
   <select name="players" id="players">
     <option value="">Any number of players</option>
     <option value="1">Solo</option>
-    <option value="2">Duet</option>
-    <option value="4">Group</option>
-    <option value="10">Class</option>
+    <option value="2">2 Players</option>
+    <option value="4">Between 3 and 10</option>
+    <option value="10">10 and more</option>
   </select>
   </div>
   <!-- <div class="form-row">
@@ -151,7 +154,7 @@ Answer the questions below to see all the games you can play! Or let us pick one
   </div>
   <div class="form-actions">
       <button type="submit" id="find-button">Submit</button>
-      <button type="button" id="lucky-button" class="lucky-btn">Pick one for me!</button>
+      <!-- <button type="button" id="lucky-button" class="lucky-btn">Pick one for me!</button> -->
   </div>
 </form>
   <div id="results" style="display: none;">
@@ -161,7 +164,6 @@ Answer the questions below to see all the games you can play! Or let us pick one
   <div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">
     <button id="filtered-random-btn" class="lucky-btn">Pick random from these</button>
   </div>
-```
 
 <script>
   const difficultyMap = {
@@ -240,11 +242,22 @@ Answer the questions below to see all the games you can play! Or let us pick one
     document.getElementById("results").style.display = "block";
   });
 
-  // "I'm Feeling Lucky" Button
-  document.getElementById("lucky-button").addEventListener("click", async function () {
-    const games = await loadGames(); // no filters applied
-    const randomGame = games[Math.floor(Math.random() * games.length)];
-    window.location.href = `/games/${randomGame.filename}.html`;
+  // "I'm Feeling Lucky" Button -- this is not being used anymore
+  // document.getElementById("lucky-button").addEventListener("click", async function () {
+  //   const games = await loadGames(); // no filters applied
+  //   const randomGame = games[Math.floor(Math.random() * games.length)];
+  //   window.location.href = `/games/${randomGame.filename}.html`;
+  // });
+
+  // Lucky link
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("lucky-link").addEventListener("click", async function (e) {
+      e.preventDefault(); // prevent jump
+
+      const games = await loadGames(); // reuse existing function
+      const randomGame = games[Math.floor(Math.random() * games.length)];
+      window.location.href = `/games/${randomGame.filename}.html`;
+    });
   });
 
   // Filtered random button
@@ -256,4 +269,7 @@ Answer the questions below to see all the games you can play! Or let us pick one
       alert("No games available in the current filtered list.");
     }
   });
+
 </script>
+
+```

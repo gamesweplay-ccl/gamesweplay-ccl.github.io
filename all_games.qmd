@@ -23,5 +23,5 @@ listing:
 page-layout: full
 ---
 
-Welcome to our collection of games and puzzles! Browse through our catalog below to find games suitable for different age groups and player counts.
+Welcome to our collection of games! Browse through our catalog below to find games suitable for different age groups and player counts.
 

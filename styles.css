@@ -24,10 +24,9 @@ h1 {
 /* Game page specific styles */
 .game-info-box {
 	border: 1px solid #ddd;
-	padding: 1.5rem 2rem;
-	margin: 2rem 0;
+	padding: 0rem 7rem;
+	margin: 2rem 7rem;
 	border-radius: 8px;
-	background-color: #fff;
 }
 
 .game-stats {
@@ -38,7 +37,7 @@ h1 {
 
 .left-stats,
 .right-stats {
-	line-height: 2;
+	line-height: 5;
 	color: #666;
 	font-family: "Droid Sans", sans-serif;
 }

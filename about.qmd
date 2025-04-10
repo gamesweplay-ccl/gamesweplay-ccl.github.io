@@ -7,21 +7,28 @@ format:
 
 # **About Our Games**
 
-Welcome to our curated collection of games and puzzles! Our collection includes a diverse range of activities suitable for various age groups and player counts:
+This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded and printed here. \
 
-### Game Formats
+Most games have simple rules. The games are split into games that can be used in the mathematics, SEL, science classroom as well as some strategy games that give you alternatives to chess and checkers. \
 
-- **Game Board**: Traditional board-based games
-- **Writable Board**: Games that use erasable surfaces
-- **Playing Cards**: Card-based games
-- **Custom**: Specially designed game materials
-- **Nothing**: Games that require no special equipment
+### Types of Games
+
+- <span class="badge rounded-pill" style="background-color: #b3d34a; color: black">Mathematics and Probability</span>
+- <span class="badge rounded-pill" style="background-color: #8cd6ea; color: black">Language and Social</span>
+- <span class="badge rounded-pill" style="background-color: #f7ee4c; color: black">Strategy</span>
+- <span class="badge rounded-pill" style="background-color: #f37024; color: black">Science and Deduction</span>
+
+We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity \
 
 ### Age Groups
 
 - **Primary**: Suitable for younger players
 - **Middle**: Intermediate complexity
 - **High**: More challenging games
+
+*Note: Complexity broadly classifies Primary games for classes 3 and up, Middle games for classes 6 and up, and High games for classes 8 and up.*
+
+
 
 ### Player Counts
 - Single-player puzzles

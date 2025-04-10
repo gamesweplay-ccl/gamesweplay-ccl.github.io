@@ -73,22 +73,21 @@ def create_game_file(game_dir, fields, record_id):
         # Game info box
         f.write(":::{.game-info-box}\n")
         f.write(":::{.game-stats}\n")
-        f.write(":::{.left-stats}\n")
         f.write(f"Player Count: {players}  \n")
         f.write(f"Time: {time}\n")
-        f.write(":::\n")
-        f.write(":::{.right-stats}\n")
         f.write(f"Format: {game_format}  \n")
         f.write(f"Complexity: {complexity}\n")
         f.write(":::\n")
-        f.write(":::\n")
         f.write(":::\n\n")
-        
+
         # Summary - add a placeholder if empty
+        f.write(':::{.game-summary}\n')
         if summary:
-            f.write(f"{summary}\n\n")
+            f.write(f"##### {summary}\n")
         else:
             f.write("Game summary not available yet.\n\n")
+        f.write(":::\n\n")
+
         
         # Always add action buttons section with at least placeholders
         f.write(":::{.game-actions}\n")
@@ -113,7 +112,13 @@ def create_game_file(game_dir, fields, record_id):
             # f.write(f"<a href=\"#\" class=\"btn btn-board disabled-button\"><i class=\"fa fa-file-pdf\"></i> Board PDF</a>\n")
             pass
 
-        f.write(":::")
+        f.write(":::\n\n")
+
+        with open('reactions.html', 'r') as reactions_file:
+            reactions_html = reactions_file.read()
+            f.write("```{=html}\n")
+            f.write(reactions_html)
+            f.write("```\n\n")
 
 #         # Add Giscus comments
 #         f.write(""" \n\n
