@@ -1,9 +1,16 @@
 <div class="reaction-container">
-	<div class="emoji" data-reaction="emoji5">☹️</div>
-	<div class="emoji" data-reaction="emoji4">🙁</div>
-	<div class="emoji" data-reaction="emoji3">😐</div>
-	<div class="emoji" data-reaction="emoji2">🙂</div>
-	<div class="emoji" data-reaction="emoji1">😁</div>
+	<div class="emoji" data-reaction="emoji1" data-tooltip="Loved it!">😍</div>
+	<div class="emoji" data-reaction="emoji2" data-tooltip="Enjoyed it">😁</div>
+	<div class="emoji" data-reaction="emoji3" data-tooltip="Mind Blown!">
+		🤯
+	</div>
+	<div class="emoji" data-reaction="emoji4" data-tooltip="Confused">🫤</div>
+	<div class="emoji" data-reaction="emoji5" data-tooltip="Did not enjoy">
+		☹️
+	</div>
+	<div class="emoji" data-reaction="emoji6" data-tooltip="Got frustrated">
+		😤
+	</div>
 </div>
 
 <style>
@@ -32,6 +39,29 @@
 		font-size: 1.5rem;
 		width: 50px;
 		height: 50px;
+		position: relative;
+	}
+
+	.emoji::after {
+		content: attr(data-tooltip);
+		position: absolute;
+		bottom: 110%;
+		left: 50%;
+		transform: translateX(-50%);
+		background: #333;
+		color: #fff;
+		padding: 4px 8px;
+		border-radius: 4px;
+		font-size: 0.75rem;
+		white-space: nowrap;
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 0.2s ease;
+		z-index: 10;
+	}
+
+	.emoji:hover::after {
+		opacity: 1;
 	}
 
 	.emoji:hover {
@@ -131,10 +161,10 @@
 <script>
 	document.addEventListener("DOMContentLoaded", function () {
 		const typeMap = {
-			"Strategy": "#fcfacc",
-			"Mathematics/Probability": "#e5f2c6",
-			"Language/Social": "#dff6fa",
-			"Science/Deduction": "#fcdcc7",
+			"Strategy": "#fffcd4",
+			"Mathematics/Probability": "#ffecdb",
+			"Language/Social": "#dcf3fa",
+			"Science/Deduction": "#fffcd4",
 		};
 
 		// This value is inserted at render time by Quarto from frontmatter

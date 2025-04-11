@@ -9,29 +9,29 @@ format:
 
 This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded and printed here. \
 
-Most games have simple rules. The games are split into games that can be used in the mathematics, SEL, science classroom as well as some strategy games that give you alternatives to chess and checkers. \
-
 ### Types of Games
+Most games have simple rules. The games are split into games that can be used in the mathematics, SEL, science classroom as well as some strategy games that give you alternatives to chess and checkers.
 
-- <span class="badge rounded-pill" style="background-color: #b3d34a; color: black">Mathematics and Probability</span>
+- <span class="badge rounded-pill" style="background-color: #f37024; color: black">Mathematics and Probability</span>
 - <span class="badge rounded-pill" style="background-color: #8cd6ea; color: black">Language and Social</span>
 - <span class="badge rounded-pill" style="background-color: #f7ee4c; color: black">Strategy</span>
-- <span class="badge rounded-pill" style="background-color: #f37024; color: black">Science and Deduction</span>
+- <span class="badge rounded-pill" style="background-color: #b3d34a ; color: black">Science and Deduction</span>
 
-We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity \
+\
 
-### Age Groups
+### Complexity
+We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity. Duration and Complexity are mostly correlated.
 
-- **Primary**: Suitable for younger players
-- **Middle**: Intermediate complexity
-- **High**: More challenging games
+- ★:  Suitable for younger players, for class 3 (age 8) and up
+- ★★:  Intermediate complexity, for class 6 (age 11) and up
+- ★★★:  More challenging games, for class 9 (age 14) and up
 
-*Note: Complexity broadly classifies Primary games for classes 3 and up, Middle games for classes 6 and up, and High games for classes 8 and up.*
-
-
+\
 
 ### Player Counts
-- Single-player puzzles
-- Two-player strategy games
-- Small group games (3-6 players)
-- Whole class activities
+We have games for different player counts.
+
+- Solo: These are games (or puzzles) for 1 player.
+- Two player games: These are mostly strategy games and support exactly 2 players
+- Small group: These games can be played with more than 2 but less than 10 players. Please see the game page and manual for exact details.
+- Large group: Games for 10 or more! These can be played simultaneously by an entire class.
