@@ -23,10 +23,12 @@ video_docs: ''
 
 :::{.game-info-box}
 :::{.game-stats}
-Player Count: 3-6  
-Time: 30
-Format: Nothing  
-Complexity: ★★★
+```{=html}
+<span class="tooltip-gamestats" data-tooltip="30 minutes"><i class="fas fa-clock"></i></span>
+<span class="tooltip-gamestats" data-tooltip="3-6 players"><i class="fas fa-users"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Nothing required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="★★★"><i class="fas fa-star"></i></span>
+```
 :::
 :::
 

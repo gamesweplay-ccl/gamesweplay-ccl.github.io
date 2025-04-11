@@ -23,10 +23,12 @@ video_docs: ''
 
 :::{.game-info-box}
 :::{.game-stats}
-Player Count: 4-5  
-Time: 40
-Format: Playing Cards  
-Complexity: ★★★
+```{=html}
+<span class="tooltip-gamestats" data-tooltip="40 minutes"><i class="fas fa-clock"></i></span>
+<span class="tooltip-gamestats" data-tooltip="4-5 players"><i class="fas fa-users"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Playing Cards required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="★★★"><i class="fas fa-star"></i></span>
+```
 :::
 :::
 

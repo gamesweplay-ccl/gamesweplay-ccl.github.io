@@ -73,10 +73,12 @@ def create_game_file(game_dir, fields, record_id):
         # Game info box
         f.write(":::{.game-info-box}\n")
         f.write(":::{.game-stats}\n")
-        f.write(f"Player Count: {players}  \n")
-        f.write(f"Time: {time}\n")
-        f.write(f"Format: {game_format}  \n")
-        f.write(f"Complexity: {complexity}\n")
+        f.write('```{=html}\n')
+        f.write(f'<span class="tooltip-gamestats" data-tooltip="{time} minutes"><i class="fas fa-clock"></i></span>\n')
+        f.write(f'<span class="tooltip-gamestats" data-tooltip="{players} players"><i class="fas fa-users"></i></span>\n')
+        f.write(f'<span class="tooltip-gamestats" data-tooltip="{game_format} required"><i class="fas fa-clone"></i></span>\n')
+        f.write(f'<span class="tooltip-gamestats" data-tooltip="{complexity}"><i class="fas fa-star"></i></span>\n')
+        f.write('```\n')
         f.write(":::\n")
         f.write(":::\n\n")
 
