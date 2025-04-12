@@ -7,10 +7,12 @@ format:
 
 # **About Our Games**
 
-This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded and printed here. \
+This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded here. \
+
+\
 
 ### Types of Games
-Most games have simple rules. The games are split into games that can be used in the mathematics, SEL, science classroom as well as some strategy games that give you alternatives to chess and checkers.
+Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers.
 
 - <span class="badge rounded-pill" style="background-color: #f37024; color: black">Mathematics and Probability</span>
 - <span class="badge rounded-pill" style="background-color: #8cd6ea; color: black">Language and Social</span>
@@ -20,18 +22,18 @@ Most games have simple rules. The games are split into games that can be used in
 \
 
 ### Complexity
-We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity. Duration and Complexity are mostly correlated.
+We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity.
 
-- ★:  Suitable for younger players, for class 3 (age 8) and up
-- ★★:  Intermediate complexity, for class 6 (age 11) and up
-- ★★★:  More challenging games, for class 9 (age 14) and up
+★ &nbsp;&nbsp;&nbsp;&nbsp; Suitable for younger players, for class 3 (8 and above) \
+★★  &nbsp;&nbsp;&nbsp;&nbsp; Intermediate complexity, for class 6 (11 and above) \
+★★★  &nbsp;&nbsp;&nbsp;&nbsp; More challenging games, for class 9 (14 and above) \
 
 \
 
 ### Player Counts
 We have games for different player counts.
 
-- Solo: These are games (or puzzles) for 1 player.
-- Two player games: These are mostly strategy games and support exactly 2 players
-- Small group: These games can be played with more than 2 but less than 10 players. Please see the game page and manual for exact details.
-- Large group: Games for 10 or more! These can be played simultaneously by an entire class.
+**Solo**: &nbsp;&nbsp;&nbsp; These are games (or puzzles) for 1 player. \
+**2 players**: &nbsp;&nbsp;&nbsp; These are mostly strategy games and support exactly 2 players \
+**Between 3 and 10**: &nbsp;&nbsp;&nbsp; These games can be played with more than 2 but less than 10 players. \
+**10 and more**: &nbsp;&nbsp;&nbsp; Games for 10 or more! These can be played simultaneously by an entire class. \

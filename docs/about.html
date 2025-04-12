@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -90,10 +89,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About Our Games</span></a>
   </li>  
@@ -104,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/neeldhara/GamesWePlay" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://github.com/gamesweplay-ccl/gamesweplay-ccl.github.io" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -138,11 +133,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="about-our-games" class="level1">
 <h1><strong>About Our Games</strong></h1>
-<p>This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded and printed here.<br>
+<p>This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded here.<br>
+</p>
+<p><br>
 </p>
 <section id="types-of-games" class="level3">
-<h3 class="anchored" data-anchor-id="types-of-games">Types of Games</h3>
-<p>Most games have simple rules. The games are split into games that can be used in the mathematics, SEL, science classroom as well as some strategy games that give you alternatives to chess and checkers.</p>
+<h3 data-anchor-id="types-of-games">Types of Games</h3>
+<p>Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers.</p>
 <ul>
 <li><span class="badge rounded-pill" style="background-color: #f37024; color: black">Mathematics and Probability</span></li>
 <li><span class="badge rounded-pill" style="background-color: #8cd6ea; color: black">Language and Social</span></li>
@@ -153,25 +150,23 @@ ul.task-list li input[type="checkbox"] {
 </p>
 </section>
 <section id="complexity" class="level3">
-<h3 class="anchored" data-anchor-id="complexity">Complexity</h3>
-<p>We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity. Duration and Complexity are mostly correlated.</p>
-<ul>
-<li>★: Suitable for younger players, for class 3 (age 8) and up</li>
-<li>★★: Intermediate complexity, for class 6 (age 11) and up</li>
-<li>★★★: More challenging games, for class 9 (age 14) and up</li>
-</ul>
+<h3 data-anchor-id="complexity">Complexity</h3>
+<p>We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity.</p>
+<p>★ &nbsp;&nbsp;&nbsp;&nbsp; Suitable for younger players, for class 3 (8 and above)<br>
+★★ &nbsp;&nbsp;&nbsp;&nbsp; Intermediate complexity, for class 6 (11 and above)<br>
+★★★ &nbsp;&nbsp;&nbsp;&nbsp; More challenging games, for class 9 (14 and above)<br>
+</p>
 <p><br>
 </p>
 </section>
 <section id="player-counts" class="level3">
-<h3 class="anchored" data-anchor-id="player-counts">Player Counts</h3>
+<h3 data-anchor-id="player-counts">Player Counts</h3>
 <p>We have games for different player counts.</p>
-<ul>
-<li>Solo: These are games (or puzzles) for 1 player.</li>
-<li>Two player games: These are mostly strategy games and support exactly 2 players</li>
-<li>Small group: These games can be played with more than 2 but less than 10 players. Please see the game page and manual for exact details.</li>
-<li>Large group: Games for 10 or more! These can be played simultaneously by an entire class.</li>
-</ul>
+<p><strong>Solo</strong>: &nbsp;&nbsp;&nbsp; These are games (or puzzles) for 1 player.<br>
+<strong>2 players</strong>: &nbsp;&nbsp;&nbsp; These are mostly strategy games and support exactly 2 players<br>
+<strong>Between 3 and 10</strong>: &nbsp;&nbsp;&nbsp; These games can be played with more than 2 but less than 10 players.<br>
+<strong>10 and more</strong>: &nbsp;&nbsp;&nbsp; Games for 10 or more! These can be played simultaneously by an entire class.<br>
+</p>
 
 
 </section>
@@ -198,13 +193,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

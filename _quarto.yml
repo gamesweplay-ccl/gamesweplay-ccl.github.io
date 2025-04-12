@@ -8,19 +8,18 @@ website:
     title: "Games We Play"
     navbar:
         left:
-            - href: index.qmd
-              text: Home
             - about.qmd
             - all_games.qmd
         tools:
             - icon: github
-              href: https://github.com/neeldhara/GamesWePlay
+              href: https://github.com/gamesweplay-ccl/gamesweplay-ccl.github.io
 
 format:
     html:
         theme: litera
         toc: false
         page-layout: full
+        anchor-sections: false
         include-in-header:
             - text: |
                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
