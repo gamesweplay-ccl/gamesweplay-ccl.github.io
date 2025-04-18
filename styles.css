@@ -288,3 +288,14 @@ p {
 .tooltip-gamestats:hover::before {
 	opacity: 1;
 }
+
+.highlight-badge {
+	border-radius: 4px;
+	padding: 0.3em 0.6em;
+	box-decoration-break: clone;
+	color: black;
+}
+
+.navbar .nav-link {
+	font-size: 1.1rem;
+}

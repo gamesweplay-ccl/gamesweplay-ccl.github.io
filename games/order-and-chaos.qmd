@@ -229,7 +229,7 @@ video_docs: ''
 			"Strategy": "#fffcd4",
 			"Mathematics/Probability": "#ffecdb",
 			"Language/Social": "#dcf3fa",
-			"Science/Deduction": "#fffcd4",
+			"Science/Deduction": "#e4f6dd",
 		};
 
 		// This value is inserted at render time by Quarto from frontmatter
