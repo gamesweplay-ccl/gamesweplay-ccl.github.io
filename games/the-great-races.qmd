@@ -1,14 +1,14 @@
 ---
 airtable_id: rec3my94BfA3HJ3ok
 board_links: https://drive.google.com/file/d/1hBBNV3KRXOaAZMiubyK8PWPCLR-mX1Z5/view?usp=drive_link
-complexity: ★
+complexity: ★★
 external_links: ''
 filename: the-great-races
 format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Game Board
+game_format: Dice
 manual_links: https://drive.google.com/file/d/1Uq2r1TlepSXszlsNb42wyqcVD6qvDIBp/view?usp=drive_link
 players: 2-6
 summary: Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-paced
@@ -26,8 +26,8 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="30 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2-6 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Game Board required"><i class="fas fa-clone"></i></span>
-<span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Dice required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="★★"><i class="fas fa-star"></i></span>
 ```
 :::
 :::

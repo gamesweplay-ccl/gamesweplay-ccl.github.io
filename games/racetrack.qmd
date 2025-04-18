@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Writable Board
+game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1T6Z_Xx0BaWO4MnQ7wxyZrAFwgAgrlDEV/view?usp=drive_link
 players: 1-4
 summary: Plot your path, pick your speed — it’s a race of vectors, not just velocity.
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="40 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="1-4 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Writable Board required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Pen and Paper required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★★★"><i class="fas fa-star"></i></span>
 ```
 :::

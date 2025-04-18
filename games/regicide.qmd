@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Game Board
+game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/1n6-IZz-bfaVb67xJ97Z1-0d1fzqAg0tf/view?usp=drive_link
 players: 2-4
 summary: Unite your cards and your powers — defeat the nobles with teamwork and strategy.
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="30 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2-4 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Game Board required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Playing Cards required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★★★"><i class="fas fa-star"></i></span>
 ```
 :::

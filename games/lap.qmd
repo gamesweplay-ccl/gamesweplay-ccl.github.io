@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Custom
+game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1mzrDQ7F_aN5smMnXV7xuLHWCAhysu3Jd/view?usp=drive_link
 players: '2'
 summary: A mind game of maps and logic — deduce your opponent’s secret layout before
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="30 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Custom required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Pen and Paper required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★★★"><i class="fas fa-star"></i></span>
 ```
 :::

@@ -8,14 +8,14 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Custom
+game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing
 players: '2'
 summary: Two naval commanders secretly place their ships and try to sink each other’s
   ships before their own are destroyed.
 time: '20'
 title: Battle Ship
-type: Language/Social
+type: Mathematics/Probability
 video_docs: ''
 ---
 
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="20 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Custom required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Pen and Paper required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::

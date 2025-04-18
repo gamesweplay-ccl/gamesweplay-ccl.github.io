@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Nothing
+game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/11AHIvGjAgl5i8jBqqbmLXywcYA_ETGf4/view?usp=drive_link
 players: 3-8
 summary: A game of drawings, funny phrases and miscommunication, leading to hilarity.
@@ -25,7 +25,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="10 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="3-8 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Nothing required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Pen and Paper required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::

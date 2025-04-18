@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Writable Board
+game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link
 players: '2'
 summary: Grow your chain, block your rival — build the biggest number before the board
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="10 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Writable Board required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Pen and Paper required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::

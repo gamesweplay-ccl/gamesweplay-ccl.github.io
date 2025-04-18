@@ -1,7 +1,7 @@
 [
   {
     "title": "Tac Tix",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1TQm7fA2AhwwJOtOJMNyrD53yHUTEwkDk/view?usp=drive_link",
@@ -22,7 +22,7 @@
   },
   {
     "title": "Jotto",
-    "game_format": "Nothing",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1vXkZZ3UaeVwy_PcPCbVh03L6epdJ-ICJ/view?usp=sharing",
@@ -43,7 +43,7 @@
   },
   {
     "title": "The flower and the wind",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "https://ramji-purwar.github.io/Hackrush_25_flower_and_wind_game/",
     "manual_links": "https://drive.google.com/file/d/1x9OM1qh65mkb-0Yi5Ib5rAL54He0sDCU/view?usp=drive_link",
@@ -64,7 +64,7 @@
   },
   {
     "title": "The Great Races",
-    "game_format": "Game Board",
+    "game_format": "Dice",
     "players": "2-6",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1Uq2r1TlepSXszlsNb42wyqcVD6qvDIBp/view?usp=drive_link",
@@ -73,7 +73,7 @@
     "summary": "Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-paced game of smart choices, lucky rolls, and point-packed finishes.",
     "type": "Mathematics/Probability",
     "time": "30",
-    "complexity": "★",
+    "complexity": "★★",
     "airtable_id": "rec3my94BfA3HJ3ok",
     "filename": "the-great-races",
     "format": {
@@ -85,7 +85,7 @@
   },
   {
     "title": "LAP",
-    "game_format": "Custom",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1mzrDQ7F_aN5smMnXV7xuLHWCAhysu3Jd/view?usp=drive_link",
@@ -106,7 +106,7 @@
   },
   {
     "title": "Don't say 13",
-    "game_format": "Custom",
+    "game_format": "Nothing",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1-sSYwoBogwWmKTx8EtPy3RLV_5AVUmod/view?usp=drive_link",
@@ -127,7 +127,7 @@
   },
   {
     "title": "Eat Poop You Cat",
-    "game_format": "Nothing",
+    "game_format": "Pen and Paper",
     "players": "3-8",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/11AHIvGjAgl5i8jBqqbmLXywcYA_ETGf4/view?usp=drive_link",
@@ -169,14 +169,14 @@
   },
   {
     "title": "Battle Ship",
-    "game_format": "Custom",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing",
     "board_links": "",
     "video_docs": "",
     "summary": "Two naval commanders secretly place their ships and try to sink each other’s ships before their own are destroyed.",
-    "type": "Language/Social",
+    "type": "Mathematics/Probability",
     "time": "20",
     "complexity": "★",
     "airtable_id": "rec9kILYHjrxNmtj8",
@@ -190,7 +190,7 @@
   },
   {
     "title": "Domineering",
-    "game_format": "Game Board",
+    "game_format": "Dominoes",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/16RX9LRveNHxE4oXdhU6-Q_eTkBk0HHmC/view?usp=drive_link",
@@ -211,7 +211,7 @@
   },
   {
     "title": "Detectives",
-    "game_format": "Custom",
+    "game_format": "Playing Cards",
     "players": "3-6",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1h-IrOrQuj7IfEWNcrWDhgHHVLaW6IaLq/view?usp=drive_link",
@@ -232,7 +232,7 @@
   },
   {
     "title": "Lines of Action",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/19thqJLJxLezWS_ps7O21Cw0YSv6rzx0v/view?usp=drive_link",
@@ -253,7 +253,7 @@
   },
   {
     "title": "Tablut",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1uJNVbvkjTnhLI57UJxIBL9LiMUrTwyac/view?usp=drive_link",
@@ -274,7 +274,7 @@
   },
   {
     "title": "Char Par",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/14DUaLtE1E5h8ON-fVxxeEVLlHYvFuuJ7/view?usp=drive_link",
@@ -295,7 +295,7 @@
   },
   {
     "title": "13 Sheep",
-    "game_format": "Writable Board",
+    "game_format": "Dice",
     "players": "1-100",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing",
@@ -316,7 +316,7 @@
   },
   {
     "title": "Sequencium",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link",
@@ -358,7 +358,7 @@
   },
   {
     "title": "Konane",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1HiqqtAlv03W--5phx8m_2HmEXFrAW1N2/view?usp=drive_link",
@@ -379,7 +379,7 @@
   },
   {
     "title": "Hold that line",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1cxv52ijg6W6cILcnib5IRg7psTNPSPt8/view?usp=drive_link",
@@ -400,7 +400,7 @@
   },
   {
     "title": "Sprouts",
-    "game_format": "Nothing",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1nyAccEEIpGZQr5r8nVZnIDDugohxvVvE/view?usp=drive_link",
@@ -421,7 +421,7 @@
   },
   {
     "title": "Star Nim",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "https://tautology.in/starnim/",
     "manual_links": "https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link",
@@ -442,7 +442,7 @@
   },
   {
     "title": "Fake Artist",
-    "game_format": "Custom",
+    "game_format": "Pen and Paper",
     "players": "3-8",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/10fFwFbS87xZffMh4bjHpf8MNUC5iLjEm/view?usp=drive_link",
@@ -463,7 +463,7 @@
   },
   {
     "title": "Watch your Step",
-    "game_format": "Game Board",
+    "game_format": "Dice",
     "players": "2-4",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1nf_vMfSDTFmWL5fhQ6EabCy1YlZB-A_r/view?usp=drive_link",
@@ -484,7 +484,7 @@
   },
   {
     "title": "Goats and Tigers",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1qqNAclsCYLhMR6jximMigqq-y5x0SaZL/view?usp=drive_link",
@@ -505,7 +505,7 @@
   },
   {
     "title": "Corners",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1NHuhux2q0Ixmp-bzfRY35fJNdWkh8Hsq/view?usp=sharing",
@@ -526,7 +526,7 @@
   },
   {
     "title": "Ultimate Tic Tac Toe",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1xowHu2tQxKcz1t2qHjovcCImUKOBhvHx/view?usp=drive_link",
@@ -547,7 +547,7 @@
   },
   {
     "title": "Peg Solitaire",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "1",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1O_VlHPxupbK_3JrhfvIfRZHzU-o8ST__/view?usp=drive_link",
@@ -568,7 +568,7 @@
   },
   {
     "title": "Paper boxing",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link",
@@ -589,7 +589,7 @@
   },
   {
     "title": "Hex",
-    "game_format": "Writable Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/19ySZoTVvp9luktBIP_KHNxTuYp4-bNJN/view?usp=drive_link",
@@ -610,7 +610,7 @@
   },
   {
     "title": "Black box",
-    "game_format": "Writable Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1xfm2AnKdzXZ5TpoaJto2yxvae1hz4aEO/view?usp=drive_link",
@@ -631,7 +631,7 @@
   },
   {
     "title": "Racetrack",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "1-4",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1T6Z_Xx0BaWO4MnQ7wxyZrAFwgAgrlDEV/view?usp=drive_link",
@@ -673,7 +673,7 @@
   },
   {
     "title": "Mafia",
-    "game_format": "Custom",
+    "game_format": "Nothing",
     "players": "3-20",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1egpHyvOLyeYUHRNILwN_iISMn5EmBSZS/view?usp=drive_link",
@@ -694,7 +694,7 @@
   },
   {
     "title": "Order and Chaos",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1knXAygjb8p1VdBJPmf0IR0hqtws56FsH/view?usp=drive_link",
@@ -715,7 +715,7 @@
   },
   {
     "title": "Saesara",
-    "game_format": "Writable Board",
+    "game_format": "Pen and Paper",
     "players": "3-5",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/18VMyS6HhrIRSEMbLOkfZDpBQmmGLVwGF/view?usp=drive_link",
@@ -757,7 +757,7 @@
   },
   {
     "title": "Regicide",
-    "game_format": "Game Board",
+    "game_format": "Playing Cards",
     "players": "2-4",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1n6-IZz-bfaVb67xJ97Z1-0d1fzqAg0tf/view?usp=drive_link",
@@ -778,7 +778,7 @@
   },
   {
     "title": "Amazons",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1rQRDcDD8ifHQvya6Cy-BByJ2PdKk1_WI/view?usp=sharing",
@@ -799,7 +799,7 @@
   },
   {
     "title": "Toads and Frogs",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1Iqlusoyy3uOvBbKYigQd7Bqvch5Z_P4I/view?usp=drive_link",
@@ -820,7 +820,7 @@
   },
   {
     "title": "Liar's Dice",
-    "game_format": "Nothing",
+    "game_format": "Dice",
     "players": "3-6",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1dlaZzIWw8uuu0MTfcongbW6-eHr2_dTF/view?usp=drive_link",
@@ -841,7 +841,7 @@
   },
   {
     "title": "Neighbours",
-    "game_format": "Writable Board",
+    "game_format": "Dice",
     "players": "1-100",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1Bjg7IOfACGYggsUoPD9FbkTp9XSR_eGG/view?usp=drive_link",
@@ -862,7 +862,7 @@
   },
   {
     "title": "Digit Party",
-    "game_format": "Writable Board",
+    "game_format": "Tokens",
     "players": "1-100",
     "external_links": "https://digit.party/",
     "manual_links": "https://drive.google.com/file/d/1yu0yOjksxdbzbJU_uVMdLNKSDdRwZGUt/view?usp=drive_link",
@@ -883,7 +883,7 @@
   },
   {
     "title": "Dicey Dice",
-    "game_format": "Game Board",
+    "game_format": "Dice",
     "players": "2-100",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/13BHzB_uUj2DKUcR5sCV9mXHlcQpxr-gt/view?usp=drive_link",
@@ -925,7 +925,7 @@
   },
   {
     "title": "Monikers",
-    "game_format": "Custom",
+    "game_format": "Nothing",
     "players": "4-20",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1abyOmIgzibQRwP_k_dUAbEUjNPWQyKRh/view?usp=drive_link",
@@ -946,7 +946,7 @@
   },
   {
     "title": "Khatti Mithai",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1aBI0X-n-PE4bPYi8wEjXN3wpN3aLIMmw/view?usp=drive_link",
@@ -988,7 +988,7 @@
   },
   {
     "title": "Dodgem",
-    "game_format": "Game Board",
+    "game_format": "Tokens",
     "players": "2",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link",
@@ -1030,7 +1030,7 @@
   },
   {
     "title": "Farkle",
-    "game_format": "Game Board",
+    "game_format": "Dice",
     "players": "3-5",
     "external_links": "",
     "manual_links": "https://drive.google.com/file/d/1_Gvn02bJwCNphDnARwlE_hITJqXxroNg/view?usp=drive_link",

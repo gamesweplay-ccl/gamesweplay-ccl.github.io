@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Game Board
+game_format: Dominoes
 manual_links: https://drive.google.com/file/d/16RX9LRveNHxE4oXdhU6-Q_eTkBk0HHmC/view?usp=drive_link
 players: '2'
 summary: Players take turn placing dominos on a boards hoping to be the one having
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="10 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Game Board required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Dominoes required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::

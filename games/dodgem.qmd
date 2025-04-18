@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Game Board
+game_format: Tokens
 manual_links: https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link
 players: '2'
 summary: Two drivers manoeuver their cars, trying to reach the finish line first.
@@ -25,7 +25,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="10 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Game Board required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Tokens required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::

@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Writable Board
+game_format: Dice
 manual_links: https://drive.google.com/file/d/1Bjg7IOfACGYggsUoPD9FbkTp9XSR_eGG/view?usp=drive_link
 players: 1-100
 summary: Roll, place, and plan ahead — group matching numbers to rack up the highest
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="20 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="1-100 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Writable Board required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Dice required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::

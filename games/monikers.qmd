@@ -8,7 +8,7 @@ format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Custom
+game_format: Nothing
 manual_links: https://drive.google.com/file/d/1abyOmIgzibQRwP_k_dUAbEUjNPWQyKRh/view?usp=drive_link
 players: 4-20
 summary: Act, speak, or say just one word — can your team guess them all? A fast-paced
@@ -26,7 +26,7 @@ video_docs: ''
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="20 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="4-20 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Custom required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Nothing required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::
