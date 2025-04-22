@@ -5,6 +5,9 @@ format:
     css: styles.css
 ---
 
+<!-- This page is no longer in use -->
+
+
 # **About Our Games**
 
 This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded here. \
@@ -12,7 +15,7 @@ This collection of games for the classroom has been curated for a variety of sit
 \
 
 ### Types of Games
-Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers.
+Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers. \\color coded
 
 - <span class="badge highlight-badge" style="background-color:rgb(240, 136, 75)">Mathematics and Probability</span>
 - <span class="badge highlight-badge" style="background-color: #8cd6ea">Language and Social</span>

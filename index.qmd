@@ -9,7 +9,7 @@ format:
 
 This is a selection of games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. These games can be recreated with easily available material and you will find rules, videos and boards to play them here. :-) \
 
-What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you!</a> Or Answer these questions for a more customized selection! \
+What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you!</a> Or answer these questions for a more customized selection! \
 
 ```{=html}
 
@@ -271,4 +271,63 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
 
 </script>
 
+```
+ 
+\
+\
+
+# **About These Games**
+
+This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded here. \
+
+\
+
+### Types of Games
+Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers.
+
+- <span class="badge highlight-badge" style="background-color:rgb(240, 136, 75)">Mathematics and Probability</span>
+- <span class="badge highlight-badge" style="background-color: #8cd6ea">Language and Social</span>
+- <span class="badge highlight-badge" style="background-color: #f7ee4c">Strategy</span>
+- <span class="badge highlight-badge" style="background-color: #b3d34a ">Science and Deduction</span>
+
+\
+
+### Complexity
+
+We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity.
+
+```{=html}
+<div class="info-grid">
+  <div class="label">★</div>
+  <div class="desc">Suitable for younger players, for class 3 (8 and above)</div>
+
+  <div class="label">★★</div>
+  <div class="desc">Intermediate complexity, for class 6 (11 and above)</div>
+
+  <div class="label">★★★</div>
+  <div class="desc">More challenging games, for class 9 (14 and above)</div>
+</div>
+```
+
+\
+
+### Player Counts
+
+We have games for different player counts.
+
+
+```{=html}
+<div class="info-grid">
+  <div class="label">Solo</div>
+  <div class="desc">These are games (or puzzles) for 1 player</div>
+
+  <div class="label">2 players</div>
+  <div class="desc">These are mostly strategy games and support exactly 2 players</div>
+
+  <div class="label">Between 3 and 10</div>
+  <div class="desc">These games can be played with more than 2 but less than 10 players</div>
+
+  <div class="label">10 and more</div>
+  <div class="desc">Games for 10 or more! These can be played simultaneously by an entire class</div>
+</div>
 ```
