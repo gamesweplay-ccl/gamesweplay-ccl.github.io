@@ -225,9 +225,19 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
     const resultsEl = document.getElementById("results-content");
 
     if (matchingGames.length > 0) {
-      resultsEl.innerHTML = `<ul>${matchingGames.map(g => `
-        <li style="margin-bottom: 1rem;">
+      resultsEl.innerHTML = `<ul class="game-suggestions">${matchingGames.map(g => `
+        <li style="margin-bottom: 2rem;">
           <a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
+
+          <div class="game-info-box">
+            <div class="game-stats">
+              <span class="tooltip-gamestats" data-tooltip="${g.time} minutes"><i class="fas fa-clock"></i></span>
+              <span class="tooltip-gamestats" data-tooltip="${g.players} players"><i class="fas fa-users"></i></span>
+              <span class="tooltip-gamestats" data-tooltip="${g.game_format} required"><i class="fas fa-clone"></i></span>
+              <span class="tooltip-gamestats" data-tooltip="Complexity: ${g.complexity}"><i class="fas fa-star"></i></span>
+            </div>
+          </div>
+
           <small>${g.summary || 'No description available.'}</small>
         </li>`).join('')}
       </ul>`;

@@ -318,3 +318,19 @@ p {
 	line-height: 1.4;
 	margin-left: 10px;
 }
+
+.game-suggestions .game-info-box {
+	padding: 0.4rem 0rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-radius: 6px;
+	max-width: fit-content;
+	font-size: 0.9rem;
+	opacity: 0.8;
+}
+
+.game-suggestions .game-stats {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
