@@ -11,12 +11,13 @@ format:
 game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/1DmoAtOqVi_FfZYc7MWAkPeUDsuWowOja/view?usp=drive_link
 players: '1'
+rules_video: ''
 summary: A solo card game that involves heavy strategy and a brilliant scoring system
   all within a bowling theme.
 time: '20'
 title: Bowling Solitaire
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Bowling Solitaire
@@ -37,9 +38,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://www.novelgames.com/en/bowlingsolitaire/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1DmoAtOqVi_FfZYc7MWAkPeUDsuWowOja/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

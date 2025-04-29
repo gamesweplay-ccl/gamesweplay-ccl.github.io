@@ -1,6 +1,6 @@
 ---
 airtable_id: recsgdK71JmunRlB4
-board_links: https://drive.google.com/file/d/1qA-4q9CrrOOWuIH1H62R5oNyC6JZ-dU0/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1-hHA8S61MEhhNrtNW3AsFPL_sOeNbCcU/view?usp=sharing
 complexity: ★
 external_links: https://diyashah2034.github.io/Dodgem/
 filename: dodgem
@@ -11,11 +11,12 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: Two drivers manoeuver their cars, trying to reach the finish line first.
 time: '10'
 title: Dodgem
 type: Strategy
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Dodgem
@@ -36,10 +37,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://diyashah2034.github.io/Dodgem/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1qA-4q9CrrOOWuIH1H62R5oNyC6JZ-dU0/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1-hHA8S61MEhhNrtNW3AsFPL_sOeNbCcU/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

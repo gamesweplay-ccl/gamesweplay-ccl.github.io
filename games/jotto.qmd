@@ -11,12 +11,13 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1vXkZZ3UaeVwy_PcPCbVh03L6epdJ-ICJ/view?usp=sharing
 players: '2'
+rules_video: ''
 summary: Crack the code with clever guesses — five letters, endless possibilities.
   A battle of words and wits where every number is a clue.
 time: '10'
 title: Jotto
 type: Language/Social
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Jotto
@@ -37,9 +38,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="http://jotto.augiehill.com/single.jsp" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1vXkZZ3UaeVwy_PcPCbVh03L6epdJ-ICJ/view?usp=sharing" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

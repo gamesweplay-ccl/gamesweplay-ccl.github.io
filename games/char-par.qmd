@@ -1,6 +1,6 @@
 ---
 airtable_id: recGOTKf37dxd14Iv
-board_links: https://drive.google.com/file/d/178pcSDCnYC4h1h4jiNdE-cJs6NrVvseW/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1YAxqNT-v-0Kez_f13YIvXc0QcC4gk3xJ/view?usp=sharing
 complexity: ★★
 external_links: https://toytheater.com/nine-mens-morris/
 filename: char-par
@@ -11,12 +11,13 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/14DUaLtE1E5h8ON-fVxxeEVLlHYvFuuJ7/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: An ancient Indian game involving holding off your opponent's pieces while
   fortifying your own.
 time: '20'
 title: Char Par
 type: Strategy
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Char Par
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://toytheater.com/nine-mens-morris/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/14DUaLtE1E5h8ON-fVxxeEVLlHYvFuuJ7/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/178pcSDCnYC4h1h4jiNdE-cJs6NrVvseW/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1YAxqNT-v-0Kez_f13YIvXc0QcC4gk3xJ/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

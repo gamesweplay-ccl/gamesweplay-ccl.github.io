@@ -11,12 +11,13 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: Plan your path and pick your battles — only the bigger number wins the bout!
   A fast-paced grid game of memory, movement, and head-to-head strategy.
 time: '20'
 title: Paper boxing
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Paper boxing
@@ -37,9 +38,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://mathgameswithbaddrawings.com/games/paper-boxing" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

@@ -11,12 +11,13 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/10fFwFbS87xZffMh4bjHpf8MNUC5iLjEm/view?usp=drive_link
 players: 3-8
+rules_video: ''
 summary: A group of artists work together to finish a drawing, whilst having an impostor
   amongst them.
 time: '10'
 title: Fake Artist
 type: Language/Social
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Fake Artist
@@ -37,9 +38,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://fake-artist.com/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/10fFwFbS87xZffMh4bjHpf8MNUC5iLjEm/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

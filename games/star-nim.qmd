@@ -1,6 +1,6 @@
 ---
 airtable_id: recJhKdZbi0jlaW6Y
-board_links: https://drive.google.com/file/d/1QsTVap6l7ymMRonS_DaMgP--4Cbexz3r/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1jGA0nPOtyMxm7ae5klIYflRyR-HTGyAp/view?usp=sharing
 complexity: ★★
 external_links: https://tautology.in/starnim/
 filename: star-nim
@@ -11,12 +11,13 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: Take one or take two — just don’t leave the last move to your opponent. A
   quick game of clever choices where the final token decides it all.
 time: '10'
 title: Star Nim
 type: Strategy
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Star Nim
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://tautology.in/starnim/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1QsTVap6l7ymMRonS_DaMgP--4Cbexz3r/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1jGA0nPOtyMxm7ae5klIYflRyR-HTGyAp/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

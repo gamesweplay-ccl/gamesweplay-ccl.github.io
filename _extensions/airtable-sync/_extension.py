@@ -28,7 +28,8 @@ def create_game_file(game_dir, fields, record_id):
     complexity = '★' * (1 + ['Primary', 'Middle', 'High'].index(complexity))
     players = fields.get('Number of Players', '').strip()
     external_links = fields.get('External Links', '').strip()
-    video_docs = fields.get('Video Docs', '').strip()
+    rules_video = fields.get('Rules Video', '').strip()
+    walkthrough_video = fields.get('Walkthrough Video', '').strip()
     summary = fields.get('Summary', '').strip()
     game_type = fields.get('Type', '').strip()
     time = fields.get('Time', '').strip()
@@ -43,7 +44,8 @@ def create_game_file(game_dir, fields, record_id):
         'external_links': external_links,
         'manual_links': manual_links,
         'board_links': board_links,
-        'video_docs': video_docs,
+        'rules_video': rules_video,
+        'walkthrough_video': walkthrough_video,
         'summary': summary,
         'type': game_type,
         'time': time,
@@ -92,16 +94,21 @@ def create_game_file(game_dir, fields, record_id):
 
         
         # Always add action buttons section with at least placeholders
-        f.write(":::{.game-actions}\n")
+        f.write(":::{.game-actions}\n```{=html}\n")
         if external_links:
             f.write(f"<a href=\"{external_links}\" class=\"btn btn-play\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
         else:
             f.write(f"<a href=\"#\" class=\"btn btn-play disabled-button\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
             
-        if video_docs:
-            f.write(f"<a href=\"{video_docs}\" class=\"btn btn-watch\"><i class=\"fa fa-video\"></i> Watch a video</a>\n")
+        if rules_video:
+            f.write(f"<a href=\"{rules_video}\" class=\"btn btn-watch\"><i class=\"fa fa-video\"></i> Rules video</a>\n")
         else:
-            f.write(f"<a href=\"#\" class=\"btn btn-watch disabled-button\"><i class=\"fa fa-video\"></i> Watch a video</a>\n")
+            f.write(f"<a href=\"#\" class=\"btn btn-watch disabled-button\"><i class=\"fa fa-video\"></i> Rules video</a>\n")
+
+        if walkthrough_video:
+            f.write(f"<a href=\"{walkthrough_video}\" class=\"btn btn-watch\"><i class=\"fa fa-video\"></i> Watch us play</a>\n")
+        else:
+            f.write(f"<a href=\"#\" class=\"btn btn-watch disabled-button\"><i class=\"fa fa-video\"></i> Watch us play</a>\n")
 
         if manual_links:
             f.write(f"<a href=\"{manual_links}\" class=\"btn btn-manual\"><i class=\"fa fa-book\"></i> Read the manual</a>\n")
@@ -109,11 +116,12 @@ def create_game_file(game_dir, fields, record_id):
             f.write(f"<a href=\"#\" class=\"btn btn-manual disabled-button\"><i class=\"fa fa-book\"></i> Read the manual</a>\n")
 
         if board_links:
-            f.write(f"<a href=\"{board_links}\" class=\"btn btn-board\"><i class=\"fa fa-file-pdf\"></i> Board PDF</a>\n")
+            f.write(f"<a href=\"{board_links}\" class=\"btn btn-board\"><i class=\"fa fa-file-pdf\"></i> Printable PDF</a>\n")
         else:
             # f.write(f"<a href=\"#\" class=\"btn btn-board disabled-button\"><i class=\"fa fa-file-pdf\"></i> Board PDF</a>\n")
             pass
 
+        f.write('```\n')
         f.write(":::\n\n")
 
         with open('reactions.html', 'r') as reactions_file:

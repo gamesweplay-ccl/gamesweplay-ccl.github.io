@@ -11,12 +11,13 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1nyAccEEIpGZQr5r8nVZnIDDugohxvVvE/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: A delightfully simple game about drawing vines and dots all the while literally
   trapping your opponent.
 time: '10'
 title: Sprouts
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Sprouts
@@ -37,9 +38,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1nyAccEEIpGZQr5r8nVZnIDDugohxvVvE/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

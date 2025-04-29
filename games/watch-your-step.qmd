@@ -1,6 +1,6 @@
 ---
 airtable_id: recN3XevfaLMeu582
-board_links: https://drive.google.com/file/d/1ZsgIXQCSZBkvvqgJ0L4MCg9K1WlLPrOP/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1j9cPyClA8D6K9qAz9h8KPfAk9rDGQB1-/view?usp=sharing
 complexity: ★
 external_links: ''
 filename: watch-your-step
@@ -11,12 +11,13 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1nf_vMfSDTFmWL5fhQ6EabCy1YlZB-A_r/view?usp=drive_link
 players: 2-4
+rules_video: ''
 summary: Climb the cliff, roll the dice — will you play it safe or push for more?
   A thrilling race of risk and reward where every step could tip the balance.
 time: '10'
 title: Watch your Step
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Watch your Step
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1nf_vMfSDTFmWL5fhQ6EabCy1YlZB-A_r/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1ZsgIXQCSZBkvvqgJ0L4MCg9K1WlLPrOP/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1j9cPyClA8D6K9qAz9h8KPfAk9rDGQB1-/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

@@ -1,6 +1,6 @@
 ---
 airtable_id: recWEqBsBFgV7bOfv
-board_links: https://drive.google.com/file/d/1FLE-XX6sGL198ilI-0IHQ6pF4odbM4R9/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1tzoOiI12SlblAXL5u0ZY8bSxaPxerVjb/view?usp=sharing
 complexity: ★★★
 external_links: https://www.transum.org/Maths/Game/Vectors/
 filename: racetrack
@@ -11,12 +11,13 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1T6Z_Xx0BaWO4MnQ7wxyZrAFwgAgrlDEV/view?usp=drive_link
 players: 1-4
+rules_video: ''
 summary: Plot your path, pick your speed — it’s a race of vectors, not just velocity.
   Navigate sharp turns and avoid collisions to speed past the finish line!
 time: '40'
 title: Racetrack
 type: Science/Deduction
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Racetrack
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://www.transum.org/Maths/Game/Vectors/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1T6Z_Xx0BaWO4MnQ7wxyZrAFwgAgrlDEV/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1FLE-XX6sGL198ilI-0IHQ6pF4odbM4R9/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1tzoOiI12SlblAXL5u0ZY8bSxaPxerVjb/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

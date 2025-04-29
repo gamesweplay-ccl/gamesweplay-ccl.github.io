@@ -11,13 +11,14 @@ format:
 game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/1Yfgln3WH1Uh53vWBRCI0H5ONlsxBz1ZG/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: A battle of wits and patterns — place cards with care, but your opponent
   picks your move. Match traits to form a winning line… just don’t forget to call
   it!
 time: '20'
 title: Aces and Faces
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Aces and Faces
@@ -38,9 +39,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1Yfgln3WH1Uh53vWBRCI0H5ONlsxBz1ZG/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

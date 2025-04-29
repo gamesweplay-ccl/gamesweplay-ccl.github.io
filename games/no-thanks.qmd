@@ -1,6 +1,6 @@
 ---
 airtable_id: rec7fVibpglEXLpGq
-board_links: ''
+board_links: https://drive.google.com/file/d/1z2Xz0Py_r4CFtwEqtgWykmQy4a02-SN6/view?usp=sharing
 complexity: ★★
 external_links: ''
 filename: no-thanks
@@ -11,12 +11,13 @@ format:
 game_format: Custom
 manual_links: https://drive.google.com/file/d/1FSNLMKU-NYrwof5tUsS4Omx4dPG44MPM/view?usp=drive_link
 players: 3-6
+rules_video: ''
 summary: Take the card or say ‘No Thanks!’ — every choice risks points or gains buttons.
   A quick, clever game of math, bluff, and perfectly timed passes.
 time: '30'
 title: No Thanks
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # No Thanks
@@ -37,9 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1FSNLMKU-NYrwof5tUsS4Omx4dPG44MPM/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1z2Xz0Py_r4CFtwEqtgWykmQy4a02-SN6/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

@@ -22,14 +22,17 @@ title: "Game Page Template"
   {{#if (meta external_links)}}
   <a href="{{< meta external_links >}}" class="btn btn-play">Play the game</a>
   {{/if}}
-  {{#if (meta video_docs)}}
-  <a href="{{< meta video_docs >}}" class="btn btn-watch">Watch a video</a>
+  {{#if (meta rules_video)}}
+  <a href="{{< meta rules_video >}}" class="btn btn-watch">Rules video</a>
+  {{/if}}
+  {{#if (meta walkthrough_video)}}
+  <a href="{{< meta walkthrough_video >}}" class="btn btn-watch">Watch us play</a>
   {{/if}}
   {{#if (meta manual_links)}}
   <a href="{{< meta manual_links >}}" class="btn btn-manual">Read the manual</a>
   {{/if}}
   {{#if (meta board_links)}}
-  <a href="{{< meta board_links >}}" class="btn btn-board">Board PDF</a>
+  <a href="{{< meta board_links >}}" class="btn btn-board">Printable PDF</a>
   {{/if}}
 </div>
 ```

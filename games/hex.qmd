@@ -1,6 +1,6 @@
 ---
 airtable_id: recVf1vb7XOur3GLC
-board_links: https://drive.google.com/file/d/1Lgtw9PGmerLkIe5syGGQQJFfxnqDOYOO/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1KVpzPQHmjz6rDDkAbu8hybGJh6nEgTpa/view?usp=sharing
 complexity: ★★
 external_links: https://playhex.org/
 filename: hex
@@ -11,11 +11,12 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/19ySZoTVvp9luktBIP_KHNxTuYp4-bNJN/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: Players race to build a bridge across an hexagonal grid.
 time: '20'
 title: Hex
 type: Strategy
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Hex
@@ -36,10 +37,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://playhex.org/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/19ySZoTVvp9luktBIP_KHNxTuYp4-bNJN/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1Lgtw9PGmerLkIe5syGGQQJFfxnqDOYOO/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1KVpzPQHmjz6rDDkAbu8hybGJh6nEgTpa/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

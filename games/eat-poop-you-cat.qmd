@@ -11,11 +11,12 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/11AHIvGjAgl5i8jBqqbmLXywcYA_ETGf4/view?usp=drive_link
 players: 3-8
+rules_video: ''
 summary: A game of drawings, funny phrases and miscommunication, leading to hilarity.
 time: '10'
 title: Eat Poop You Cat
 type: Language/Social
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Eat Poop You Cat
@@ -36,9 +37,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/11AHIvGjAgl5i8jBqqbmLXywcYA_ETGf4/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -164,8 +168,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

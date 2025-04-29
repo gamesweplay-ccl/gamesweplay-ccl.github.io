@@ -1,6 +1,6 @@
 ---
 airtable_id: recH5oRhQingC8rMj
-board_links: https://drive.google.com/file/d/1s6SXXOR-RB9xofVoMzS1IrgwdXuha31l/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1gBDC1YQlyKHL7ZnP1fJi-dmXpyhHNsD-/view?usp=sharing
 complexity: ★★
 external_links: https://13sheep.netlify.app/
 filename: 13-sheep
@@ -11,11 +11,12 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing
 players: 1-100
+rules_video: ''
 summary: Fence in the most number of sheep to maximise points
 time: '30'
 title: 13 Sheep
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # 13 Sheep
@@ -36,10 +37,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://13sheep.netlify.app/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1s6SXXOR-RB9xofVoMzS1IrgwdXuha31l/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1gBDC1YQlyKHL7ZnP1fJi-dmXpyhHNsD-/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

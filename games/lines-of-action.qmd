@@ -1,6 +1,6 @@
 ---
 airtable_id: recEXQu56YVpKzzxd
-board_links: https://drive.google.com/file/d/1Aaky_lbNU-lkRo6jZeS8dfLwF0e5i6A8/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1A6lVBbkZ3ddkFqcULpYpBJTzr7i-eu15/view?usp=sharing
 complexity: ★★★
 external_links: https://boardgamearena.com/gamepanel?game=linesofaction
 filename: lines-of-action
@@ -11,12 +11,13 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/19thqJLJxLezWS_ps7O21Cw0YSv6rzx0v/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: Outmaneuver your opponent and connect your pieces — every move reshapes the
   board. Think ahead, strike smart, and be the first to unite your tokens.
 time: '20'
 title: Lines of Action
 type: Strategy
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Lines of Action
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://boardgamearena.com/gamepanel?game=linesofaction" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/19thqJLJxLezWS_ps7O21Cw0YSv6rzx0v/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1Aaky_lbNU-lkRo6jZeS8dfLwF0e5i6A8/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1A6lVBbkZ3ddkFqcULpYpBJTzr7i-eu15/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

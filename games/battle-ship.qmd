@@ -11,12 +11,13 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing
 players: '2'
+rules_video: ''
 summary: Two naval commanders secretly place their ships and try to sink each other’s
   ships before their own are destroyed.
 time: '20'
 title: Battle Ship
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Battle Ship
@@ -37,9 +38,12 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://papergames.io/en/battleship" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +169,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

@@ -1,6 +1,6 @@
 ---
 airtable_id: recH8XaXaoebd0rH2
-board_links: https://drive.google.com/file/d/1kyEmPBFa5BTi0fLDugru-mPEZLnlGRWM/view?usp=drive_link
+board_links: https://drive.google.com/file/d/1ca6qV6GLkGv3fQh94SbEYd-khD2eMXUw/view?usp=sharing
 complexity: ★
 external_links: https://mathgameswithbaddrawings.com/games/sequencium
 filename: sequencium
@@ -11,12 +11,13 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link
 players: '2'
+rules_video: ''
 summary: Grow your chain, block your rival — build the biggest number before the board
   fills up. A fast and tactical game of math, movement, and sharp strategy.
 time: '10'
 title: Sequencium
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Sequencium
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://mathgameswithbaddrawings.com/games/sequencium" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1kyEmPBFa5BTi0fLDugru-mPEZLnlGRWM/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/1ca6qV6GLkGv3fQh94SbEYd-khD2eMXUw/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

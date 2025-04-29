@@ -1,6 +1,6 @@
 ---
 airtable_id: recxok39e823dShFQ
-board_links: https://drive.google.com/file/d/1ZevsKDsm9NApJWs90n02ocWjKV_tlOOj/view?usp=drive_link
+board_links: https://drive.google.com/file/d/14XIy3gwLXFB1Dy55iHLeMbQOpSTIaRKI/view?usp=sharing
 complexity: ★★
 external_links: https://cardgames.io/farkle/
 filename: farkle
@@ -11,12 +11,13 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1_Gvn02bJwCNphDnARwlE_hITJqXxroNg/view?usp=drive_link
 players: 3-5
+rules_video: ''
 summary: Keep rolling the dice to build a fortune, but one unlucky roll could wipe
   you out.
 time: '30'
 title: Farkle
 type: Mathematics/Probability
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Farkle
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://cardgames.io/farkle/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1_Gvn02bJwCNphDnARwlE_hITJqXxroNg/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1ZevsKDsm9NApJWs90n02ocWjKV_tlOOj/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/14XIy3gwLXFB1Dy55iHLeMbQOpSTIaRKI/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

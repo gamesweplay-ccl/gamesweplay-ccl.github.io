@@ -23,13 +23,16 @@ $summary$
 $if(external_links)$
 [Play the game]{.btn .btn-play}($external_links$)
 $endif$
-$if(video_docs)$
-[Watch a video]{.btn .btn-watch}($video_docs$)
+$if(rules_video)$
+[Rules video]{.btn .btn-watch}($rules_video$)
+$endif$
+$if(walkthrough_video)$
+[Watch us play]{.btn .btn-watch}($walkthrough_video$)
 $endif$
 $if(manual_links)$
 [Read the manual]{.btn .btn-manual}($manual_links$)
 $endif$
 $if(board_links)$
-[Board PDF]{.btn .btn-board}($board_links$)
+[Printable PDF]{.btn .btn-board}($board_links$)
 $endif$
 :::

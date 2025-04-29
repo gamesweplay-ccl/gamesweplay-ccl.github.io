@@ -1,6 +1,6 @@
 ---
 airtable_id: recUAqC05FMBCyjRP
-board_links: https://drive.google.com/file/d/17VKbEzGDYQB4dKmy6AAcMH4LYWmwdSX4/view?usp=drive_link
+board_links: https://drive.google.com/file/d/194DAyhiIGm08N-2q9NrDqiFRY_feAkQl/view?usp=sharing
 complexity: ★
 external_links: https://www.solitaireparadise.com/games_list/peg-solitaire.html
 filename: peg-solitaire
@@ -11,12 +11,13 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/1O_VlHPxupbK_3JrhfvIfRZHzU-o8ST__/view?usp=drive_link
 players: '1'
+rules_video: ''
 summary: Leap, remove, and repeat — can you clear the board down to just one? A timeless
   solo challenge of planning, precision, and perfect moves.
 time: '20'
 title: Peg Solitaire
 type: Strategy
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Peg Solitaire
@@ -37,10 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="https://www.solitaireparadise.com/games_list/peg-solitaire.html" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1O_VlHPxupbK_3JrhfvIfRZHzU-o8ST__/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/17VKbEzGDYQB4dKmy6AAcMH4LYWmwdSX4/view?usp=drive_link" class="btn btn-board"><i class="fa fa-file-pdf"></i> Board PDF</a>
+<a href="https://drive.google.com/file/d/194DAyhiIGm08N-2q9NrDqiFRY_feAkQl/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -166,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;

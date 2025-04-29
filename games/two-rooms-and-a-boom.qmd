@@ -1,6 +1,6 @@
 ---
 airtable_id: recHdajo3i7AEcW96
-board_links: ''
+board_links: https://drive.google.com/file/d/1RoDYLzDl9Siz4baQ3tVxXnd_7mDUBpq_/view?usp=sharing
 complexity: ★★★
 external_links: ''
 filename: two-rooms-and-a-boom
@@ -11,12 +11,13 @@ format:
 game_format: Custom
 manual_links: https://drive.google.com/file/d/1yW1a6gF713iOJ6q4_mBLAWTxQm0xPbuv/view?usp=drive_link
 players: 10-30
+rules_video: ''
 summary: Can you protect the President — or place the Bomber by their side? A fast-paced
   game of hidden roles, shifting rooms, and explosive outcomes.
 time: '10'
 title: Two Rooms and a Boom
 type: Language/Social
-video_docs: ''
+walkthrough_video: ''
 ---
 
 # Two Rooms and a Boom
@@ -37,9 +38,13 @@ video_docs: ''
 :::
 
 :::{.game-actions}
+```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch a video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1yW1a6gF713iOJ6q4_mBLAWTxQm0xPbuv/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1RoDYLzDl9Siz4baQ3tVxXnd_7mDUBpq_/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+```
 :::
 
 ```{=html}
@@ -165,8 +170,8 @@ video_docs: ''
 	}
 
 	.btn {
-		padding: 1rem 2.5rem;
-		border-radius: 25px;
+		padding: 1rem 1.5rem;
+		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 400;
 		transition: all 0.3s ease;
