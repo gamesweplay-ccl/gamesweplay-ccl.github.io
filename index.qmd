@@ -2,322 +2,127 @@
 title: "Home"
 format:
   html:
-    css: styles.css
+    css: 
+      - styles.css
+      - static/indexpage.css
 ---
 
 # **Welcome to our games website!**
-
 This is a selection of games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. These games can be recreated with easily available material and you will find rules, videos and boards to play them here. :-) \
 
 What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you!</a> Or answer these questions for a more customized selection! \
 
+
+<!-- If you are reading this, that means you probably have an interest in games for learning. The good news is that you have come to the right place.
+
+This website showcases a selection of 50 games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. You will find the rules, videos and boards to play these games here. :-)
+
+Scroll below to know more about these games or go to All Games for the complete list. Confused about what to play? Let us <a href="#" id="lucky-link">pick one for you!</a> Or answer these questions for a more customized selection! -->
+
+
 ```{=html}
 
-<style>
-  #game-filter {
-    background: #ffffff;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 50px;
-  }
+<form id="game-filter" style="background-color: transparent;">
 
-  .form-row {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .form-row label {
-    flex: 1 1 200px;
-    font-weight: 600;
-    color: #333;
-  }
-
-  .form-row select {
-    flex: 2 1 300px;
-    padding: 0.6rem;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
-    background-color: #f2faff;
-    transition: border-color 0.2s ease;
-  }
-
-  .form-row select:focus {
-    outline: none;
-    border-color: #7ec4cf;
-  }
-
-  #results {
-    margin-top: 2rem;
-    background-color: #fff7f0;
-    border: 1px solid #ffe0c2;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #results h3 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-
-  .form-actions {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    align-items: center;
-  }
-
-  /* #lucky-button {
-    padding: 0.6rem 1.2rem;
-    background-color: #7ec4cf;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-
-  #lucky-button:hover {
-    background-color: #5bb2bd;
-  } */
-
-  #find-button, #filtered-random-btn{
-    padding: 0.6rem 1.4rem;
-    background-color: #fcbf49;
-    color: #000;
-    font-weight: bold;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 1.1rem;
-  }
-
-  #find-button:hover {
-    background-color: #fca311;
-  }
-</style>
-
-<form id="game-filter">
   <div class="form-row">
-  <label for="time">How much time do you have?</label>
-  <select name="time" id="time">
-    <option value="">Any amount of time</option>
-    <option value="10"><= 10 mins</option>
-    <option value="20">10-20 mins</option>
-    <option value="30">20-30 mins</option>
-    <option value="40">30-40 mins</option>
-  </select>
+    <label for="time">How much time do you have?</label>
+    <select name="time" id="time">
+      <option value="">Any amount of time</option>
+      <option value="10"><= 10 mins</option>
+      <option value="20">10-20 mins</option>
+      <option value="30">20-30 mins</option>
+      <option value="40">30-40 mins</option>
+    </select>
   </div>
+
   <div class="form-row">
-  <label for="players">How many players?</label>
-  <select name="players" id="players">
-    <option value="">Any number of players</option>
-    <option value="1">Solo</option>
-    <option value="2">2 Players</option>
-    <option value="4">Between 3 and 10</option>
-    <option value="10">10 and more</option>
-  </select>
+    <label for="players">How many players?</label>
+    <select name="players" id="players">
+      <option value="">Any number of players</option>
+      <option value="1">Solo</option>
+      <option value="2">2 Players</option>
+      <option value="4">Between 3 and 10</option>
+      <option value="10">10 and more</option>
+    </select>
   </div>
-  <!-- <div class="form-row">
-  <label for="material">What material do you have?</label>
-  <select name="material" id="material">
-    <option value="">Select material</option>
-    <option value="cards">Cards</option>
-    <option value="dice">Dice</option>
-    <option value="board">Board</option>
-    <option value="none">None</option>
-  </select>
-  </div> -->
+
   <div class="form-row">
-  <label for="difficulty">What difficulty?</label>
-  <select name="difficulty" id="difficulty">
-    <option value="">Any difficulty</option>
-    <option value="easy">Easy</option>
-    <option value="medium">Medium</option>
-    <option value="hard">Hard</option>
-  </select>
+    <label for="difficulty">What difficulty?</label>
+    <select name="difficulty" id="difficulty">
+      <option value="">Any difficulty</option>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
   </div>
+
   <div class="form-actions">
-      <button type="submit" id="find-button">Submit</button>
-      <!-- <button type="button" id="lucky-button" class="lucky-btn">Pick one for me!</button> -->
+    <button type="submit" id="find-button">Submit</button>
+    <!-- <button type="button" id="lucky-button" class="lucky-btn">Pick one for me!</button> -->
   </div>
+
 </form>
-  <div id="results" style="display: none;">
-    <h3><em>Suggestions</em></h3>
-    <p id="results-content"></p>
-  </div>
-  <div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">
-    <button id="filtered-random-btn" class="lucky-btn">Pick random from these</button>
-  </div>
 
-<script>
-  const difficultyMap = {
-    easy: "★",
-    medium: "★★",
-    hard: "★★★"
-  };
+<div id="results" style="display: none;">
+  <h3><em>Suggestions</em></h3>
+  <p id="results-content"></p>
+</div>
+<div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">
+  <button id="filtered-random-btn" class="lucky-btn">Pick random from these</button>
+</div>
 
-  // Load JSON once and reuse
-  let gameData = [];
-  let lastFilteredGames = [];
-
-  async function loadGames() {
-    if (gameData.length === 0) {
-      const res = await fetch('/static/all_metadata.json');  // adjust path as needed
-      gameData = await res.json();
-    }
-    return gameData;
-  }
-
-  function getFilters() {
-    return {
-      difficulty: document.getElementById("difficulty").value,
-      maxTime: document.getElementById("time").value,
-      players: document.getElementById("players").value
-    };
-  }
-
-  function isPlayerCountInRange(selected, rangeStr) {
-    const selectedNum = parseInt(selected);
-    if (!rangeStr) return false;
-
-    if (rangeStr.includes('-')) {
-      const [min, max] = rangeStr.split('-').map(s => parseInt(s.trim()));
-      return selectedNum >= min && selectedNum <= max;
-    }
-
-    // Single number match
-    return parseInt(rangeStr) === selectedNum;
-}
-
-  function filterGames(games, { difficulty, maxTime, players }) {
-    return games.filter(game => {
-      const matchesDifficulty = !difficulty || game.complexity === difficultyMap[difficulty];
-      const matchesTime = !maxTime || parseInt(game.time) === parseInt(maxTime);
-      const matchesPlayers = !players || isPlayerCountInRange(players, game.players);
-      return matchesDifficulty && matchesTime && matchesPlayers;
-    });
-  }
-
- // "Find Games" Button
-  document.getElementById("game-filter").addEventListener("submit", async function (e) {
-    e.preventDefault();
-
-    const filters = getFilters();
-    const games = await loadGames();
-    const matchingGames = filterGames(games, filters);
-    lastFilteredGames = matchingGames;
-
-    const resultsEl = document.getElementById("results-content");
-
-    if (matchingGames.length > 0) {
-      resultsEl.innerHTML = `<ul class="game-suggestions">${matchingGames.map(g => `
-        <li style="margin-bottom: 2rem;">
-          <a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
-
-          <div class="game-info-box">
-            <div class="game-stats">
-              <span class="tooltip-gamestats" data-tooltip="${g.time} minutes"><i class="fas fa-clock"></i></span>
-              <span class="tooltip-gamestats" data-tooltip="${g.players} players"><i class="fas fa-users"></i></span>
-              <span class="tooltip-gamestats" data-tooltip="${g.game_format} required"><i class="fas fa-clone"></i></span>
-              <span class="tooltip-gamestats" data-tooltip="Complexity: ${g.complexity}"><i class="fas fa-star"></i></span>
-            </div>
-          </div>
-
-          <small>${g.summary || 'No description available.'}</small>
-        </li>`).join('')}
-      </ul>`;
-
-      document.getElementById("random-from-filtered-container").style.display = "block";
-    } else {
-      resultsEl.innerHTML = "<p>No games found matching your filters.</p>";
-      document.getElementById("random-from-filtered-container").style.display = "none";
-    }
-
-    document.getElementById("results").style.display = "block";
-  });
-
-  // "I'm Feeling Lucky" Button -- this is not being used anymore
-  // document.getElementById("lucky-button").addEventListener("click", async function () {
-  //   const games = await loadGames(); // no filters applied
-  //   const randomGame = games[Math.floor(Math.random() * games.length)];
-  //   window.location.href = `/games/${randomGame.filename}.html`;
-  // });
-
-  // Lucky link
-  document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("lucky-link").addEventListener("click", async function (e) {
-      e.preventDefault(); // prevent jump
-
-      const games = await loadGames(); // reuse existing function
-      const randomGame = games[Math.floor(Math.random() * games.length)];
-      window.location.href = `/games/${randomGame.filename}.html`;
-    });
-  });
-
-  // Filtered random button
-  document.getElementById("filtered-random-btn").addEventListener("click", function () {
-    if (lastFilteredGames.length > 0) {
-      const randomGame = lastFilteredGames[Math.floor(Math.random() * lastFilteredGames.length)];
-      window.location.href = `/games/${randomGame.filename}.html`;
-    } else {
-      alert("No games available in the current filtered list.");
-    }
-  });
-
-</script>
-
+<script src="static/indexpage.js"></script>
 ```
  
 \
 \
 
 # **About These Games**
-
 This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded here. \
+
+<!-- There is some game in this collection for everyone and every setting. To play most of these games, you simply need some pens, paper, dice and the game board. You can find the printable game boards on each game's page. If you have the Game Box, then you already have all of that with you!\ -->
 
 \
 
 ### Types of Games
 Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers.
 
-- <span class="badge highlight-badge" style="background-color:rgb(240, 136, 75)">Mathematics and Probability</span>
-- <span class="badge highlight-badge" style="background-color: #8cd6ea">Language and Social</span>
-- <span class="badge highlight-badge" style="background-color: #f7ee4c">Strategy</span>
-- <span class="badge highlight-badge" style="background-color: #b3d34a ">Science and Deduction</span>
+<!-- Most games have simple rules. Each game is focused on a particular area of learning, and hence are split into these color coded categories to be used in different classrooms. -->
+
+
+<span class="color-box" style="background-color: rgb(240, 136, 75);"></span> Mathematics and Probability \
+<span class="color-box" style="background-color: #8cd6ea;"></span> Language and Social \
+<span class="color-box" style="background-color: #f7ee4c;"></span> Strategy \
+<span class="color-box" style="background-color: #b3d34a;"></span> Science and Deduction \
 
 \
 
 ### Complexity
-
 We enjoy playing even the simplest of these so a low complexity game is not just for primary school. However here is a rough correlation between age and complexity.
 
-```{=html}
-<div class="info-grid">
-  <div class="label">★</div>
-  <div class="desc">Suitable for younger players, for class 3 (8 and above)</div>
+<!-- We catergorize each game in terms of Complexity. A higher complexity simply means that the rules are more intricate. Each game, regardless of complexity is meant to be enjoyed and played by all. -->
 
-  <div class="label">★★</div>
-  <div class="desc">Intermediate complexity, for class 6 (11 and above)</div>
+::: {.about-info-grid}
+::: {.label}
+★
+:::
+::: {.desc}
+Suitable for younger players, for class 3 (8 and above)
+:::
+::: {.label}
+★★
+:::
+::: {.desc}
+Intermediate complexity, for class 6 (11 and above)
+:::
+::: {.label}
+★★★
+:::
+::: {.desc}
+More challenging games, for class 9 (14 and above)
+:::
+:::
 
-  <div class="label">★★★</div>
-  <div class="desc">More challenging games, for class 9 (14 and above)</div>
-</div>
-```
 
 \
 
@@ -326,18 +131,105 @@ We enjoy playing even the simplest of these so a low complexity game is not just
 We have games for different player counts.
 
 
+::: {.about-info-grid}
+::: {.label}
+Solo
+:::
+::: {.desc}
+These are games (or puzzles) for 1 player
+:::
+::: {.label}
+2 players
+:::
+::: {.desc}
+These are mostly strategy games and support exactly 2 players
+:::
+::: {.label}
+Between 3 and 10
+:::
+::: {.desc}
+These games can be played with more than 2 but less than 10 players
+:::
+::: {.label}
+10 and more
+:::
+::: {.desc}
+Games for 10 or more! These can be played simultaneously by an entire class
+:::
+:::
+
+
+
 ```{=html}
-<div class="info-grid">
-  <div class="label">Solo</div>
-  <div class="desc">These are games (or puzzles) for 1 player</div>
+<footer class="footer">
+  <div class="nav-footer" style="display: none;">
 
-  <div class="label">2 players</div>
-  <div class="desc">These are mostly strategy games and support exactly 2 players</div>
+    <div class="footer-graphic">
+      <img src="static/images/grass.svg" alt="Grass Decoration">
+    </div>
 
-  <div class="label">Between 3 and 10</div>
-  <div class="desc">These games can be played with more than 2 but less than 10 players</div>
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+        <!-- <li class="nav-item compact" style="margin-right: 1rem;">
+          <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Youtube Logo" class="footer-logo youtube-logo">
+          </a>
+        </li> -->
+        <li class="nav-item compact" style="margin-left: 3rem;">
+          <a href="https://iitgn.ac.in/" target="_blank" rel="noopener noreferrer">
+            <img src="https://static.wixstatic.com/media/c55e1d_1b6826a478ac4cb7b0eff7925db68b88~mv2.png" alt="IITGN Logo" class="footer-logo">
+          </a>
+        </li>
+      </ul>
+    </div>
 
-  <div class="label">10 and more</div>
-  <div class="desc">Games for 10 or more! These can be played simultaneously by an entire class</div>
-</div>
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+
+    <div class="nav-footer-right" style="margin-right: 3rem;">
+      <p><strong>Indian Institute of Technology, Palaj, Gujarat - 382355</strong></p>
+      <p>Contact: 079-23952240 | <a href="mailto:ccl@iitgn.ac.in">ccl@iitgn.ac.in</a></p>
+      <p>© 2024 Center for Creative Learning | IIT Gandhinagar</p>
+    </div>
+    
+  </div>
+</footer>
+
+<style>
+.nav-footer {
+  background-color: transparent;
+  padding-top: 2rem;
+  width: 100vw; /* viewport width */
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-bottom: 5rem;
+}
+
+.footer-graphic img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: -10rem; /* optional: overlap a little if you want */
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  position: relative;
+  top: 2rem;
+}
+
+.footer-logo:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+</style>
+```
+
+```{=html}
+
 ```
