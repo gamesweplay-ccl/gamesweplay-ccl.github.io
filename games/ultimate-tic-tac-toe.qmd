@@ -275,10 +275,27 @@ walkthrough_video: https://www.youtube.com/watch?v=qh09l5amhyg&list=PLmjuVk9xK8L
 			document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
 		}
 
-		// Load and apply stored reaction
-		const storedReaction = getCookie(cookieKey);
-		emojis.forEach((emoji) => {
-			if (emoji.dataset.reaction === storedReaction) {
+		function getReactions() {
+			const cookieValue = getCookie(cookieKey);
+			if (!cookieValue) return [];
+			return cookieValue.split(",");
+		}
+
+		function saveReactions(reactions) {
+			if (reactions.length === 0) {
+				deleteCookie(cookieKey);
+			} else {
+				setCookie(cookieKey, reactions.join(","), 365);
+			}
+		}
+
+		// Load stored reactions
+		let selectedReactions = getReactions();
+		selectedReactions.forEach((reaction) => {
+			const emoji = document.querySelector(
+				`.emoji[data-reaction="${reaction}"]`
+			);
+			if (emoji) {
 				emoji.classList.add("active-reaction");
 			}
 		});
@@ -286,20 +303,19 @@ walkthrough_video: https://www.youtube.com/watch?v=qh09l5amhyg&list=PLmjuVk9xK8L
 		emojis.forEach((emoji) => {
 			emoji.addEventListener("click", () => {
 				const clickedReaction = emoji.dataset.reaction;
-				const currentReaction = getCookie(cookieKey);
+				const index = selectedReactions.indexOf(clickedReaction);
 
-				if (clickedReaction === currentReaction) {
-					// Unselect
-					deleteCookie(cookieKey);
+				if (index > -1) {
+					// Deselect
+					selectedReactions.splice(index, 1);
 					emoji.classList.remove("active-reaction");
 				} else {
-					// Switch reaction
-					emojis.forEach((e) =>
-						e.classList.remove("active-reaction")
-					);
+					// Select
+					selectedReactions.push(clickedReaction);
 					emoji.classList.add("active-reaction");
-					setCookie(cookieKey, clickedReaction, 365);
 				}
+
+				saveReactions(selectedReactions);
 
 				// Animate
 				emoji.classList.add("clicked");
@@ -308,8 +324,8 @@ walkthrough_video: https://www.youtube.com/watch?v=qh09l5amhyg&list=PLmjuVk9xK8L
 				// TODO: Send clickedReaction + gameId to backend
 				// fetch("https://your-backend.com/reactions", {
 				// 	method: "POST",
-				//	headers: { "Content-Type": "application/json" },
-				//	body: JSON.stringify({ gameId, reaction: clickedReaction })
+				// 	headers: { "Content-Type": "application/json" },
+				// 	body: JSON.stringify({ gameId, reaction: clickedReaction, selected: index === -1 })
 				// });
 			});
 		});
