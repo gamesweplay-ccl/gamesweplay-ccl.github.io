@@ -16,7 +16,7 @@ summary: Players count out loud, trying to avoid saying the cursed number.
 time: '10'
 title: Don't say 13
 type: Mathematics/Probability
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61
 ---
 
 # Don't say 13
@@ -40,7 +40,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1-sSYwoBogwWmKTx8EtPy3RLV_5AVUmod/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::

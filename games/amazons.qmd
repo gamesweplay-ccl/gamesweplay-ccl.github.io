@@ -1,6 +1,6 @@
 ---
 airtable_id: recdhPMZzrMkhKlI4
-board_links: https://drive.google.com/file/d/1ZgZqu9Wn0rkdIsoLrBLmZV6-dLBDARss/view?usp=sharing
+board_links: https://drive.google.com/file/d/1jY99f3wzGzpRD6L7184YoLptewLWFqdZ/view?usp=sharing
 complexity: ★★
 external_links: https://game-of-amazons.vercel.app/
 filename: amazons
@@ -43,7 +43,7 @@ walkthrough_video: ''
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1rQRDcDD8ifHQvya6Cy-BByJ2PdKk1_WI/view?usp=sharing" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1ZgZqu9Wn0rkdIsoLrBLmZV6-dLBDARss/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/1jY99f3wzGzpRD6L7184YoLptewLWFqdZ/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

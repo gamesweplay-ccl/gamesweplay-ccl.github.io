@@ -2,7 +2,7 @@
 airtable_id: recKZsZp8bo5rhfoO
 board_links: ''
 complexity: ★★
-external_links: https://fake-artist.com/
+external_links: ''
 filename: fake-artist
 format:
   html:
@@ -39,7 +39,7 @@ walkthrough_video: ''
 
 :::{.game-actions}
 ```{=html}
-<a href="https://fake-artist.com/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/10fFwFbS87xZffMh4bjHpf8MNUC5iLjEm/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>

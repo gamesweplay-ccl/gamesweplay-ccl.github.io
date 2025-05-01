@@ -17,7 +17,7 @@ summary: Sweet strategy with a sour twist — don’t be the one to bite the spo
 time: '10'
 title: Khatti Mithai
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=lvlPfr6sVbQ&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=25
 ---
 
 # Khatti Mithai
@@ -41,7 +41,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="https://cariboutests.com/games/chomp.php?lang=en" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=lvlPfr6sVbQ&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=25" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1aBI0X-n-PE4bPYi8wEjXN3wpN3aLIMmw/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/17AhG6yNTO4JRKP3xPD34FYDOxLHTlQgI/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

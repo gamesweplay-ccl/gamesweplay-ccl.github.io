@@ -16,7 +16,7 @@ summary: Two drivers manoeuver their cars, trying to reach the finish line first
 time: '10'
 title: Dodgem
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=djgD-ZhJXAE&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=15
 ---
 
 # Dodgem
@@ -40,7 +40,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="https://diyashah2034.github.io/Dodgem/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=djgD-ZhJXAE&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=15" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1-hHA8S61MEhhNrtNW3AsFPL_sOeNbCcU/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

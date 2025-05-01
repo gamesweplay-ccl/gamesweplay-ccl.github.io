@@ -2,7 +2,7 @@
 airtable_id: recVf1vb7XOur3GLC
 board_links: https://drive.google.com/file/d/1KVpzPQHmjz6rDDkAbu8hybGJh6nEgTpa/view?usp=sharing
 complexity: ★★
-external_links: https://playhex.org/
+external_links: https://www.lutanho.net/play/hex.html
 filename: hex
 format:
   html:
@@ -16,7 +16,7 @@ summary: Players race to build a bridge across an hexagonal grid.
 time: '20'
 title: Hex
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=8rfZ9a4Du_g&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33&t=16s
 ---
 
 # Hex
@@ -38,9 +38,9 @@ walkthrough_video: ''
 
 :::{.game-actions}
 ```{=html}
-<a href="https://playhex.org/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://www.lutanho.net/play/hex.html" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=8rfZ9a4Du_g&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33&t=16s" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/19ySZoTVvp9luktBIP_KHNxTuYp4-bNJN/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1KVpzPQHmjz6rDDkAbu8hybGJh6nEgTpa/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

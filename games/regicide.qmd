@@ -2,7 +2,7 @@
 airtable_id: recdBf1QK67XgI2mh
 board_links: https://drive.google.com/file/d/1RqyoJZ7fu0vwGlt1NAs-rTNBgZNaR710/view?usp=sharing
 complexity: ★★★
-external_links: https://boardgamearena.com/gamepanel?game=regicide
+external_links: ''
 filename: regicide
 format:
   html:
@@ -39,7 +39,7 @@ walkthrough_video: ''
 
 :::{.game-actions}
 ```{=html}
-<a href="https://boardgamearena.com/gamepanel?game=regicide" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1n6-IZz-bfaVb67xJ97Z1-0d1fzqAg0tf/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>

@@ -17,7 +17,7 @@ summary: Pick a row or column and clear a stretch — no gaps allowed! A minimal
 time: '10'
 title: Tac Tix
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=6GpexbwJAqQ&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=65
 ---
 
 # Tac Tix
@@ -41,7 +41,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=6GpexbwJAqQ&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=65" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1TQm7fA2AhwwJOtOJMNyrD53yHUTEwkDk/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1k8hZLp9ibbH3G-F8pxtL3EKaj8SJVYLP/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

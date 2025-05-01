@@ -17,7 +17,7 @@ summary: Players extend a line, trying to keep control of the board without cros
 time: '10'
 title: Hold that line
 type: Mathematics/Probability
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63
 ---
 
 # Hold that line
@@ -41,7 +41,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1cxv52ijg6W6cILcnib5IRg7psTNPSPt8/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::

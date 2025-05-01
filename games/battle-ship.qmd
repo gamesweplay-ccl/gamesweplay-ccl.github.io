@@ -2,7 +2,7 @@
 airtable_id: rec9kILYHjrxNmtj8
 board_links: ''
 complexity: ★
-external_links: https://papergames.io/en/battleship
+external_links: https://www.battleshiponline.org/
 filename: battle-ship
 format:
   html:
@@ -39,7 +39,7 @@ walkthrough_video: ''
 
 :::{.game-actions}
 ```{=html}
-<a href="https://papergames.io/en/battleship" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://www.battleshiponline.org/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>

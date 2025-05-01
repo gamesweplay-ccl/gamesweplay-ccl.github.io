@@ -17,7 +17,7 @@ summary: Take one or take two — just don’t leave the last move to your oppon
 time: '10'
 title: Star Nim
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=aUuKdv9YEBw&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=32
 ---
 
 # Star Nim
@@ -41,7 +41,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="https://tautology.in/starnim/" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=aUuKdv9YEBw&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=32" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1jGA0nPOtyMxm7ae5klIYflRyR-HTGyAp/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

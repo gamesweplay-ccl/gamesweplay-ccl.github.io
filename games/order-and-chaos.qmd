@@ -17,7 +17,7 @@ summary: One player builds, the other blocks — will order prevail or will chao
 time: '20'
 title: Order and Chaos
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=kMCxxG8l7o8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33
 ---
 
 # Order and Chaos
@@ -41,7 +41,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="https://www.onlinesologames.com/order-and-chaos#google_vignette" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=kMCxxG8l7o8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1knXAygjb8p1VdBJPmf0IR0hqtws56FsH/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1OUsBjw0csPAnR_IdLB6EDsxAoV4ZmPxw/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

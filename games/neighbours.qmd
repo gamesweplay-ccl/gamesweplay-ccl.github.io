@@ -17,7 +17,7 @@ summary: Roll, place, and plan ahead — group matching numbers to rack up the h
 time: '20'
 title: Neighbours
 type: Mathematics/Probability
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=O_aDDkLj6OU&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55
 ---
 
 # Neighbours
@@ -41,7 +41,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="https://mathgameswithbaddrawings.com/games/neighbors" class="btn btn-play"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=O_aDDkLj6OU&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1Bjg7IOfACGYggsUoPD9FbkTp9XSR_eGG/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1diVf8Q58QtS0YZivaIc7kEg_fuMnRlyU/view?usp=sharing" class="btn btn-board"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
