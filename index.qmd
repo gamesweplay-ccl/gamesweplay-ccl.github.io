@@ -10,7 +10,7 @@ format:
 # **Welcome to our games website!**
 This is a selection of games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. These games can be recreated with easily available material and you will find rules, videos and boards to play them here. :-) \
 
-What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you!</a> Or answer these questions for a more customized selection! \
+What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you</a> or answer these questions for a more customized selection! \
 
 
 <!-- If you are reading this, that means you probably have an interest in games for learning. The good news is that you have come to the right place.
@@ -78,14 +78,16 @@ Scroll below to know more about these games or go to All Games for the complete 
 \
 
 # **About These Games**
-This collection of games for the classroom has been curated for a variety of situations. In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded here. \
+This collection of games has been curated for a variety of situations to meet several curricular goals. You will find resources for this (where relevant) on the game pages. [Here](https://drive.google.com/file/d/1hCDHz6vS9PuA_KgVw0_3o5RFWZhisK7U/view?usp=sharing) is a PDF of the entire games manual. 
+
+In order to use these in the classroom you will usually need pens, paper and dice. Some games have custom cards or game boards – black and white versions can be downloaded here. \
 
 <!-- There is some game in this collection for everyone and every setting. To play most of these games, you simply need some pens, paper, dice and the game board. You can find the printable game boards on each game's page. If you have the Game Box, then you already have all of that with you!\ -->
 
 \
 
 ### Types of Games
-Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers.
+Most games have simple rules. The games are split into games that can be used in the mathematics, SEL (Social and Emotional Learning), science classroom as well as some strategy games that give you alternatives to chess and checkers. To indicate game type, the manual and page background are colour coded.
 
 <!-- Most games have simple rules. Each game is focused on a particular area of learning, and hence are split into these color coded categories to be used in different classrooms. -->
 
@@ -179,7 +181,7 @@ Games for 10 or more! These can be played simultaneously by an entire class
         </li> -->
         <li class="nav-item compact" style="margin-left: 3rem;">
           <a href="https://iitgn.ac.in/" target="_blank" rel="noopener noreferrer">
-            <img src="https://static.wixstatic.com/media/c55e1d_1b6826a478ac4cb7b0eff7925db68b88~mv2.png" alt="IITGN Logo" class="footer-logo">
+            <img src="static/images/ccl_logo.png" class="footer-logo">
           </a>
         </li>
       </ul>

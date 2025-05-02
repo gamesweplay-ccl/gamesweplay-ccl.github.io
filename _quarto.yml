@@ -12,6 +12,7 @@ website:
         tools:
             - icon: github
               href: https://github.com/gamesweplay-ccl/gamesweplay-ccl.github.io
+    favicon: static/images/ccl_logo.png
 
 format:
     html:
