@@ -93,9 +93,10 @@ Most games have simple rules. The games are split into games that can be used in
 
 
 <span class="color-box" style="background-color: rgb(240, 136, 75);"></span> Mathematics and Probability \
-<span class="color-box" style="background-color: #8cd6ea;"></span> Language and Social \
 <span class="color-box" style="background-color: #f7ee4c;"></span> Strategy \
 <span class="color-box" style="background-color: #b3d34a;"></span> Science and Deduction \
+<span class="color-box" style="background-color: #8cd6ea;"></span> Language and Social \
+
 
 \
 

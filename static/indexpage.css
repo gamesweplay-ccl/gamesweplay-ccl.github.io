@@ -12,7 +12,6 @@
 	/* background: #ffffff; */
 	padding: 2rem;
 	border-radius: 20px;
-	/* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); */
 	width: 100%;
 	max-width: 900px;
 	margin: 0 auto;
@@ -52,8 +51,6 @@
 
 #results {
 	margin-top: 2rem;
-	background-color: #fff7f0;
-	border: 1px solid #ffe0c2;
 	padding: 1.5rem;
 	border-radius: 12px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);

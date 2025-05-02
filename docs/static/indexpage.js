@@ -4,6 +4,13 @@ const difficultyMap = {
 	hard: "★★★",
 };
 
+const typeColors = {
+	"Mathematics/Probability": "#ffecdb",
+	"Language/Social": "#dcf3fa",
+	"Strategy": "#fffcd4",
+	"Science/Deduction": "#e4f6dd",
+};
+
 // Load JSON once and reuse
 let gameData = [];
 let lastFilteredGames = [];
@@ -63,36 +70,45 @@ document
 		const resultsEl = document.getElementById("results-content");
 
 		if (matchingGames.length > 0) {
-			resultsEl.innerHTML = `<ul class="game-suggestions">${matchingGames
-				.map(
-					(g) => `
-        <li style="margin-bottom: 2rem;">
-          <a href="/games/${g.filename}.html"><strong>${
-						g.title
-					}</strong></a><br>
+			const typeOrder = [
+				"Mathematics/Probability",
+				"Strategy",
+				"Science/Deduction",
+				"Language/Social",
+			];
 
-          <div class="game-info-box">
-            <div class="game-stats">
-              <span class="tooltip-gamestats" data-tooltip="${
-					g.time
-				} minutes"><i class="fas fa-clock"></i></span>
-              <span class="tooltip-gamestats" data-tooltip="${
-					g.players
-				} players"><i class="fas fa-users"></i></span>
-              <span class="tooltip-gamestats" data-tooltip="${
-					g.game_format
-				} required"><i class="fas fa-clone"></i></span>
-              <span class="tooltip-gamestats" data-tooltip="Complexity: ${
-					g.complexity
-				}"><i class="fas fa-star"></i></span>
-            </div>
-          </div>
+			matchingGames.sort((a, b) => {
+				return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type);
+			});
 
-          <small>${g.summary || "No description available."}</small>
-        </li>`
-				)
-				.join("")}
-      </ul>`;
+			resultsEl.innerHTML = `<ul class="game-suggestions" style="list-style: none;">${matchingGames
+				.map((g) => {
+					const bgColor = typeColors[g.type] || "#ffffff"; // default fallback
+					return `
+					<li style="background-color: ${bgColor}; padding: 1rem;">
+					<a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
+
+					<div class="game-info-box">
+						<div class="game-stats">
+						<span class="tooltip-gamestats" data-tooltip="${
+							g.time
+						} minutes"><i class="fas fa-clock"></i></span>
+						<span class="tooltip-gamestats" data-tooltip="${
+							g.players
+						} players"><i class="fas fa-users"></i></span>
+						<span class="tooltip-gamestats" data-tooltip="${
+							g.game_format
+						} required"><i class="fas fa-clone"></i></span>
+						<span class="tooltip-gamestats" data-tooltip="Complexity: ${
+							g.complexity
+						}"><i class="fas fa-star"></i></span>
+						</div>
+					</div>
+
+					<small>${g.summary || "No description available."}</small>
+					</li>`;
+				})
+				.join("")}</ul>`;
 
 			document.getElementById(
 				"random-from-filtered-container"
