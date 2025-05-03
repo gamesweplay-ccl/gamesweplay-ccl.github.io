@@ -194,8 +194,8 @@ Games for 10 or more! These can be played simultaneously by an entire class
 
     <div class="nav-footer-right" style="margin-right: 3rem;">
       <p><strong>Indian Institute of Technology, Palaj, Gujarat - 382355</strong></p>
-      <p>Contact: 079-23952240 | <a href="mailto:ccl@iitgn.ac.in">ccl@iitgn.ac.in</a></p>
-      <p>© 2024 Center for Creative Learning | IIT Gandhinagar</p>
+      <p>Contact: 079-23952240 | <a href="mailto:jyothi.k@iitgn.ac.in">jyothi.k@iitgn.ac.in</a></p>
+      <p>© 2025 Center for Creative Learning | IIT Gandhinagar</p>
     </div>
     
   </div>

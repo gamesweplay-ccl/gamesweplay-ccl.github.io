@@ -1,16 +1,15 @@
-/* Using Lato for headings and Droid Sans for body text as per user preferences */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: "Lato", sans-serif;
+	font-family: "Omnes", sans-serif;
 	color: #666;
 }
 
 body {
-	font-family: "Droid Sans", sans-serif;
+	font-family: "Omnes", sans-serif;
 }
 
 .game-header {

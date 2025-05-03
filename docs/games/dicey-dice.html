@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-7e6f225c36a7656ad2e8651d5e319550.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-20fc67d4bab10ab83af272287c3fca74.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -138,9 +138,9 @@ ul.task-list li input[type="checkbox"] {
 <span class="tooltip-gamestats" data-tooltip="★★★"><i class="fas fa-star"></i></span>
 </div>
 </div>
-<section id="a-gambler-stands-at-the-table-wondering-if-there-was-a-way-to-beat-the-house." class="level5 game-summary">
-<h5 data-anchor-id="a-gambler-stands-at-the-table-wondering-if-there-was-a-way-to-beat-the-house.">A gambler stands at the table, wondering if there was a way to beat the house.</h5>
-</section>
+<div class="game-summary">
+<p>A gambler stands at the table, wondering if there was a way to beat the house.</p>
+</div>
 <div class="game-actions">
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
@@ -149,10 +149,18 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://drive.google.com/file/d/1b5-uw6D0I3hWbVxEYzJEYPJ-d3exegdx/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 </div>
 <div class="reaction-container">
-    <img data-reaction="emoji-happy" data-tooltip="Loved it!" data-icon="happy" alt="Loved it">
-    <img data-reaction="emoji-smile" data-tooltip="Enjoyed it" data-icon="smile" alt="Enjoyed it">
-    <img data-reaction="emoji-meh" data-tooltip="Meh" data-icon="meh" alt="Meh">
-    <img data-reaction="emoji-yucks" data-tooltip="Did not enjoy" data-icon="yucks" alt="Did not enjoy">
+    <div class="emoji" data-reaction="emoji-happy" data-tooltip="Loved it!">
+        <img data-icon="happy" alt="Loved it">
+    </div>
+    <div class="emoji" data-reaction="emoji-smile" data-tooltip="Enjoyed it">
+        <img data-icon="smile" alt="Enjoyed it">
+    </div>
+    <div class="emoji" data-reaction="emoji-meh" data-tooltip="Meh">
+        <img data-icon="meh" alt="Meh">
+    </div>
+    <div class="emoji" data-reaction="emoji-yucks" data-tooltip="Did not enjoy">
+        <img data-icon="yucks" alt="Did not enjoy">
+    </div>
 </div>
 
 <style>
@@ -167,18 +175,24 @@ ul.task-list li input[type="checkbox"] {
         margin-right: auto;
     }
 
-    .reaction-container img,
-    .reaction-container svg {
-        cursor: pointer;
-        width: 48px;
-        height: 48px;
-        transition: transform 0.2s ease, filter 0.2s ease;
+    .emoji {
         position: relative;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+    }
+
+    .emoji img {
+        width: 80%;
+        height: 80%;
+        pointer-events: none;
     }
 
     /* Tooltip */
-    .reaction-container img::after,
-    .reaction-container svg::after {
+    .emoji::after {
         content: attr(data-tooltip);
         position: absolute;
         bottom: 110%;
@@ -196,17 +210,13 @@ ul.task-list li input[type="checkbox"] {
         z-index: 10;
     }
 
-    .reaction-container img:hover,
-    .reaction-container svg:hover {
-        transform: scale(1.1);
-    }
-
-    /* Fallback JS-based tooltip (cleaner) */
-    .reaction-container img:hover::after,
-    .reaction-container svg:hover::after {
+    .emoji:hover::after {
         opacity: 1;
     }
 
+    .emoji:hover {
+        transform: scale(1.1);
+    }
     /* Clicked animation */
     .clicked {
         animation: pop 0.3s ease;
@@ -242,12 +252,12 @@ ul.task-list li input[type="checkbox"] {
         padding: 1rem 1.5rem;
         border-radius: 20px;
         text-decoration: none;
-        font-weight: 400;
+        font-weight: 200;
         transition: all 0.3s ease;
         display: inline-block;
         text-align: center;
         min-width: 200px;
-        font-family: "Lato", sans-serif;
+        font-family: "Omnes", sans-serif;
         font-size: 1.1rem;
         cursor: pointer;
         color: #333;
@@ -270,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
         font-size: 1.1rem;
         line-height: 1.6;
         color: #666;
-        font-family: "Droid Sans", sans-serif;
+        font-family: "Omnes", sans-serif;
     }
 </style>
 

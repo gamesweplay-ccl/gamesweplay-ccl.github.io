@@ -34,7 +34,7 @@ walkthrough_video: https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-##### Leap, remove, and repeat — can you clear the board down to just one? A timeless solo challenge of planning, precision, and perfect moves.
+Leap, remove, and repeat — can you clear the board down to just one? A timeless solo challenge of planning, precision, and perfect moves.
 :::
 
 :::{.game-actions}
@@ -49,30 +49,18 @@ walkthrough_video: https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8L
 
 ```{=html}
 <div class="reaction-container">
-	<img
-		data-reaction="emoji-happy"
-		data-tooltip="Loved it!"
-		data-icon="happy"
-		alt="Loved it"
-	/>
-	<img
-		data-reaction="emoji-smile"
-		data-tooltip="Enjoyed it"
-		data-icon="smile"
-		alt="Enjoyed it"
-	/>
-	<img
-		data-reaction="emoji-meh"
-		data-tooltip="Meh"
-		data-icon="meh"
-		alt="Meh"
-	/>
-	<img
-		data-reaction="emoji-yucks"
-		data-tooltip="Did not enjoy"
-		data-icon="yucks"
-		alt="Did not enjoy"
-	/>
+	<div class="emoji" data-reaction="emoji-happy" data-tooltip="Loved it!">
+		<img data-icon="happy" alt="Loved it" />
+	</div>
+	<div class="emoji" data-reaction="emoji-smile" data-tooltip="Enjoyed it">
+		<img data-icon="smile" alt="Enjoyed it" />
+	</div>
+	<div class="emoji" data-reaction="emoji-meh" data-tooltip="Meh">
+		<img data-icon="meh" alt="Meh" />
+	</div>
+	<div class="emoji" data-reaction="emoji-yucks" data-tooltip="Did not enjoy">
+		<img data-icon="yucks" alt="Did not enjoy" />
+	</div>
 </div>
 
 <style>
@@ -87,18 +75,24 @@ walkthrough_video: https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8L
 		margin-right: auto;
 	}
 
-	.reaction-container img,
-	.reaction-container svg {
-		cursor: pointer;
-		width: 48px;
-		height: 48px;
-		transition: transform 0.2s ease, filter 0.2s ease;
+	.emoji {
 		position: relative;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 60px;
+		height: 60px;
+	}
+
+	.emoji img {
+		width: 80%;
+		height: 80%;
+		pointer-events: none;
 	}
 
 	/* Tooltip */
-	.reaction-container img::after,
-	.reaction-container svg::after {
+	.emoji::after {
 		content: attr(data-tooltip);
 		position: absolute;
 		bottom: 110%;
@@ -116,17 +110,13 @@ walkthrough_video: https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8L
 		z-index: 10;
 	}
 
-	.reaction-container img:hover,
-	.reaction-container svg:hover {
-		transform: scale(1.1);
-	}
-
-	/* Fallback JS-based tooltip (cleaner) */
-	.reaction-container img:hover::after,
-	.reaction-container svg:hover::after {
+	.emoji:hover::after {
 		opacity: 1;
 	}
 
+	.emoji:hover {
+		transform: scale(1.1);
+	}
 	/* Clicked animation */
 	.clicked {
 		animation: pop 0.3s ease;
@@ -162,12 +152,12 @@ walkthrough_video: https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8L
 		padding: 1rem 1.5rem;
 		border-radius: 20px;
 		text-decoration: none;
-		font-weight: 400;
+		font-weight: 200;
 		transition: all 0.3s ease;
 		display: inline-block;
 		text-align: center;
 		min-width: 200px;
-		font-family: "Lato", sans-serif;
+		font-family: "Omnes", sans-serif;
 		font-size: 1.1rem;
 		cursor: pointer;
 		color: #333;
@@ -190,7 +180,7 @@ walkthrough_video: https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8L
 		font-size: 1.1rem;
 		line-height: 1.6;
 		color: #666;
-		font-family: "Droid Sans", sans-serif;
+		font-family: "Omnes", sans-serif;
 	}
 </style>
 

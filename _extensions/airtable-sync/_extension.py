@@ -87,7 +87,7 @@ def create_game_file(game_dir, fields, record_id):
         # Summary - add a placeholder if empty
         f.write(':::{.game-summary}\n')
         if summary:
-            f.write(f"##### {summary}\n")
+            f.write(f"{summary}\n")
         else:
             f.write("Game summary not available yet.\n\n")
         f.write(":::\n\n")
