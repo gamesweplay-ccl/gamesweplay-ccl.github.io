@@ -39,46 +39,39 @@ walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8L
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn btn-play disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn btn-watch disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63" class="btn btn-watch"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1cxv52ijg6W6cILcnib5IRg7psTNPSPt8/view?usp=drive_link" class="btn btn-manual"><i class="fa fa-book"></i> Read the manual</a>
+<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1cxv52ijg6W6cILcnib5IRg7psTNPSPt8/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 
 ```{=html}
 <div class="reaction-container">
-	<div class="emoji" data-reaction="emoji-loved" data-tooltip="Loved it!">
-		😍
-	</div>
-	<div class="emoji" data-reaction="emoji-enjoyed" data-tooltip="Enjoyed it">
-		😁
-	</div>
-	<div
-		class="emoji"
-		data-reaction="emoji-mindblow"
-		data-tooltip="Mind Blown!"
-	>
-		🤯
-	</div>
-	<div class="emoji" data-reaction="emoji-meh" data-tooltip="Meh">😐</div>
-	<div class="emoji" data-reaction="emoji-confused" data-tooltip="Confused">
-		🫤
-	</div>
-	<div
-		class="emoji"
-		data-reaction="emoji-notenjoyed"
+	<img
+		data-reaction="emoji-happy"
+		data-tooltip="Loved it!"
+		data-icon="happy"
+		alt="Loved it"
+	/>
+	<img
+		data-reaction="emoji-smile"
+		data-tooltip="Enjoyed it"
+		data-icon="smile"
+		alt="Enjoyed it"
+	/>
+	<img
+		data-reaction="emoji-meh"
+		data-tooltip="Meh"
+		data-icon="meh"
+		alt="Meh"
+	/>
+	<img
+		data-reaction="emoji-yucks"
 		data-tooltip="Did not enjoy"
-	>
-		☹️
-	</div>
-	<div
-		class="emoji"
-		data-reaction="emoji-frustrated"
-		data-tooltip="Got frustrated"
-	>
-		😤
-	</div>
+		data-icon="yucks"
+		alt="Did not enjoy"
+	/>
 </div>
 
 <style>
@@ -88,29 +81,23 @@ walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8L
 		gap: 14px;
 		padding: 16px;
 		margin-top: 60px;
-		border-radius: 12px;
-		max-width: 480px;
+		max-width: 600px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.emoji {
+	.reaction-container img,
+	.reaction-container svg {
 		cursor: pointer;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 8px;
-		border-radius: 999px;
-		background-color: #fff;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-		transition: transform 0.2s ease, background-color 0.2s ease;
-		font-size: 1.5rem;
-		width: 50px;
-		height: 50px;
+		width: 48px;
+		height: 48px;
+		transition: transform 0.2s ease, filter 0.2s ease;
 		position: relative;
 	}
 
-	.emoji::after {
+	/* Tooltip */
+	.reaction-container img::after,
+	.reaction-container svg::after {
 		content: attr(data-tooltip);
 		position: absolute;
 		bottom: 110%;
@@ -128,24 +115,26 @@ walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8L
 		z-index: 10;
 	}
 
-	.emoji:hover::after {
-		opacity: 1;
-	}
-
-	.emoji:hover {
-		background-color: #f0f0f0;
+	.reaction-container img:hover,
+	.reaction-container svg:hover {
 		transform: scale(1.1);
 	}
 
-	.emoji.clicked {
+	/* Fallback JS-based tooltip (cleaner) */
+	.reaction-container img:hover::after,
+	.reaction-container svg:hover::after {
+		opacity: 1;
+	}
+
+	/* Clicked animation */
+	.clicked {
 		animation: pop 0.3s ease;
 	}
 
-	.emoji.active-reaction {
-		background-color: #d0f0ff;
-		box-shadow: 0 0 0 2px #00aaff;
+	/* Active reaction = blue glow */
+	.active-reaction {
+		filter: drop-shadow(0 0 4px #00aaff);
 	}
-
 	@keyframes pop {
 		0% {
 			transform: scale(1);
@@ -180,50 +169,7 @@ walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8L
 		font-family: "Lato", sans-serif;
 		font-size: 1.1rem;
 		cursor: pointer;
-	}
-
-	/* Play game button */
-	.btn-play {
-		background-color: #d0ebd0;
 		color: #333;
-		border: none;
-	}
-	.btn-play:hover {
-		background-color: #a8d5a8;
-		text-decoration: none;
-	}
-
-	/* Watch video button */
-	.btn-watch {
-		background-color: #d6e0ec;
-		color: #333;
-		border: none;
-	}
-	.btn-watch:hover {
-		background-color: #b8c5d6;
-		text-decoration: none;
-	}
-
-	/* Manual button */
-	.btn-manual {
-		background-color: #ebc5d0;
-		color: #333;
-		border: none;
-	}
-	.btn-manual:hover {
-		background-color: #d6a8b8;
-		text-decoration: none;
-	}
-
-	/* Board PDF button */
-	.btn-board {
-		background-color: #f1e1a0;
-		color: #333;
-		border: none;
-	}
-	.btn-board:hover {
-		background-color: #e0c88a;
-		text-decoration: none;
 	}
 
 	/* Hide empty buttons */
@@ -248,12 +194,55 @@ walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8L
 </style>
 
 <script>
-	document.addEventListener("DOMContentLoaded", () => {
-		const emojis = document.querySelectorAll(".emoji");
+	document.addEventListener("DOMContentLoaded", function () {
+		// === 1. Background and emoji image path setup ===
+		const emojiFolderMap = {
+			"Strategy": "strategy-emojis",
+			"Mathematics/Probability": "math-emojis",
+			"Language/Social": "social-emojis",
+			"Science/Deduction": "science-emojis",
+		};
+
+		const type = "{{< meta type >}}";
+		const emojiFolder = emojiFolderMap[type];
+
+		// Set background image
+		const bgMap = {
+			"Strategy": "/static/backgrounds/strategy_home_bg.svg",
+			"Mathematics/Probability": "/static/backgrounds/math_home_bg.svg",
+			"Language/Social": "/static/backgrounds/social_home_bg.svg",
+			"Science/Deduction": "/static/backgrounds/science_home_bg.svg",
+		};
+
+		const bg = bgMap[type];
+		if (bg) {
+			document.body.style.background = `
+				linear-gradient(rgb(255, 251, 227, 0.3), rgb(255, 251, 227, 0.3)),
+				url(${bg})
+			`;
+			document.body.style.backgroundRepeat = "no-repeat";
+			document.body.style.backgroundSize = "cover";
+			document.body.style.backgroundAttachment = "scroll";
+			document.body.style.backgroundPosition = "center top";
+		}
+
+		// Set emoji image sources dynamically
+		if (emojiFolder) {
+			const emojiImages = document.querySelectorAll("[data-icon]");
+			emojiImages.forEach((img) => {
+				const icon = img.dataset.icon;
+				img.src = `/static/images/${emojiFolder}/${emojiFolder.replace(
+					"-emojis",
+					""
+				)}-${icon}.svg`;
+			});
+		}
+
+		// === 2. Reaction click logic with cookies ===
+		const emojis = document.querySelectorAll("[data-reaction]");
 		const gameId = window.location.pathname;
 		const cookieKey = `reaction-${gameId}`;
 
-		// Cookie helpers
 		function setCookie(name, value, days) {
 			const d = new Date();
 			d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000);
@@ -287,11 +276,10 @@ walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8L
 			}
 		}
 
-		// Load stored reactions
 		let selectedReactions = getReactions();
 		selectedReactions.forEach((reaction) => {
 			const emoji = document.querySelector(
-				`.emoji[data-reaction="${reaction}"]`
+				`[data-reaction="${reaction}"]`
 			);
 			if (emoji) {
 				emoji.classList.add("active-reaction");
@@ -319,32 +307,67 @@ walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8L
 				emoji.classList.add("clicked");
 				setTimeout(() => emoji.classList.remove("clicked"), 400);
 
-				// TODO: Send clickedReaction + gameId to backend
-				// fetch("https://your-backend.com/reactions", {
-				// 	method: "POST",
-				// 	headers: { "Content-Type": "application/json" },
-				// 	body: JSON.stringify({ gameId, reaction: clickedReaction, selected: index === -1 })
-				// });
+				// TODO: Send to backend if needed
 			});
 		});
 	});
 </script>
 
 <script>
+	// This script changes the button colors based on the game type
 	document.addEventListener("DOMContentLoaded", function () {
-		const typeMap = {
-			"Strategy": "#fffcd4",
-			"Mathematics/Probability": "#ffecdb",
-			"Language/Social": "#dcf3fa",
-			"Science/Deduction": "#e4f6dd",
+		// Define base and hover colors for each game type
+		const typeStyles = {
+			"Mathematics/Probability": { base: "#ffecdb", hover: "#d97436" },
+			"Language/Social": { base: "#dcf3fa", hover: "#6cc9e1" },
+			"Strategy": { base: "#fffcd4", hover: "#e6dc33" },
+			"Science/Deduction": { base: "#e4f6dd", hover: "#9ec03c" },
 		};
 
-		// This value is inserted at render time by Quarto from frontmatter
-		const type = "{{< meta type >}}";
+		const gameType = "{{< meta type >}}";
+		const styles = typeStyles[gameType];
 
-		const color = typeMap[type];
-		if (color) {
-			document.body.style.backgroundColor = color;
+		if (styles) {
+			const buttons = document.querySelectorAll(".coloured-button");
+			buttons.forEach((button) => {
+				button.style.backgroundColor = styles.base;
+				button.style.border = "none";
+				button.style.color = "black";
+				button.style.transition = "background-color 0.3s ease";
+
+				// Add hover effect using JavaScript event listeners
+				button.addEventListener("mouseenter", () => {
+					button.style.backgroundColor = styles.hover;
+				});
+				button.addEventListener("mouseleave", () => {
+					button.style.backgroundColor = styles.base;
+				});
+			});
+		}
+	});
+</script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const emojiFolderMap = {
+			"Strategy": "strategy-emojis",
+			"Mathematics/Probability": "math-emojis",
+			"Language/Social": "social-emojis",
+			"Science/Deduction": "science-emojis",
+		};
+
+		const type = "{{< meta type >}}";
+		const emojiFolder = emojiFolderMap[type];
+
+		if (emojiFolder) {
+			const emojiImages = document.querySelectorAll(".emoji img");
+			emojiImages.forEach((img) => {
+				const icon = img.dataset.icon;
+				img.src = `../static/images/${emojiFolder}/${emojiFolder.replace(
+					"-emojis",
+					""
+				)}-${icon}.svg`;
+			});
 		}
 	});
 </script>

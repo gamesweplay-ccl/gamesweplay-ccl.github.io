@@ -1,15 +1,14 @@
-/* body {
-	background: linear-gradient(
-			rgba(255, 255, 255, 0.7),
-			rgba(255, 255, 255, 0.7)
-		),
-		url("images/butterflies.svg") center top;
-	background-size: cover;
+body {
+	background: url("backgrounds/home_bg.svg") left top repeat-y,
+		url("backgrounds/home_bg.svg") right top repeat-y;
+	background-color: #fffbe3; /* base color fills the center */
+	background-repeat: repeat-y, repeat-y;
+	background-position: left top, right top;
+	background-size: 150px auto, 150px auto;
 	background-attachment: scroll;
-} */
+}
 
 #game-filter {
-	/* background: #ffffff; */
 	padding: 2rem;
 	border-radius: 20px;
 	width: 100%;

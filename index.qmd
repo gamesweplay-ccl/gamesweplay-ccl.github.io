@@ -110,19 +110,19 @@ We enjoy playing even the simplest of these so a low complexity game is not just
 ★
 :::
 ::: {.desc}
-Suitable for younger players, for class 3 (8 and above)
+Simple rules. Suggested for class 3 (8 years) and above
 :::
 ::: {.label}
 ★★
 :::
 ::: {.desc}
-Intermediate complexity, for class 6 (11 and above)
+Somewhat complicated rules or strategy. Suggested for class 6 (11 years) and above
 :::
 ::: {.label}
 ★★★
 :::
 ::: {.desc}
-More challenging games, for class 9 (14 and above)
+More challenging rules or strategy. Suggested for class 9 (14 years) and above
 :::
 :::
 
@@ -139,7 +139,7 @@ We have games for different player counts.
 Solo
 :::
 ::: {.desc}
-These are games (or puzzles) for 1 player
+These are games for 1 player
 :::
 ::: {.label}
 2 players
@@ -166,11 +166,11 @@ Games for 10 or more! These can be played simultaneously by an entire class
 ```{=html}
 <footer class="footer">
 
-  <!-- <div class="nav-footer"> -->
-  <div class="nav-footer" style="display: none;">
+  <div class="nav-footer">
+  <!-- <div class="nav-footer" style="display: none;"> -->
 
     <div class="footer-graphic">
-      <img src="static/images/grass.svg" alt="Grass Decoration">
+      <img src="static/backgrounds/grass.svg" alt="Grass Decoration">
     </div>
 
     <div class="nav-footer-left">
@@ -182,7 +182,7 @@ Games for 10 or more! These can be played simultaneously by an entire class
         </li> -->
         <li class="nav-item compact" style="margin-left: 3rem;">
           <a href="https://iitgn.ac.in/" target="_blank" rel="noopener noreferrer">
-            <img src="static/images/ccl_logo.png" class="footer-logo">
+            <img src="static/images/iitgn_logo.png" class="footer-logo">
           </a>
         </li>
       </ul>
