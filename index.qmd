@@ -164,13 +164,11 @@ Games for 10 or more! These can be played simultaneously by an entire class
 
 ```{=html}
 <footer class="footer" style="width=100%;">
+  <div class="footer-graphic">
+    <img src="static/backgrounds/grass.svg" alt="Grass Decoration">
+  </div>
 
   <div class="nav-footer">
-  <!-- <div class="nav-footer" style="display: none;"> -->
-
-    <div class="footer-graphic">
-      <img src="static/backgrounds/grass.svg" alt="Grass Decoration">
-    </div>
 
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
