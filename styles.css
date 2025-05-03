@@ -135,13 +135,14 @@ h1 {
 	opacity: 1;
 }
 
-/* .navbar {
-	background-color: #fffbe3;
+.navbar {
+	background-color: #333;
 	border-bottom: 1px solid #ccc;
-} */
+}
 
-.navbar .navbar-nav .nav-link {
-	color: #333; /* text color */
+.navbar-brand,
+.nav-link {
+	color: white; /* text color */
 }
 
 .navbar .navbar-nav .nav-link:hover {

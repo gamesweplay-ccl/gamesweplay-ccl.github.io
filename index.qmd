@@ -21,8 +21,7 @@ Scroll below to know more about these games or go to All Games for the complete 
 
 
 ```{=html}
-
-<form id="game-filter" style="background-color: transparent;">
+<form id="game-filter" style="background: transparent">
 
   <div class="form-row">
     <label for="time">How much time do you have?</label>
@@ -194,7 +193,7 @@ Games for 10 or more! These can be played simultaneously by an entire class
 
     <div class="nav-footer-right" style="margin-right: 3rem;">
       <p><strong>Indian Institute of Technology, Palaj, Gujarat - 382355</strong></p>
-      <p>Contact: 079-23952240 | <a href="mailto:jyothi.k@iitgn.ac.in">jyothi.k@iitgn.ac.in</a></p>
+      <p>Contact: 079-23952240 | <a href="mailto:gamesweplay.ccl@gmail.com">gamesweplay.ccl@gmail.com</a></p>
       <p>© 2025 Center for Creative Learning | IIT Gandhinagar</p>
     </div>
     
