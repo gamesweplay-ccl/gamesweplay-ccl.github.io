@@ -15,7 +15,7 @@ rules_video: ''
 summary: A game of drawings, funny phrases and miscommunication, leading to hilarity.
 time: '10'
 title: Eat Poop You Cat
-type: Language/Social
+type: SEL
 walkthrough_video: ''
 ---
 
@@ -188,7 +188,7 @@ A game of drawings, funny phrases and miscommunication, leading to hilarity.
 		const emojiFolderMap = {
 			"Strategy": "strategy-emojis",
 			"Mathematics/Probability": "math-emojis",
-			"Language/Social": "social-emojis",
+			"SEL": "sel-emojis",
 			"Science/Deduction": "science-emojis",
 		};
 
@@ -199,7 +199,7 @@ A game of drawings, funny phrases and miscommunication, leading to hilarity.
 		const bgMap = {
 			"Strategy": "/static/backgrounds/strategy_home_bg.svg",
 			"Mathematics/Probability": "/static/backgrounds/math_home_bg.svg",
-			"Language/Social": "/static/backgrounds/social_home_bg.svg",
+			"SEL": "/static/backgrounds/sel_home_bg.svg",
 			"Science/Deduction": "/static/backgrounds/science_home_bg.svg",
 		};
 
@@ -308,7 +308,7 @@ A game of drawings, funny phrases and miscommunication, leading to hilarity.
 		// Define base and hover colors for each game type
 		const typeStyles = {
 			"Mathematics/Probability": { base: "#ffecdb", hover: "#d97436" },
-			"Language/Social": { base: "#dcf3fa", hover: "#6cc9e1" },
+			"SEL": { base: "#dcf3fa", hover: "#6cc9e1" },
 			"Strategy": { base: "#fffcd4", hover: "#e6dc33" },
 			"Science/Deduction": { base: "#e4f6dd", hover: "#9ec03c" },
 		};
@@ -341,7 +341,7 @@ A game of drawings, funny phrases and miscommunication, leading to hilarity.
 		const emojiFolderMap = {
 			"Strategy": "strategy-emojis",
 			"Mathematics/Probability": "math-emojis",
-			"Language/Social": "social-emojis",
+			"SEL": "sel-emojis",
 			"Science/Deduction": "science-emojis",
 		};
 

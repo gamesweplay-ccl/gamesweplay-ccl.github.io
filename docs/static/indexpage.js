@@ -6,7 +6,7 @@ const difficultyMap = {
 
 const typeColors = {
 	"Mathematics/Probability": "#ffecdb",
-	"Language/Social": "#dcf3fa",
+	"SEL": "#dcf3fa",
 	"Strategy": "#fffcd4",
 	"Science/Deduction": "#e4f6dd",
 };
@@ -74,7 +74,7 @@ document
 				"Mathematics/Probability",
 				"Strategy",
 				"Science/Deduction",
-				"Language/Social",
+				"SEL",
 			];
 
 			matchingGames.sort((a, b) => {

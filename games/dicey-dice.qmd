@@ -189,7 +189,7 @@ A gambler stands at the table, wondering if there was a way to beat the house.
 		const emojiFolderMap = {
 			"Strategy": "strategy-emojis",
 			"Mathematics/Probability": "math-emojis",
-			"Language/Social": "social-emojis",
+			"SEL": "sel-emojis",
 			"Science/Deduction": "science-emojis",
 		};
 
@@ -200,7 +200,7 @@ A gambler stands at the table, wondering if there was a way to beat the house.
 		const bgMap = {
 			"Strategy": "/static/backgrounds/strategy_home_bg.svg",
 			"Mathematics/Probability": "/static/backgrounds/math_home_bg.svg",
-			"Language/Social": "/static/backgrounds/social_home_bg.svg",
+			"SEL": "/static/backgrounds/sel_home_bg.svg",
 			"Science/Deduction": "/static/backgrounds/science_home_bg.svg",
 		};
 
@@ -309,7 +309,7 @@ A gambler stands at the table, wondering if there was a way to beat the house.
 		// Define base and hover colors for each game type
 		const typeStyles = {
 			"Mathematics/Probability": { base: "#ffecdb", hover: "#d97436" },
-			"Language/Social": { base: "#dcf3fa", hover: "#6cc9e1" },
+			"SEL": { base: "#dcf3fa", hover: "#6cc9e1" },
 			"Strategy": { base: "#fffcd4", hover: "#e6dc33" },
 			"Science/Deduction": { base: "#e4f6dd", hover: "#9ec03c" },
 		};
@@ -342,7 +342,7 @@ A gambler stands at the table, wondering if there was a way to beat the house.
 		const emojiFolderMap = {
 			"Strategy": "strategy-emojis",
 			"Mathematics/Probability": "math-emojis",
-			"Language/Social": "social-emojis",
+			"SEL": "sel-emojis",
 			"Science/Deduction": "science-emojis",
 		};
 
