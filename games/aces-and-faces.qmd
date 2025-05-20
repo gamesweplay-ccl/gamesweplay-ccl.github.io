@@ -2,7 +2,7 @@
 airtable_id: recld0lLmshZbJ3pA
 board_links: ''
 complexity: ★★
-external_links: http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/
+external_links: http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/start.html
 filename: aces-and-faces
 format:
   html:
@@ -40,7 +40,7 @@ A battle of wits and patterns — place cards with care, but your opponent picks
 
 :::{.game-actions}
 ```{=html}
-<a href="http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/start.html" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/120LHDaU89q7d0vlP6TfsFwR7ZjRc7mh3/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
