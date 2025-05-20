@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Tokens
-manual_links: https://drive.google.com/file/d/1TQm7fA2AhwwJOtOJMNyrD53yHUTEwkDk/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1P9vduoWSS1k3aSsAEwNr9FqeW2V2_xdn/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Pick a row or column and clear a stretch — no gaps allowed! A minimalist
@@ -42,7 +42,7 @@ Pick a row or column and clear a stretch — no gaps allowed! A minimalist logic
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=6GpexbwJAqQ&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=65" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1TQm7fA2AhwwJOtOJMNyrD53yHUTEwkDk/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1P9vduoWSS1k3aSsAEwNr9FqeW2V2_xdn/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1k8hZLp9ibbH3G-F8pxtL3EKaj8SJVYLP/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

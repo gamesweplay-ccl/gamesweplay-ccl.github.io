@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Dice
-manual_links: https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing
+manual_links: https://drive.google.com/file/d/1OLKO3YJje3GuRKbVV1biM4unttrVr1Fq/view?usp=sharing
 players: 1-100
 rules_video: ''
 summary: Fence in the most number of sheep to maximise points
@@ -41,7 +41,7 @@ Fence in the most number of sheep to maximise points
 <a href="https://13sheep.netlify.app/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1wtcIm-IrQwxmVMSzfSta4P-j7_gmSNDO/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1OLKO3YJje3GuRKbVV1biM4unttrVr1Fq/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1gBDC1YQlyKHL7ZnP1fJi-dmXpyhHNsD-/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

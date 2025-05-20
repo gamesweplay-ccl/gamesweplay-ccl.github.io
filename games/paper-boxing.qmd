@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Pen and Paper
-manual_links: https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1yWhxXahX4fdhM-dpdVMOrZ_sqNyYXiBr/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Plan your path and pick your battles — only the bigger number wins the bout!
@@ -42,7 +42,7 @@ Plan your path and pick your battles — only the bigger number wins the bout! A
 <a href="https://mathgameswithbaddrawings.com/games/paper-boxing" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/11yF0O_mX7RfPSRtLWCMmLdlR8PbtrVna/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1yWhxXahX4fdhM-dpdVMOrZ_sqNyYXiBr/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

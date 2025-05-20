@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Pen and Paper
-manual_links: https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/16IXYbNqeU3baG6clYoLZXyYokFGa-yft/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Grow your chain, block your rival — build the biggest number before the board
@@ -42,7 +42,7 @@ Grow your chain, block your rival — build the biggest number before the board 
 <a href="https://mathgameswithbaddrawings.com/games/sequencium" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=OdHCSGjq4Og&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=4" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1Ad7MqjuQmAkOBa9xPEsDHxudAn64OqAM/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/16IXYbNqeU3baG6clYoLZXyYokFGa-yft/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1ca6qV6GLkGv3fQh94SbEYd-khD2eMXUw/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

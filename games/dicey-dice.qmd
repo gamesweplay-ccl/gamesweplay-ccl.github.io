@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Dice
-manual_links: https://drive.google.com/file/d/13BHzB_uUj2DKUcR5sCV9mXHlcQpxr-gt/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1lY8hRocCEkJmlvx7U5QzDhVwdSE-NOHS/view?usp=sharing
 players: 2-100
 rules_video: ''
 summary: A gambler stands at the table, wondering if there was a way to beat the house.
@@ -41,7 +41,7 @@ A gambler stands at the table, wondering if there was a way to beat the house.
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/13BHzB_uUj2DKUcR5sCV9mXHlcQpxr-gt/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1lY8hRocCEkJmlvx7U5QzDhVwdSE-NOHS/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1b5-uw6D0I3hWbVxEYzJEYPJ-d3exegdx/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

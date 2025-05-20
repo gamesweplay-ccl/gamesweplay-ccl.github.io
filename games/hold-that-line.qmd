@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Pen and Paper
-manual_links: https://drive.google.com/file/d/1cxv52ijg6W6cILcnib5IRg7psTNPSPt8/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1bHUa-oNNy8Cr3ZLu4xpTq22ayiIjty3Q/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Players extend a line, trying to keep control of the board without crossing
@@ -42,7 +42,7 @@ Players extend a line, trying to keep control of the board without crossing path
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1cxv52ijg6W6cILcnib5IRg7psTNPSPt8/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1bHUa-oNNy8Cr3ZLu4xpTq22ayiIjty3Q/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

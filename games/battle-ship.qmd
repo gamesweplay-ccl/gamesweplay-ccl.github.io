@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Pen and Paper
-manual_links: https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing
+manual_links: https://drive.google.com/file/d/1uDA7GrmwOGAtanRmU-Qj4T5r_n7-S4sO/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Two naval commanders secretly place their ships and try to sink each other’s
@@ -42,7 +42,7 @@ Two naval commanders secretly place their ships and try to sink each other’s s
 <a href="https://www.battleshiponline.org/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/13Ir7YL5ALAmJYWDljsVEZFucXWif24jA/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1uDA7GrmwOGAtanRmU-Qj4T5r_n7-S4sO/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

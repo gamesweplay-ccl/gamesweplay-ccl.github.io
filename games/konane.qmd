@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Tokens
-manual_links: https://drive.google.com/file/d/1HiqqtAlv03W--5phx8m_2HmEXFrAW1N2/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1j0hr3-VRLXhLZC3WMU2tQaulajF88q0j/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Outjump, outthink, outlast — leap over your opponent in this ancient Hawaiian
@@ -42,7 +42,7 @@ Outjump, outthink, outlast — leap over your opponent in this ancient Hawaiian 
 <a href="https://www.onlinesologames.com/konane#google_vignette" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1HiqqtAlv03W--5phx8m_2HmEXFrAW1N2/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1j0hr3-VRLXhLZC3WMU2tQaulajF88q0j/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1lC06sq9uQt2i2_Z7RZk8Im0w6CFhiPDD/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Dice
-manual_links: https://drive.google.com/file/d/1_Gvn02bJwCNphDnARwlE_hITJqXxroNg/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/176zXhb4zrd6QkfYX9ZvUIm0DX6v8it9-/view?usp=sharing
 players: 3-5
 rules_video: ''
 summary: Keep rolling the dice to build a fortune, but one unlucky roll could wipe
@@ -42,7 +42,7 @@ Keep rolling the dice to build a fortune, but one unlucky roll could wipe you ou
 <a href="https://cardgames.io/farkle/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1_Gvn02bJwCNphDnARwlE_hITJqXxroNg/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/176zXhb4zrd6QkfYX9ZvUIm0DX6v8it9-/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/14XIy3gwLXFB1Dy55iHLeMbQOpSTIaRKI/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

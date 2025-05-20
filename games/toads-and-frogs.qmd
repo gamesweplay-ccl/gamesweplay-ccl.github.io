@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Tokens
-manual_links: https://drive.google.com/file/d/1Iqlusoyy3uOvBbKYigQd7Bqvch5Z_P4I/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1CSdS8OsDntzW4JCKy9B9tw3q6u2ab3fz/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Toads and frogs take turns to leap — but only one will land the final move.
@@ -42,7 +42,7 @@ Toads and frogs take turns to leap — but only one will land the final move. A 
 <a href="https://kyleburke.info/DB/combGames/toadsAndFrogs.html" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1Iqlusoyy3uOvBbKYigQd7Bqvch5Z_P4I/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1CSdS8OsDntzW4JCKy9B9tw3q6u2ab3fz/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1PtUxydQgZAEv3e97GtXFebbhJr1kAB4J/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

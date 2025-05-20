@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Pen and Paper
-manual_links: https://drive.google.com/file/d/10fFwFbS87xZffMh4bjHpf8MNUC5iLjEm/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1YZGPOQovwTdKNdDTPodPxoVGIKWfv2z-/view?usp=sharing
 players: 3-8
 rules_video: ''
 summary: A group of artists work together to finish a drawing, whilst having an impostor
@@ -42,7 +42,7 @@ A group of artists work together to finish a drawing, whilst having an impostor 
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/10fFwFbS87xZffMh4bjHpf8MNUC5iLjEm/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1YZGPOQovwTdKNdDTPodPxoVGIKWfv2z-/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Pen and Paper
-manual_links: https://drive.google.com/file/d/1mzrDQ7F_aN5smMnXV7xuLHWCAhysu3Jd/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1MkhmBpA9BpLOjTfOJ88zTkjtQsjoGMtM/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: A mind game of maps and logic — deduce your opponent’s secret layout before
@@ -42,7 +42,7 @@ A mind game of maps and logic — deduce your opponent’s secret layout before 
 <a href="https://mathgameswithbaddrawings.com/games/LAP" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1mzrDQ7F_aN5smMnXV7xuLHWCAhysu3Jd/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1MkhmBpA9BpLOjTfOJ88zTkjtQsjoGMtM/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

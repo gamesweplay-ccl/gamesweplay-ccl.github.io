@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Custom
-manual_links: https://drive.google.com/file/d/1h-IrOrQuj7IfEWNcrWDhgHHVLaW6IaLq/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1gPIKJKoAJlRp7wlMykQMm0jFIvrhLuqu/view?usp=sharing
 players: 3-6
 rules_video: ''
 summary: A group of investigators race to uncover the hidden criminal before they
@@ -42,7 +42,7 @@ A group of investigators race to uncover the hidden criminal before they escape 
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1h-IrOrQuj7IfEWNcrWDhgHHVLaW6IaLq/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1gPIKJKoAJlRp7wlMykQMm0jFIvrhLuqu/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1vpoH0TVSz7qWw1fDNN4E7VHDkXs2vVMJ/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

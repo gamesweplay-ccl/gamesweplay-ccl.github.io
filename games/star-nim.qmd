@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Tokens
-manual_links: https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/190_hG9XOY4w4a2RkrzRtMO00xI0A7WHc/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Take one or take two — just don’t leave the last move to your opponent. A
@@ -42,7 +42,7 @@ Take one or take two — just don’t leave the last move to your opponent. A qu
 <a href="https://tautology.in/starnim/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=aUuKdv9YEBw&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=32" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1N8zVfbOPOvZDL8SXish_mssh19RQ3n0g/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/190_hG9XOY4w4a2RkrzRtMO00xI0A7WHc/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1jGA0nPOtyMxm7ae5klIYflRyR-HTGyAp/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

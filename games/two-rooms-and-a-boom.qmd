@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Custom
-manual_links: https://drive.google.com/file/d/1yW1a6gF713iOJ6q4_mBLAWTxQm0xPbuv/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1tPT8-6C-yaBb8fq9HZeTX1o2Lu-c4WAf/view?usp=sharing
 players: 10-30
 rules_video: ''
 summary: Can you protect the President — or place the Bomber by their side? A fast-paced
@@ -42,7 +42,7 @@ Can you protect the President — or place the Bomber by their side? A fast-pace
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1yW1a6gF713iOJ6q4_mBLAWTxQm0xPbuv/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1tPT8-6C-yaBb8fq9HZeTX1o2Lu-c4WAf/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1RoDYLzDl9Siz4baQ3tVxXnd_7mDUBpq_/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

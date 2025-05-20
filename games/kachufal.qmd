@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Playing Cards
-manual_links: https://drive.google.com/file/d/1Hlja1Yvi4L78o6r8YDy4fb0WIDcx7_YV/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1tdVE2QmDNpJ-nDwBubzBoRUSWZfcVX1L/view?usp=sharing
 players: 3-7
 rules_video: ''
 summary: Bid bold, play smart — win just what you claim, no more, no less. Kachuful
@@ -42,7 +42,7 @@ Bid bold, play smart — win just what you claim, no more, no less. Kachuful is 
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1Hlja1Yvi4L78o6r8YDy4fb0WIDcx7_YV/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1tdVE2QmDNpJ-nDwBubzBoRUSWZfcVX1L/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

@@ -9,9 +9,9 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Tokens
-manual_links: https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/15oeODVzR-4Q3t6nD4V7JftYNCr6nquaO/view?usp=sharing
 players: '2'
-rules_video: https://drive.google.com/file/d/19t7O1jiqdznBipPb2owXEFk_q26uwoDS/view?usp=sharing
+rules_video: https://youtu.be/A1YIsccKzrA
 summary: Two drivers manoeuver their cars, trying to reach the finish line first.
 time: '10'
 title: Dodgem
@@ -39,9 +39,9 @@ Two drivers manoeuver their cars, trying to reach the finish line first.
 :::{.game-actions}
 ```{=html}
 <a href="https://diyashah2034.github.io/Dodgem/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://drive.google.com/file/d/19t7O1jiqdznBipPb2owXEFk_q26uwoDS/view?usp=sharing" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/A1YIsccKzrA" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=djgD-ZhJXAE&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=15" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1he-otdVhlAsg4S2XWdqp6B5nZKDiQZwh/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/15oeODVzR-4Q3t6nD4V7JftYNCr6nquaO/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1-hHA8S61MEhhNrtNW3AsFPL_sOeNbCcU/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

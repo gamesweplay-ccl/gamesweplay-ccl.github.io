@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Nothing
-manual_links: https://drive.google.com/file/d/1-sSYwoBogwWmKTx8EtPy3RLV_5AVUmod/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Players count out loud, trying to avoid saying the cursed number.
@@ -41,7 +41,7 @@ Players count out loud, trying to avoid saying the cursed number.
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1-sSYwoBogwWmKTx8EtPy3RLV_5AVUmod/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

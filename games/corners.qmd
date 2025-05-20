@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Pen and Paper
-manual_links: https://drive.google.com/file/d/1NHuhux2q0Ixmp-bzfRY35fJNdWkh8Hsq/view?usp=sharing
+manual_links: https://drive.google.com/file/d/1o_Kyxp4S9l5th6p29KIb7xdQK6gP-kNP/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: Mark the grid, spot the shape — claim corners and outscore your rival. Squares
@@ -42,7 +42,7 @@ Mark the grid, spot the shape — claim corners and outscore your rival. Squares
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1NHuhux2q0Ixmp-bzfRY35fJNdWkh8Hsq/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1o_Kyxp4S9l5th6p29KIb7xdQK6gP-kNP/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1KgjIDJB4hirXDZcgcyMpuEJ5Dyv0g6Qw/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::

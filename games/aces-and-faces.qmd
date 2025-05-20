@@ -2,14 +2,14 @@
 airtable_id: recld0lLmshZbJ3pA
 board_links: ''
 complexity: ★★
-external_links: ''
+external_links: http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/
 filename: aces-and-faces
 format:
   html:
     css: ../styles.css
     page-layout: full
 game_format: Playing Cards
-manual_links: https://drive.google.com/file/d/1Yfgln3WH1Uh53vWBRCI0H5ONlsxBz1ZG/view?usp=drive_link
+manual_links: https://drive.google.com/file/d/120LHDaU89q7d0vlP6TfsFwR7ZjRc7mh3/view?usp=sharing
 players: '2'
 rules_video: ''
 summary: A battle of wits and patterns — place cards with care, but your opponent
@@ -40,10 +40,10 @@ A battle of wits and patterns — place cards with care, but your opponent picks
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1Yfgln3WH1Uh53vWBRCI0H5ONlsxBz1ZG/view?usp=drive_link" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/120LHDaU89q7d0vlP6TfsFwR7ZjRc7mh3/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 
