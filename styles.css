@@ -156,9 +156,3 @@ h1 {
 .navbar .navbar-nav .nav-link:hover {
 	color: #0077cc; /* hover text color */
 }
-
-main a {
-	font-weight: 550;
-	text-decoration: none;
-	color: #666;
-}

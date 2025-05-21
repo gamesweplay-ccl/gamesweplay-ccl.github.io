@@ -8,6 +8,12 @@ body {
 	background-attachment: scroll;
 }
 
+main a {
+	font-weight: 550;
+	text-decoration: none;
+	color: #666;
+}
+
 #game-filter {
 	padding: 2rem;
 	border-radius: 20px;

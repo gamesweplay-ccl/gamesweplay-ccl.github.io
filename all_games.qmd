@@ -9,7 +9,7 @@ listing:
   type: table
   fields: [title, type, game_format, players, time, complexity]
   field-display-names:
-    title: "Game"
+    title: "Title"
     type: "Type"
     game_format: "Material"
     complexity: "Complexity"
