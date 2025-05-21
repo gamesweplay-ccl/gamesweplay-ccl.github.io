@@ -20,31 +20,40 @@ body {
 	margin-top: 10px;
 }
 
-.form-row {
+.button-group {
 	display: flex;
-	align-items: center;
-	gap: 1rem;
 	flex-wrap: wrap;
+	gap: 0.5rem; /* Adds space between buttons */
+	margin-top: 0.5rem;
 }
 
-.form-row label {
-	flex: 1 1 200px;
-	color: #333;
-}
-
-.form-row select {
-	flex: 2 1 300px;
-	padding: 0.6rem;
-	border-radius: 10px;
-	border: 1px solid #ddd;
+.button-group button {
+	/* background-color: #f6ffe3; */
+	background-color: beige;
+	border: 1px solid #ccc;
+	padding: 0.6rem 1.2rem;
 	font-size: 1rem;
-	background-color: #f2faff;
-	transition: border-color 0.2s ease;
+	cursor: pointer;
+	border-radius: 999px; /* Fully rounded pill style */
+	transition: background-color 0.2s ease;
 }
 
-.form-row select:focus {
-	outline: none;
-	border-color: #7ec4cf;
+.button-group button:hover {
+	background-color: #e6f3c2;
+}
+
+.button-group button.selected {
+	background-color: #d2eab3;
+}
+
+.question-label {
+	font-weight: 550;
+	margin-bottom: 0.3rem;
+	font-size: 1.05rem;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
 }
 
 #results {
@@ -72,7 +81,8 @@ body {
 #find-button,
 #filtered-random-btn {
 	padding: 0.6rem 1.4rem;
-	background-color: #fbeb4e;
+	/* background-color: #fbeb4e; */
+	background-color: #53ba55;
 	color: #000;
 	border: none;
 	border-radius: 12px;
@@ -81,7 +91,8 @@ body {
 }
 
 #find-button:hover {
-	background-color: #f3d03b;
+	/* background-color: #f3d03b; */
+	background-color: #4cae4f;
 }
 
 .game-suggestions .game-info-box {

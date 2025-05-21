@@ -15,48 +15,46 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
 
 ```{=html}
 <form id="game-filter" style="background: transparent">
-
-  <div class="form-row">
-    <label for="time">How much time do you have?</label>
-    <select name="time" id="time">
-      <option value="">Any amount of time</option>
-      <option value="10"><= 10 mins</option>
-      <option value="20">10-20 mins</option>
-      <option value="30">20-30 mins</option>
-      <option value="40">30-40 mins</option>
-    </select>
+  
+  <div class="form-group">
+    <p class="question-label">How much time do you have?</p>
+    <div class="button-group" data-name="time">
+      <button type="button" value="" class="selected">Any</button>
+      <button type="button" value="10">≤ 10 mins</button>
+      <button type="button" value="20">10–20 mins</button>
+      <button type="button" value="30">20–30 mins</button>
+      <button type="button" value="40">30–40 mins</button>
+    </div>
   </div>
 
-  <div class="form-row">
-    <label for="players">How many players?</label>
-    <select name="players" id="players">
-      <option value="">Any number of players</option>
-      <option value="1">Solo</option>
-      <option value="2">2 Players</option>
-      <option value="4">Between 3 and 10</option>
-      <option value="10">10 and more</option>
-    </select>
+  <div class="form-group">
+    <p class="question-label">How many players?</p>
+    <div class="button-group" data-name="players">
+      <button type="button" value="" class="selected">Any</button>
+      <button type="button" value="1">Solo</button>
+      <button type="button" value="2">2 Players</button>
+      <button type="button" value="4">Between 3 and 10</button>
+      <button type="button" value="10">10 and more</button>
+    </div>
   </div>
 
-  <div class="form-row">
-    <label for="difficulty">What difficulty?</label>
-    <select name="difficulty" id="difficulty">
-      <option value="">Any difficulty</option>
-      <option value="easy">Easy</option>
-      <option value="medium">Medium</option>
-      <option value="hard">Hard</option>
-    </select>
+  <div class="form-group">
+    <p class="question-label">What difficulty?</p>
+    <div class="button-group" data-name="difficulty">
+      <button type="button" value="" class="selected">Any</button>
+      <button type="button" value="easy">Easy</button>
+      <button type="button" value="medium">Medium</button>
+      <button type="button" value="hard">Hard</button>
+    </div>
   </div>
 
-  <div class="form-actions">
+  <div class="form-actions" style="margin-top: 1.5rem;">
     <button type="submit" id="find-button">Submit</button>
-    <!-- <button type="button" id="lucky-button" class="lucky-btn">Pick one for me!</button> -->
   </div>
 
 </form>
 
 <div id="results" style="display: none;">
-  <!-- <h3><em>Suggestions</em></h3> -->
   <p id="results-content"></p>
 </div>
 <div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">

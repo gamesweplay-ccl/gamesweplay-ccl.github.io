@@ -11,24 +11,37 @@ const typeColors = {
 	"Science/Deduction": "#e4f6dd",
 };
 
-// Load JSON once and reuse
 let gameData = [];
 let lastFilteredGames = [];
 
+// Track selected values manually from toggle buttons
+const formState = {
+	time: "",
+	players: "",
+	difficulty: "",
+};
+
+// Setup toggle button behavior
+document.querySelectorAll(".button-group").forEach((group) => {
+	const name = group.dataset.name;
+	const buttons = group.querySelectorAll("button");
+
+	buttons.forEach((btn) => {
+		btn.addEventListener("click", () => {
+			buttons.forEach((b) => b.classList.remove("selected"));
+			btn.classList.add("selected");
+			formState[name] = btn.value;
+		});
+	});
+});
+
+// Load JSON if not already loaded
 async function loadGames() {
 	if (gameData.length === 0) {
-		const res = await fetch("static/all_metadata.json"); // adjust path as needed
+		const res = await fetch("static/all_metadata.json");
 		gameData = await res.json();
 	}
 	return gameData;
-}
-
-function getFilters() {
-	return {
-		difficulty: document.getElementById("difficulty").value,
-		maxTime: document.getElementById("time").value,
-		players: document.getElementById("players").value,
-	};
 }
 
 function isPlayerCountInRange(selected, rangeStr) {
@@ -40,29 +53,27 @@ function isPlayerCountInRange(selected, rangeStr) {
 		return selectedNum >= min && selectedNum <= max;
 	}
 
-	// Single number match
 	return parseInt(rangeStr) === selectedNum;
 }
 
-function filterGames(games, { difficulty, maxTime, players }) {
+function filterGames(games, { difficulty, time, players }) {
 	return games.filter((game) => {
 		const matchesDifficulty =
 			!difficulty || game.complexity === difficultyMap[difficulty];
-		const matchesTime =
-			!maxTime || parseInt(game.time) === parseInt(maxTime);
+		const matchesTime = !time || parseInt(game.time) === parseInt(time);
 		const matchesPlayers =
 			!players || isPlayerCountInRange(players, game.players);
 		return matchesDifficulty && matchesTime && matchesPlayers;
 	});
 }
 
-// "Find Games" Button
+// Form submit handler
 document
 	.getElementById("game-filter")
 	.addEventListener("submit", async function (e) {
 		e.preventDefault();
 
-		const filters = getFilters();
+		const filters = { ...formState };
 		const games = await loadGames();
 		const matchingGames = filterGames(games, filters);
 		lastFilteredGames = matchingGames;
@@ -81,34 +92,35 @@ document
 				return typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type);
 			});
 
-			resultsEl.innerHTML = `<ul class="game-suggestions" style="list-style: none;">${matchingGames
+			resultsEl.innerHTML = `<ul class="game-suggestions" style="list-style: none; padding: 0;">${matchingGames
 				.map((g) => {
-					const bgColor = typeColors[g.type] || "#ffffff"; // default fallback
+					const bgColor = typeColors[g.type] || "#ffffff";
 					return `
-					<li style="background-color: ${bgColor}; padding: 1rem;">
+				<li style="background-color: ${bgColor}; padding: 1rem; margin-bottom: 1rem;">
 					<a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
 
 					<div class="game-info-box">
 						<div class="game-stats">
-						<span class="tooltip-gamestats" data-tooltip="${
-							g.time
-						} minutes"><i class="fas fa-clock"></i></span>
-						<span class="tooltip-gamestats" data-tooltip="${
-							g.players
-						} players"><i class="fas fa-users"></i></span>
-						<span class="tooltip-gamestats" data-tooltip="${
-							g.game_format
-						} required"><i class="fas fa-clone"></i></span>
-						<span class="tooltip-gamestats" data-tooltip="Complexity: ${
-							g.complexity
-						}"><i class="fas fa-star"></i></span>
+							<span class="tooltip-gamestats" data-tooltip="${
+								g.time
+							} minutes"><i class="fas fa-clock"></i></span>
+							<span class="tooltip-gamestats" data-tooltip="${
+								g.players
+							} players"><i class="fas fa-users"></i></span>
+							<span class="tooltip-gamestats" data-tooltip="${
+								g.game_format
+							} required"><i class="fas fa-clone"></i></span>
+							<span class="tooltip-gamestats" data-tooltip="Complexity: ${
+								g.complexity
+							}"><i class="fas fa-star"></i></span>
 						</div>
 					</div>
 
 					<small>${g.summary || "No description available."}</small>
-					</li>`;
+				</li>`;
 				})
-				.join("")}</ul>`;
+				.join("")}
+		</ul>`;
 
 			document.getElementById(
 				"random-from-filtered-container"
@@ -124,20 +136,20 @@ document
 		document.getElementById("results").style.display = "block";
 	});
 
-// Lucky link
+// Lucky link handler
 document.addEventListener("DOMContentLoaded", () => {
-	document
-		.getElementById("lucky-link")
-		.addEventListener("click", async function (e) {
-			e.preventDefault(); // prevent jump
-
-			const games = await loadGames(); // reuse existing function
+	const luckyLink = document.getElementById("lucky-link");
+	if (luckyLink) {
+		luckyLink.addEventListener("click", async function (e) {
+			e.preventDefault();
+			const games = await loadGames();
 			const randomGame = games[Math.floor(Math.random() * games.length)];
 			window.location.href = `/games/${randomGame.filename}.html`;
 		});
+	}
 });
 
-// Filtered random button
+// Random from filtered results
 document
 	.getElementById("filtered-random-btn")
 	.addEventListener("click", function () {
