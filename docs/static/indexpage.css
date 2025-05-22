@@ -1,6 +1,6 @@
 body {
-	background: url("backgrounds/home_bg.svg") left top repeat-y,
-		url("backgrounds/home_bg.svg") right top repeat-y;
+	background: url("backgrounds/home_bg.svg") left top,
+		url("backgrounds/home_bg.svg") right top;
 	background-color: #fffbe3; /* base color fills the center */
 	background-repeat: repeat-y, repeat-y;
 	background-position: left top, right top;
@@ -42,7 +42,7 @@ main a:hover {
 	/* background-color: #f6ffe3; */
 	background-color: beige;
 	border: 1px solid #ccc;
-	padding: 0.6rem 1.2rem;
+	padding: 0.6rem 2.2rem;
 	font-size: 1rem;
 	cursor: pointer;
 	border-radius: 999px; /* Fully rounded pill style */
@@ -89,23 +89,12 @@ main a:hover {
 	align-items: center;
 }
 
-.button-group button {
-	/* background-color: #f6ffe3; */
-	background-color: beige;
-	border: 1px solid #ccc;
-	padding: 0.6rem 1.2rem;
-	font-size: 1rem;
-	cursor: pointer;
-	border-radius: 999px; /* Fully rounded pill style */
-	transition: background-color 0.2s ease;
-}
-
 #find-button,
 #filtered-random-btn {
 	/* background-color: #fbeb4e; */
 	background-color: #53ba55;
 	border: 1px solid #ccc;
-	padding: 0.6rem 1.2rem;
+	padding: 0.6rem 2.2rem;
 	font-size: 1.1rem;
 	cursor: pointer;
 	border-radius: 999px;
@@ -161,19 +150,6 @@ main a:hover {
 	border: 1px solid #ccc; /* optional light border */
 }
 
-.grass-image-container {
-	width: 100%;
-	margin-top: 4rem;
-	overflow: hidden;
-}
-
-.grass-image {
-	width: 100%;
-	height: auto;
-	display: block;
-	object-fit: cover;
-}
-
 .nav-footer {
 	background-color: transparent;
 	padding-top: 2rem;
@@ -197,7 +173,7 @@ main a:hover {
 	width: 100%;
 	height: auto;
 	display: block;
-	margin-bottom: -7rem; /* optional: overlap a little if you want */
+	margin-bottom: -7rem;
 }
 
 .footer-logo {
@@ -205,11 +181,15 @@ main a:hover {
 	height: auto;
 	transition: transform 0.3s ease, filter 0.3s ease;
 	position: relative;
-	top: 2rem;
+	top: 0.1rem;
+	margin-left: 2rem;
 }
 
 .footer-logo:hover {
 	transform: scale(1.1);
 	filter: brightness(1.2);
 	cursor: pointer;
+}
+.nav-footer-right {
+	margin-right: 25vw;
 }

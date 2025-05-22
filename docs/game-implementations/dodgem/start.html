@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dodgem Game</title>
+  <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%; overflow: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      /* background: linear-gradient(to right, #fffd9d, #ffffff); */
+      display: flex; flex-direction: column; align-items: center;
+    }
+    h2 { color: #222; margin: 10px 0; }
+
+    /* Screens and forms */
+    .screen {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right, #fffd9d, #ffffff);
+      padding: 40px; z-index: 10;
+    }
+    .screen.hidden { display: none; }
+
+    .rules {
+      font-size: 18px; color: #444; line-height: 1.6;
+      background: #ffffffcc; padding: 20px; border-radius: 16px;
+      border: 2px solid #fcdb47; box-shadow: 0 4px 12px #f5d34c1a;
+      margin-bottom: 30px; max-width: 500px;
+    }
+    .screen h2 {
+      font-size: 28px; color: #333; margin-bottom: 20px;
+    }
+    .screen button {
+      padding: 12px 24px; font-size: 18px;
+      background-color: #0077ff; color: white; border: none;
+      border-radius: 12px; cursor: pointer;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+    .screen button:hover { background-color: #005fcc; }
+
+    #formError {
+      color: #ff4d4d; font-weight: 600; margin-top: 10px;
+      display: none; text-align: center;
+    }
+
+    /* Game UI */
+    #status {
+      font-size: 20px; font-weight:600; margin:10px; color:#555;
+      display: none;
+    }
+    .board {
+      position: relative; display: grid;
+      grid-template-columns: repeat(5,90px);
+      grid-template-rows: repeat(5,90px);
+      gap:6px; margin-top:10px; display:none;
+      margin-left: 90px;
+    }
+    .cell {
+      width:90px; height:90px; background:#ffffff;
+      border-radius:16px; border:2px solid #ccc;
+      display:flex; align-items:center; justify-content:center;
+      font-size:32px; cursor:pointer; transition:background-color .2s;
+    }
+    .cell:hover { background:#f6f6f6; }
+    .highlight {
+      background:#d0f5c9!important;
+      box-shadow:0 0 12px rgba(0,255,0,.3);
+    }
+    .red { color:#ff4d4d; }
+    .blue { color:#4d79ff; }
+    #restart {
+      margin-top:12px; padding:10px 20px; background:#0077ff;
+      color:white; border:none; border-radius:10px; font-size:16px;
+      cursor:pointer; box-shadow:0 3px 6px rgba(0,0,0,.2);
+      display:none;
+    }
+    #restart:hover { background:#005fcc; }
+    .cell[data-row="0"], .cell[data-col="4"] {
+      visibility:hidden; pointer-events:none;
+    }
+    .exit-button {
+      position:absolute; background:#e0ffe0;
+      border:2px dashed #28a745; font-size:22px; font-weight:bold;
+      border-radius:8px; cursor:pointer; z-index:10;
+      display:flex; align-items:center; justify-content:center;
+    }
+    .exit-button:hover { background:#b2f2b2; }
+    #winnerMessage {
+      margin-top:20px; font-size:22px; font-weight:bold;
+      color:#444; display:none; animation:popUp 1s ease-in-out;
+    }
+    @keyframes popUp {
+      0% { transform:scale(.2); opacity:0; }
+      100% { transform:scale(1); opacity:1; }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    canvas.confetti {
+      position:fixed; top:0; left:0; width:100vw; height:100vh;
+      pointer-events:none; z-index:99;
+    }
+
+    .line-between-rows {
+      position: absolute;
+      top: calc((90px + 6px) * 1 + 3px ); /* After row 1 */
+      left: 90px;
+      width: 69%;
+      height: 6px;
+      background:#4d79ff;
+      z-index: 10;
+    }
+
+    .line-between-cols {
+      position:absolute;
+      top: calc((90px + 6px) * 1 + 3px );
+      left: calc((90px + 6px) * 3 + 185px); /* After column 4 */
+      height: 80%;
+      width: 6px;
+      background: #ff4d4d;
+      z-index: 10;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body style = "background: linear-gradient(to right, #fffd9d, #ffffff)"">
+  <h1>Dodgem Game</h1>
+
+  <!-- Rules Screen -->
+  <div id="rulesScreen" class="screen">
+    <div class="rules animated">
+      <h2>How to Play Dodgem</h2>
+      <p>🔴 Red pieces can move <strong>Right</strong>, <strong>Up</strong>, and <strong>Down</strong>.</p>
+      <p>🔵 Blue pieces can move <strong>Left</strong>, <strong>Right</strong>, and <strong>Up</strong>.</p>
+      <p>🔴 Red wins by exiting all 3 red tokens from the <strong>Right</strong> or by blocking all Red Tokens.</p>
+      <p>🔵 Blue wins by exiting all 3 blue tokens from the <strong>Top</strong> or by blocking all Blue Tokens.</p>
+    </div>
+    <button onclick="showPlayerForm()">Start Game</button>
+  </div>
+
+  <!-- Centered Name Entry Form -->
+  <div id="nameEntryForm" class="screen hidden">
+    <h2>Enter Player Names</h2>
+    <form id="playerForm" style="display:flex; flex-direction:column; align-items:center; gap:20px;">
+      <input id="redNameInput" type="text" placeholder="Player 1 name (Red)" 
+             style="padding:12px 20px; font-size:16px; border-radius:8px; border:2px solid #ccc; width:260px; text-align:center;" />
+      <input id="blueNameInput" type="text" placeholder="Player 2 name (Blue)" 
+             style="padding:12px 20px; font-size:16px; border-radius:8px; border:2px solid #ccc; width:260px; text-align:center;" />
+      <button type="submit" style="padding:12px 24px; font-size:18px; background:#0077ff; color:white; border:none; border-radius:12px; cursor:pointer; width:260px;">Start Game</button>
+    </form>
+    <div id="formError"></div>
+  </div>
+
+  <!-- Game UI -->
+  <div id="status"></div>
+  <!-- <div class="board"></div>  -->
+  <div id="boardWrapper" style="position: relative; display: inline-block;">
+    <div class="board"></div>
+    <div class="line-between-rows"></div>
+    <div class="line-between-cols"></div>
+  </div>  
+  <button id="restart">Restart Game</button>
+  <div id="winnerMessage"></div>
+  <canvas id="confettiCanvas" class="confetti"></canvas>
+
+  <script>
+    const boardElement   = document.querySelector('.board');
+    const statusElement  = document.getElementById('status');
+    const restartButton  = document.getElementById('restart');
+    const winnerMessage  = document.getElementById('winnerMessage');
+    const rulesScreen    = document.getElementById('rulesScreen');
+    const nameEntryForm  = document.getElementById('nameEntryForm');
+    const playerForm     = document.getElementById('playerForm');
+
+    let redName = '', blueName = '';
+    const boardSize = 4;
+    let playerTurn = 1;
+    let redPieces = [], bluePieces = [], validMoves = [];
+
+    function showPlayerForm() {
+      rulesScreen.classList.add('hidden');
+      nameEntryForm.classList.remove('hidden');
+    }
+
+    playerForm.addEventListener('submit', e => {
+      e.preventDefault();
+      const redInput = document.getElementById('redNameInput');
+      const blueInput = document.getElementById('blueNameInput');
+      const err = document.getElementById('formError');
+      if (!redInput.value.trim() || !blueInput.value.trim()) {
+        err.textContent = 'Please enter both player names.';
+        err.style.color = '#ff4d4d';
+        return;
+      }
+      err.textContent = '';
+      redName = redInput.value;
+      blueName = blueInput.value;
+      nameEntryForm.classList.add('hidden');
+      boardElement.style.display = 'grid';
+      statusElement.style.display = 'block';
+      restartButton.style.display = 'inline-block';
+      redPieces = [[1,0],[2,0],[3,0]];
+      bluePieces = [[4,1],[4,2],[4,3]];
+      createBoard();
+    });
+
+    restartButton.addEventListener('click', () => location.reload());
+
+    function updateStatus(){
+      const name = playerTurn===1 ? redName : blueName;
+      const col  = playerTurn===1 ? '(Red)' : '(Blue)';
+      statusElement.textContent = `${name} ${col}'s turn`;
+    }
+
+    function createBoard(){
+      document.querySelectorAll('.exit-button').forEach(el=>el.remove());
+      boardElement.innerHTML = '';
+          for(let r=0;r<=boardSize;r++){
+        for(let c=0;c<=boardSize;c++){
+          const cell = document.createElement('div');
+          cell.className = 'cell';
+          cell.dataset.row = r;
+          cell.dataset.col = c;
+          if(redPieces.some(p=>p[0]===r&&p[1]===c)){
+            cell.innerHTML='🔴'; cell.classList.add('red');
+          } else if(bluePieces.some(p=>p[0]===r&&p[1]===c)){
+            cell.innerHTML='🔵'; cell.classList.add('blue');
+          }
+          cell.addEventListener('click',()=>cellClicked(r,c));
+          boardElement.appendChild(cell);
+        }
+      }
+      updateStatus();
+    }
+
+    function cellClicked(r,c){
+      const arr = playerTurn===1 ? redPieces : bluePieces;
+      if(!arr.some(p=>p[0]===r&&p[1]===c)) return;
+      highlightValidMoves(r,c);
+    }
+
+    function highlightValidMoves(r,c){
+      validMoves = [];
+      const isRed = playerTurn===1;
+      if(isRed){
+        if(c===3) validMoves.push([r,4]);
+        if(c<3&&!isOccupied(r,c+1)) validMoves.push([r,c+1]);
+        if(r>1&&!isOccupied(r-1,c)) validMoves.push([r-1,c]);
+        if(r<4&&!isOccupied(r+1,c)) validMoves.push([r+1,c]);
+      } else {
+        if(r===1) validMoves.push([0,c]);
+        if(r>1&&!isOccupied(r-1,c)) validMoves.push([r-1,c]);
+        if(c>0&&!isOccupied(r,c-1)) validMoves.push([r,c-1]);
+        if(c<3&&!isOccupied(r,c+1)) validMoves.push([r,c+1]);
+      }
+      document.querySelectorAll('.cell').forEach(cell=>{
+        const rr=+cell.dataset.row, cc=+cell.dataset.col;
+        cell.classList.remove('highlight');
+        cell.onclick = ()=>cellClicked(rr,cc);
+        if(validMoves.some(m=>m[0]===rr&&m[1]===cc)){
+          cell.classList.add('highlight');
+          cell.onclick = ()=>movePiece(r,c,rr,cc);
+        }
+      });
+      const tok = document.querySelector(`.cell[data-row="${r}"][data-col="${c}"]`);
+      if(!tok) return;
+      const ex = document.createElement('div');
+      ex.className='exit-button'; ex.textContent='🏁';
+      ex.style.width  = tok.clientWidth+'px';
+      ex.style.height = tok.clientHeight+'px';
+      if(isRed && c===3){
+        ex.style.top  = tok.offsetTop+'px';
+        ex.style.left = (tok.offsetLeft+tok.clientWidth+6)+'px';
+        ex.onclick    = ()=>movePiece(r,c,r,4);
+        boardElement.appendChild(ex);
+      } else if(!isRed && r===1){
+        ex.style.top  = (tok.offsetTop-tok.clientHeight-6)+'px';
+        ex.style.left = tok.offsetLeft+'px';
+        ex.onclick    = ()=>movePiece(r,c,0,c);
+        boardElement.appendChild(ex);
+      }
+    }
+
+    function movePiece(fr,fc,tr,tc){
+      const arr = playerTurn===1 ? redPieces : bluePieces;
+      const idx = arr.findIndex(p=>p[0]===fr&&p[1]===fc);
+      if(idx<0) return;
+      if((playerTurn===1&&tc===4)||(playerTurn===2&&tr===0)) arr.splice(idx,1);
+      else arr[idx]=[tr,tc];
+      playerTurn=3-playerTurn;
+      createBoard(); checkWinCondition(); checkBlocked();
+    }
+
+    function isOccupied(r,c){
+      return redPieces.concat(bluePieces).some(p=>p[0]===r&&p[1]===c);
+    }
+
+    function checkWinCondition(){
+      if(redPieces.length===0) win(`${redName} (Red) Wins!`);
+      else if(bluePieces.length===0) win(`${blueName} (Blue) Wins!`);
+    }
+
+    function checkBlocked(){
+      const arr = playerTurn===1 ? redPieces : bluePieces;
+      for(const [r,c] of arr){
+        if(playerTurn===1){
+          if(c===3||!isOccupied(r,c+1)) return;
+          if(r>1&&!isOccupied(r-1,c)) return;
+          if(r<4&&!isOccupied(r+1,c)) return;
+        } else {
+          if(r===1||!isOccupied(r-1,c)) return;
+          if(c>0&&!isOccupied(r,c-1)) return;
+          if(c<3&&!isOccupied(r,c+1)) return;
+        }
+      }
+      const w = playerTurn===1 ? `${redName} (Red)` : `${blueName} (Blue)`;
+      win(`${w} Wins! Tokens are blocked!`);
+    }
+
+    function win(msg){
+      winnerMessage.textContent = msg;
+      winnerMessage.style.display = 'block';
+      statusElement.style.display = 'none';
+      confetti({ particleCount:150, spread:60, origin:{y:0.6} });
+    }
+  </script>
+</body>
+</html>
