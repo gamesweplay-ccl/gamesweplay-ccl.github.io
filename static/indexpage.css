@@ -14,6 +14,11 @@ main a {
 	color: #666;
 }
 
+main a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
 #game-filter {
 	padding: 2rem;
 	border-radius: 20px;
@@ -84,16 +89,27 @@ main a {
 	align-items: center;
 }
 
+.button-group button {
+	/* background-color: #f6ffe3; */
+	background-color: beige;
+	border: 1px solid #ccc;
+	padding: 0.6rem 1.2rem;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 999px; /* Fully rounded pill style */
+	transition: background-color 0.2s ease;
+}
+
 #find-button,
 #filtered-random-btn {
-	padding: 0.6rem 1.4rem;
 	/* background-color: #fbeb4e; */
 	background-color: #53ba55;
-	color: #000;
-	border: none;
-	border-radius: 12px;
-	cursor: pointer;
+	border: 1px solid #ccc;
+	padding: 0.6rem 1.2rem;
 	font-size: 1.1rem;
+	cursor: pointer;
+	border-radius: 999px;
+	transition: background-color 0.2s ease;
 }
 
 #find-button:hover {

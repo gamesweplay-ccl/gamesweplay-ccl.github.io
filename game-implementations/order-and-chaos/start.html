@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Order and Chaos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .cell {
+      width: clamp(40px, 8vw, 60px);
+      height: clamp(40px, 8vw, 60px);
+      font-size: clamp(1rem, 2.5vw, 1.5rem);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+    .x { color: red; }
+    .o { color: black; }
+    #board {
+      display: grid;
+      grid-template-columns: repeat(6, auto);
+      gap: 4px;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen overflow-x-hidden">
+  <div class="p-4 bg-white rounded shadow w-full max-w-xl">
+    <h1 class="text-2xl font-bold text-center mb-4">Order and Chaos</h1>
+    <div class="flex justify-center gap-4 mb-4">
+      <button id="two-player-btn" class="bg-blue-500 text-white px-4 py-2 rounded">Two Player</button>
+      <button id="vs-computer-btn" class="bg-green-500 text-white px-4 py-2 rounded">Vs Computer</button>
+    </div>
+    <div id="role-selection" class="hidden text-center mb-4">
+      <p class="mb-2">Choose your role</p>
+      <button id="order-btn" class="bg-blue-500 text-white px-4 py-2 rounded mr-2">Order</button>
+      <button id="chaos-btn" class="bg-red-500 text-white px-4 py-2 rounded">Chaos</button>
+    </div>
+    <div class="flex justify-center gap-2 mb-4">
+      <button id="x-btn" class="bg-gray-300 px-4 py-2">X</button>
+      <button id="o-btn" class="bg-gray-300 px-4 py-2">O</button>
+    </div>
+    <div id="status" class="text-center font-medium mb-2"></div>
+    <div id="board"></div>
+    <button id="restart-btn" class="mt-4 bg-red-500 text-white px-4 py-2 rounded w-full">Restart</button>
+  </div>
+
+  <script>
+    const board = Array.from({ length: 6 }, () => Array(6).fill(null));
+    let currentPlayer = 'Order';
+    let selectedPiece = 'X';
+    let gameOver = false;
+    let gameMode = null;
+    let playerRole = null;
+    let computerRole = null;
+    const pairMap = new Map();
+
+    // Initialize pairing (simple diagonals for illustration)
+    for (let r = 0; r < 6; r++) {
+      for (let c = 0; c < 6; c++) {
+        const pairR = 5 - r;
+        const pairC = 5 - c;
+        const key = `${r},${c}`;
+        const pairKey = `${pairR},${pairC}`;
+        if (!pairMap.has(key) && !pairMap.has(pairKey)) {
+          pairMap.set(key, [pairR, pairC]);
+          pairMap.set(pairKey, [r, c]);
+        }
+      }
+    }
+
+    const $board = $('#board');
+    const $status = $('#status');
+
+    function renderBoard() {
+      $board.empty();
+      for (let r = 0; r < 6; r++) {
+        for (let c = 0; c < 6; c++) {
+          const $cell = $('<div>').addClass('cell').attr({ 'data-r': r, 'data-c': c });
+          if (board[r][c]) $cell.text(board[r][c]).addClass(board[r][c].toLowerCase());
+          $cell.on('click', () => {
+            if (gameMode === 'vs-computer' && currentPlayer === computerRole) return;
+            handleMove(r, c);
+          });
+          $board.append($cell);
+        }
+      }
+    }
+
+    function handleMove(r, c) {
+      if (gameOver || board[r][c]) return;
+      board[r][c] = selectedPiece;
+      renderBoard();
+      const isWin = checkWin();
+      const winner = currentPlayer;
+      if (isWin) {
+        $status.text(`${winner} wins!`);
+        gameOver = true;
+        return;
+      }
+      if (isFull()) {
+        $status.text('Chaos wins!');
+        gameOver = true;
+        return;
+      }
+      currentPlayer = currentPlayer === 'Order' ? 'Chaos' : 'Order';
+      updateStatus();
+      if (gameMode === 'vs-computer' && currentPlayer === computerRole && !gameOver) {
+        setTimeout(() => {
+          computerRole === 'Chaos' ? computerPlayChaos() : computerPlayOrder();
+        }, 300);
+      }
+    }
+
+    function checkWin() {
+      const dirs = [[0, 1], [1, 0], [1, 1], [1, -1]];
+      for (let r = 0; r < 6; r++) {
+        for (let c = 0; c < 6; c++) {
+          const mark = board[r][c];
+          if (!mark) continue;
+          for (const [dr, dc] of dirs) {
+            let count = 0;
+            for (let i = 0; i < 5; i++) {
+              const nr = r + dr * i, nc = c + dc * i;
+              if (nr < 0 || nr >= 6 || nc < 0 || nc >= 6) break;
+              if (board[nr][nc] !== mark) break;
+              count++;
+            }
+            if (count === 5) return true;
+          }
+        }
+      }
+      return false;
+    }
+
+    function isFull() {
+      return board.flat().every(cell => cell);
+    }
+
+    function updateStatus() {
+      $status.text(`${currentPlayer}'s turn (Place ${selectedPiece})`);
+    }
+
+    function computerPlayChaos() {
+      const lastMove = getLastOrderMove();
+      if (lastMove) {
+        const pair = pairMap.get(`${lastMove.r},${lastMove.c}`);
+        if (pair && !board[pair[0]][pair[1]]) {
+          selectedPiece = board[lastMove.r][lastMove.c];
+          handleMove(pair[0], pair[1]);
+          return;
+        }
+      }
+      computerPlayChaosHeuristic();
+    }
+
+    function getLastOrderMove() {
+      for (let r = 0; r < 6; r++) {
+        for (let c = 0; c < 6; c++) {
+          if (board[r][c] && currentPlayer === 'Chaos') {
+            return { r, c };
+          }
+        }
+      }
+      return null;
+    }
+
+    function computerPlayChaosHeuristic() {
+      let best = null, minThreat = Infinity;
+      for (let r = 0; r < 6; r++) {
+        for (let c = 0; c < 6; c++) {
+          if (board[r][c]) continue;
+          for (let p of ['X', 'O']) {
+            board[r][c] = p;
+            let threat = evaluateThreat('X') + evaluateThreat('O');
+            if (threat < minThreat) {
+              minThreat = threat;
+              best = { r, c, piece: p };
+            }
+            board[r][c] = null;
+          }
+        }
+      }
+      if (best) {
+        selectedPiece = best.piece;
+        handleMove(best.r, best.c);
+      }
+    }
+
+    function evaluateThreat(piece) {
+      let score = 0;
+      const dirs = [[0,1],[1,0],[1,1],[1,-1]];
+      for (let r=0; r<6; r++) {
+        for (let c=0; c<6; c++) {
+          for (const [dr, dc] of dirs) {
+            let count = 0;
+            for (let i=0; i<5; i++) {
+              const nr = r + dr*i, nc = c + dc*i;
+              if (nr<0 || nr>=6 || nc<0 || nc>=6) break;
+              if (board[nr][nc] === piece) count++;
+              else if (board[nr][nc]) { count = 0; break; }
+            }
+            score += Math.pow(10, count);
+          }
+        }
+      }
+      return score;
+    }
+
+    function computerPlayOrder() {
+      let bestMove = null, bestScore = -Infinity;
+      for (let r=0; r<6; r++) {
+        for (let c=0; c<6; c++) {
+          if (board[r][c]) continue;
+          for (let piece of ['X', 'O']) {
+            board[r][c] = piece;
+            const score = evaluateThreat(piece) - (Math.abs(r - 2.5) + Math.abs(c - 2.5));
+            board[r][c] = null;
+            if (score > bestScore) {
+              bestScore = score;
+              bestMove = { r, c, piece };
+            }
+          }
+        }
+      }
+      if (bestMove) {
+        selectedPiece = bestMove.piece;
+        handleMove(bestMove.r, bestMove.c);
+      }
+    }
+
+    $('#x-btn').on('click', () => { selectedPiece = 'X'; updateStatus(); });
+    $('#o-btn').on('click', () => { selectedPiece = 'O'; updateStatus(); });
+    $('#restart-btn').on('click', () => location.reload());
+
+    $('#two-player-btn').on('click', () => {
+      gameMode = 'two-player';
+      $('#role-selection').hide();
+      renderBoard();
+      updateStatus();
+    });
+
+    $('#vs-computer-btn').on('click', () => {
+      gameMode = 'vs-computer';
+      $('#role-selection').show();
+    });
+
+    $('#order-btn').on('click', () => {
+      playerRole = 'Order';
+      computerRole = 'Chaos';
+      currentPlayer = 'Order';
+      $('#role-selection').hide();
+      renderBoard();
+      updateStatus();
+    });
+
+    $('#chaos-btn').on('click', () => {
+      playerRole = 'Chaos';
+      computerRole = 'Order';
+      currentPlayer = 'Order';
+      $('#role-selection').hide();
+      renderBoard();
+      updateStatus();
+      setTimeout(computerPlayOrder, 500);
+    });
+
+    $(renderBoard);
+  </script>
+</body>
+</html>
