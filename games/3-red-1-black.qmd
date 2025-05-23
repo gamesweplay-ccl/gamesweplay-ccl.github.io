@@ -149,7 +149,7 @@ A high-stakes game of bluffing and bold bids — can you outwit your friends and
 	}
 
 	.btn {
-		padding: 1rem 1.5rem;
+		padding: 1rem 1.2rem;
 		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 200;

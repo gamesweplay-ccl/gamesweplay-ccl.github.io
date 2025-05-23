@@ -148,7 +148,7 @@ Shake, bid, and bluff your way to victory — can you spot the liar or will you 
 	}
 
 	.btn {
-		padding: 1rem 1.5rem;
+		padding: 1rem 1.2rem;
 		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 200;

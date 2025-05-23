@@ -149,7 +149,7 @@ Can you crack the hidden rule? Place numbers, spot patterns, and guess wisely. A
 	}
 
 	.btn {
-		padding: 1rem 1.5rem;
+		padding: 1rem 1.2rem;
 		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 200;

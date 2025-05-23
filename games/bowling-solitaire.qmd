@@ -148,7 +148,7 @@ A solo card game that involves heavy strategy and a brilliant scoring system all
 	}
 
 	.btn {
-		padding: 1rem 1.5rem;
+		padding: 1rem 1.2rem;
 		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 200;

@@ -149,7 +149,7 @@ Protect the King or bring him down — one side escapes, the other surrounds. A 
 	}
 
 	.btn {
-		padding: 1rem 1.5rem;
+		padding: 1rem 1.2rem;
 		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 200;

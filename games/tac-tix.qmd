@@ -149,7 +149,7 @@ Pick a row or column and clear a stretch — no gaps allowed! A minimalist logic
 	}
 
 	.btn {
-		padding: 1rem 1.5rem;
+		padding: 1rem 1.2rem;
 		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 200;

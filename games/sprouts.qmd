@@ -148,7 +148,7 @@ A delightfully simple game about drawing vines and dots all the while literally 
 	}
 
 	.btn {
-		padding: 1rem 1.5rem;
+		padding: 1rem 1.2rem;
 		border-radius: 20px;
 		text-decoration: none;
 		font-weight: 200;
