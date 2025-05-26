@@ -19,6 +19,16 @@ main a:hover {
 	color: blue;
 }
 
+h1 {
+	background-color: #e8b492;
+	color: #fffbe3;
+}
+
+h3 {
+	font-weight: 550;
+	color: #8d9fa9;
+}
+
 #game-filter {
 	padding: 2rem;
 	border-radius: 20px;
@@ -39,22 +49,39 @@ main a:hover {
 }
 
 .button-group button {
-	/* background-color: #f6ffe3; */
-	background-color: beige;
-	border: 1px solid #ccc;
+	position: relative;
+	background-color: transparent;
 	padding: 0.6rem 2.2rem;
 	font-size: 1rem;
 	cursor: pointer;
-	border-radius: 999px; /* Fully rounded pill style */
+	border-radius: 999px;
 	transition: background-color 0.2s ease;
+	overflow: hidden;
+	border: none;
 }
 
-.button-group button:hover {
-	background-color: #e6f3c2;
+/* This is for adding a black innner border effect to the buttons */
+.button-group button::after,
+#find-button::after,
+#filtered-random-btn::after {
+	content: "";
+	position: absolute;
+	top: 4px;
+	bottom: 4px;
+	left: 4px;
+	right: 4px;
+	border-radius: 999px;
+	border: 1px solid #5f4c3f;
+	pointer-events: none;
 }
 
 .button-group button.selected {
-	background-color: #d2eab3;
+	background-color: #e8b492;
+	color: white;
+}
+
+.button-group button:hover {
+	background-color: #ffe0c2;
 }
 
 .question-label {
@@ -91,19 +118,21 @@ main a:hover {
 
 #find-button,
 #filtered-random-btn {
-	/* background-color: #fbeb4e; */
-	background-color: #53ba55;
-	border: 1px solid #ccc;
+	position: relative;
+	overflow: hidden;
+	background-color: #8c9ba9;
+	border: none;
 	padding: 0.6rem 2.2rem;
 	font-size: 1.1rem;
 	cursor: pointer;
 	border-radius: 999px;
 	transition: background-color 0.2s ease;
+	color: white;
 }
 
-#find-button:hover {
-	/* background-color: #f3d03b; */
-	background-color: #4cae4f;
+#find-button:hover,
+#filtered-random-btn:hover {
+	background-color: #6b7a89;
 }
 
 .game-suggestions .game-info-box {
@@ -123,22 +152,24 @@ main a:hover {
 }
 
 .about-info-grid {
-	display: grid;
-	grid-template-columns: max-content 1fr;
-	column-gap: 1rem;
-	row-gap: 0.5rem;
-	align-items: start;
-	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 0.2rem;
+	margin: 2rem 0;
 }
 
 .about-info-grid .label {
-	font-weight: bold;
-	white-space: nowrap;
+	font-weight: 550;
+	color: #8d9fa9;
+	font-size: 1.1rem;
 }
 
 .about-info-grid .desc {
-	line-height: 1.4;
-	margin-left: 10px;
+	max-width: 500px;
+	text-align: center;
+	color: #444;
 }
 
 .color-box {
@@ -151,11 +182,8 @@ main a:hover {
 }
 
 .nav-footer {
-	background-color: transparent;
 	padding-top: 2rem;
-	width: 100vw; /* viewport width */
-	margin-left: calc(-50vw + 50%);
-	margin-right: calc(-50vw + 50%);
+	max-width: 900px;
 	padding-bottom: 5rem;
 
 	display: flex;
@@ -167,29 +195,23 @@ main a:hover {
 
 .footer-graphic {
 	width: 100%;
+	padding-top: 5rem;
 }
 
 .footer-graphic img {
 	width: 100%;
 	height: auto;
 	display: block;
-	margin-bottom: -7rem;
 }
 
 .footer-logo {
 	width: 100px;
 	height: auto;
 	transition: transform 0.3s ease, filter 0.3s ease;
-	position: relative;
-	top: 0.1rem;
-	margin-left: 2rem;
 }
 
 .footer-logo:hover {
 	transform: scale(1.1);
 	filter: brightness(1.2);
 	cursor: pointer;
-}
-.nav-footer-right {
-	margin-right: 25vw;
 }

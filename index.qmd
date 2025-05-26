@@ -7,7 +7,7 @@ format:
       - static/indexpage.css
 ---
 
-# **Welcome to our games website!**
+# **&nbsp;Welcome to our website**
 This is a selection of games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. These games can be recreated with easily available material and you will find rules, videos and boards to play them here. :-) \
 
 What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you</a> or answer these questions for a more customized selection! \
@@ -49,7 +49,7 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
   </div>
 
   <div class="form-actions" style="margin-top: 1.5rem;">
-    <button type="submit" id="find-button">Submit</button>
+    <button type="submit" id="find-button">SUBMIT</button>
   </div>
 
 </form>
@@ -67,7 +67,7 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
 \
 \
 
-# **About These Games**
+# **&nbsp;About These Games**
 This collection of games has been curated for a variety of situations to meet several curricular goals. You will find resources for this (where relevant) on the game pages. [Here](https://drive.google.com/file/d/1hCDHz6vS9PuA_KgVw0_3o5RFWZhisK7U/view?usp=sharing) is a PDF of the entire games manual. 
 
 In order to play these games you will often need pen, paper, dice and tokens in two colours. 20mm buttons work well. Some games have custom cards or game boards – black and white versions can be downloaded here. \
@@ -152,19 +152,15 @@ Games for 10 or more! These can be played simultaneously by an entire class
 ```{=html}
 <footer class="footer" style="width=100%;">
   <div class="footer-graphic">
-    <img src="static/backgrounds/grass.svg" alt="Grass Decoration">
+    <img src="static/backgrounds/grass.png" alt="Grass Decoration">
   </div>
 
   <div class="nav-footer">
 
     <div class="nav-footer-left">
-      <ul class="footer-items list-unstyled">
-        <li class="nav-item compact" style="margin-left: 10rem;">
-          <a href="https://iitgn.ac.in/" target="_blank" rel="noopener noreferrer">
-            <img src="static/images/iitgn_logo.png" class="footer-logo">
-          </a>
-        </li>
-      </ul>
+      <a href="https://iitgn.ac.in/" target="_blank" rel="noopener noreferrer">
+        <img src="static/images/iitgn_logo.png" class="footer-logo">
+      </a>
     </div>
 
     <div class="nav-footer-center">

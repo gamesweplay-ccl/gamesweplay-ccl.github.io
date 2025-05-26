@@ -63,6 +63,18 @@ An asymmetrical battle between a herd of goats and some hungry tigers
 </div>
 
 <style>
+	p {
+		margin: 2rem 0;
+		font-size: 1.1rem;
+		line-height: 1.6;
+		color: #666;
+		font-family: "Omnes", sans-serif;
+	}
+
+	body {
+		max-width: 100%;
+	}
+
 	.reaction-container {
 		display: flex;
 		justify-content: center;
@@ -148,8 +160,10 @@ An asymmetrical battle between a herd of goats and some hungry tigers
 	}
 
 	.btn {
+		position: relative;
+		border: none;
 		padding: 1rem 1.2rem;
-		border-radius: 20px;
+		border-radius: 999px;
 		text-decoration: none;
 		font-weight: 200;
 		transition: all 0.3s ease;
@@ -162,6 +176,18 @@ An asymmetrical battle between a herd of goats and some hungry tigers
 		color: #333;
 	}
 
+	.btn:after {
+		content: "";
+		position: absolute;
+		top: 4px;
+		bottom: 4px;
+		left: 4px;
+		right: 4px;
+		border-radius: 999px;
+		border: 1px solid #5f4c3f;
+		pointer-events: none;
+	}
+
 	/* Hide empty buttons */
 	.game-actions:empty {
 		display: none;
@@ -172,14 +198,6 @@ An asymmetrical battle between a herd of goats and some hungry tigers
 		opacity: 0.5; /* Make it look disabled */
 		background-color: #ccc; /* Grey background */
 		color: #666; /* Darker text */
-	}
-
-	p {
-		margin: 2rem 0;
-		font-size: 1.1rem;
-		line-height: 1.6;
-		color: #666;
-		font-family: "Omnes", sans-serif;
 	}
 </style>
 
