@@ -11,7 +11,7 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1h9lOlbrh29P6odJ5fneK_JFNYhmp_XPV/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/aEfWe7dPp84
 summary: Can the flower bloom and fill the grid before the wind runs out of breath?
   A poetic battle of growth and gusts where every direction matters.
 time: '20'
@@ -40,7 +40,7 @@ Can the flower bloom and fill the grid before the wind runs out of breath? A poe
 :::{.game-actions}
 ```{=html}
 <a href="https://ramji-purwar.github.io/Hackrush_25_flower_and_wind_game/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/aEfWe7dPp84" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=G1Ba7xRVKe4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1h9lOlbrh29P6odJ5fneK_JFNYhmp_XPV/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1ZIrKRr-uKvyrGkWyIUzKzDkkTmNLcFnt/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

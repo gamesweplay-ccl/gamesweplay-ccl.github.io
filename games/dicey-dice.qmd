@@ -2,7 +2,7 @@
 airtable_id: reci2PISwVIr8P3ml
 board_links: https://drive.google.com/file/d/1b5-uw6D0I3hWbVxEYzJEYPJ-d3exegdx/view?usp=sharing
 complexity: ★★★
-external_links: ''
+external_links: https://shaumikkhanna.github.io/dicey-dice/
 filename: dicey-dice
 format:
   html:
@@ -38,7 +38,7 @@ A gambler stands at the table, wondering if there was a way to beat the house.
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://shaumikkhanna.github.io/dicey-dice/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1lY8hRocCEkJmlvx7U5QzDhVwdSE-NOHS/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
