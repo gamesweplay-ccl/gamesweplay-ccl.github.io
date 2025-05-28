@@ -7,7 +7,7 @@ format:
       - static/indexpage.css
 ---
 
-# **&nbsp;Welcome to our website**
+# **&nbsp;Welcome to Games @CCL!**
 This is a selection of games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. These games can be recreated with easily available material and you will find rules, videos and boards to play them here. :-) \
 
 What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you</a> or answer these questions for a more customized selection! \
@@ -83,6 +83,24 @@ Most games have simple rules. The games are split into games that can be used in
 <span class="color-box" style="background-color: #b3d34a;"></span> Science and Deduction \
 <span class="color-box" style="background-color: #8cd6ea;"></span> SEL \
 
+<!-- <div class="types-of-games-section-break">
+  <style>
+    .types-of-games-section-break {
+      width: 100%;
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .types-of-games-section-break img {
+      max-width: 750px;
+      height: auto;
+      display: inline-block;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+    }
+  </style>
+  <img src="static/images/types-of-games-poster.svg" alt="Types of Games Divider">
+</div> -->
 
 \
 
@@ -91,26 +109,43 @@ We enjoy playing even the simplest of these so a low complexity game is not just
 
 <!-- We catergorize each game in terms of Complexity. A higher complexity simply means that the rules are more intricate. Each game, regardless of complexity is meant to be enjoyed and played by all. -->
 
-::: {.about-info-grid}
-::: {.label}
-★
-:::
-::: {.desc}
-Simple rules. Suggested for class 3 (8 years) and above
-:::
-::: {.label}
-★★
-:::
-::: {.desc}
-Somewhat complicated rules or strategy. Suggested for class 6 (11 years) and above
-:::
-::: {.label}
-★★★
-:::
-::: {.desc}
-More challenging rules or strategy. Suggested for class 9 (14 years) and above
-:::
-:::
+
+```{=html}
+<div class="about-info-grid">
+  <div class="label">
+    <img src="static/images/complexity-star.svg" alt="1 star" style="height: 1.5em; vertical-align: middle;">
+  </div>
+  <div class="desc">
+    Simple rules.
+  </div>
+  <div class="desc-sub">
+    Class 3 (8 years) +
+  </div>
+
+  <div class="label">
+    <img src="static/images/complexity-star.svg" alt="1 star" style="height: 1.5em; vertical-align: middle;">
+    <img src="static/images/complexity-star.svg" alt="1 star" style="height: 1.5em; vertical-align: middle;">
+  </div>
+  <div class="desc">
+    Somewhat complicated rules or strategy.
+  </div>
+  <div class="desc-sub">
+    Class 6 (11 years) +
+  </div>
+
+  <div class="label">
+    <img src="static/images/complexity-star.svg" alt="1 star" style="height: 1.5em; vertical-align: middle;">
+    <img src="static/images/complexity-star.svg" alt="1 star" style="height: 1.5em; vertical-align: middle;">
+    <img src="static/images/complexity-star.svg" alt="1 star" style="height: 1.5em; vertical-align: middle;">
+  </div>
+  <div class="desc">
+    More challenging rules or strategy.
+  </div>
+  <div class="desc-sub">
+    Class 9 (14 years) +
+  </div>
+</div>
+```
 
 
 \
@@ -120,32 +155,37 @@ More challenging rules or strategy. Suggested for class 9 (14 years) and above
 We have games for different player counts.
 
 
-::: {.about-info-grid}
-::: {.label}
-Solo
-:::
-::: {.desc}
-These are games for 1 player
-:::
-::: {.label}
-2 players
-:::
-::: {.desc}
-These are mostly strategy games and support exactly 2 players
-:::
-::: {.label}
-Between 3 and 10
-:::
-::: {.desc}
-These games can be played with more than 2 but less than 10 players
-:::
-::: {.label}
-10 and more
-:::
-::: {.desc}
-Games for 10 or more! These can be played simultaneously by an entire class
-:::
-:::
+```{=html}
+<div class="about-info-grid">
+  <div class="label">
+    Solo
+  </div>
+  <div class="desc">
+    These are games for 1 player
+  </div>
+
+  <div class="label">
+    2 players
+  </div>
+  <div class="desc">
+    These are mostly strategy games and support exactly 2 players
+  </div>
+
+  <div class="label">
+    Between 3 and 10
+  </div>
+  <div class="desc">
+    These games can be played with more than 2 but less than 10 players
+  </div>
+
+  <div class="label">
+    10 and more
+  </div>
+  <div class="desc">
+    Games for 10 or more! These can be played simultaneously by an entire class
+  </div>
+</div>
+```
 
 
 

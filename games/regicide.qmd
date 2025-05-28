@@ -79,7 +79,7 @@ Unite your cards and your powers — defeat the nobles with teamwork and strateg
 	.reaction-container {
 		display: flex;
 		justify-content: center;
-		gap: 14px;
+		gap: 6px;
 		padding: 16px;
 		margin-top: 60px;
 		max-width: 600px;
@@ -93,8 +93,8 @@ Unite your cards and your powers — defeat the nobles with teamwork and strateg
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 60px;
-		height: 60px;
+		width: 5rem;
+		height: 5rem;
 	}
 
 	.emoji img {
@@ -154,6 +154,7 @@ Unite your cards and your powers — defeat the nobles with teamwork and strateg
 	.game-actions {
 		display: flex;
 		justify-content: flex-start;
+		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;
 		align-items: center;

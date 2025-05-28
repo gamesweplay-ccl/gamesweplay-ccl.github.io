@@ -147,7 +147,8 @@ h1 {
 }
 
 .navbar {
-	background-color: #8c9ba9;
+	/* background-color: #8c9ba9; */
+	background-color: #585959;
 	border-bottom: 1px solid #ccc;
 }
 
