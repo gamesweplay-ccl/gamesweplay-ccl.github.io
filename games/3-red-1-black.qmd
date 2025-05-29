@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Playing Cards
-manual_links: https://drive.google.com/file/d/1OLKO3YJje3GuRKbVV1biM4unttrVr1Fq/view?usp=sharing
+manual_links: https://drive.google.com/file/d/1fhFWdgPjmE7LAocByIwt4YWAjR3yuOC5/view?usp=sharing
 players: 3-8
 rules_video: ''
 summary: 'A high-stakes game of bluffing and bold bids — can you outwit your friends
@@ -43,7 +43,7 @@ A high-stakes game of bluffing and bold bids — can you outwit your friends and
 <a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1OLKO3YJje3GuRKbVV1biM4unttrVr1Fq/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1fhFWdgPjmE7LAocByIwt4YWAjR3yuOC5/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 
