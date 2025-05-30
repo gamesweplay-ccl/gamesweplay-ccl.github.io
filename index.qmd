@@ -98,7 +98,7 @@ Most games have simple rules. The games are split into games that can be used in
   <img src="static/images/types-of-games-poster.svg" alt="Types of Games Divider">
 </div> -->
 
-
+```{=html}
 <div class="image-break-row">
   <style>
     .image-break-row {
@@ -107,11 +107,10 @@ Most games have simple rules. The games are split into games that can be used in
       text-align: center;
     }
     .image-break-row img {
-      max-width: 750px;
       height: auto;
       display: inline-block;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      /* border-radius: 16px; */
+      border-radius: 16px;
     }
   </style>
   <img src="static/images/game-types-posters/types-of-games-01.svg" alt="Image 1" style="width: 14vw; min-width: 120px; height: auto;">
@@ -119,6 +118,7 @@ Most games have simple rules. The games are split into games that can be used in
   <img src="static/images/game-types-posters/types-of-games-03.svg" alt="Image 3" style="width: 14vw; min-width: 120px; height: auto;">
   <img src="static/images/game-types-posters/types-of-games-04.svg" alt="Image 4" style="width: 14vw; min-width: 120px; height: auto;">
 </div>
+```
 
 \
 

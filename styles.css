@@ -147,16 +147,21 @@ h1 {
 }
 
 .navbar {
-	/* background-color: #8c9ba9; */
 	background-color: #585959;
 	border-bottom: 1px solid #ccc;
 }
 
 .navbar-brand,
 .nav-link {
-	color: white; /* text color */
+	color: white;
 	font-family: "Omnes", sans-serif;
 	font-weight: 550;
+}
+
+.navbar-nav .nav-link.active,
+.navbar .quarto-navbar-tools .quarto-navigation-tool,
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+	color: white;
 }
 
 .navbar .navbar-nav .nav-link:hover {
