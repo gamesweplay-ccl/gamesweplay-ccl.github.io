@@ -11,7 +11,7 @@ format:
 game_format: Dominoes
 manual_links: https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing
 players: '2'
-rules_video: https://youtu.be/eVzfk7eqOx0
+rules_video: https://youtu.be/KUZFn-9_FmU
 summary: Players take turn placing dominos on a boards hoping to be the one having
   the last laugh.
 time: '10'
@@ -40,7 +40,7 @@ Players take turn placing dominos on a boards hoping to be the one having the la
 :::{.game-actions}
 ```{=html}
 <a href="https://kyleburke.info/DB/combGames/domineering.html" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/eVzfk7eqOx0" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/KUZFn-9_FmU" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1Jp3b3jalLERxPYkkrMdmrqSKlArj0boC/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
