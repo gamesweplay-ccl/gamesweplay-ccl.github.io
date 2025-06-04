@@ -2,7 +2,7 @@
 airtable_id: recEXQu56YVpKzzxd
 board_links: https://drive.google.com/file/d/1A6lVBbkZ3ddkFqcULpYpBJTzr7i-eu15/view?usp=sharing
 complexity: ★★★
-external_links: ''
+external_links: https://shaumikkhanna.github.io/lines-of-action/
 filename: lines-of-action
 format:
   html:
@@ -39,7 +39,7 @@ Outmaneuver your opponent and connect your pieces — every move reshapes the bo
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://shaumikkhanna.github.io/lines-of-action/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/127OC1HbCecpP5SJFUllop8Von6Y3fmpa/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
