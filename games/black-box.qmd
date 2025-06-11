@@ -12,8 +12,9 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/112okLyIyGE5Gq5EydoASpGQ30pLaME5u/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Shine a light, trace its path — can you crack Nature’s hidden code? Use logic
-  and the laws of scattering to reveal the invisible atoms.
+summary: One player decides the location of 5 atoms in a black box. The other shines
+  light into the box and, using the rules of scattering, deduces the position of each
+  atom.
 time: '40'
 title: Black box
 type: Science/Deduction
@@ -34,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Shine a light, trace its path — can you crack Nature’s hidden code? Use logic and the laws of scattering to reveal the invisible atoms.
+One player decides the location of 5 atoms in a black box. The other shines light into the box and, using the rules of scattering, deduces the position of each atom.
 :::
 
 :::{.game-actions}

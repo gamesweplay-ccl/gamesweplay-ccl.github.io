@@ -12,7 +12,12 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1Xd-PcIowMdS-gwE5c3PGjs_l8pcdBfvD/view?usp=sharing
 players: 3-8
 rules_video: ''
-summary: A game of drawings, funny phrases and miscommunication, leading to hilarity.
+summary: Players sit in a circle, each with a pen and paper. Each one writes a sentence
+  and then passes their sheet to the left. On the paper they received, they draw a
+  figure for the sentence, fold so only their figure is seen and again pass the paper.
+  Players now see only a figure for which they write a caption, fold to cover everything
+  from before and pass again. Play continues until each receives their original sheet.
+  At this point they can open it to see how their sentence has changed!
 time: '10'
 title: Eat Poop You Cat
 type: SEL
@@ -33,7 +38,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A game of drawings, funny phrases and miscommunication, leading to hilarity.
+Players sit in a circle, each with a pen and paper. Each one writes a sentence and then passes their sheet to the left. On the paper they received, they draw a figure for the sentence, fold so only their figure is seen and again pass the paper. Players now see only a figure for which they write a caption, fold to cover everything from before and pass again. Play continues until each receives their original sheet. At this point they can open it to see how their sentence has changed!
 :::
 
 :::{.game-actions}

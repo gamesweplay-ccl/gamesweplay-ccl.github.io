@@ -211,3 +211,16 @@ h3 {
 	filter: brightness(1.2);
 	cursor: pointer;
 }
+
+.image-break-row {
+	width: 100%;
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.image-break-row img {
+	height: auto;
+	display: inline-block;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+}

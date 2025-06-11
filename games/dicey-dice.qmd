@@ -12,7 +12,9 @@ game_format: Dice
 manual_links: https://drive.google.com/file/d/1lY8hRocCEkJmlvx7U5QzDhVwdSE-NOHS/view?usp=sharing
 players: 2-100
 rules_video: ''
-summary: A gambler stands at the table, wondering if there was a way to beat the house.
+summary: Players decide to place bets on up to 3 spaces on the board. 2 dice are rolled
+  and payoffs earned for successful bids. The player with the most money after 10
+  rounds wins the game.
 time: '10'
 title: Dicey Dice
 type: Mathematics/Probability
@@ -33,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A gambler stands at the table, wondering if there was a way to beat the house.
+Players decide to place bets on up to 3 spaces on the board. 2 dice are rolled and payoffs earned for successful bids. The player with the most money after 10 rounds wins the game.
 :::
 
 :::{.game-actions}

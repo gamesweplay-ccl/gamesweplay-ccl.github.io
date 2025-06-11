@@ -12,7 +12,8 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/15oeODVzR-4Q3t6nD4V7JftYNCr6nquaO/view?usp=sharing
 players: '2'
 rules_video: https://youtu.be/nsR_q-2rG3g
-summary: Two drivers manoeuver their cars, trying to reach the finish line first.
+summary: Lata and Raj race across their finish lines. Cars may not reverse or jump
+  over each other. The player with no moves remaining wins the game.
 time: '10'
 title: Dodgem
 type: Strategy
@@ -33,7 +34,7 @@ walkthrough_video: https://www.youtube.com/watch?v=djgD-ZhJXAE&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Two drivers manoeuver their cars, trying to reach the finish line first.
+Lata and Raj race across their finish lines. Cars may not reverse or jump over each other. The player with no moves remaining wins the game.
 :::
 
 :::{.game-actions}

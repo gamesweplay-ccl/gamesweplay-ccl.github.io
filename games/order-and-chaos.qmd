@@ -12,8 +12,9 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1baKalvZ2vNFFV8r7sO-lzBvNEl7eiLUI/view?usp=sharing
 players: '2'
 rules_video: https://youtu.be/PrGuk7c8h_U
-summary: One player builds, the other blocks — will order prevail or will chaos reign?
-  A twist on Tic-Tac-Toe where both sides share the symbols but not the goal.
+summary: 2 players — Order and Chaos — play a game of TicTacToe. They take turns placing
+  a mark on the board. Either can play either a O or an X on their turn. Order wants
+  to create a line of 5. Chaos wants to prevent it. Who will succeed?
 time: '20'
 title: Order and Chaos
 type: Strategy
@@ -34,7 +35,7 @@ walkthrough_video: https://www.youtube.com/watch?v=kMCxxG8l7o8&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-One player builds, the other blocks — will order prevail or will chaos reign? A twist on Tic-Tac-Toe where both sides share the symbols but not the goal.
+2 players — Order and Chaos — play a game of TicTacToe. They take turns placing a mark on the board. Either can play either a O or an X on their turn. Order wants to create a line of 5. Chaos wants to prevent it. Who will succeed?
 :::
 
 :::{.game-actions}

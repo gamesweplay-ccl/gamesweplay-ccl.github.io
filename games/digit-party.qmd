@@ -12,7 +12,9 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/17IwelPZs3r-0_e2-KsFcRuMxtp1fqKIL/view?usp=sharing
 players: 1-100
 rules_video: ''
-summary: A fast paced number party game which is simple fun for all
+summary: Each player has a 5 x 5 grid onto which they place the digit called. A digit
+  forms a link with neighbours that have the same value. Players aim to pack their
+  digits in for the most points once the grid is full.
 time: '20'
 title: Digit Party
 type: Mathematics/Probability
@@ -33,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A fast paced number party game which is simple fun for all
+Each player has a 5 x 5 grid onto which they place the digit called. A digit forms a link with neighbours that have the same value. Players aim to pack their digits in for the most points once the grid is full.
 :::
 
 :::{.game-actions}

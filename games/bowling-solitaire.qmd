@@ -12,8 +12,8 @@ game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/1eMdQyUM-K_OvELEdssm6-XUZ-fXOcsTw/view?usp=sharing
 players: '1'
 rules_video: ''
-summary: A solo card game that involves heavy strategy and a brilliant scoring system
-  all within a bowling theme.
+summary: Two suits of playing cards represent bowling pins and balls. A single player
+  game, we use some number theory to hit as many of the pins as possible each round.
 time: '20'
 title: Bowling Solitaire
 type: Mathematics/Probability
@@ -34,7 +34,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A solo card game that involves heavy strategy and a brilliant scoring system all within a bowling theme.
+Two suits of playing cards represent bowling pins and balls. A single player game, we use some number theory to hit as many of the pins as possible each round.
 :::
 
 :::{.game-actions}

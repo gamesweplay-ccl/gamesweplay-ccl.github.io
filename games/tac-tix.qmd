@@ -12,8 +12,9 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1P9vduoWSS1k3aSsAEwNr9FqeW2V2_xdn/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Pick a row or column and clear a stretch — no gaps allowed! A minimalist
-  logic game where every move counts toward the last token.
+summary: Lata and Raj try to outwit each other. On a turn they pick a row or column
+  and remove any number of tokens that are next to each other. Whoever manages to
+  take tokens last wins the game.
 time: '10'
 title: Tac Tix
 type: Strategy
@@ -34,7 +35,7 @@ walkthrough_video: https://www.youtube.com/watch?v=6GpexbwJAqQ&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Pick a row or column and clear a stretch — no gaps allowed! A minimalist logic game where every move counts toward the last token.
+Lata and Raj try to outwit each other. On a turn they pick a row or column and remove any number of tokens that are next to each other. Whoever manages to take tokens last wins the game.
 :::
 
 :::{.game-actions}

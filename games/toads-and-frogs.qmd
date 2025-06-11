@@ -12,8 +12,10 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1CSdS8OsDntzW4JCKy9B9tw3q6u2ab3fz/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Toads and frogs take turns to leap — but only one will land the final move.
-  A simple game of logic and planning where every hop counts.
+summary: Place 3 black (toad) tokens on the left most spaces and 3 white (frog) tokens
+  on the rightmost spaces of the board. On a turn, a piece can move a single step
+  (toward the centre of the board). They can also jump over an opponent piece into
+  an empty space. The player who is able to make the last move wins the game.
 time: '10'
 title: Toads and Frogs
 type: Strategy
@@ -34,7 +36,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Toads and frogs take turns to leap — but only one will land the final move. A simple game of logic and planning where every hop counts.
+Place 3 black (toad) tokens on the left most spaces and 3 white (frog) tokens on the rightmost spaces of the board. On a turn, a piece can move a single step (toward the centre of the board). They can also jump over an opponent piece into an empty space. The player who is able to make the last move wins the game.
 :::
 
 :::{.game-actions}

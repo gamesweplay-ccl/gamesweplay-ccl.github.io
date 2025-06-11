@@ -12,9 +12,9 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1tgzhonpY7DZ21w-0iY28LOlAbTddyW56/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Win the small boards to conquer the big one — but every move sends your opponent
-  somewhere new. A layered twist on a classic game where strategy and foresight rule
-  the grid.
+summary: Lata and Raj play nested tictactoe. Each move decides the board on which
+  the other can play. By winning a board they make their mark on the main board. Players
+  aim to make a line of 3 by winning 3 boards in a row.
 time: '20'
 title: Ultimate Tic Tac Toe
 type: Strategy
@@ -35,7 +35,7 @@ walkthrough_video: https://www.youtube.com/watch?v=qh09l5amhyg&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Win the small boards to conquer the big one — but every move sends your opponent somewhere new. A layered twist on a classic game where strategy and foresight rule the grid.
+Lata and Raj play nested tictactoe. Each move decides the board on which the other can play. By winning a board they make their mark on the main board. Players aim to make a line of 3 by winning 3 boards in a row.
 :::
 
 :::{.game-actions}

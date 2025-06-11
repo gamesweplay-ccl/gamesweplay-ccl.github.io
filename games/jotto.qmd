@@ -12,8 +12,9 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1R93L7JmWKHc1Ks2jkDjUt39gHdaQb874/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Crack the code with clever guesses — five letters, endless possibilities.
-  A battle of words and wits where every number is a clue.
+summary: Lata thinks of a word and writes blanks for each letter. Raj makes a guess
+  and Lata has to tell him the number of letters common to his word and hers as well
+  as the number that are in the right place. Play continues till the word is revealed.
 time: '10'
 title: Jotto
 type: SEL
@@ -34,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Crack the code with clever guesses — five letters, endless possibilities. A battle of words and wits where every number is a clue.
+Lata thinks of a word and writes blanks for each letter. Raj makes a guess and Lata has to tell him the number of letters common to his word and hers as well as the number that are in the right place. Play continues till the word is revealed.
 :::
 
 :::{.game-actions}

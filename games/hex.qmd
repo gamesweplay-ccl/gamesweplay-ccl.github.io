@@ -12,7 +12,8 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1RXHOunivrF8nuPu-lHdb94bPD2GXEZRf/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Players race to build a bridge across an hexagonal grid.
+summary: Lata and Raj take turns colouring in a hex on the board. Lata tries to connect
+  the sides in her colour. Raj tries to connect the sides in his colour.
 time: '20'
 title: Hex
 type: Strategy
@@ -33,7 +34,7 @@ walkthrough_video: https://www.youtube.com/watch?v=8rfZ9a4Du_g&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Players race to build a bridge across an hexagonal grid.
+Lata and Raj take turns colouring in a hex on the board. Lata tries to connect the sides in her colour. Raj tries to connect the sides in his colour.
 :::
 
 :::{.game-actions}

@@ -12,7 +12,10 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1IJvta9OxTwU8bgE58yfkP81LU8ektVKY/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: An asymmetrical battle between a herd of goats and some hungry tigers
+summary: 3 tigers start on the board. Every round a goat is added, then a tiger moved.
+  If able, a tiger can jump over a goat to capture it. Once all 15 goats are placed,
+  they too move on their turn.The goats win if the tigers cannot move. Tigers win
+  if they capture 5 goats.
 time: '20'
 title: Goats and Tigers
 type: Strategy
@@ -33,7 +36,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-An asymmetrical battle between a herd of goats and some hungry tigers
+3 tigers start on the board. Every round a goat is added, then a tiger moved. If able, a tiger can jump over a goat to capture it. Once all 15 goats are placed, they too move on their turn.The goats win if the tigers cannot move. Tigers win if they capture 5 goats.
 :::
 
 :::{.game-actions}

@@ -12,8 +12,9 @@ game_format: Custom
 manual_links: https://drive.google.com/file/d/1gPIKJKoAJlRp7wlMykQMm0jFIvrhLuqu/view?usp=sharing
 players: 3-6
 rules_video: ''
-summary: A group of investigators race to uncover the hidden criminal before they
-  escape justice.
+summary: The alphabet cards are shuffled, one removed and the rest distributed between
+  the players. On a turn pass an opponent a query card to learn how many of those
+  are in their hand. Players compete to deduce which card was removed.
 time: '40'
 title: Detectives
 type: Science/Deduction
@@ -34,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A group of investigators race to uncover the hidden criminal before they escape justice.
+The alphabet cards are shuffled, one removed and the rest distributed between the players. On a turn pass an opponent a query card to learn how many of those are in their hand. Players compete to deduce which card was removed.
 :::
 
 :::{.game-actions}

@@ -12,58 +12,6 @@ This is a selection of games curated at the [Centre for Creative Learning](https
 
 What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you</a> or answer these questions for a more customized selection! \
 
-
-```{=html}
-<form id="game-filter" style="background: transparent">
-  
-  <div class="form-group">
-    <p class="question-label">How much time do you have?</p>
-    <div class="button-group" data-name="time">
-      <button type="button" value="" class="selected">Any</button>
-      <button type="button" value="10">≤ 10 mins</button>
-      <button type="button" value="20">10–20 mins</button>
-      <button type="button" value="30">20–30 mins</button>
-      <button type="button" value="40">30–40 mins</button>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <p class="question-label">How many players?</p>
-    <div class="button-group" data-name="players">
-      <button type="button" value="" class="selected">Any</button>
-      <button type="button" value="1">Solo</button>
-      <button type="button" value="2">2 Players</button>
-      <button type="button" value="4">Between 3 and 10</button>
-      <button type="button" value="10">10 and more</button>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <p class="question-label">What difficulty?</p>
-    <div class="button-group" data-name="difficulty">
-      <button type="button" value="" class="selected">Any</button>
-      <button type="button" value="easy">Easy</button>
-      <button type="button" value="medium">Medium</button>
-      <button type="button" value="hard">Hard</button>
-    </div>
-  </div>
-
-  <div class="form-actions" style="margin-top: 1.5rem;">
-    <button type="submit" id="find-button">SUBMIT</button>
-  </div>
-
-</form>
-
-<div id="results" style="display: none;">
-  <p id="results-content"></p>
-</div>
-<div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">
-  <button id="filtered-random-btn" class="lucky-btn">Pick random from these</button>
-</div>
-
-<script src="static/indexpage.js"></script>
-```
- 
 \
 \
 
@@ -79,40 +27,8 @@ Most games have simple rules. The games are split into games that can be used in
 
 
 
-<!-- <div class="types-of-games-section-break">
-  <style>
-    .types-of-games-section-break {
-      width: 100%;
-      margin: 2rem 0;
-      text-align: center;
-    }
-
-    .types-of-games-section-break img {
-      max-width: 750px;
-      height: auto;
-      display: inline-block;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-    }
-  </style>
-  <img src="static/images/types-of-games-poster.svg" alt="Types of Games Divider">
-</div> -->
-
 ```{=html}
 <div class="image-break-row">
-  <style>
-    .image-break-row {
-      width: 100%;
-      margin: 2rem 0;
-      text-align: center;
-    }
-    .image-break-row img {
-      height: auto;
-      display: inline-block;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      border-radius: 16px;
-    }
-  </style>
   <img src="static/images/game-types-posters/types-of-games-01.svg" alt="Image 1" style="width: 14vw; min-width: 120px; height: auto;">
   <img src="static/images/game-types-posters/types-of-games-02.svg" alt="Image 2" style="width: 14vw; min-width: 120px; height: auto;">
   <img src="static/images/game-types-posters/types-of-games-03.svg" alt="Image 3" style="width: 14vw; min-width: 120px; height: auto;">
@@ -203,61 +119,70 @@ We have games for different player counts.
     Games for 10 or more! These can be played simultaneously by an entire class
   </div>
 </div>
-
-
-<!-- <div class="word-cloud">
-  <style>
-    .word-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-  justify-content: center;
-  padding: 1rem;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.word-item {
-  background-color: #fff8dc;
-  border-radius: 10px;
-  padding: 0.5rem 1rem;
-  max-width: 200px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-  font-size: calc(0.9rem + 0.2vw);
-  transform: rotate(var(--rotate, 0deg));
-  transition: transform 0.2s ease;
-}
-
-.word-item:hover {
-  transform: scale(1.05) rotate(var(--rotate, 0deg));
-}
-
-.word-item .label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 0.3rem;
-  font-size: 1.1em;
-}
-  </style>
-
-  <div class="word-item">
-    <span class="label">Solo</span>
-    <span class="desc">These are games for 1 player</span>
-  </div>
-  <div class="word-item">
-    <span class="label">2 players</span>
-    <span class="desc">Strategy games for 2 players</span>
-  </div>
-  <div class="word-item">
-    <span class="label">Between 3 and 10</span>
-    <span class="desc">Games for 3–10 players</span>
-  </div>
-  <div class="word-item">
-    <span class="label">10 and more</span>
-    <span class="desc">Games for 10+ players</span>
-  </div>
-</div> -->
 ```
+
+\
+\
+
+
+# **&nbsp;Find a game to play**
+
+
+```{=html}
+<form id="game-filter" style="background: transparent">
+  
+  <div class="form-group">
+    <p class="question-label">How much time do you have?</p>
+    <div class="button-group" data-name="time">
+      <button type="button" value="" class="selected">Any</button>
+      <button type="button" value="10">≤ 10 mins</button>
+      <button type="button" value="20">10–20 mins</button>
+      <button type="button" value="30">20–30 mins</button>
+      <button type="button" value="40">30–40 mins</button>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <p class="question-label">How many players?</p>
+    <div class="button-group" data-name="players">
+      <button type="button" value="" class="selected">Any</button>
+      <button type="button" value="1">Solo</button>
+      <button type="button" value="2">2 Players</button>
+      <button type="button" value="4">Between 3 and 10</button>
+      <button type="button" value="10">10 and more</button>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <p class="question-label">What difficulty?</p>
+    <div class="button-group" data-name="difficulty">
+      <button type="button" value="" class="selected">Any</button>
+      <button type="button" value="easy">Easy</button>
+      <button type="button" value="medium">Medium</button>
+      <button type="button" value="hard">Hard</button>
+    </div>
+  </div>
+
+  <div class="form-actions" style="margin-top: 1.5rem;">
+    <button type="submit" id="find-button">SUBMIT</button>
+  </div>
+
+</form>
+
+<div id="results" style="display: none;">
+  <p id="results-content"></p>
+</div>
+<div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">
+  <button id="filtered-random-btn" class="lucky-btn">Pick random from these</button>
+</div>
+
+<script src="static/indexpage.js"></script>
+```
+ 
+\
+\
+
+
 
 
 

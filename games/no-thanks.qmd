@@ -12,8 +12,8 @@ game_format: Custom
 manual_links: https://drive.google.com/file/d/1zvNDh-BgSM0_LeYG-AEdriXPbqWWrl6B/view?usp=sharing
 players: 3-6
 rules_video: ''
-summary: Take the card or say ‘No Thanks!’ — every choice risks points or gains buttons.
-  A quick, clever game of math, bluff, and perfectly timed passes.
+summary: Reveal a card. Either take it or place a token and pass it along. Cards give
+  points and tokens reduce them. The player with the least points wins!
 time: '30'
 title: No Thanks
 type: Mathematics/Probability
@@ -34,7 +34,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Take the card or say ‘No Thanks!’ — every choice risks points or gains buttons. A quick, clever game of math, bluff, and perfectly timed passes.
+Reveal a card. Either take it or place a token and pass it along. Cards give points and tokens reduce them. The player with the least points wins!
 :::
 
 :::{.game-actions}

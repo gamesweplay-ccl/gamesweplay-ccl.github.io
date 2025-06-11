@@ -12,7 +12,9 @@ game_format: Nothing
 manual_links: https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Players count out loud, trying to avoid saying the cursed number.
+summary: Lata and Raj play a number game. Lata starts and can say either 1 or 2. Raj
+  can add 1 or 2 to her number. They take turns until one of them is forced to say
+  13, losing the game.
 time: '10'
 title: Don't say 13
 type: Mathematics/Probability
@@ -33,7 +35,7 @@ walkthrough_video: https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Players count out loud, trying to avoid saying the cursed number.
+Lata and Raj play a number game. Lata starts and can say either 1 or 2. Raj can add 1 or 2 to her number. They take turns until one of them is forced to say 13, losing the game.
 :::
 
 :::{.game-actions}

@@ -12,8 +12,10 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1u8053pOth-judCJ52YbqL4rX2Pa-OnAv/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Sweet strategy with a sour twist — don’t be the one to bite the spoiled sweet!
-  Think ahead, play smart, and leave your opponent with the last bitter bite.
+summary: All the squares on the board are filled with white tokens -- except the bottom
+  left corner which has a black piece. On a turn pick a token and remove it as well
+  as all tokens above and to the right of it. Player who takes the black token loses
+  the game.
 time: '10'
 title: Khatti Mithai
 type: Strategy
@@ -34,7 +36,7 @@ walkthrough_video: https://www.youtube.com/watch?v=lvlPfr6sVbQ&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Sweet strategy with a sour twist — don’t be the one to bite the spoiled sweet! Think ahead, play smart, and leave your opponent with the last bitter bite.
+All the squares on the board are filled with white tokens -- except the bottom left corner which has a black piece. On a turn pick a token and remove it as well as all tokens above and to the right of it. Player who takes the black token loses the game.
 :::
 
 :::{.game-actions}

@@ -12,8 +12,9 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/190_hG9XOY4w4a2RkrzRtMO00xI0A7WHc/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Take one or take two — just don’t leave the last move to your opponent. A
-  quick game of clever choices where the final token decides it all.
+summary: Lata and Raj take turns removing tokens from the board. On a turn they can
+  always remove one token. They could remove two, if the tokens are connected by a
+  line. The one who removes the last token wins the game.
 time: '10'
 title: Star Nim
 type: Strategy
@@ -34,7 +35,7 @@ walkthrough_video: https://www.youtube.com/watch?v=aUuKdv9YEBw&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Take one or take two — just don’t leave the last move to your opponent. A quick game of clever choices where the final token decides it all.
+Lata and Raj take turns removing tokens from the board. On a turn they can always remove one token. They could remove two, if the tokens are connected by a line. The one who removes the last token wins the game.
 :::
 
 :::{.game-actions}

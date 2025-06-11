@@ -12,8 +12,9 @@ game_format: Dominoes
 manual_links: https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing
 players: '2'
 rules_video: https://youtu.be/KUZFn-9_FmU
-summary: Players take turn placing dominos on a boards hoping to be the one having
-  the last laugh.
+summary: 2 players, Lata and Raj, play a game of domino (placing or) shading. The
+  two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata
+  vertically. Whoever is able to make the last move wins the game.
 time: '10'
 title: Domineering
 type: Strategy
@@ -34,7 +35,7 @@ walkthrough_video: https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Players take turn placing dominos on a boards hoping to be the one having the last laugh.
+2 players, Lata and Raj, play a game of domino (placing or) shading. The two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata vertically. Whoever is able to make the last move wins the game.
 :::
 
 :::{.game-actions}

@@ -12,8 +12,11 @@ game_format: Dice
 manual_links: https://drive.google.com/file/d/176zXhb4zrd6QkfYX9ZvUIm0DX6v8it9-/view?usp=sharing
 players: 3-5
 rules_video: ''
-summary: Keep rolling the dice to build a fortune, but one unlucky roll could wipe
-  you out.
+summary: A turn starts with 6 dice to roll. Set aside any number of dice, incrementing
+  your score. Roll the remaining dice and again set aside any dice you want to long
+  as score increases. If no die increments score, the turn ends at once with 0 points
+  scored. If all 6 dice score, write your score down and take another turn! First
+  to 10k wins the game.
 time: '30'
 title: Farkle
 type: Mathematics/Probability
@@ -34,7 +37,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Keep rolling the dice to build a fortune, but one unlucky roll could wipe you out.
+A turn starts with 6 dice to roll. Set aside any number of dice, incrementing your score. Roll the remaining dice and again set aside any dice you want to long as score increases. If no die increments score, the turn ends at once with 0 points scored. If all 6 dice score, write your score down and take another turn! First to 10k wins the game.
 :::
 
 :::{.game-actions}
