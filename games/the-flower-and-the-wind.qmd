@@ -2,7 +2,7 @@
 airtable_id: rec3Wfys5MVZkEU1y
 board_links: https://drive.google.com/file/d/1ZIrKRr-uKvyrGkWyIUzKzDkkTmNLcFnt/view?usp=sharing
 complexity: ★★
-external_links: ''
+external_links: https://shaumikkhanna.github.io/flower-and-the-wind/
 filename: the-flower-and-the-wind
 format:
   html:
@@ -15,12 +15,12 @@ rules_video: https://youtu.be/sWo9CCkjzK8
 summary: Can the flower bloom and fill the grid before the wind runs out of breath?
   A poetic battle of growth and gusts where every direction matters.
 time: '20'
-title: The flower and the wind
+title: The Flower and the Wind
 type: Science/Deduction
 walkthrough_video: https://www.youtube.com/watch?v=G1Ba7xRVKe4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55
 ---
 
-# The flower and the wind
+# The Flower and the Wind
 
 :::{.game-info-box}
 :::{.game-stats}
@@ -39,7 +39,7 @@ Can the flower bloom and fill the grid before the wind runs out of breath? A poe
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://shaumikkhanna.github.io/flower-and-the-wind/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="https://youtu.be/sWo9CCkjzK8" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=G1Ba7xRVKe4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1h9lOlbrh29P6odJ5fneK_JFNYhmp_XPV/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
