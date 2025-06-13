@@ -10,8 +10,6 @@ format:
 # **&nbsp;Welcome to Games at CCL!**
 This is a selection of games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. These games can be recreated with easily available material and you will find rules, videos and boards to play them here. :-) \
 
-What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you</a> or answer these questions for a more customized selection! \
-
 \
 \
 
@@ -127,6 +125,7 @@ We have games for different player counts.
 
 # **&nbsp;Find a game to play**
 
+What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you</a> or answer these questions for a more customized selection! \
 
 ```{=html}
 <form id="game-filter" style="background: transparent">
