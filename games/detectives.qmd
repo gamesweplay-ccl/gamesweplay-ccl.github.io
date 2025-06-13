@@ -1,6 +1,6 @@
 ---
 airtable_id: recDHAVk7SFdtRGD7
-board_links: https://drive.google.com/file/d/1vpoH0TVSz7qWw1fDNN4E7VHDkXs2vVMJ/view?usp=sharing
+board_links: https://drive.google.com/file/d/1srEcOE0LFM18BosydvYTeTTIVV-SKVft/view?usp=sharing
 complexity: ★★★
 external_links: ''
 filename: detectives
@@ -44,7 +44,7 @@ The alphabet cards are shuffled, one removed and the rest distributed between th
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1gPIKJKoAJlRp7wlMykQMm0jFIvrhLuqu/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1vpoH0TVSz7qWw1fDNN4E7VHDkXs2vVMJ/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/1srEcOE0LFM18BosydvYTeTTIVV-SKVft/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 
@@ -75,6 +75,12 @@ The alphabet cards are shuffled, one removed and the rest distributed between th
 
 	body {
 		max-width: 100%;
+	}
+
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
 	}
 
 	.reaction-container {
@@ -154,7 +160,7 @@ The alphabet cards are shuffled, one removed and the rest distributed between th
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;

@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-20fc67d4bab10ab83af272287c3fca74.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-427b54aa9be4956eb694b8a173ddc70a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,6 +175,12 @@ ul.task-list li input[type="checkbox"] {
         max-width: 100%;
     }
 
+    @media (max-width: 600px) {
+        body {
+            background-image: none !important;
+        }
+    }
+
     .reaction-container {
         display: flex;
         justify-content: center;
@@ -252,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
     /* Action buttons */
     .game-actions {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-wrap: wrap;
         margin: 2.5rem 0;
         gap: 1.5rem;

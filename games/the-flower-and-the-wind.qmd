@@ -76,6 +76,12 @@ Can the flower bloom and fill the grid before the wind runs out of breath? A poe
 		max-width: 100%;
 	}
 
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
+	}
+
 	.reaction-container {
 		display: flex;
 		justify-content: center;
@@ -153,7 +159,7 @@ Can the flower bloom and fill the grid before the wind runs out of breath? A poe
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;

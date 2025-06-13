@@ -78,6 +78,12 @@ walkthrough_video: ''
 		max-width: 100%;
 	}
 
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
+	}
+
 	.reaction-container {
 		display: flex;
 		justify-content: center;
@@ -155,7 +161,7 @@ walkthrough_video: ''
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;

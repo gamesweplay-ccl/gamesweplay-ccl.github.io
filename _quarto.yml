@@ -17,7 +17,7 @@ website:
 
 format:
     html:
-        theme: litera
+        theme: default
         toc: false
         page-layout: full
         anchor-sections: false

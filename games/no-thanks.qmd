@@ -1,6 +1,6 @@
 ---
 airtable_id: rec7fVibpglEXLpGq
-board_links: https://drive.google.com/file/d/1z2Xz0Py_r4CFtwEqtgWykmQy4a02-SN6/view?usp=sharing
+board_links: https://drive.google.com/file/d/17jsm303J_KP7-yjGYtXbO30n7NbiTu9x/view?usp=sharing
 complexity: ★★
 external_links: ''
 filename: no-thanks
@@ -43,7 +43,7 @@ Reveal a card. Either take it or place a token and pass it along. Cards give poi
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1zvNDh-BgSM0_LeYG-AEdriXPbqWWrl6B/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1z2Xz0Py_r4CFtwEqtgWykmQy4a02-SN6/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/17jsm303J_KP7-yjGYtXbO30n7NbiTu9x/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 
@@ -74,6 +74,12 @@ Reveal a card. Either take it or place a token and pass it along. Cards give poi
 
 	body {
 		max-width: 100%;
+	}
+
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
 	}
 
 	.reaction-container {
@@ -153,7 +159,7 @@ Reveal a card. Either take it or place a token and pass it along. Cards give poi
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;

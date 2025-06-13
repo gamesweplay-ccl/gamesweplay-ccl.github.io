@@ -7,13 +7,13 @@ format:
       - static/indexpage.css
 ---
 
-# **&nbsp;Welcome to Games at CCL!**
+# **Welcome to Games at CCL!**
 This is a selection of games curated at the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar. These games can be recreated with easily available material and you will find rules, videos and boards to play them here. :-) \
 
 \
 \
 
-# **&nbsp;About These Games**
+# **About These Games**
 This collection of games has been curated for a variety of situations to meet several curricular goals. You will find resources for this (where relevant) on the game pages. [Here](https://drive.google.com/file/d/1hCDHz6vS9PuA_KgVw0_3o5RFWZhisK7U/view?usp=sharing) is a PDF of the entire games manual. 
 
 In order to play these games you will often need pen, paper, dice and tokens in two colours. 20mm buttons work well. Some games have custom cards or game boards – black and white versions can be downloaded here. \
@@ -123,7 +123,7 @@ We have games for different player counts.
 \
 
 
-# **&nbsp;Find a game to play**
+# **Find a game to play**
 
 What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick one for you</a> or answer these questions for a more customized selection! \
 
@@ -200,7 +200,7 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
     </div>
 
     <div class="nav-footer-center">
-      &nbsp;
+      
     </div>
 
     <div class="nav-footer-right">

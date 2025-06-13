@@ -1,6 +1,6 @@
 ---
 airtable_id: reci2PISwVIr8P3ml
-board_links: https://drive.google.com/file/d/1b5-uw6D0I3hWbVxEYzJEYPJ-d3exegdx/view?usp=sharing
+board_links: https://drive.google.com/file/d/1Ul4Z8kN_wIel8c9ppUArTZ_qCizRUN1O/view?usp=sharing
 complexity: ★★★
 external_links: https://shaumikkhanna.github.io/dicey-dice/
 filename: dicey-dice
@@ -44,7 +44,7 @@ Players decide to place bets on up to 3 spaces on the board. 2 dice are rolled a
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1lY8hRocCEkJmlvx7U5QzDhVwdSE-NOHS/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1b5-uw6D0I3hWbVxEYzJEYPJ-d3exegdx/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/1Ul4Z8kN_wIel8c9ppUArTZ_qCizRUN1O/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 
@@ -75,6 +75,12 @@ Players decide to place bets on up to 3 spaces on the board. 2 dice are rolled a
 
 	body {
 		max-width: 100%;
+	}
+
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
 	}
 
 	.reaction-container {
@@ -154,7 +160,7 @@ Players decide to place bets on up to 3 spaces on the board. 2 dice are rolled a
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;

@@ -77,6 +77,12 @@ walkthrough_video: https://www.youtube.com/watch?v=kMCxxG8l7o8&list=PLmjuVk9xK8L
 		max-width: 100%;
 	}
 
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
+	}
+
 	.reaction-container {
 		display: flex;
 		justify-content: center;
@@ -154,7 +160,7 @@ walkthrough_video: https://www.youtube.com/watch?v=kMCxxG8l7o8&list=PLmjuVk9xK8L
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;

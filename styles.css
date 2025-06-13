@@ -47,6 +47,13 @@ body {
 	margin-right: auto;
 }
 
+@media (max-width: 600px) {
+	h1 {
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+	}
+}
+
 p {
 	font-family: "Omnes", sans-serif;
 }
@@ -58,6 +65,7 @@ h1 {
 	margin-bottom: 2rem;
 	font-weight: 300;
 	letter-spacing: 0.5px;
+	padding-inline: 0.5rem 0.5rem;
 }
 
 /* Game page specific styles */

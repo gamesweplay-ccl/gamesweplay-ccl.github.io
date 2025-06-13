@@ -1,6 +1,6 @@
 ---
 airtable_id: recdjPLhFk2TFNOt3
-board_links: https://drive.google.com/file/d/1PtUxydQgZAEv3e97GtXFebbhJr1kAB4J/view?usp=sharing
+board_links: https://drive.google.com/file/d/1w22VQ23aLo65Ot43IO5stLh5pa6Z-QFU/view?usp=sharing
 complexity: ★
 external_links: https://kyleburke.info/DB/combGames/toadsAndFrogs.html
 filename: toads-and-frogs
@@ -45,7 +45,7 @@ Place 3 black (toad) tokens on the left most spaces and 3 white (frog) tokens on
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1CSdS8OsDntzW4JCKy9B9tw3q6u2ab3fz/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1PtUxydQgZAEv3e97GtXFebbhJr1kAB4J/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/1w22VQ23aLo65Ot43IO5stLh5pa6Z-QFU/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 
@@ -76,6 +76,12 @@ Place 3 black (toad) tokens on the left most spaces and 3 white (frog) tokens on
 
 	body {
 		max-width: 100%;
+	}
+
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
 	}
 
 	.reaction-container {
@@ -155,7 +161,7 @@ Place 3 black (toad) tokens on the left most spaces and 3 white (frog) tokens on
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;

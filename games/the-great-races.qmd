@@ -1,6 +1,6 @@
 ---
 airtable_id: rec3my94BfA3HJ3ok
-board_links: https://drive.google.com/file/d/1ft0p4sy8HANeqqEREN4a3EGTfSo6aSL6/view?usp=sharing
+board_links: https://drive.google.com/file/d/1rEzmcnOTY3PEZ-r6xHt0_JgVHgzKwmoE/view?usp=sharing
 complexity: ★★
 external_links: ''
 filename: the-great-races
@@ -43,7 +43,7 @@ Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-pac
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1wE1X1AxOgw4Zpvy86Ra0McjBla5kMkGB/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1ft0p4sy8HANeqqEREN4a3EGTfSo6aSL6/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/1rEzmcnOTY3PEZ-r6xHt0_JgVHgzKwmoE/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 
@@ -74,6 +74,12 @@ Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-pac
 
 	body {
 		max-width: 100%;
+	}
+
+	@media (max-width: 600px) {
+		body {
+			background-image: none !important;
+		}
 	}
 
 	.reaction-container {
@@ -153,7 +159,7 @@ Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-pac
 	/* Action buttons */
 	.game-actions {
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2.5rem 0;
 		gap: 1.5rem;
