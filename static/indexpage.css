@@ -8,6 +8,13 @@ body {
 	background-attachment: scroll;
 }
 
+@media (max-width: 600px) {
+	body {
+		background-size: 80px auto, 80px auto;
+		background-position: left top, right top;
+	}
+}
+
 main a {
 	font-weight: 550;
 	text-decoration: none;
