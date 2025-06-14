@@ -8,6 +8,17 @@ body {
 	background-attachment: scroll;
 }
 
+@media (max-width: 600px) {
+	body {
+		background-size: 80px auto, 80px auto;
+	}
+
+	h1 {
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+	}
+}
+
 main a {
 	font-weight: 550;
 	text-decoration: none;
@@ -227,4 +238,16 @@ h3 {
 	height: auto;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 	border-radius: 16px;
+}
+
+@media (max-width: 600px) {
+	.image-break-row {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.image-break-row img {
+		flex: 1 1 40%; /* two per row if needed */
+		margin-bottom: 1rem;
+	}
 }
