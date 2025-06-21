@@ -12,8 +12,8 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1mnTlANP5uZebd3YwDlDMBRzPM3xVu99x/view?usp=sharing
 players: 3-5
 rules_video: ''
-summary: Can you crack the hidden rule? Place numbers, spot patterns, and guess wisely.
-  A strategic puzzle of logic and deduction where every move reveals a clue.
+summary: A game of inductive reasoning, in Saesara players aim to unravel the clue
+  giver's secret rule.
 time: '20'
 title: Saesara
 type: Science/Deduction
@@ -34,7 +34,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Can you crack the hidden rule? Place numbers, spot patterns, and guess wisely. A strategic puzzle of logic and deduction where every move reveals a clue.
+A game of inductive reasoning, in Saesara players aim to unravel the clue giver's secret rule.
 :::
 
 :::{.game-actions}

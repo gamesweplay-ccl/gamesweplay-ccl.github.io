@@ -1,6 +1,6 @@
 ---
 airtable_id: recWEqBsBFgV7bOfv
-board_links: https://drive.google.com/file/d/1tzoOiI12SlblAXL5u0ZY8bSxaPxerVjb/view?usp=sharing
+board_links: https://drive.google.com/file/d/1ZJW-i42BkQ_ug6TsILqmNzs5MOSGYwfQ/view?usp=sharing
 complexity: ★★★
 external_links: https://www.transum.org/Maths/Game/Vectors/
 filename: racetrack
@@ -12,8 +12,9 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1CNSRcB4c4bdhA6MuDPEaj6_gxVRL6wne/view?usp=sharing
 players: 1-4
 rules_video: ''
-summary: Plot your path, pick your speed — it’s a race of vectors, not just velocity.
-  Navigate sharp turns and avoid collisions to speed past the finish line!
+summary: A game that models accelarations of a car around a racetrack, players aim
+  to successfully navigate turns without crashing and be the first across the finish
+  line.
 time: '40'
 title: Racetrack
 type: Science/Deduction
@@ -34,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Plot your path, pick your speed — it’s a race of vectors, not just velocity. Navigate sharp turns and avoid collisions to speed past the finish line!
+A game that models accelarations of a car around a racetrack, players aim to successfully navigate turns without crashing and be the first across the finish line.
 :::
 
 :::{.game-actions}
@@ -43,7 +44,7 @@ Plot your path, pick your speed — it’s a race of vectors, not just velocity.
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1CNSRcB4c4bdhA6MuDPEaj6_gxVRL6wne/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1tzoOiI12SlblAXL5u0ZY8bSxaPxerVjb/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/1ZJW-i42BkQ_ug6TsILqmNzs5MOSGYwfQ/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

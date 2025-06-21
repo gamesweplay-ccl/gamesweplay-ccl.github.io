@@ -12,8 +12,9 @@ game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/13hGETsCqAHi0t3UJuXEpPV9EhsVle6Mg/view?usp=sharing
 players: 4-5
 rules_video: ''
-summary: Crack the hidden rule, one card at a time — experiment, observe, and outwit
-  Nature. A game of logic, bluff, and scientific thinking where every move is a clue.
+summary: In this game of inductive reasoning, the clue giver thinks of a rule. Players
+  place cards from their hand trying to experimentally determine the clue-giver's
+  rule.
 time: '40'
 title: Eleusis Express
 type: Science/Deduction
@@ -34,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Crack the hidden rule, one card at a time — experiment, observe, and outwit Nature. A game of logic, bluff, and scientific thinking where every move is a clue.
+In this game of inductive reasoning, the clue giver thinks of a rule. Players place cards from their hand trying to experimentally determine the clue-giver's rule.
 :::
 
 :::{.game-actions}

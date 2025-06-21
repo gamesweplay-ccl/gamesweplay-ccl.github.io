@@ -12,8 +12,11 @@ game_format: Nothing
 manual_links: https://drive.google.com/file/d/1iPSbqlhupUJW5__MO3tJEwppYxDnGopb/view?usp=sharing
 players: 4-20
 rules_video: ''
-summary: Act, speak, or say just one word — can your team guess them all? A fast-paced
-  memory and clue-giving game that gets better every round!
+summary: A more involved version of charades, this game is played over several rounds.
+  In the first round, players give verbal clues to get their group to guess as many
+  words as possible. In subsequent rounds, with the same word list, players may use
+  only a single word, actions and finally just the movement of one hand. The group
+  that guesses the most words wins the game.
 time: '20'
 title: Monikers
 type: SEL
@@ -34,12 +37,11 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Act, speak, or say just one word — can your team guess them all? A fast-paced memory and clue-giving game that gets better every round!
+A more involved version of charades, this game is played over several rounds. In the first round, players give verbal clues to get their group to guess as many words as possible. In subsequent rounds, with the same word list, players may use only a single word, actions and finally just the movement of one hand. The group that guesses the most words wins the game.
 :::
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1iPSbqlhupUJW5__MO3tJEwppYxDnGopb/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

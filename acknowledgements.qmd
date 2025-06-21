@@ -1,0 +1,49 @@
+---
+title: "Acknowledgements"
+format:
+  html:
+    css:
+        - styles.css
+        - static/indexpage.css
+---
+
+```{=html}
+<style>
+p strong {
+    font-weight: 550;
+}
+</style>
+```
+
+# Acknowledgements
+
+We are deeply grateful to the people that made this project possible.
+\
+\
+
+**Aastha Jain** \
+**Adithi Iyer** \
+**Arun Kundu** \
+**Bhavya Aggarwal** \
+**Diya Shah** \
+**Jyothi Krishnan** \
+**Jyothi Krishnan** \
+**Krishna Patel** \
+**Neeldhara Mishra** \
+**Neha Garg** \
+**Parvathy Subramanian** \
+**Shaumik Khanna** \
+And of course, thank you to everyone who played, shared, and improved our games with their joyful curiosity.
+
+\
+\ 
+
+---
+
+> _"Alone we can do so little; together we can do so much."_  
+> — Helen Keller
+
+---
+
+> _"If you cannot solve a problem, there is an easier problem you cannot solve. Find that problem"_  
+> — Pólya

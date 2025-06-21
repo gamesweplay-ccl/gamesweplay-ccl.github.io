@@ -96,6 +96,8 @@ def create_game_file(game_dir, fields, record_id):
         f.write(":::{.game-actions}\n```{=html}\n")
         if external_links:
             f.write(f"<a href=\"{external_links}\" class=\"btn coloured-button\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
+        elif game_type == 'SEL':
+            pass
         else:
             f.write(f"<a href=\"#\" class=\"btn disabled-button\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
             

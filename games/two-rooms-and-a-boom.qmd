@@ -12,8 +12,10 @@ game_format: Custom
 manual_links: https://drive.google.com/file/d/1tPT8-6C-yaBb8fq9HZeTX1o2Lu-c4WAf/view?usp=sharing
 players: 10-30
 rules_video: ''
-summary: Can you protect the President — or place the Bomber by their side? A fast-paced
-  game of hidden roles, shifting rooms, and explosive outcomes.
+summary: Each player recieves a card that indicates their team and character. The
+  blue team has the president and the red team a bomber. Players are split into 2
+  groups. Members of the red team aim to get president and bomber in the same room
+  while members of the blue team aim to prevent this.
 time: '10'
 title: Two Rooms and a Boom
 type: SEL
@@ -34,12 +36,11 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Can you protect the President — or place the Bomber by their side? A fast-paced game of hidden roles, shifting rooms, and explosive outcomes.
+Each player recieves a card that indicates their team and character. The blue team has the president and the red team a bomber. Players are split into 2 groups. Members of the red team aim to get president and bomber in the same room while members of the blue team aim to prevent this.
 :::
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1tPT8-6C-yaBb8fq9HZeTX1o2Lu-c4WAf/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

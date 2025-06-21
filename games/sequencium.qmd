@@ -12,8 +12,8 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/16IXYbNqeU3baG6clYoLZXyYokFGa-yft/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Grow your chain, block your rival — build the biggest number before the board
-  fills up. A fast and tactical game of math, movement, and sharp strategy.
+summary: Lata and Raj take turns writing their next highest number to an empty adjacent
+  square on the board. The player who places the highest number wins the game.
 time: '10'
 title: Sequencium
 type: Mathematics/Probability
@@ -34,7 +34,7 @@ walkthrough_video: https://www.youtube.com/watch?v=OdHCSGjq4Og&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Grow your chain, block your rival — build the biggest number before the board fills up. A fast and tactical game of math, movement, and sharp strategy.
+Lata and Raj take turns writing their next highest number to an empty adjacent square on the board. The player who places the highest number wins the game.
 :::
 
 :::{.game-actions}

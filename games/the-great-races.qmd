@@ -12,8 +12,10 @@ game_format: Dice
 manual_links: https://drive.google.com/file/d/1wE1X1AxOgw4Zpvy86Ra0McjBla5kMkGB/view?usp=sharing
 players: 2-6
 rules_video: ''
-summary: Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-paced
-  game of smart choices, lucky rolls, and point-packed finishes.
+summary: Each player participates in 11 races. On a turn roll 4 dice and pair them
+  up, adding their outcomes. Move on the races corresponding to these numbers. Once
+  8 races are completed, players score for being first or secnd in a race. The twist
+  is that the player to reach a finish spot laater takes the award!
 time: '30'
 title: The Great Races
 type: Mathematics/Probability
@@ -34,7 +36,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Roll, pair, and race — climb to the top across 11 thrilling tracks. A fast-paced game of smart choices, lucky rolls, and point-packed finishes.
+Each player participates in 11 races. On a turn roll 4 dice and pair them up, adding their outcomes. Move on the races corresponding to these numbers. Once 8 races are completed, players score for being first or secnd in a race. The twist is that the player to reach a finish spot laater takes the award!
 :::
 
 :::{.game-actions}

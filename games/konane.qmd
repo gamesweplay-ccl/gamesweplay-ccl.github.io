@@ -12,8 +12,10 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1j0hr3-VRLXhLZC3WMU2tQaulajF88q0j/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Outjump, outthink, outlast — leap over your opponent in this ancient Hawaiian
-  game of strategy. Every move counts in the battle to be the last one standing.
+summary: An old Hawaiian checkers game. Konane starts with tokens on all spaces. Players
+  remove 2 tokens to begin the game which proceeds with a player removing an opponent's
+  piece from the board by jumping their piece over it. The player unable to move loses
+  the game.
 time: '30'
 title: Konane
 type: Strategy
@@ -34,7 +36,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Outjump, outthink, outlast — leap over your opponent in this ancient Hawaiian game of strategy. Every move counts in the battle to be the last one standing.
+An old Hawaiian checkers game. Konane starts with tokens on all spaces. Players remove 2 tokens to begin the game which proceeds with a player removing an opponent's piece from the board by jumping their piece over it. The player unable to move loses the game.
 :::
 
 :::{.game-actions}

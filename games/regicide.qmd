@@ -12,8 +12,10 @@ game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/1GWgCUI5PB0WBh2Bwwe7U89fYiN939i8m/view?usp=sharing
 players: 2-4
 rules_video: ''
-summary: Unite your cards and your powers — defeat the nobles with teamwork and strategy.
-  A tense cooperative showdown where every suit has a role, and every turn counts.
+summary: Regicide is a co-operative game played with a regukar deck of cards. The
+  King, Queen and Jack cards represent the royalty and are placed on the board. Players
+  are dealt cards from the rest of the deck. They play their hand attempting to bring
+  the royals to their side and win the game.
 time: '30'
 title: Regicide
 type: SEL
@@ -34,12 +36,11 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Unite your cards and your powers — defeat the nobles with teamwork and strategy. A tense cooperative showdown where every suit has a role, and every turn counts.
+Regicide is a co-operative game played with a regukar deck of cards. The King, Queen and Jack cards represent the royalty and are placed on the board. Players are dealt cards from the rest of the deck. They play their hand attempting to bring the royals to their side and win the game.
 :::
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1GWgCUI5PB0WBh2Bwwe7U89fYiN939i8m/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

@@ -1,6 +1,6 @@
 ---
 airtable_id: rec9kILYHjrxNmtj8
-board_links: ''
+board_links: https://drive.google.com/file/d/1zFw4yLx5sQE1NG5bzrkZZLBfq_HxTb6Q/view?usp=sharing
 complexity: ★
 external_links: https://www.battleshiponline.org/
 filename: battle-ship
@@ -43,6 +43,7 @@ Players mark their battle ships on their hidden grid. Calling out grid locations
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1uDA7GrmwOGAtanRmU-Qj4T5r_n7-S4sO/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1zFw4yLx5sQE1NG5bzrkZZLBfq_HxTb6Q/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

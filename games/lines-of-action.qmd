@@ -12,8 +12,10 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/127OC1HbCecpP5SJFUllop8Von6Y3fmpa/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Outmaneuver your opponent and connect your pieces — every move reshapes the
-  board. Think ahead, strike smart, and be the first to unite your tokens.
+summary: Lata and Raj place their pieces on opposite edges of the board. A piece moves
+  in a line a number of steps equal to the number of pieces in that line, into an
+  empty space or removing an opponent. The first to get all their pieces in a single
+  cluster wins the game.
 time: '20'
 title: Lines of Action
 type: Strategy
@@ -34,7 +36,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Outmaneuver your opponent and connect your pieces — every move reshapes the board. Think ahead, strike smart, and be the first to unite your tokens.
+Lata and Raj place their pieces on opposite edges of the board. A piece moves in a line a number of steps equal to the number of pieces in that line, into an empty space or removing an opponent. The first to get all their pieces in a single cluster wins the game.
 :::
 
 :::{.game-actions}

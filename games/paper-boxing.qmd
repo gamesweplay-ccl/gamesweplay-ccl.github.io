@@ -12,8 +12,13 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1yWhxXahX4fdhM-dpdVMOrZ_sqNyYXiBr/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Plan your path and pick your battles — only the bigger number wins the bout!
-  A fast-paced grid game of memory, movement, and head-to-head strategy.
+summary: Leaving the top-left corner of the board empty, Lata and Raj secretly enter
+  the numbers from 1 to 15 into their 4 x 4 grid boards. Each round, by connecting
+  to the previous number, they select the number for the bout, comparing it to the
+  other player's. The higher number wins the bout for a point. Play continues with
+  players extending their lines to an empty neighbour selecting the new number to
+  box. Play continues till all numbers are used or it is no longer possible to play
+  and the player with hihgest score wins.
 time: '20'
 title: Paper boxing
 type: Mathematics/Probability
@@ -34,7 +39,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Plan your path and pick your battles — only the bigger number wins the bout! A fast-paced grid game of memory, movement, and head-to-head strategy.
+Leaving the top-left corner of the board empty, Lata and Raj secretly enter the numbers from 1 to 15 into their 4 x 4 grid boards. Each round, by connecting to the previous number, they select the number for the bout, comparing it to the other player's. The higher number wins the bout for a point. Play continues with players extending their lines to an empty neighbour selecting the new number to box. Play continues till all numbers are used or it is no longer possible to play and the player with hihgest score wins.
 :::
 
 :::{.game-actions}

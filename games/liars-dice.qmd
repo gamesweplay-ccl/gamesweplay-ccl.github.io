@@ -12,8 +12,9 @@ game_format: Dice
 manual_links: https://drive.google.com/file/d/1_nNJQ878Ihb14rzmP5q8EK-fnitZIwc3/view?usp=sharing
 players: 3-6
 rules_video: ''
-summary: Shake, bid, and bluff your way to victory — can you spot the liar or will
-  you be caught? A fast-paced game of probability, deception, and bold calls.
+summary: Players shake their dice in a cup and keep them covered on the table. After
+  secretly looking at their own dice they bid on the rolls of the whole table. Succesful
+  bids give points but unsuccesful ones result in the loss of dice!
 time: '30'
 title: Liar's Dice
 type: Mathematics/Probability
@@ -34,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Shake, bid, and bluff your way to victory — can you spot the liar or will you be caught? A fast-paced game of probability, deception, and bold calls.
+Players shake their dice in a cup and keep them covered on the table. After secretly looking at their own dice they bid on the rolls of the whole table. Succesful bids give points but unsuccesful ones result in the loss of dice!
 :::
 
 :::{.game-actions}

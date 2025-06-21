@@ -200,7 +200,6 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
     </div>
 
     <div class="nav-footer-center">
-      
     </div>
 
     <div class="nav-footer-right">
@@ -213,3 +212,8 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
 </footer>
 
 ```
+
+<!-- <div style="text-align: center;">
+  <a href="acknowledgements.html">See who all made this possible →</a>
+</div> -->
+

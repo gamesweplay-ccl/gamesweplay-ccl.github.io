@@ -12,8 +12,11 @@ game_format: Dice
 manual_links: https://drive.google.com/file/d/1yGeiGWnhHf9I3HFGtiwDSObssy2eIGgd/view?usp=sharing
 players: 1-100
 rules_video: ''
-summary: Roll, place, and plan ahead — group matching numbers to rack up the highest
-  score. A simple yet clever game of probability, patterns, and smart choices.
+summary: This is a game that an entire class can play. Each player gets a board (grid)
+  and a pen. Both dice are rolled and the values added. Each player writes this number
+  on their board. Once the grid is filled, both row and column scores are calculated.
+  Score is based on the number of times a digit is placed adjacent to itself. Maximum
+  score wins.
 time: '20'
 title: Neighbours
 type: Mathematics/Probability
@@ -34,7 +37,7 @@ walkthrough_video: https://www.youtube.com/watch?v=O_aDDkLj6OU&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Roll, place, and plan ahead — group matching numbers to rack up the highest score. A simple yet clever game of probability, patterns, and smart choices.
+This is a game that an entire class can play. Each player gets a board (grid) and a pen. Both dice are rolled and the values added. Each player writes this number on their board. Once the grid is filled, both row and column scores are calculated. Score is based on the number of times a digit is placed adjacent to itself. Maximum score wins.
 :::
 
 :::{.game-actions}

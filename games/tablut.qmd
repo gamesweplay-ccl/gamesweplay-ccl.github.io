@@ -12,8 +12,8 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1iCh0Z6Sx10xURZV0y6LyegJI0uTLxJ8G/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: Protect the King or bring him down — one side escapes, the other surrounds.
-  A battle of bold moves and clever captures in this ancient game of siege and survival.
+summary: An ancient game of Viking chess, white attempts to get the king to the boundary
+  and black attempts to surround and capture the king.
 time: '30'
 title: Tablut
 type: Strategy
@@ -34,7 +34,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Protect the King or bring him down — one side escapes, the other surrounds. A battle of bold moves and clever captures in this ancient game of siege and survival.
+An ancient game of Viking chess, white attempts to get the king to the boundary and black attempts to surround and capture the king.
 :::
 
 :::{.game-actions}

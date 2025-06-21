@@ -12,8 +12,9 @@ game_format: Tokens
 manual_links: https://drive.google.com/file/d/1D2bPfJst9IoxOBcDiFrLhBFVo08JQRfO/view?usp=sharing
 players: '1'
 rules_video: ''
-summary: Leap, remove, and repeat — can you clear the board down to just one? A timeless
-  solo challenge of planning, precision, and perfect moves.
+summary: This single-player game starts with pieces on all but one space on the board.
+  Jumping a piece over another removes it from the board. The aim is to get to a single
+  token.
 time: '20'
 title: Peg Solitaire
 type: Strategy
@@ -34,7 +35,7 @@ walkthrough_video: https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8L
 :::
 
 :::{.game-summary}
-Leap, remove, and repeat — can you clear the board down to just one? A timeless solo challenge of planning, precision, and perfect moves.
+This single-player game starts with pieces on all but one space on the board. Jumping a piece over another removes it from the board. The aim is to get to a single token.
 :::
 
 :::{.game-actions}

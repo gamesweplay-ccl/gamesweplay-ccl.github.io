@@ -12,8 +12,9 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1MkhmBpA9BpLOjTfOJ88zTkjtQsjoGMtM/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: A mind game of maps and logic — deduce your opponent’s secret layout before
-  they crack yours. Probe, analyze, and outwit in this strategic twist on Battleship.
+summary: Battleship's smarter older sibling! Lata and Raj each decide their tetromino
+  maps. They now try to guess at each other's layout but probing locations on the
+  map.
 time: '30'
 title: LAP
 type: Science/Deduction
@@ -34,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A mind game of maps and logic — deduce your opponent’s secret layout before they crack yours. Probe, analyze, and outwit in this strategic twist on Battleship.
+Battleship's smarter older sibling! Lata and Raj each decide their tetromino maps. They now try to guess at each other's layout but probing locations on the map.
 :::
 
 :::{.game-actions}

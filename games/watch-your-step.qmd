@@ -1,6 +1,6 @@
 ---
 airtable_id: recN3XevfaLMeu582
-board_links: https://drive.google.com/file/d/1j9cPyClA8D6K9qAz9h8KPfAk9rDGQB1-/view?usp=sharing
+board_links: https://drive.google.com/file/d/11XE5fEB_VXf2XKrmCAjqah7LWLOPtiA8/view?usp=sharing
 complexity: ★
 external_links: ''
 filename: watch-your-step
@@ -12,7 +12,7 @@ game_format: Dice
 manual_links: https://drive.google.com/file/d/148mArFWU2rKL_kLRunj-KTi5hGoMxyOa/view?usp=sharing
 players: 2-4
 rules_video: ''
-summary: Player take turns rolling a dice trying to lead the pack but not fall off
+summary: Players take turns rolling a dice trying to lead the pack but not fall off
   the cliff!
 time: '10'
 title: Watch your Step
@@ -34,7 +34,7 @@ walkthrough_video: https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz
 :::
 
 :::{.game-summary}
-Player take turns rolling a dice trying to lead the pack but not fall off the cliff!
+Players take turns rolling a dice trying to lead the pack but not fall off the cliff!
 :::
 
 :::{.game-actions}
@@ -43,7 +43,7 @@ Player take turns rolling a dice trying to lead the pack but not fall off the cl
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/148mArFWU2rKL_kLRunj-KTi5hGoMxyOa/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1j9cPyClA8D6K9qAz9h8KPfAk9rDGQB1-/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://drive.google.com/file/d/11XE5fEB_VXf2XKrmCAjqah7LWLOPtiA8/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

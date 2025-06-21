@@ -12,8 +12,9 @@ game_format: Nothing
 manual_links: https://drive.google.com/file/d/12TFWo-Q2mLOBM53qG-tzVziIIMKZZNB4/view?usp=sharing
 players: 3-20
 rules_video: ''
-summary: Deceive, deduce, and survive — will you root out the Mafia or be silenced
-  in the night? A gripping game of hidden roles, bold accusations, and social strategy.
+summary: This is a multi-player social deduction game. Players are given the role
+  of either townsfolk or mafia. The townsfolk want to remove the mafia from town and
+  the mafia to kill atleast half the townsfolk.
 time: '30'
 title: Mafia
 type: SEL
@@ -34,12 +35,11 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-Deceive, deduce, and survive — will you root out the Mafia or be silenced in the night? A gripping game of hidden roles, bold accusations, and social strategy.
+This is a multi-player social deduction game. Players are given the role of either townsfolk or mafia. The townsfolk want to remove the mafia from town and the mafia to kill atleast half the townsfolk.
 :::
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/12TFWo-Q2mLOBM53qG-tzVziIIMKZZNB4/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

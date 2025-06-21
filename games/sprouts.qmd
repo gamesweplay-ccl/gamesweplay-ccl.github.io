@@ -12,8 +12,10 @@ game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1xHjbS9pIrWdXos5-EYDICIdO_RuGCQEX/view?usp=sharing
 players: '2'
 rules_video: ''
-summary: A delightfully simple game about drawing vines and dots all the while literally
-  trapping your opponent.
+summary: Play starts with 3 dots on an empty page. Lata and Raj take turns joinining
+  any two dots and placing a new dot on this new line. Previous lines may not be crossed
+  and once a dot has 3 lines coming out of it, it can no longer be used. Player who
+  is able to make the last line wins.
 time: '10'
 title: Sprouts
 type: Mathematics/Probability
@@ -34,7 +36,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A delightfully simple game about drawing vines and dots all the while literally trapping your opponent.
+Play starts with 3 dots on an empty page. Lata and Raj take turns joinining any two dots and placing a new dot on this new line. Previous lines may not be crossed and once a dot has 3 lines coming out of it, it can no longer be used. Player who is able to make the last line wins.
 :::
 
 :::{.game-actions}

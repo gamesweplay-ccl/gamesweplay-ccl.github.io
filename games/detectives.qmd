@@ -17,7 +17,7 @@ summary: The alphabet cards are shuffled, one removed and the rest distributed b
   are in their hand. Players compete to deduce which card was removed.
 time: '40'
 title: Detectives
-type: Science/Deduction
+type: Mathematics/Probability
 walkthrough_video: ''
 ---
 
