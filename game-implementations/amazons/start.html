@@ -1,366 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Amazons Game - Strong AI</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0; padding: 0;
-  }
-  #controls {
-    margin-top: 20px;
-  }
-  #board {
-    display: grid;
-    gap: 1px;
-    background-color: #333;
-    margin-top: 20px;
-  }
-  .cell {
-    width: 60px; height: 60px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  .black-amazon {
-    color: black;
-  }
-  .white-amazon {
-    color: gray;
-  }
-  .arrow {
-    background-color: black;
-  }
-  .highlight {
-    background-color: yellow;
-  }
-  #status {
-    margin-top: 20px;
-    font-weight: bold;
-  }
-</style>
-</head>
-<body>
-<h1>Amazons Game</h1>
-<div id="controls">
-  <button onclick="startGame()">Start Game</button>
-  <select id="gameMode">
-    <option value="2p">2 Players</option>
-    <option value="ai">Play vs Computer</option>
-  </select>
-  <select id="playerColor" style="display:none;">
-    <option value="white">Play as White</option>
-    <option value="black">Play as Black</option>
-  </select>
-  <select id="boardSize">
-    <option value="6">6×6</option>
-    <option value="8">8×8</option>
-    <option value="10" selected>10×10</option>
-  </select>
-</div>
-<div id="board"></div>
-<div id="status">Select mode and start game.</div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Amazons Game - Strong AI</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #fffcd4;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin: 0;
+				padding: 0;
+			}
+			#controls {
+				margin-top: 20px;
+			}
+			#board {
+				display: grid;
+				gap: 1px;
+				background-color: #333;
+				margin-top: 20px;
+				border: 2px solid #000;
+			}
+			.cell {
+				width: 60px;
+				height: 60px;
+				background-color: #fff;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 4rem;
+				cursor: pointer;
+			}
+			.black-amazon {
+				color: black;
+			}
+			.white-amazon {
+				color: gray;
+			}
+			.arrow {
+				background-color: black;
+			}
+			.highlight {
+				background-color: yellow;
+			}
+			#status {
+				margin-top: 20px;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Amazons Game</h1>
+		<div id="controls">
+			<button onclick="startGame()">Start Game</button>
+			<select id="gameMode">
+				<option value="2p">2 Players</option>
+				<option value="ai">Play vs Computer</option>
+			</select>
+			<select id="playerColor" style="display: none">
+				<option value="white">Play as White</option>
+				<option value="black">Play as Black</option>
+			</select>
+			<select id="boardSize">
+				<option value="6">6×6</option>
+				<option value="8">8×8</option>
+				<option value="10" selected>10×10</option>
+			</select>
+		</div>
+		<div id="board"></div>
+		<div id="status">Select mode and start game.</div>
 
-<script>
-  const boardElement = document.getElementById("board");
-  const statusElement = document.getElementById("status");
-  const gameModeSelect = document.getElementById("gameMode");
-  const playerColorSelect = document.getElementById("playerColor");
-  let boardSize = 10;
+		<script>
+			const boardElement = document.getElementById("board");
+			const statusElement = document.getElementById("status");
+			const gameModeSelect = document.getElementById("gameMode");
+			const playerColorSelect = document.getElementById("playerColor");
+			let boardSize = 10;
 
-  let board = [];
-  let currentPlayer = "white";
-  let playerColor = "white";
-  let gameMode = "2p";
-  let selectedAmazon = null;
-  let movePhase = 0;
+			let board = [];
+			let currentPlayer = "white";
+			let playerColor = "white";
+			let gameMode = "2p";
+			let selectedAmazon = null;
+			let movePhase = 0;
 
-  const directions = [
-    [-1, 0], [1, 0], [0, -1], [0, 1],
-    [-1, -1], [1, 1], [1, -1], [-1, 1]
-  ];
+			const directions = [
+				[-1, 0],
+				[1, 0],
+				[0, -1],
+				[0, 1],
+				[-1, -1],
+				[1, 1],
+				[1, -1],
+				[-1, 1],
+			];
 
-  gameModeSelect.addEventListener("change", () => {
-    playerColorSelect.style.display = gameModeSelect.value === "ai" ? "inline-block" : "none";
-  });
+			gameModeSelect.addEventListener("change", () => {
+				playerColorSelect.style.display =
+					gameModeSelect.value === "ai" ? "inline-block" : "none";
+			});
 
-  function startGame() {
-    boardSize = parseInt(document.getElementById("boardSize").value);
-    gameMode = gameModeSelect.value;
-    playerColor = playerColorSelect.value || "white";
-    currentPlayer = "white";
-    selectedAmazon = null;
-    movePhase = 0;
-    board = Array.from({ length: boardSize }, () => Array(boardSize).fill(""));
+			function startGame() {
+				boardSize = parseInt(
+					document.getElementById("boardSize").value
+				);
+				gameMode = gameModeSelect.value;
+				playerColor = playerColorSelect.value || "white";
+				currentPlayer = "white";
+				selectedAmazon = null;
+				movePhase = 0;
+				board = Array.from({ length: boardSize }, () =>
+					Array(boardSize).fill("")
+				);
 
-    const posMap = {
-    6: {
-        white: [[2, 0], [3, 5]],
-        black: [[5, 2], [0, 3]]
-    },
-    8: {
-        white: [[2, 0], [0, 3], [1, 7]],
-        black: [[6, 0], [7, 4], [5, 7]]
-    },
-    10: {
-        white: [[0, 3], [0, 6], [3, 0], [3, 9]],
-        black: [[9, 3], [9, 6], [6, 0], [6, 9]]
-    }
-};
+				const posMap = {
+					6: {
+						white: [
+							[2, 0],
+							[3, 5],
+						],
+						black: [
+							[5, 2],
+							[0, 3],
+						],
+					},
+					8: {
+						white: [
+							[2, 0],
+							[0, 3],
+							[1, 7],
+						],
+						black: [
+							[6, 0],
+							[7, 4],
+							[5, 7],
+						],
+					},
+					10: {
+						white: [
+							[0, 3],
+							[0, 6],
+							[3, 0],
+							[3, 9],
+						],
+						black: [
+							[9, 3],
+							[9, 6],
+							[6, 0],
+							[6, 9],
+						],
+					},
+				};
 
+				for (const pos of posMap[boardSize].white)
+					board[pos[0]][pos[1]] = "white";
+				for (const pos of posMap[boardSize].black)
+					board[pos[0]][pos[1]] = "black";
 
-    for (const pos of posMap[boardSize].white) board[pos[0]][pos[1]] = "white";
-    for (const pos of posMap[boardSize].black) board[pos[0]][pos[1]] = "black";
+				renderBoard();
+				statusElement.textContent = `${capitalize(
+					currentPlayer
+				)}'s turn.`;
 
-    renderBoard();
-    statusElement.textContent = `${capitalize(currentPlayer)}'s turn.`;
+				if (gameMode === "ai" && currentPlayer !== playerColor) {
+					setTimeout(() => aiMove(), 500);
+				}
+			}
 
-    if (gameMode === "ai" && currentPlayer !== playerColor) {
-      setTimeout(() => aiMove(), 500);
-    }
-  }
+			function renderBoard() {
+				boardElement.innerHTML = "";
+				boardElement.style.gridTemplateColumns = `repeat(${boardSize}, 60px)`;
+				boardElement.style.gridTemplateRows = `repeat(${boardSize}, 60px)`;
 
-  function renderBoard() {
-    boardElement.innerHTML = "";
-    boardElement.style.gridTemplateColumns = `repeat(${boardSize}, 60px)`;
-    boardElement.style.gridTemplateRows = `repeat(${boardSize}, 60px)`;
+				for (let r = 0; r < boardSize; r++) {
+					for (let c = 0; c < boardSize; c++) {
+						const cell = document.createElement("div");
+						cell.classList.add("cell");
+						cell.dataset.row = r;
+						cell.dataset.col = c;
 
-    for (let r = 0; r < boardSize; r++) {
-      for (let c = 0; c < boardSize; c++) {
-        const cell = document.createElement("div");
-        cell.classList.add("cell");
-        cell.dataset.row = r;
-        cell.dataset.col = c;
+						const val = board[r][c];
+						if (val === "white") {
+							cell.textContent = "♕";
+							cell.classList.add("white-amazon");
+						} else if (val === "black") {
+							cell.textContent = "♛";
+							cell.classList.add("black-amazon");
+						} else if (val === "arrow") {
+							cell.classList.add("arrow");
+						}
 
-        const val = board[r][c];
-        if (val === "white") {
-          cell.textContent = "♕";
-          cell.classList.add("white-amazon");
-        } else if (val === "black") {
-          cell.textContent = "♛";
-          cell.classList.add("black-amazon");
-        } else if (val === "arrow") {
-          cell.classList.add("arrow");
-        }
+						cell.addEventListener("click", () =>
+							handleCellClick(r, c)
+						);
+						boardElement.appendChild(cell);
+					}
+				}
+			}
 
-        cell.addEventListener("click", () => handleCellClick(r, c));
-        boardElement.appendChild(cell);
-      }
-    }
-  }
+			function handleCellClick(r, c) {
+				if (gameMode === "ai" && currentPlayer !== playerColor) return;
+				const cell = board[r][c];
 
-  function handleCellClick(r, c) {
-    if (gameMode === "ai" && currentPlayer !== playerColor) return;
-    const cell = board[r][c];
+				if (movePhase === 0 && cell === currentPlayer) {
+					selectedAmazon = [r, c];
+					movePhase = 1;
+					highlightMoves(selectedAmazon);
+				} else if (
+					movePhase === 1 &&
+					selectedAmazon &&
+					isLegalMove(selectedAmazon, [r, c])
+				) {
+					moveAmazon(selectedAmazon, [r, c]);
+					selectedAmazon = [r, c];
+					movePhase = 2;
+					highlightMoves(selectedAmazon, true);
+				} else if (
+					movePhase === 2 &&
+					selectedAmazon &&
+					isLegalMove(selectedAmazon, [r, c])
+				) {
+					board[r][c] = "arrow";
+					switchTurn();
+				} else if (cell === currentPlayer) {
+					selectedAmazon = [r, c];
+					movePhase = 1;
+					highlightMoves(selectedAmazon);
+				}
 
-    if (movePhase === 0 && cell === currentPlayer) {
-      selectedAmazon = [r, c];
-      movePhase = 1;
-      highlightMoves(selectedAmazon);
-    } else if (movePhase === 1 && selectedAmazon && isLegalMove(selectedAmazon, [r, c])) {
-      moveAmazon(selectedAmazon, [r, c]);
-      selectedAmazon = [r, c];
-      movePhase = 2;
-      highlightMoves(selectedAmazon, true);
-    } else if (movePhase === 2 && selectedAmazon && isLegalMove(selectedAmazon, [r, c])) {
-      board[r][c] = "arrow";
-      switchTurn();
-    } else if (cell === currentPlayer) {
-      selectedAmazon = [r, c];
-      movePhase = 1;
-      highlightMoves(selectedAmazon);
-    }
+				renderBoard();
+			}
 
-    renderBoard();
-  }
+			function highlightMoves(pos) {
+				renderBoard();
+				const [r, c] = pos;
+				for (const [dr, dc] of directions) {
+					let nr = r + dr,
+						nc = c + dc;
+					while (
+						nr >= 0 &&
+						nr < boardSize &&
+						nc >= 0 &&
+						nc < boardSize
+					) {
+						if (board[nr][nc] !== "") break;
+						const cell = [...boardElement.children].find(
+							(cell) =>
+								+cell.dataset.row === nr &&
+								+cell.dataset.col === nc
+						);
+						if (cell) cell.classList.add("highlight");
+						nr += dr;
+						nc += dc;
+					}
+				}
+			}
 
-  function highlightMoves(pos) {
-    renderBoard();
-    const [r, c] = pos;
-    for (const [dr, dc] of directions) {
-      let nr = r + dr, nc = c + dc;
-      while (nr >= 0 && nr < boardSize && nc >= 0 && nc < boardSize) {
-        if (board[nr][nc] !== "") break;
-        const cell = [...boardElement.children].find(cell => +cell.dataset.row === nr && +cell.dataset.col === nc);
-        if (cell) cell.classList.add("highlight");
-        nr += dr;
-        nc += dc;
-      }
-    }
-  }
+			function isLegalMove(from, to) {
+				const [fr, fc] = from;
+				const [tr, tc] = to;
+				const dr = tr - fr;
+				const dc = tc - fc;
 
-  function isLegalMove(from, to) {
-    const [fr, fc] = from;
-    const [tr, tc] = to;
-    const dr = tr - fr;
-    const dc = tc - fc;
+				if (dr !== 0 && dc !== 0 && Math.abs(dr) !== Math.abs(dc))
+					return false;
 
-    if (dr !== 0 && dc !== 0 && Math.abs(dr) !== Math.abs(dc)) return false;
+				const stepR = dr === 0 ? 0 : dr / Math.abs(dr);
+				const stepC = dc === 0 ? 0 : dc / Math.abs(dc);
 
-    const stepR = dr === 0 ? 0 : dr / Math.abs(dr);
-    const stepC = dc === 0 ? 0 : dc / Math.abs(dc);
+				let r = fr + stepR;
+				let c = fc + stepC;
+				while (r !== tr || c !== tc) {
+					if (board[r][c] !== "") return false;
+					r += stepR;
+					c += stepC;
+				}
+				return board[tr][tc] === "";
+			}
 
-    let r = fr + stepR;
-    let c = fc + stepC;
-    while (r !== tr || c !== tc) {
-      if (board[r][c] !== "") return false;
-      r += stepR;
-      c += stepC;
-    }
-    return board[tr][tc] === "";
-  }
+			function moveAmazon(from, to) {
+				const [fr, fc] = from;
+				const [tr, tc] = to;
+				board[tr][tc] = board[fr][fc];
+				board[fr][fc] = "";
+			}
 
-  function moveAmazon(from, to) {
-    const [fr, fc] = from;
-    const [tr, tc] = to;
-    board[tr][tc] = board[fr][fc];
-    board[fr][fc] = "";
-  }
+			function switchTurn() {
+				currentPlayer = currentPlayer === "white" ? "black" : "white";
+				selectedAmazon = null;
+				movePhase = 0;
+				renderBoard();
 
-  function switchTurn() {
-    currentPlayer = currentPlayer === "white" ? "black" : "white";
-    selectedAmazon = null;
-    movePhase = 0;
-    renderBoard();
+				if (!hasLegalMoves(currentPlayer)) {
+					statusElement.textContent = `${capitalize(
+						opponent(currentPlayer)
+					)} wins! No moves left for ${capitalize(currentPlayer)}.`;
+					return;
+				}
 
-    if (!hasLegalMoves(currentPlayer)) {
-      statusElement.textContent = `${capitalize(opponent(currentPlayer))} wins! No moves left for ${capitalize(currentPlayer)}.`;
-      return;
-    }
+				statusElement.textContent = `${capitalize(
+					currentPlayer
+				)}'s turn.`;
 
-    statusElement.textContent = `${capitalize(currentPlayer)}'s turn.`;
+				if (gameMode === "ai" && currentPlayer !== playerColor) {
+					setTimeout(() => aiMove(), 500);
+				}
+			}
 
-    if (gameMode === "ai" && currentPlayer !== playerColor) {
-      setTimeout(() => aiMove(), 500);
-    }
-  }
+			function hasLegalMoves(player) {
+				for (let r = 0; r < boardSize; r++) {
+					for (let c = 0; c < boardSize; c++) {
+						if (board[r][c] === player) {
+							for (const [dr, dc] of directions) {
+								let nr = r + dr,
+									nc = c + dc;
+								while (
+									nr >= 0 &&
+									nr < boardSize &&
+									nc >= 0 &&
+									nc < boardSize &&
+									board[nr][nc] === ""
+								) {
+									if (boardSize === 6) {
+										// For 6x6, allow game to continue if any move exists (even without arrow)
+										return true;
+									}
 
-  function hasLegalMoves(player) {
-  for (let r = 0; r < boardSize; r++) {
-    for (let c = 0; c < boardSize; c++) {
-      if (board[r][c] === player) {
-        for (const [dr, dc] of directions) {
-          let nr = r + dr, nc = c + dc;
-          while (nr >= 0 && nr < boardSize && nc >= 0 && nc < boardSize && board[nr][nc] === "") {
-            if (boardSize === 6) {
-              // For 6x6, allow game to continue if any move exists (even without arrow)
-              return true;
-            }
+									// For 8x8 and 10x10, check for valid arrow shots too
+									for (const [adr, adc] of directions) {
+										let ar = nr + adr,
+											ac = nc + adc;
+										while (
+											ar >= 0 &&
+											ar < boardSize &&
+											ac >= 0 &&
+											ac < boardSize &&
+											board[ar][ac] === ""
+										) {
+											return true;
+										}
+										ar += adr;
+										ac += adc;
+									}
+									nr += dr;
+									nc += dc;
+								}
+							}
+						}
+					}
+				}
+				return false;
+			}
 
-            // For 8x8 and 10x10, check for valid arrow shots too
-            for (const [adr, adc] of directions) {
-              let ar = nr + adr, ac = nc + adc;
-              while (ar >= 0 && ar < boardSize && ac >= 0 && ac < boardSize && board[ar][ac] === "") {
-                return true;
-              }
-              ar += adr;
-              ac += adc;
-            }
-            nr += dr;
-            nc += dc;
-          }
-        }
-      }
-    }
-  }
-  return false;
-}
+			function opponent(player) {
+				return player === "white" ? "black" : "white";
+			}
 
+			function getPlayerAmazons(player, brd) {
+				const amazons = [];
+				for (let r = 0; r < boardSize; r++) {
+					for (let c = 0; c < boardSize; c++) {
+						if (brd[r][c] === player) amazons.push([r, c]);
+					}
+				}
+				return amazons;
+			}
 
-  function opponent(player) {
-    return player === "white" ? "black" : "white";
-  }
+			function generateAllMoves(player, brd) {
+				const moves = [];
+				const amazons = getPlayerAmazons(player, brd);
 
-  function getPlayerAmazons(player, brd) {
-    const amazons = [];
-    for (let r = 0; r < boardSize; r++) {
-      for (let c = 0; c < boardSize; c++) {
-        if (brd[r][c] === player) amazons.push([r, c]);
-      }
-    }
-    return amazons;
-  }
+				for (const [r, c] of amazons) {
+					for (const [dr, dc] of directions) {
+						let nr = r + dr,
+							nc = c + dc;
+						while (
+							nr >= 0 &&
+							nr < boardSize &&
+							nc >= 0 &&
+							nc < boardSize &&
+							brd[nr][nc] === ""
+						) {
+							for (const [adr, adc] of directions) {
+								let ar = nr + adr,
+									ac = nc + adc;
+								while (
+									ar >= 0 &&
+									ar < boardSize &&
+									ac >= 0 &&
+									ac < boardSize &&
+									brd[ar][ac] === ""
+								) {
+									moves.push({
+										from: [r, c],
+										to: [nr, nc],
+										arrow: [ar, ac],
+									});
+									ar += adr;
+									ac += adc;
+								}
+							}
+							nr += dr;
+							nc += dc;
+						}
+					}
+				}
+				return moves;
+			}
 
-  function generateAllMoves(player, brd) {
-    const moves = [];
-    const amazons = getPlayerAmazons(player, brd);
+			function cloneBoard(brd) {
+				return brd.map((row) => row.slice());
+			}
 
-    for (const [r, c] of amazons) {
-      for (const [dr, dc] of directions) {
-        let nr = r + dr, nc = c + dc;
-        while (nr >= 0 && nr < boardSize && nc >= 0 && nc < boardSize && brd[nr][nc] === "") {
-          for (const [adr, adc] of directions) {
-            let ar = nr + adr, ac = nc + adc;
-            while (ar >= 0 && ar < boardSize && ac >= 0 && ac < boardSize && brd[ar][ac] === "") {
-              moves.push({ from: [r, c], to: [nr, nc], arrow: [ar, ac] });
-              ar += adr;
-              ac += adc;
-            }
-          }
-          nr += dr;
-          nc += dc;
-        }
-      }
-    }
-    return moves;
-  }
+			function evaluateMobility(player, brd) {
+				return generateAllMoves(player, brd).length;
+			}
 
-  function cloneBoard(brd) {
-    return brd.map(row => row.slice());
-  }
+			function aiMove() {
+				const moves = generateAllMoves(currentPlayer, board);
+				if (moves.length === 0) {
+					statusElement.textContent = `${capitalize(
+						opponent(currentPlayer)
+					)} wins! No moves left for ${capitalize(currentPlayer)}.`;
+					return;
+				}
 
-  function evaluateMobility(player, brd) {
-    return generateAllMoves(player, brd).length;
-  }
+				let bestMove = null;
+				let bestScore = -Infinity;
 
-  function aiMove() {
-    const moves = generateAllMoves(currentPlayer, board);
-    if (moves.length === 0) {
-      statusElement.textContent = `${capitalize(opponent(currentPlayer))} wins! No moves left for ${capitalize(currentPlayer)}.`;
-      return;
-    }
+				for (const move of moves) {
+					const testBoard = cloneBoard(board);
+					const [fr, fc] = move.from;
+					const [tr, tc] = move.to;
+					testBoard[tr][tc] = testBoard[fr][fc];
+					testBoard[fr][fc] = "";
+					const [ar, ac] = move.arrow;
+					testBoard[ar][ac] = "arrow";
 
-    let bestMove = null;
-    let bestScore = -Infinity;
+					const myMobility = evaluateMobility(
+						currentPlayer,
+						testBoard
+					);
+					const oppMobility = evaluateMobility(
+						opponent(currentPlayer),
+						testBoard
+					);
+					const score = myMobility - oppMobility;
 
-    for (const move of moves) {
-      const testBoard = cloneBoard(board);
-      const [fr, fc] = move.from;
-      const [tr, tc] = move.to;
-      testBoard[tr][tc] = testBoard[fr][fc];
-      testBoard[fr][fc] = "";
-      const [ar, ac] = move.arrow;
-      testBoard[ar][ac] = "arrow";
+					if (score > bestScore) {
+						bestScore = score;
+						bestMove = move;
+					}
+				}
 
-      const myMobility = evaluateMobility(currentPlayer, testBoard);
-      const oppMobility = evaluateMobility(opponent(currentPlayer), testBoard);
-      const score = myMobility - oppMobility;
+				if (bestMove) {
+					moveAmazon(bestMove.from, bestMove.to);
+					board[bestMove.arrow[0]][bestMove.arrow[1]] = "arrow";
+					switchTurn();
+				}
+			}
 
-      if (score > bestScore) {
-        bestScore = score;
-        bestMove = move;
-      }
-    }
-
-    if (bestMove) {
-      moveAmazon(bestMove.from, bestMove.to);
-      board[bestMove.arrow[0]][bestMove.arrow[1]] = "arrow";
-      switchTurn();
-    }
-  }
-
-  function capitalize(s) {
-    return s.charAt(0).toUpperCase() + s.slice(1);
-  }
-</script>
-</body>
+			function capitalize(s) {
+				return s.charAt(0).toUpperCase() + s.slice(1);
+			}
+		</script>
+	</body>
 </html>
