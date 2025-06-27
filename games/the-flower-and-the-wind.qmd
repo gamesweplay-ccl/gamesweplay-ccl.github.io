@@ -40,11 +40,11 @@ The flower gets to place a mark each round. The wind selects a direction and add
 
 :::{.game-actions}
 ```{=html}
-<a href="https://shaumikkhanna.github.io/flower-and-the-wind/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/sWo9CCkjzK8" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=G1Ba7xRVKe4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1h9lOlbrh29P6odJ5fneK_JFNYhmp_XPV/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1ZIrKRr-uKvyrGkWyIUzKzDkkTmNLcFnt/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://shaumikkhanna.github.io/flower-and-the-wind/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://youtu.be/sWo9CCkjzK8" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://www.youtube.com/watch?v=G1Ba7xRVKe4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1h9lOlbrh29P6odJ5fneK_JFNYhmp_XPV/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1ZIrKRr-uKvyrGkWyIUzKzDkkTmNLcFnt/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

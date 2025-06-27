@@ -40,11 +40,11 @@ walkthrough_video: https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8L
 
 :::{.game-actions}
 ```{=html}
-<a href="https://kyleburke.info/DB/combGames/domineering.html" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/KUZFn-9_FmU" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://kyleburke.info/DB/combGames/domineering.html" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://youtu.be/KUZFn-9_FmU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

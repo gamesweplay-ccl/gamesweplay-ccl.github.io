@@ -42,9 +42,9 @@ A more involved version of charades, this game is played over several rounds. In
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1iPSbqlhupUJW5__MO3tJEwppYxDnGopb/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1iPSbqlhupUJW5__MO3tJEwppYxDnGopb/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

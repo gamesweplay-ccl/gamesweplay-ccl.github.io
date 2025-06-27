@@ -95,31 +95,31 @@ def create_game_file(game_dir, fields, record_id):
         # Always add action buttons section with at least placeholders
         f.write(":::{.game-actions}\n```{=html}\n")
         if external_links:
-            f.write(f"<a href=\"{external_links}\" class=\"btn coloured-button\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
+            f.write(f'<a href="{external_links}" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>\n')
         elif game_type == 'SEL':
             pass
         else:
-            f.write(f"<a href=\"#\" class=\"btn disabled-button\"><i class=\"fa fa-gamepad\"></i> Play the game</a>\n")
+            f.write(f'<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>\n')
             
         if rules_video:
-            f.write(f"<a href=\"{rules_video}\" class=\"btn coloured-button\"><i class=\"fa fa-video\"></i> Rules video</a>\n")
+            f.write(f'<a href="{rules_video}" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>\n')
         else:
-            f.write(f"<a href=\"#\" class=\"btn disabled-button\"><i class=\"fa fa-video\"></i> Rules video</a>\n")
+            f.write(f'<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>\n')
 
         if walkthrough_video:
-            f.write(f"<a href=\"{walkthrough_video}\" class=\"btn coloured-button\"><i class=\"fa fa-video\"></i> Watch us play</a>\n")
+            f.write(f'<a href="{walkthrough_video}" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>\n')
         else:
-            f.write(f"<a href=\"#\" class=\"btn disabled-button\"><i class=\"fa fa-video\"></i> Watch us play</a>\n")
+            f.write(f'<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>\n')
 
         if manual_links:
-            f.write(f"<a href=\"{manual_links}\" class=\"btn coloured-button\"><i class=\"fa fa-book\"></i> Read the manual</a>\n")
+            f.write(f'<a href="{manual_links}" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>\n')
         else:
-            f.write(f"<a href=\"#\" class=\"btn disabled-button\"><i class=\"fa fa-book\"></i> Read the manual</a>\n")
+            f.write(f'<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-book"></i> Read the manual</a>\n')
 
         if board_links:
-            f.write(f"<a href=\"{board_links}\" class=\"btn coloured-button\"><i class=\"fa fa-file-pdf\"></i> Printable PDF</a>\n")
+            f.write(f'<a href="{board_links}" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>\n')
         else:
-            # f.write(f"<a href=\"#\" class=\"btn disabled-button\"><i class=\"fa fa-file-pdf\"></i> Board PDF</a>\n")
+            # f.write(f'<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-file-pdf"></i> Board PDF</a>\n')
             pass
 
         f.write('```\n')

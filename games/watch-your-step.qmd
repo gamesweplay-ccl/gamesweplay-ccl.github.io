@@ -39,11 +39,11 @@ Players take turns rolling a dice trying to lead the pack but not fall off the c
 
 :::{.game-actions}
 ```{=html}
-<a href="#" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/148mArFWU2rKL_kLRunj-KTi5hGoMxyOa/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/11XE5fEB_VXf2XKrmCAjqah7LWLOPtiA8/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/148mArFWU2rKL_kLRunj-KTi5hGoMxyOa/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/11XE5fEB_VXf2XKrmCAjqah7LWLOPtiA8/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

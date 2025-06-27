@@ -40,11 +40,11 @@ Lata and Raj take turns removing tokens from the board. On a turn they can alway
 
 :::{.game-actions}
 ```{=html}
-<a href="https://tautology.in/starnim/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=aUuKdv9YEBw&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=32" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/190_hG9XOY4w4a2RkrzRtMO00xI0A7WHc/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1jGA0nPOtyMxm7ae5klIYflRyR-HTGyAp/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://tautology.in/starnim/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://www.youtube.com/watch?v=aUuKdv9YEBw&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=32" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/190_hG9XOY4w4a2RkrzRtMO00xI0A7WHc/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1jGA0nPOtyMxm7ae5klIYflRyR-HTGyAp/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

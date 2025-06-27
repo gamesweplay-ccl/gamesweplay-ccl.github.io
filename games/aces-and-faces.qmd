@@ -41,10 +41,10 @@ This game is played with only the Aces, Jacks, Queens and Kings from a deck of c
 
 :::{.game-actions}
 ```{=html}
-<a href="http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/start.html" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/HGuviZDVEpA" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=n_ifx_HLdrk&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=2" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/120LHDaU89q7d0vlP6TfsFwR7ZjRc7mh3/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="http://gamesweplay-ccl.github.io/game-implementations/aces-and-faces/start.html" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://youtu.be/HGuviZDVEpA" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://www.youtube.com/watch?v=n_ifx_HLdrk&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=2" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/120LHDaU89q7d0vlP6TfsFwR7ZjRc7mh3/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

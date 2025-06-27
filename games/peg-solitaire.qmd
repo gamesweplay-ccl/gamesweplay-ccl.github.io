@@ -40,11 +40,11 @@ This single-player game starts with pieces on all but one space on the board. Ju
 
 :::{.game-actions}
 ```{=html}
-<a href="https://www.solitaireparadise.com/games_list/peg-solitaire.html" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=24" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1D2bPfJst9IoxOBcDiFrLhBFVo08JQRfO/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/194DAyhiIGm08N-2q9NrDqiFRY_feAkQl/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://www.solitaireparadise.com/games_list/peg-solitaire.html" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://www.youtube.com/watch?v=p2nojU3QCCk&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=24" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1D2bPfJst9IoxOBcDiFrLhBFVo08JQRfO/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/194DAyhiIGm08N-2q9NrDqiFRY_feAkQl/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

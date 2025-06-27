@@ -39,11 +39,11 @@ An exciting ancient game of Viking chess, white attempts to get the king to the 
 
 :::{.game-actions}
 ```{=html}
-<a href="https://federicoterzi.com/webTablut/" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1iCh0Z6Sx10xURZV0y6LyegJI0uTLxJ8G/view?usp=sharing" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/10EuP7OtEpPQjMh7X6YHJM5siGtudPa1v/view?usp=sharing" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://federicoterzi.com/webTablut/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1iCh0Z6Sx10xURZV0y6LyegJI0uTLxJ8G/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/10EuP7OtEpPQjMh7X6YHJM5siGtudPa1v/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 
