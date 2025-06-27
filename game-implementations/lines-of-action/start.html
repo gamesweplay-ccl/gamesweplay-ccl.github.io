@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lines of Action</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				margin: 0;
+				background-color: #fffcd4;
+				font-family: "Orbitron", sans-serif;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+			}
+
+			h1 {
+				font-size: 3rem;
+				color: #fac327;
+				margin-bottom: 2rem;
+				text-align: center;
+			}
+
+			.mode-select {
+				display: flex;
+				gap: 2rem;
+			}
+
+			.mode-select button {
+				padding: 1rem 2rem;
+				font-size: 1.2rem;
+				font-family: inherit;
+				background-color: #fac327;
+				color: #333;
+				border: none;
+				border-radius: 12px;
+				cursor: pointer;
+				transition: transform 0.2s ease, background-color 0.2s ease;
+			}
+
+			.mode-select button:hover {
+				transform: scale(1.05);
+				background-color: #f5b800;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Lines of Action</h1>
+		<div class="mode-select">
+			<button onclick="startGame('pass')">Pass and Play</button>
+			<button onclick="startGame('ai')">Vs Computer</button>
+		</div>
+
+		<script>
+			function startGame(mode) {
+				window.location.href = `game.html?mode=${mode}`;
+			}
+		</script>
+	</body>
+</html>
