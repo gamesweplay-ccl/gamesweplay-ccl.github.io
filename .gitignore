@@ -5,6 +5,7 @@
 
 # Python virtual environment
 /.venv/
+_extensions/airtable_sync/.venv/
 
 # Environment variables and secrets
 .env
