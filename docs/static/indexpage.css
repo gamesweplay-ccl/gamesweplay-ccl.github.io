@@ -162,13 +162,33 @@ h3 {
 	align-items: center;
 }
 
-.about-info-grid {
+/* .about-info-grid {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	gap: 0.2rem;
 	margin: 2rem 0;
+} */
+
+.about-info-grid {
+  display: flex;
+  flex-direction: row;           /* arrange items in one row */
+  justify-content: space-between;
+  gap: 2em;
+  text-align: center;
+}
+
+.about-info-grid .item {
+  display: flex;
+  flex-direction: column;        /* stack content vertically */
+  align-items: center;
+  flex: 0 0 auto;                     /* evenly divide into 3 columns */
+  min-width: 0;                 /* allow shrinking if needed */
+}
+
+.about-info-grid .label img {
+  vertical-align: middle;
 }
 
 .about-info-grid .label {

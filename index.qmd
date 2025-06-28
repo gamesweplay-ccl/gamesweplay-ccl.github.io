@@ -43,7 +43,7 @@ We enjoy playing even the simplest of these so a low complexity game is not just
 
 
 ```{=html}
-<div class="about-info-grid">
+<!-- <div class="about-info-grid">
   <div class="label">
     <img src="static/images/complexity-star.svg" alt="1 star" style="height: 1.5em; vertical-align: middle;">
   </div>
@@ -76,6 +76,34 @@ We enjoy playing even the simplest of these so a low complexity game is not just
   <div class="desc-sub">
     Class 9 (14 years) +
   </div>
+</div> -->
+<div class="about-info-grid">
+  <div class="item">
+    <div class="label">
+      <img src="static/images/complexity-star.svg" style="height: 1.5em;">
+    </div>
+    <div class="desc">Simple rules.</div>
+    <div class="desc-sub">Class 3 (8 years) +</div>
+  </div>
+
+  <div class="item">
+    <div class="label">
+      <img src="static/images/complexity-star.svg" style="height: 1.5em;">
+      <img src="static/images/complexity-star.svg" style="height: 1.5em;">
+    </div>
+    <div class="desc">Somewhat complicated rules or strategy.</div>
+    <div class="desc-sub">Class 6 (11 years) +</div>
+  </div>
+
+  <div class="item">
+    <div class="label">
+      <img src="static/images/complexity-star.svg" style="height: 1.5em;">
+      <img src="static/images/complexity-star.svg" style="height: 1.5em;">
+      <img src="static/images/complexity-star.svg" style="height: 1.5em;">
+    </div>
+    <div class="desc">More challenging rules or strategy.</div>
+    <div class="desc-sub">Class 9 (14 years) +</div>
+  </div>
 </div>
 ```
 
@@ -84,10 +112,10 @@ We enjoy playing even the simplest of these so a low complexity game is not just
 
 ### Player Counts
 
-We have games for different player counts.
+We have games for different numbers of players. 'Solo' indicates games for one player (solo play), '2 players' are typically strategy games that support exactly two players, 'Between 3 and 10' is for games that can be played with more than two but less than 10, and '10 and more' are for very large groups - get the whole class to play!
 
 
-```{=html}
+<!-- ```{=html}
 <div class="about-info-grid">
   <div class="label">
     Solo
@@ -117,7 +145,7 @@ We have games for different player counts.
     Games for 10 or more! These can be played simultaneously by an entire class
   </div>
 </div>
-```
+``` -->
 
 \
 \
@@ -203,7 +231,7 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
     </div>
 
     <div class="nav-footer-right">
-      <p><strong>Indian Institute of Technology, Palaj, Gujarat - 382355</strong></p>
+      <p><strong>Indian Institute of Technology, Gandhinagar, Gujarat - 382355</strong></p>
       <p>Contact: 079-23952240 | <a href="mailto:gamesweplay.ccl@gmail.com">gamesweplay.ccl@gmail.com</a></p>
       <p>© 2025 Center for Creative Learning | IIT Gandhinagar</p>
     </div>
