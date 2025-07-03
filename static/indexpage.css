@@ -281,15 +281,20 @@ h3 {
 
 
 @media (max-width: 600px) {
-	.image-break-row {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
+  .image-break-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
 
-	.image-break-row img {
-		flex: 1 1 40%; /* two per row if needed */
-		margin-bottom: 1rem;
-	}
+  .image-break-row img {
+    flex: 0 1 30%;
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.75rem;
+  }
 }
 
 /* Shadow on press */
