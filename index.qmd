@@ -21,7 +21,7 @@ In order to play these games you will often need pen, paper, dice and tokens in 
 \
 
 ### Types of Games
-Most games have simple rules. The games are split into games that can be used in the Mathematics and Science classrooms. Some games are good for Language or Social and Emotional Learning. To indicate game type, the manual and page background are colour coded. \
+Most games have simple rules. The games are split into games that can be used in the Mathematics and Science classrooms. Some games are good for Language or Social and Emotional Learning (SEL). To indicate game type, the manual and page background are colour coded. \
 
 
 
@@ -200,7 +200,7 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
   <p id="results-content"></p>
 </div>
 <div id="random-from-filtered-container" style="display: none; text-align: center; margin-top: 1rem;">
-  <button id="filtered-random-btn" class="lucky-btn">Pick random from these</button>
+  <button id="filtered-random-btn" class="lucky-btn">Pick randomly from these</button>
 </div>
 
 <script src="static/indexpage.js"></script>

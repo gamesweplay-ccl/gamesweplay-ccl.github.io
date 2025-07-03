@@ -1,7 +1,7 @@
 body {
 	background: url("backgrounds/home_bg.svg") left top,
 		url("backgrounds/home_bg.svg") right top;
-	background-color: #fffbe3; /* base color fills the center */
+	background-color: #fffdf0; /* base color fills the center */
 	background-repeat: repeat-y, repeat-y;
 	background-position: left top, right top;
 	background-size: 150px auto, 150px auto;
@@ -27,17 +27,17 @@ main a {
 
 main a:hover {
 	text-decoration: underline;
-	color: blue;
+	color: #af4478;
 }
 
 h1 {
-	background-color: #e8b492;
+	background-color: #af4478;
 	color: #fffbe3;
 }
 
 h3 {
 	font-weight: 550;
-	color: #8d9fa9;
+	color: #af4478;
 }
 
 #game-filter {
@@ -87,12 +87,13 @@ h3 {
 }
 
 .button-group button.selected {
-	background-color: #e8b492;
+	background-color: #af4478;
 	color: white;
 }
 
 .button-group button:hover {
-	background-color: #ffe0c2;
+	background-color: #af4478;
+	color: #fffdf0;
 }
 
 .question-label {
@@ -131,7 +132,7 @@ h3 {
 #filtered-random-btn {
 	position: relative;
 	overflow: hidden;
-	background-color: #8c9ba9;
+	background-color: #22121c;
 	border: none;
 	padding: 0.6rem 2.2rem;
 	font-size: 1.1rem;
@@ -143,7 +144,8 @@ h3 {
 
 #find-button:hover,
 #filtered-random-btn:hover {
-	background-color: #6b7a89;
+	background-color: rgb(96, 0, 48);
+	color: #fffdf0;
 }
 
 .game-suggestions .game-info-box {
@@ -193,7 +195,7 @@ h3 {
 
 .about-info-grid .label {
 	font-weight: 550;
-	color: #8d9fa9;
+	color: #af4478;
 	font-size: 1.1rem;
 	padding-top: 1.5rem;
 }
@@ -270,4 +272,20 @@ h3 {
 		flex: 1 1 40%; /* two per row if needed */
 		margin-bottom: 1rem;
 	}
+}
+
+/* Shadow on press */
+.button-group button:active,
+#find-button:active,
+#filtered-random-btn:active {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	transform: translateY(2px);
+}
+
+/* Remove shadow on hover (not pressing) */
+.button-group button:hover:not(:active),
+#find-button:hover:not(:active),
+#filtered-random-btn:hover:not(:active) {
+	box-shadow: none;
+	transform: none;
 }

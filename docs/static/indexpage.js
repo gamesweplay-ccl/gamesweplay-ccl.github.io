@@ -5,10 +5,10 @@ const difficultyMap = {
 };
 
 const typeColors = {
-	"Mathematics/Probability": "#ffecdb",
-	"SEL": "#dcf3fa",
-	"Strategy": "#fffcd4",
-	"Science/Deduction": "#e4f6dd",
+	"Mathematics/Probability": "#ff9658",
+	"SEL": "#94daff",
+	"Strategy": "#fdd559",
+	"Science/Deduction": "#bdd866",
 };
 
 let gameData = [];
@@ -96,10 +96,8 @@ document
 				.map((g) => {
 					const bgColor = typeColors[g.type] || "#ffffff";
 					return `
-				<li style="background-color: ${bgColor}; padding: 1rem; margin-bottom: 1rem;">
-					<a href="/games/${g.filename}.html"><strong>${g.title}</strong></a><br>
-
-					<div class="game-info-box">
+					<li style="background-color: #fffdf0; padding: 1rem; margin-bottom: 0.5rem; border-top: 3rem solid ${bgColor}; border-left: 3px solid ${bgColor}; border-right: 3px solid ${bgColor}; border-bottom: 3px solid ${bgColor}; border-radius: 10px; position: relative;">
+  					<a href="/games/${g.filename}.html" style="position: absolute; top: -2.2rem; left: 1rem; color: #fffdf0; font-weight: bold; text-decoration: none; background: transparent; padding: 0;">${g.title}</a>
 						<div class="game-stats">
 							<span class="tooltip-gamestats" data-tooltip="${
 								g.time
