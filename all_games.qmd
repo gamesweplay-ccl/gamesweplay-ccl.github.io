@@ -15,8 +15,8 @@ listing:
     complexity: "Complexity"
     players: "Players"
     time: "Duration"
-  sort: title
-  sort-ui: [title, players, time, type, game_format, complexity]
+  # sort: type
+  sort-ui: [complexity, players, title, time, type, game_format]
   filter-ui: [title, type, game_format, complexity]
   table-hover: true
   table-striped: false
@@ -122,6 +122,34 @@ Welcome to our collection of games! Browse through our catalog below to find gam
       }
     });
   });
+</script>
+```
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const table = document.querySelector("table");
+  if (!table) return;
+
+  const rows = Array.from(table.querySelectorAll("tbody tr"));
+
+  const getCellText = (row, index) => row.cells[index]?.textContent?.trim().toLowerCase() || "";
+
+  const typeIndex = 1;        // 'Type'
+  const complexityIndex = 5;  // 'Complexity'
+
+  rows.sort((a, b) => {
+    const typeA = getCellText(a, typeIndex);
+    const typeB = getCellText(b, typeIndex);
+    if (typeA !== typeB) return typeA.localeCompare(typeB);
+
+    const compA = getCellText(a, complexityIndex);
+    const compB = getCellText(b, complexityIndex);
+    return compA.localeCompare(compB);
+  });
+
+  const tbody = table.querySelector("tbody");
+  rows.forEach(row => tbody.appendChild(row));
+});
 </script>
 ```
 
