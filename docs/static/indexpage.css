@@ -245,7 +245,7 @@ h3 {
 	cursor: pointer;
 }
 
-.image-break-row {
+/* .image-break-row {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -260,7 +260,25 @@ h3 {
 	height: auto;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 	border-radius: 16px;
+} */
+
+.image-break-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.25rem;
+  flex-wrap: wrap; /* wrap on small screens */
+  margin: 0.5rem 0;
 }
+
+.image-break-row img {
+  flex: 1 1 22%;
+  max-width: 80px;         /* limit size to avoid overflow */
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
 
 @media (max-width: 600px) {
 	.image-break-row {
