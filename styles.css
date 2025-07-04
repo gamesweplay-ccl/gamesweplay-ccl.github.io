@@ -155,23 +155,39 @@ h1 {
 }
 
 .navbar {
-	background-color: #22121c;
-	border-bottom: 1px solid #ccc;
+  background-color: #22121c;
+  border-bottom: 1px solid #ccc;
 }
 
 .navbar-brand,
 .nav-link {
-	color: white;
-	font-family: "Omnes", sans-serif;
-	font-weight: 400;
+  color: white;
+  font-family: "Omnes", sans-serif;
+  font-weight: 400;
 }
 
 .navbar-nav .nav-link.active,
 .navbar .quarto-navbar-tools .quarto-navigation-tool,
 .navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
-	color: white;
+  color: white;
 }
 
-.navbar .navbar-nav .nav-link:hover {
-	color: #0077cc; /* hover text color */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #af4478 !important;
 }
+
+.navbar-brand:hover {
+  color: #af4478 !important;
+}
+/* 
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:hover {
+  color: #af4478 !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link:hover {
+  color: #af4478 !important;
+} */

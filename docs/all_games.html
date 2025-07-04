@@ -190,7 +190,7 @@ window.Quarto = {
 
 
 <p>Welcome to our collection of games! Browse through our catalog below to find games suitable for different age groups and player counts, by clicking on its name.</p>
-<!-- Page and table background styling -->
+<!-- in this block, we're changing the background colors to #fffdf0 -->
 <style>
   body,
   table,
@@ -202,7 +202,6 @@ window.Quarto = {
     background-color: #fffdf0 !important;
   }
 
-  /* Filter and sort containers */
   .listing-filters,
   .listing-filter-container,
   .quarto-listing-table-tools {
@@ -211,7 +210,6 @@ window.Quarto = {
     box-shadow: none !important;
   }
 
-  /* Filter inputs (text + dropdowns) */
   .listing-filters input[type="text"],
   .listing-filters select,
   .listing-filter-container input,
@@ -224,21 +222,8 @@ window.Quarto = {
     border-radius: 5px;
     box-shadow: none !important;
   }
-
-  /* Title column link styles
-  td:first-child a {
-    color: #666 !important;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  td:first-child a:hover {
-    color: blue !important;
-    text-decoration: underline;
-  } */
 </style>
-
-<!-- Color coding by Type column -->
+<!-- in this block, we're ensuring that the colours of all text per row aligns with the type color -->
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const colorMap = {
@@ -256,25 +241,21 @@ window.Quarto = {
         const type = typeCell.textContent.trim();
         const color = colorMap[type];
         if (color) {
-          // Color all cells
           Array.from(row.cells).forEach((cell) => {
             cell.style.color = color;
           });
 
-          // Style the <a> link in the title column
           const link = titleCell.querySelector("a");
           if (link) {
             link.style.color = color;
             link.style.fontWeight = "600";
             link.style.textDecoration = "none";
 
-            // On hover: blue + underline
             link.addEventListener("mouseenter", () => {
               link.style.color = "#af4478";
               link.style.textDecoration = "underline";
             });
 
-            // On mouse leave: revert to original color and no underline
             link.addEventListener("mouseleave", () => {
               link.style.color = color;
               link.style.textDecoration = "none";
@@ -288,38 +269,33 @@ window.Quarto = {
   });
 </script>
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const params = new URLSearchParams(window.location.search);
-  const applyFilters = () => {
-    const table = document.querySelector(".quarto-listing-table");
-    const listingId = table?.id;
-    const listing = window.QuartoListing?.getListing?.(listingId);
-    if (!listing) return;
+  document.addEventListener("DOMContentLoaded", function () {
+    // Wait a short while to let Quarto render the sort UI
+    setTimeout(() => {
+      const sortLabel = document.querySelector(".quarto-listing-sort-ui label");
+      if (sortLabel && sortLabel.textContent.includes("Order by")) {
+        sortLabel.textContent = "Sort games by:";
+      }
+    }, 300); // delay in ms (you can increase if still doesn't work)
+  });
+</script>
+<!-- ```{=html}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
 
-    let changed = false;
-    params.forEach((val, key) => {
-      const input = document.querySelector(`[name="${key}"]`);
-      if (input && input.value !== val) {
-        input.value = val;
+    urlParams.forEach((value, key) => {
+      const input = document.querySelector(
+        `.listing-filters [name='${key}'], .listing-filter-container [name='${key}']`
+      );
+      if (input) {
+        input.value = value;
         input.dispatchEvent(new Event("input", { bubbles: true }));
-        input.dispatchEvent(new Event("change", { bubbles: true }));
-        changed = true;
       }
     });
-
-    if (changed) listing.filterTable();
-  };
-
-  // Wait until filters are ready
-  const interval = setInterval(() => {
-    const filtersReady = document.querySelectorAll(".listing-filter-container [name]");
-    if (filtersReady.length > 0 && window.QuartoListing) {
-      clearInterval(interval);
-      applyFilters();
-    }
-  }, 100);
-});
+  });
 </script>
+``` -->
 
 
 

@@ -109,6 +109,20 @@ Welcome to our collection of games! Browse through our catalog below to find gam
 </script>
 ```
 
+```{=html}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Wait a short while to let Quarto render the sort UI
+    setTimeout(() => {
+      const sortLabel = document.querySelector(".quarto-listing-sort-ui label");
+      if (sortLabel && sortLabel.textContent.includes("Order by")) {
+        sortLabel.textContent = "Sort games by:";
+      }
+    }, 300); // delay in ms (you can increase if still doesn't work)
+  });
+</script>
+```
+
 <!-- ```{=html}
 <script>
   document.addEventListener("DOMContentLoaded", function () {
