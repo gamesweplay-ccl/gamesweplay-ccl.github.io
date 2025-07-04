@@ -26,18 +26,18 @@ Most games have simple rules. The games are split into games that can be used in
 
 
 ```{=html}
-<<div class="image-break-row">
+<div class="image-break-row">
   <a href="all_games.html">
-    <img src="static/images/game-types-posters/types-of-games-01.svg" alt="Image 1" class="type-img">
+    <img src="static/images/game-types-posters/types-of-games-01.svg" alt="Image 1" style="width: 14vw; min-width: 120px; height: auto;">
   </a>
   <a href="all_games.html">
-    <img src="static/images/game-types-posters/types-of-games-02.svg" alt="Image 2" class="type-img">
+    <img src="static/images/game-types-posters/types-of-games-02.svg" alt="Image 2" style="width: 14vw; min-width: 120px; height: auto;">
   </a>
   <a href="all_games.html">
-    <img src="static/images/game-types-posters/types-of-games-03.svg" alt="Image 3" class="type-img">
+    <img src="static/images/game-types-posters/types-of-games-03.svg" alt="Image 3" style="width: 14vw; min-width: 120px; height: auto;">
   </a>
   <a href="all_games.html">
-    <img src="static/images/game-types-posters/types-of-games-04.svg" alt="Image 4" class="type-img">
+    <img src="static/images/game-types-posters/types-of-games-04.svg" alt="Image 4" style="width: 14vw; min-width: 120px; height: auto;">
   </a>
 </div>
 ```
