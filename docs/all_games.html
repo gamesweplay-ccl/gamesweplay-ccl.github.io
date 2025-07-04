@@ -287,6 +287,39 @@ window.Quarto = {
     });
   });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const applyFilters = () => {
+    const table = document.querySelector(".quarto-listing-table");
+    const listingId = table?.id;
+    const listing = window.QuartoListing?.getListing?.(listingId);
+    if (!listing) return;
+
+    let changed = false;
+    params.forEach((val, key) => {
+      const input = document.querySelector(`[name="${key}"]`);
+      if (input && input.value !== val) {
+        input.value = val;
+        input.dispatchEvent(new Event("input", { bubbles: true }));
+        input.dispatchEvent(new Event("change", { bubbles: true }));
+        changed = true;
+      }
+    });
+
+    if (changed) listing.filterTable();
+  };
+
+  // Wait until filters are ready
+  const interval = setInterval(() => {
+    const filtersReady = document.querySelectorAll(".listing-filter-container [name]");
+    if (filtersReady.length > 0 && window.QuartoListing) {
+      clearInterval(interval);
+      applyFilters();
+    }
+  }, 100);
+});
+</script>
 
 
 

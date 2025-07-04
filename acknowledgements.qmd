@@ -19,7 +19,7 @@ p strong {
 
 We are deeply grateful to the people that made this project possible.
 \
-\
+
 
 **Aastha Jain** \
 **Adithi Iyer** \
@@ -33,6 +33,8 @@ We are deeply grateful to the people that made this project possible.
 **Neha Garg** \
 **Parvathy Subramanian** \
 **Shaumik Khanna** \
+<!-- **Tanvi Chaubey** \ -->
+\
 And of course, thank you to everyone who played, shared, and improved our games with their joyful curiosity.
 
 \
