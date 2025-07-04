@@ -159,7 +159,11 @@ h1 {
   border-bottom: 1px solid #ccc;
 }
 
-.navbar-brand,
+.navbar-brand {
+  color: white;
+  transition: color 0.2s ease;
+}
+
 .nav-link {
   color: white;
   font-family: "Omnes", sans-serif;
