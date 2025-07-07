@@ -297,4 +297,15 @@ h3 {
 }
 
 
+@media (max-width: 600px) {
+  .about-info-grid {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .about-info-grid .item {
+    width: 100%;
+    max-width: 300px; /* optional */
+    margin-bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684 2240">
+  <defs>
+    <style>
+      .b {
+        stroke: #8ac65b;
+      }
+
+      .b, .c, .d, .e {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .b, .d {
+        stroke-width: .85px;
+      }
+
+      .c {
+        stroke: #fbc498;
+      }
+
+      .c, .e {
+        stroke-width: .85px;
+      }
+
+      .d {
+        stroke: #fdc52b;
+        stroke-dasharray: 3.41 5.12;
+      }
+
+      .e {
+        stroke: #8cd5e9;
+        stroke-dasharray: 3.41 5.12;
+      }
+    </style>
+  </defs>
+  <line class="d" x1="78.5" y1="1" x2="78.5" y2="2239.9"/>
+  <line class="e" x1="602" y1="2239.14" x2="602" y2="1"/>
+  <line class="c" x1="610.5" y1="2239.14" x2="610.5" y2="1"/>
+  <line class="b" x1="72.5" y1="1" x2="72.5" y2="2239.9"/>
+</svg>
