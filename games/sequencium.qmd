@@ -16,7 +16,7 @@ summary: Lata and Raj take turns writing their next highest number to an empty a
   square on the board. The player who places the highest number wins the game.
 time: '10'
 title: Sequencium
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: https://www.youtube.com/watch?v=OdHCSGjq4Og&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=4
 ---
 

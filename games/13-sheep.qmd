@@ -12,13 +12,12 @@ game_format: Dice
 manual_links: https://drive.google.com/file/d/1OLKO3YJje3GuRKbVV1biM4unttrVr1Fq/view?usp=sharing
 players: 1-100
 rules_video: https://youtu.be/EZhWe0pcOKE
-summary: A dice is rolled each round. Players draw the fence corresponding to the
-  outcome somewhere on their individual boards. Fences may not overlap, intersect
-  or pass through bushes. The player who protects the most sheep at the end of the
-  game wins.
+summary: A die is rolled each round. Players draw the fence corresponding to the outcome
+  somewhere on their individual boards. Fences may not overlap, intersect or pass
+  through bushes. The player who protects the most sheep at the end of the game wins.
 time: '30'
 title: 13 Sheep
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 
@@ -36,7 +35,7 @@ walkthrough_video: ''
 :::
 
 :::{.game-summary}
-A dice is rolled each round. Players draw the fence corresponding to the outcome somewhere on their individual boards. Fences may not overlap, intersect or pass through bushes. The player who protects the most sheep at the end of the game wins.
+A die is rolled each round. Players draw the fence corresponding to the outcome somewhere on their individual boards. Fences may not overlap, intersect or pass through bushes. The player who protects the most sheep at the end of the game wins.
 :::
 
 :::{.game-actions}

@@ -17,7 +17,7 @@ summary: Players decide to place bets on up to 3 spaces on the board. 2 dice are
   rounds wins the game.
 time: '10'
 title: Dicey Dice
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: https://www.youtube.com/watch?v=uo2qLeOmgq4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=2
 ---
 

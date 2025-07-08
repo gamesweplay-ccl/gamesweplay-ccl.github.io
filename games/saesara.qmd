@@ -16,7 +16,7 @@ summary: A game of inductive reasoning, in Saesara players aim to unravel the cl
   giver's secret rule.
 time: '20'
 title: Saesara
-type: Science/Deduction
+type: Science
 walkthrough_video: ''
 ---
 

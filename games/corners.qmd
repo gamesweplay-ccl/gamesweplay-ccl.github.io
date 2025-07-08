@@ -19,7 +19,7 @@ summary: Lata and Raj take turns shading and making circles of their colour on t
   3 points per shaded corner. The player with the most points wins the game.
 time: '10'
 title: Corners
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

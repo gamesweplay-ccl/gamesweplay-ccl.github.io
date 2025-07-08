@@ -17,7 +17,7 @@ summary: Each player has a 5 x 5 grid onto which they place the digit called. A 
   digits in for the most points once the grid is full.
 time: '20'
 title: Digit Party
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

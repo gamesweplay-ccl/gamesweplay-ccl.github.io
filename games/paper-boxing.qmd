@@ -21,7 +21,7 @@ summary: Leaving the top-left corner of the board empty, Lata and Raj secretly e
   and the player with hihgest score wins.
 time: '20'
 title: Paper boxing
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

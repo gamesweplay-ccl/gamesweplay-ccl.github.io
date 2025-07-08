@@ -17,7 +17,7 @@ summary: A game that models accelarations of a car around a racetrack, players a
   line.
 time: '40'
 title: Racetrack
-type: Science/Deduction
+type: Science
 walkthrough_video: ''
 ---
 

@@ -17,7 +17,7 @@ summary: Players shake their dice in a cup and keep them covered on the table. A
   bids give points but unsuccesful ones result in the loss of dice!
 time: '30'
 title: Liar's Dice
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

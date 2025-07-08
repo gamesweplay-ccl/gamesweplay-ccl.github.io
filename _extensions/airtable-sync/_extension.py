@@ -61,7 +61,7 @@ def create_game_file(game_dir, fields, record_id):
     }
     
     # Create the game page content
-    with open(qmd_path, 'w') as f:
+    with open(qmd_path, 'w', encoding="utf-8") as f:
         print(f"Creating game file: {qmd_path}")
 
         

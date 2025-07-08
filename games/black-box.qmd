@@ -17,7 +17,7 @@ summary: One player decides the location of 5 atoms in a black box. The other sh
   atom.
 time: '40'
 title: Black box
-type: Science/Deduction
+type: Science
 walkthrough_video: ''
 ---
 

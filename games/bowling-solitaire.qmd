@@ -16,7 +16,7 @@ summary: Two suits of playing cards represent bowling pins and balls. A single p
   game, we use some number theory to hit as many of the pins as possible each round.
 time: '20'
 title: Bowling Solitaire
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

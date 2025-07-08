@@ -18,7 +18,7 @@ summary: This game is played with only the Aces, Jacks, Queens and Kings from a 
   of four with shared characteristic wins.
 time: '20'
 title: Aces and Faces
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: https://www.youtube.com/watch?v=n_ifx_HLdrk&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=2
 ---
 

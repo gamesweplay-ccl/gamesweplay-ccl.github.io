@@ -17,7 +17,7 @@ summary: The flower gets to place a mark each round. The wind selects a directio
   the flower wins. If even one remains unfilled, the wind wins.
 time: '20'
 title: The Flower and the Wind
-type: Science/Deduction
+type: Science
 walkthrough_video: https://www.youtube.com/watch?v=G1Ba7xRVKe4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55
 ---
 

@@ -18,7 +18,7 @@ summary: Each player participates in 11 races. On a turn roll 4 dice and pair th
   is that the player to reach a finish spot laater takes the award!
 time: '30'
 title: The Great Races
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

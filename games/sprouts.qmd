@@ -18,7 +18,7 @@ summary: Play starts with 3 dots on an empty page. Lata and Raj take turns joini
   is able to make the last line wins.
 time: '10'
 title: Sprouts
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

@@ -16,7 +16,7 @@ summary: Players take turns rolling a dice trying to lead the pack but not fall 
   the cliff!
 time: '10'
 title: Watch your Step
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz
 ---
 

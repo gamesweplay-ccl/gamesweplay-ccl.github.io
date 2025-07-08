@@ -17,7 +17,7 @@ summary: Battleship's smarter older sibling! Lata and Raj each decide their tetr
   map.
 time: '30'
 title: LAP
-type: Science/Deduction
+type: Science
 walkthrough_video: ''
 ---
 

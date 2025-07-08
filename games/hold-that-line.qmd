@@ -17,7 +17,7 @@ summary: Lata draws a line connecting 2 dots on a 4 x 4 grid. Raj can now extend
   the line loses!
 time: '10'
 title: Hold that line
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63
 ---
 

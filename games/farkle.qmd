@@ -19,7 +19,7 @@ summary: A turn starts with 6 dice to roll. Set aside any number of dice, increm
   to 10k wins the game.
 time: '30'
 title: Farkle
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

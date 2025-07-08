@@ -16,7 +16,7 @@ summary: Reveal a card. Either take it or place a token and pass it along. Cards
   points and tokens reduce them. The player with the least points wins!
 time: '30'
 title: No Thanks
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 

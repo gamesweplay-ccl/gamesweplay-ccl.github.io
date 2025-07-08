@@ -16,7 +16,7 @@ summary: Players mark their battle ships on their hidden grid. Calling out grid 
   they try to bomb and sink their opponents' ships.
 time: '20'
 title: Battle Ship
-type: Mathematics/Probability
+type: Maths
 walkthrough_video: ''
 ---
 
