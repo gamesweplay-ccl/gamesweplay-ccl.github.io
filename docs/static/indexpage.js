@@ -5,10 +5,10 @@ const difficultyMap = {
 };
 
 const typeColors = {
-	"Mathematics/Probability": "#ff9658",
+	"Maths": "#ff9658",
 	"SEL": "#94daff",
 	"Strategy": "#fdd559",
-	"Science/Deduction": "#bdd866",
+	"Science": "#bdd866",
 };
 
 let gameData = [];

@@ -19,7 +19,7 @@ def create_game_file(game_dir, fields, record_id):
     if not game_name:
         return
     
-    filename = sanitize_filename(game_name)
+    filename = sanitixze_filename(game_name)
     qmd_path = game_dir / f"{filename}.qmd"
     
     # Get field values

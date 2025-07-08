@@ -66,10 +66,10 @@ Welcome to our collection of games! Browse through our catalog below to find gam
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const colorMap = {
-      "Mathematics/Probability": "#ff9658",
+      "Maths": "#ff9658",
       "SEL": "#70cdff",
       "Strategy": "#fdd559",
-      "Science/Deduction": "#bdd866"
+      "Science": "#bdd866"
     };
 
     document.querySelectorAll("table tbody tr").forEach((row) => {
