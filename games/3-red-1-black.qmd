@@ -2,7 +2,7 @@
 airtable_id: recYasYtKJOmUpti0
 board_links: ''
 complexity: ★★★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/3-Red-1-Black/
 filename: 3-red-1-black
 format:
   html:
@@ -44,6 +44,7 @@ Each player gets 4 cards — 3 red and 1 black. Play proceeds around the table w
 
 :::{.game-actions}
 ```{=html}
+<a href="https://gamesweplay-ccl.github.io/3-Red-1-Black/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1fhFWdgPjmE7LAocByIwt4YWAjR3yuOC5/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

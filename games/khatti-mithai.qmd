@@ -2,7 +2,7 @@
 airtable_id: recqXoqZsfMMncGvF
 board_links: https://drive.google.com/file/d/17AhG6yNTO4JRKP3xPD34FYDOxLHTlQgI/view?usp=sharing
 complexity: ★★
-external_links: https://cariboutests.com/games/chomp.php?lang=en
+external_links: https://gamesweplay-ccl.github.io/Khatti-Mithai/
 filename: khatti-mithai
 format:
   html:
@@ -41,7 +41,7 @@ All the squares on the board are filled with white tokens -- except the bottom l
 
 :::{.game-actions}
 ```{=html}
-<a href="https://cariboutests.com/games/chomp.php?lang=en" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Khatti-Mithai/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=lvlPfr6sVbQ&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=25" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1u8053pOth-judCJ52YbqL4rX2Pa-OnAv/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

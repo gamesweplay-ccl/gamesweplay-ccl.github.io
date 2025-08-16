@@ -15,12 +15,12 @@ rules_video: ''
 summary: Players take turns rolling a dice trying to lead the pack but not fall off
   the cliff!
 time: '10'
-title: Watch your Step
+title: Watch Your Step
 type: Maths
 walkthrough_video: https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz
 ---
 
-# Watch your Step
+# Watch Your Step
 
 :::{.game-info-box}
 :::{.game-stats}

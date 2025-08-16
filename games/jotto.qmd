@@ -2,7 +2,7 @@
 airtable_id: rec2skPsEr6h6iAGa
 board_links: ''
 complexity: ★
-external_links: http://jotto.augiehill.com/single.jsp
+external_links: https://gamesweplay-ccl.github.io/Jotto/
 filename: jotto
 format:
   html:
@@ -40,7 +40,7 @@ Lata thinks of a word and writes blanks for each letter. Raj makes a guess and L
 
 :::{.game-actions}
 ```{=html}
-<a href="http://jotto.augiehill.com/single.jsp" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Jotto/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1R93L7JmWKHc1Ks2jkDjUt39gHdaQb874/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

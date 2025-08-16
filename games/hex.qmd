@@ -2,7 +2,7 @@
 airtable_id: recVf1vb7XOur3GLC
 board_links: https://drive.google.com/file/d/1KVpzPQHmjz6rDDkAbu8hybGJh6nEgTpa/view?usp=sharing
 complexity: ★★
-external_links: https://www.lutanho.net/play/hex.html
+external_links: https://gamesweplay-ccl.github.io/Hex/
 filename: hex
 format:
   html:
@@ -39,7 +39,7 @@ Lata and Raj take turns colouring in a hex on the board. Lata tries to connect t
 
 :::{.game-actions}
 ```{=html}
-<a href="https://www.lutanho.net/play/hex.html" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Hex/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=8rfZ9a4Du_g&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33&t=16s" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1RXHOunivrF8nuPu-lHdb94bPD2GXEZRf/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

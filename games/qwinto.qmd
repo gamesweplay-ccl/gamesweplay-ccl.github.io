@@ -1,50 +1,50 @@
 ---
-airtable_id: recBOfvk16F2Uz5M6
-board_links: https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing
-complexity: ★
-external_links: https://gamesweplay-ccl.github.io/Domineering/
-filename: domineering
+airtable_id: rec01QRWm7ljzGERj
+board_links: ''
+complexity: ★★
+external_links: ''
+filename: qwinto
 format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Dominoes
-manual_links: https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing
-players: '2'
-rules_video: https://youtu.be/KUZFn-9_FmU
-summary: 2 players, Lata and Raj, play a game of domino (placing or) shading. The
-  two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata
-  vertically. Whoever is able to make the last move wins the game.
-time: '10'
-title: Domineering
-type: Strategy
-walkthrough_video: https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13
+game_format: Dice
+manual_links: https://drive.google.com/file/d/1VgoPTh4Oe7h-UR9TPKpq2IpNbPONO-eD/view?usp=sharing
+players: 2-4
+rules_video: ''
+summary: On a turn, a player decides which dice to roll. They can choose to roll one,
+  two or all three but must write the combined total to one of the matching tracks
+  on their board. Other players may also choose to use the roll. Players try to best
+  utilise the rolls for maximum score.
+time: '30'
+title: Qwinto
+type: Maths
+walkthrough_video: ''
 ---
 
-# Domineering
+# Qwinto
 
 :::{.game-info-box}
 :::{.game-stats}
 ```{=html}
-<span class="tooltip-gamestats" data-tooltip="10 minutes"><i class="fas fa-clock"></i></span>
-<span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Dominoes required"><i class="fas fa-clone"></i></span>
-<span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
+<span class="tooltip-gamestats" data-tooltip="30 minutes"><i class="fas fa-clock"></i></span>
+<span class="tooltip-gamestats" data-tooltip="2-4 players"><i class="fas fa-users"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Dice required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="★★"><i class="fas fa-star"></i></span>
 ```
 :::
 :::
 
 :::{.game-summary}
-2 players, Lata and Raj, play a game of domino (placing or) shading. The two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata vertically. Whoever is able to make the last move wins the game.
+On a turn, a player decides which dice to roll. They can choose to roll one, two or all three but must write the combined total to one of the matching tracks on their board. Other players may also choose to use the roll. Players try to best utilise the rolls for maximum score.
 :::
 
 :::{.game-actions}
 ```{=html}
-<a href="https://gamesweplay-ccl.github.io/Domineering/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/KUZFn-9_FmU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1VgoPTh4Oe7h-UR9TPKpq2IpNbPONO-eD/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

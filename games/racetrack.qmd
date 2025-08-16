@@ -2,7 +2,7 @@
 airtable_id: recWEqBsBFgV7bOfv
 board_links: https://drive.google.com/file/d/1ZJW-i42BkQ_ug6TsILqmNzs5MOSGYwfQ/view?usp=sharing
 complexity: ★★★
-external_links: https://www.transum.org/Maths/Game/Vectors/
+external_links: https://gamesweplay-ccl.github.io/Racetrack/
 filename: racetrack
 format:
   html:
@@ -40,7 +40,7 @@ A game that models accelarations of a car around a racetrack, players aim to suc
 
 :::{.game-actions}
 ```{=html}
-<a href="https://www.transum.org/Maths/Game/Vectors/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Racetrack/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1CNSRcB4c4bdhA6MuDPEaj6_gxVRL6wne/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

@@ -2,7 +2,7 @@
 airtable_id: recsgdK71JmunRlB4
 board_links: https://drive.google.com/file/d/1-hHA8S61MEhhNrtNW3AsFPL_sOeNbCcU/view?usp=sharing
 complexity: ★
-external_links: http://gamesweplay-ccl.github.io/game-implementations/dodgem/start.html
+external_links: https://gamesweplay-ccl.github.io/Dodgem/
 filename: dodgem
 format:
   html:
@@ -39,7 +39,7 @@ Lata and Raj race across their finish lines. Cars may not reverse or jump over e
 
 :::{.game-actions}
 ```{=html}
-<a href="http://gamesweplay-ccl.github.io/game-implementations/dodgem/start.html" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Dodgem/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="https://youtu.be/nsR_q-2rG3g" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=djgD-ZhJXAE&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=15" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/15oeODVzR-4Q3t6nD4V7JftYNCr6nquaO/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

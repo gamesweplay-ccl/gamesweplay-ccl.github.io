@@ -2,7 +2,7 @@
 airtable_id: recSsJu9zqB9r5M50
 board_links: https://drive.google.com/file/d/1jU1ysa5HZ6Hkq_MSLL5oxuLSSbZjmeoY/view?usp=sharing
 complexity: ★★
-external_links: https://michaelxing.com/UltimateTTT/v3/
+external_links: https://gamesweplay-ccl.github.io/Ultimate-Tic-Tac-Toe/
 filename: ultimate-tic-tac-toe
 format:
   html:
@@ -40,7 +40,7 @@ Lata and Raj play nested tictactoe. Each move decides the board on which the oth
 
 :::{.game-actions}
 ```{=html}
-<a href="https://michaelxing.com/UltimateTTT/v3/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Ultimate-Tic-Tac-Toe/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=qh09l5amhyg&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=65" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1tgzhonpY7DZ21w-0iY28LOlAbTddyW56/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

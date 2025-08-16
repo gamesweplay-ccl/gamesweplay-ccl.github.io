@@ -2,7 +2,7 @@
 airtable_id: recsZD0R1v37I8eEx
 board_links: ''
 complexity: ★★★
-external_links: https://www.novelgames.com/en/bowlingsolitaire/
+external_links: https://gamesweplay-ccl.github.io/Bowling-Solitaire/
 filename: bowling-solitaire
 format:
   html:
@@ -39,7 +39,7 @@ Two suits of playing cards represent bowling pins and balls. A single player gam
 
 :::{.game-actions}
 ```{=html}
-<a href="https://www.novelgames.com/en/bowlingsolitaire/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Bowling-Solitaire/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1eMdQyUM-K_OvELEdssm6-XUZ-fXOcsTw/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

@@ -2,7 +2,7 @@
 airtable_id: recDHAVk7SFdtRGD7
 board_links: https://drive.google.com/file/d/1srEcOE0LFM18BosydvYTeTTIVV-SKVft/view?usp=sharing
 complexity: ★★★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/Detectives/
 filename: detectives
 format:
   html:
@@ -40,7 +40,7 @@ The alphabet cards are shuffled, one removed and the rest distributed between th
 
 :::{.game-actions}
 ```{=html}
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Detectives/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1gPIKJKoAJlRp7wlMykQMm0jFIvrhLuqu/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

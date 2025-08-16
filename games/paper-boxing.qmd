@@ -20,12 +20,12 @@ summary: Leaving the top-left corner of the board empty, Lata and Raj secretly e
   box. Play continues till all numbers are used or it is no longer possible to play
   and the player with hihgest score wins.
 time: '20'
-title: Paper boxing
+title: Paper Boxing
 type: Maths
 walkthrough_video: ''
 ---
 
-# Paper boxing
+# Paper Boxing
 
 :::{.game-info-box}
 :::{.game-stats}

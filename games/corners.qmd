@@ -2,7 +2,7 @@
 airtable_id: recOIoXbwh11pV1j7
 board_links: https://drive.google.com/file/d/1KgjIDJB4hirXDZcgcyMpuEJ5Dyv0g6Qw/view?usp=sharing
 complexity: ★★
-external_links: https://corners-game.vercel.app/
+external_links: https://gamesweplay-ccl.github.io/Corners/
 filename: corners
 format:
   html:
@@ -42,7 +42,7 @@ Lata and Raj take turns shading and making circles of their colour on the board.
 
 :::{.game-actions}
 ```{=html}
-<a href="https://corners-game.vercel.app/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Corners/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1o_Kyxp4S9l5th6p29KIb7xdQK6gP-kNP/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

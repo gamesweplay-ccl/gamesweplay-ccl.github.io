@@ -1,50 +1,49 @@
 ---
-airtable_id: recBOfvk16F2Uz5M6
-board_links: https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing
+airtable_id: rec654SFfwjCU3jgV
+board_links: ''
 complexity: ★
-external_links: https://gamesweplay-ccl.github.io/Domineering/
-filename: domineering
+external_links: https://gamesweplay-ccl.github.io/Dont-Say/
+filename: dont-say
 format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Dominoes
-manual_links: https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing
+game_format: Nothing
+manual_links: https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing
 players: '2'
-rules_video: https://youtu.be/KUZFn-9_FmU
-summary: 2 players, Lata and Raj, play a game of domino (placing or) shading. The
-  two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata
-  vertically. Whoever is able to make the last move wins the game.
+rules_video: ''
+summary: Lata and Raj play a number game. Lata starts and can say either 1 or 2. Raj
+  can add 1 or 2 to her number. They take turns until one of them is forced to say
+  13, losing the game.
 time: '10'
-title: Domineering
-type: Strategy
-walkthrough_video: https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13
+title: Don't Say
+type: Maths
+walkthrough_video: https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61
 ---
 
-# Domineering
+# Don't Say
 
 :::{.game-info-box}
 :::{.game-stats}
 ```{=html}
 <span class="tooltip-gamestats" data-tooltip="10 minutes"><i class="fas fa-clock"></i></span>
 <span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Dominoes required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Nothing required"><i class="fas fa-clone"></i></span>
 <span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
 ```
 :::
 :::
 
 :::{.game-summary}
-2 players, Lata and Raj, play a game of domino (placing or) shading. The two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata vertically. Whoever is able to make the last move wins the game.
+Lata and Raj play a number game. Lata starts and can say either 1 or 2. Raj can add 1 or 2 to her number. They take turns until one of them is forced to say 13, losing the game.
 :::
 
 :::{.game-actions}
 ```{=html}
-<a href="https://gamesweplay-ccl.github.io/Domineering/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/KUZFn-9_FmU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://gamesweplay-ccl.github.io/Dont-Say/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
 

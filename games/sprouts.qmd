@@ -2,7 +2,7 @@
 airtable_id: recIfDXSwTfOlLBrI
 board_links: ''
 complexity: ★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/Sprouts/
 filename: sprouts
 format:
   html:
@@ -41,7 +41,7 @@ Play starts with 3 dots on an empty page. Lata and Raj take turns joinining any 
 
 :::{.game-actions}
 ```{=html}
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Sprouts/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1xHjbS9pIrWdXos5-EYDICIdO_RuGCQEX/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

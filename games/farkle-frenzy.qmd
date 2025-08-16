@@ -1,50 +1,52 @@
 ---
-airtable_id: recBOfvk16F2Uz5M6
-board_links: https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing
-complexity: ★
-external_links: https://gamesweplay-ccl.github.io/Domineering/
-filename: domineering
+airtable_id: recxok39e823dShFQ
+board_links: https://drive.google.com/file/d/14XIy3gwLXFB1Dy55iHLeMbQOpSTIaRKI/view?usp=sharing
+complexity: ★★
+external_links: https://gamesweplay-ccl.github.io/Farkle-Frenzy/
+filename: farkle-frenzy
 format:
   html:
     css: ../styles.css
     page-layout: full
-game_format: Dominoes
-manual_links: https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing
-players: '2'
-rules_video: https://youtu.be/KUZFn-9_FmU
-summary: 2 players, Lata and Raj, play a game of domino (placing or) shading. The
-  two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata
-  vertically. Whoever is able to make the last move wins the game.
-time: '10'
-title: Domineering
-type: Strategy
-walkthrough_video: https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13
+game_format: Dice
+manual_links: https://drive.google.com/file/d/176zXhb4zrd6QkfYX9ZvUIm0DX6v8it9-/view?usp=sharing
+players: 3-5
+rules_video: ''
+summary: A turn starts with 6 dice to roll. Set aside any number of dice, incrementing
+  your score. Roll the remaining dice and again set aside any dice you want to long
+  as score increases. If no die increments score, the turn ends at once with 0 points
+  scored. If all 6 dice score, write your score down and take another turn! First
+  to 10k wins the game.
+time: '30'
+title: Farkle Frenzy
+type: Maths
+walkthrough_video: ''
 ---
 
-# Domineering
+# Farkle Frenzy
 
 :::{.game-info-box}
 :::{.game-stats}
 ```{=html}
-<span class="tooltip-gamestats" data-tooltip="10 minutes"><i class="fas fa-clock"></i></span>
-<span class="tooltip-gamestats" data-tooltip="2 players"><i class="fas fa-users"></i></span>
-<span class="tooltip-gamestats" data-tooltip="Dominoes required"><i class="fas fa-clone"></i></span>
-<span class="tooltip-gamestats" data-tooltip="★"><i class="fas fa-star"></i></span>
+<span class="tooltip-gamestats" data-tooltip="30 minutes"><i class="fas fa-clock"></i></span>
+<span class="tooltip-gamestats" data-tooltip="3-5 players"><i class="fas fa-users"></i></span>
+<span class="tooltip-gamestats" data-tooltip="Dice required"><i class="fas fa-clone"></i></span>
+<span class="tooltip-gamestats" data-tooltip="★★"><i class="fas fa-star"></i></span>
 ```
 :::
 :::
 
 :::{.game-summary}
-2 players, Lata and Raj, play a game of domino (placing or) shading. The two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata vertically. Whoever is able to make the last move wins the game.
+A turn starts with 6 dice to roll. Set aside any number of dice, incrementing your score. Roll the remaining dice and again set aside any dice you want to long as score increases. If no die increments score, the turn ends at once with 0 points scored. If all 6 dice score, write your score down and take another turn! First to 10k wins the game.
 :::
 
 :::{.game-actions}
 ```{=html}
-<a href="https://gamesweplay-ccl.github.io/Domineering/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/KUZFn-9_FmU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
-<a href="https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
+<a href="https://gamesweplay-ccl.github.io/Farkle-Frenzy/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://drive.google.com/file/d/176zXhb4zrd6QkfYX9ZvUIm0DX6v8it9-/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/14XIy3gwLXFB1Dy55iHLeMbQOpSTIaRKI/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

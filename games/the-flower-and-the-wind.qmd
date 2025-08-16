@@ -2,7 +2,7 @@
 airtable_id: rec3Wfys5MVZkEU1y
 board_links: https://drive.google.com/file/d/1ZIrKRr-uKvyrGkWyIUzKzDkkTmNLcFnt/view?usp=sharing
 complexity: ★★
-external_links: https://shaumikkhanna.github.io/flower-and-the-wind/
+external_links: https://gamesweplay-ccl.github.io/Flower-and-the-Wind/
 filename: the-flower-and-the-wind
 format:
   html:
@@ -40,7 +40,7 @@ The flower gets to place a mark each round. The wind selects a direction and add
 
 :::{.game-actions}
 ```{=html}
-<a href="https://shaumikkhanna.github.io/flower-and-the-wind/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Flower-and-the-Wind/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="https://youtu.be/sWo9CCkjzK8" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=G1Ba7xRVKe4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1h9lOlbrh29P6odJ5fneK_JFNYhmp_XPV/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

@@ -2,7 +2,7 @@
 airtable_id: recdjPLhFk2TFNOt3
 board_links: https://drive.google.com/file/d/1w22VQ23aLo65Ot43IO5stLh5pa6Z-QFU/view?usp=sharing
 complexity: ★
-external_links: https://kyleburke.info/DB/combGames/toadsAndFrogs.html
+external_links: https://gamesweplay-ccl.github.io/Toads-and-Frogs/
 filename: toads-and-frogs
 format:
   html:
@@ -41,7 +41,7 @@ Place 3 black (toad) tokens on the left most spaces and 3 white (frog) tokens on
 
 :::{.game-actions}
 ```{=html}
-<a href="https://kyleburke.info/DB/combGames/toadsAndFrogs.html" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Toads-and-Frogs/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1CSdS8OsDntzW4JCKy9B9tw3q6u2ab3fz/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

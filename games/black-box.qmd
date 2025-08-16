@@ -16,12 +16,12 @@ summary: One player decides the location of 5 atoms in a black box. The other sh
   light into the box and, using the rules of scattering, deduces the position of each
   atom.
 time: '40'
-title: Black box
+title: Black Box
 type: Science
 walkthrough_video: ''
 ---
 
-# Black box
+# Black Box
 
 :::{.game-info-box}
 :::{.game-stats}
