@@ -5,7 +5,7 @@ format:
     css: styles.css
 listing:
   contents: games
-  page-size: 51
+  page-size: 100
   type: table
   fields: [title, type, game_format, players, time, complexity]
   field-display-names:
