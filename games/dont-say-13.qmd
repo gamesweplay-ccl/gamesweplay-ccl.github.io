@@ -2,7 +2,7 @@
 airtable_id: rec654SFfwjCU3jgV
 board_links: ''
 complexity: ★
-external_links: https://dont-say-13.vercel.app/
+external_links: https://gamesweplay-ccl.github.io/Dont-Say/
 filename: dont-say-13
 format:
   html:
@@ -16,12 +16,12 @@ summary: Lata and Raj play a number game. Lata starts and can say either 1 or 2.
   can add 1 or 2 to her number. They take turns until one of them is forced to say
   13, losing the game.
 time: '10'
-title: Don't say 13
+title: Don't Say 13
 type: Maths
 walkthrough_video: https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61
 ---
 
-# Don't say 13
+# Don't Say 13
 
 :::{.game-info-box}
 :::{.game-stats}
@@ -40,7 +40,7 @@ Lata and Raj play a number game. Lata starts and can say either 1 or 2. Raj can 
 
 :::{.game-actions}
 ```{=html}
-<a href="https://dont-say-13.vercel.app/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Dont-Say/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

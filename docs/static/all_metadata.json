@@ -132,7 +132,7 @@
     }
   },
   {
-    "title": "Don't Say",
+    "title": "Don't Say 13",
     "game_format": "Nothing",
     "players": "2",
     "external_links": "https://gamesweplay-ccl.github.io/Dont-Say/",
@@ -145,7 +145,7 @@
     "time": "10",
     "complexity": "★",
     "airtable_id": "rec654SFfwjCU3jgV",
-    "filename": "dont-say",
+    "filename": "dont-say-13",
     "format": {
       "html": {
         "css": "../styles.css",
@@ -487,7 +487,7 @@
     "title": "Star Nim",
     "game_format": "Tokens",
     "players": "2",
-    "external_links": "https://tautology.in/starnim/",
+    "external_links": "https://gamesweplay-ccl.github.io/Star-Nim/",
     "manual_links": "https://drive.google.com/file/d/190_hG9XOY4w4a2RkrzRtMO00xI0A7WHc/view?usp=sharing",
     "board_links": "https://drive.google.com/file/d/1jGA0nPOtyMxm7ae5klIYflRyR-HTGyAp/view?usp=sharing",
     "rules_video": "",
