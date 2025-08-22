@@ -1,6 +1,6 @@
 ---
 airtable_id: rec01QRWm7ljzGERj
-board_links: ''
+board_links: https://drive.google.com/file/d/1EAwUvwUxiqXE2iT5ya_kjbJOSc5ZT9pL/view?usp=sharing
 complexity: ★★
 external_links: ''
 filename: qwinto
@@ -45,6 +45,7 @@ On a turn, a player decides which dice to roll. They can choose to roll one, two
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1VgoPTh4Oe7h-UR9TPKpq2IpNbPONO-eD/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1EAwUvwUxiqXE2iT5ya_kjbJOSc5ZT9pL/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

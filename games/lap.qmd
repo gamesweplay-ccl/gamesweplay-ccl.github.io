@@ -1,6 +1,6 @@
 ---
 airtable_id: rec4mxRyI8ER10jmj
-board_links: ''
+board_links: https://drive.google.com/file/d/1_yf1q9FEa5wyormpVIxlP5P1uLbxarwc/view?usp=sharing
 complexity: ★★★
 external_links: https://mathgameswithbaddrawings.com/games/LAP
 filename: lap
@@ -44,6 +44,7 @@ Battleship's smarter older sibling! Lata and Raj each decide their tetromino map
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1MkhmBpA9BpLOjTfOJ88zTkjtQsjoGMtM/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1_yf1q9FEa5wyormpVIxlP5P1uLbxarwc/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 

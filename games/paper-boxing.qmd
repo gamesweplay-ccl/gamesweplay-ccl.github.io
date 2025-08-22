@@ -1,6 +1,6 @@
 ---
 airtable_id: recUgHe40W8IRDkTj
-board_links: ''
+board_links: https://drive.google.com/file/d/1Z2yQWrqNrijHT2q9PWCL9-lEAoIfH1_-/view?usp=sharing
 complexity: ★★
 external_links: https://mathgameswithbaddrawings.com/games/paper-boxing
 filename: paper-boxing
@@ -48,6 +48,7 @@ Leaving the top-left corner of the board empty, Lata and Raj secretly enter the 
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1yWhxXahX4fdhM-dpdVMOrZ_sqNyYXiBr/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1Z2yQWrqNrijHT2q9PWCL9-lEAoIfH1_-/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
 
