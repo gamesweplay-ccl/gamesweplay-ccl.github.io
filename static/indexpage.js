@@ -82,9 +82,9 @@ document
 
 		if (matchingGames.length > 0) {
 			const typeOrder = [
-				"Mathematics/Probability",
+				"Maths",
 				"Strategy",
-				"Science/Deduction",
+				"Science",
 				"SEL",
 			];
 
