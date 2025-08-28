@@ -2,7 +2,7 @@
 airtable_id: rec3my94BfA3HJ3ok
 board_links: https://drive.google.com/file/d/1rEzmcnOTY3PEZ-r6xHt0_JgVHgzKwmoE/view?usp=sharing
 complexity: ★★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/Great-Races/
 filename: the-great-races
 format:
   html:
@@ -41,7 +41,7 @@ Each player participates in 11 races. On a turn roll 4 dice and pair them up, ad
 
 :::{.game-actions}
 ```{=html}
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Great-Races/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1wE1X1AxOgw4Zpvy86Ra0McjBla5kMkGB/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
