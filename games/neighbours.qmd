@@ -11,7 +11,7 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1yGeiGWnhHf9I3HFGtiwDSObssy2eIGgd/view?usp=sharing
 players: 1-100
-rules_video: ''
+rules_video: https://youtu.be/YiOdxY-k4lI
 summary: This is a game that an entire class can play. Each player gets a board (grid)
   and a pen. Both dice are rolled and the values added. Each player writes this number
   on their board. Once the grid is filled, both row and column scores are calculated.
@@ -43,7 +43,7 @@ This is a game that an entire class can play. Each player gets a board (grid) an
 :::{.game-actions}
 ```{=html}
 <a href="https://mathgameswithbaddrawings.com/games/neighbors" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/YiOdxY-k4lI" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=O_aDDkLj6OU&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=55" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1yGeiGWnhHf9I3HFGtiwDSObssy2eIGgd/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1diVf8Q58QtS0YZivaIc7kEg_fuMnRlyU/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

@@ -11,7 +11,7 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1uDA7GrmwOGAtanRmU-Qj4T5r_n7-S4sO/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/GkzSUzhTcgg
 summary: Players mark their battle ships on their hidden grid. Calling out grid locations
   they try to bomb and sink their opponents' ships.
 time: '20'
@@ -40,7 +40,7 @@ Players mark their battle ships on their hidden grid. Calling out grid locations
 :::{.game-actions}
 ```{=html}
 <a href="https://www.battleshiponline.org/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/GkzSUzhTcgg" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1uDA7GrmwOGAtanRmU-Qj4T5r_n7-S4sO/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1zFw4yLx5sQE1NG5bzrkZZLBfq_HxTb6Q/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

@@ -11,7 +11,7 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1o_Kyxp4S9l5th6p29KIb7xdQK6gP-kNP/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/DJmCz67BxOg
 summary: Lata and Raj take turns shading and making circles of their colour on the
   board. At the beginning of a turn, if they notice a square formed by circles of
   their colour they shade them. A shaded corner can be part of a new square later
@@ -43,7 +43,7 @@ Lata and Raj take turns shading and making circles of their colour on the board.
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Corners/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/DJmCz67BxOg" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1o_Kyxp4S9l5th6p29KIb7xdQK6gP-kNP/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1KgjIDJB4hirXDZcgcyMpuEJ5Dyv0g6Qw/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

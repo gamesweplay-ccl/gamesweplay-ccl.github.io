@@ -11,7 +11,7 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/1P9vduoWSS1k3aSsAEwNr9FqeW2V2_xdn/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/mPioB_gwEV0
 summary: Lata and Raj try to outwit each other. On a turn they pick a row or column
   and remove any number of tokens that are next to each other. Whoever manages to
   take tokens last wins the game.
@@ -41,7 +41,7 @@ Lata and Raj try to outwit each other. On a turn they pick a row or column and r
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Tac-Tix/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/mPioB_gwEV0" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=6GpexbwJAqQ&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=65" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1P9vduoWSS1k3aSsAEwNr9FqeW2V2_xdn/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1k8hZLp9ibbH3G-F8pxtL3EKaj8SJVYLP/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

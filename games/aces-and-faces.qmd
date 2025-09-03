@@ -11,7 +11,7 @@ format:
 game_format: Playing Cards
 manual_links: https://drive.google.com/file/d/120LHDaU89q7d0vlP6TfsFwR7ZjRc7mh3/view?usp=sharing
 players: '2'
-rules_video: https://youtu.be/HGuviZDVEpA
+rules_video: https://youtu.be/Dm0v_PcLBU8
 summary: This game is played with only the Aces, Jacks, Queens and Kings from a deck
   of cards. Each cards has four characteristics (colour, gender, suit type and royalty).
   Lata and Raj give each other a card to place each round. The first to make a line
@@ -42,7 +42,7 @@ This game is played with only the Aces, Jacks, Queens and Kings from a deck of c
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Aces-and-Faces/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/HGuviZDVEpA" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/Dm0v_PcLBU8" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=n_ifx_HLdrk&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=2" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/120LHDaU89q7d0vlP6TfsFwR7ZjRc7mh3/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```

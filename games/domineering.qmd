@@ -11,7 +11,7 @@ format:
 game_format: Dominoes
 manual_links: https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing
 players: '2'
-rules_video: https://youtu.be/KUZFn-9_FmU
+rules_video: https://youtu.be/Zt1YVSh5vGY
 summary: 2 players, Lata and Raj, play a game of domino (placing or) shading. The
   two take turns shading 2 adjacent squares. Raj may only shade horizontally and Lata
   vertically. Whoever is able to make the last move wins the game.
@@ -41,7 +41,7 @@ walkthrough_video: https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8L
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Domineering/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/KUZFn-9_FmU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/Zt1YVSh5vGY" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=uK3VUSlAlW8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=13" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1fKF7fsjlAyRIlOgzIKgy4gFeWWlJtU6w/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1kWf65KrOGodDXbCXya4mt0qy1hp78-iF/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

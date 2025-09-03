@@ -11,7 +11,7 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1baKalvZ2vNFFV8r7sO-lzBvNEl7eiLUI/view?usp=sharing
 players: '2'
-rules_video: https://youtu.be/PrGuk7c8h_U
+rules_video: https://youtu.be/r-nRUCDxtE8
 summary: 2 players — Order and Chaos — play a game of TicTacToe. They take turns placing
   a mark on the board. Either can play either a O or an X on their turn. Order wants
   to create a line of 5. Chaos wants to prevent it. Who will succeed?
@@ -41,7 +41,7 @@ walkthrough_video: https://www.youtube.com/watch?v=kMCxxG8l7o8&list=PLmjuVk9xK8L
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Order-and-Chaos/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/PrGuk7c8h_U" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/r-nRUCDxtE8" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=kMCxxG8l7o8&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1baKalvZ2vNFFV8r7sO-lzBvNEl7eiLUI/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1OUsBjw0csPAnR_IdLB6EDsxAoV4ZmPxw/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

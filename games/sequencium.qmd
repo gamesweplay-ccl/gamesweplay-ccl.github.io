@@ -11,7 +11,7 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/16IXYbNqeU3baG6clYoLZXyYokFGa-yft/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/7yxnUFqJaP0
 summary: Lata and Raj take turns writing their next highest number to an empty adjacent
   square on the board. The player who places the highest number wins the game.
 time: '10'
@@ -40,7 +40,7 @@ Lata and Raj take turns writing their next highest number to an empty adjacent s
 :::{.game-actions}
 ```{=html}
 <a href="https://mathgameswithbaddrawings.com/games/sequencium" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/7yxnUFqJaP0" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=OdHCSGjq4Og&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=4" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/16IXYbNqeU3baG6clYoLZXyYokFGa-yft/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1ca6qV6GLkGv3fQh94SbEYd-khD2eMXUw/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>

@@ -11,7 +11,7 @@ format:
 game_format: Nothing
 manual_links: https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/wWU3ZSyK3tY
 summary: Lata and Raj play a number game. Lata starts and can say either 1 or 2. Raj
   can add 1 or 2 to her number. They take turns until one of them is forced to say
   13, losing the game.
@@ -41,7 +41,7 @@ Lata and Raj play a number game. Lata starts and can say either 1 or 2. Raj can 
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Dont-Say/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/wWU3ZSyK3tY" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="https://www.youtube.com/watch?v=-hoNnP8EUZY&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=61" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1HAT6xs0FVZ2da__x18GJZtsUTFNr7JUq/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```

@@ -11,7 +11,7 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1xHjbS9pIrWdXos5-EYDICIdO_RuGCQEX/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/cuqrWrZsEXU
 summary: Play starts with 3 dots on an empty page. Lata and Raj take turns joinining
   any two dots and placing a new dot on this new line. Previous lines may not be crossed
   and once a dot has 3 lines coming out of it, it can no longer be used. Player who
@@ -42,7 +42,7 @@ Play starts with 3 dots on an empty page. Lata and Raj take turns joinining any 
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Sprouts/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/cuqrWrZsEXU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1xHjbS9pIrWdXos5-EYDICIdO_RuGCQEX/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
