@@ -19,7 +19,7 @@ summary: 3 tigers start on the board. Every round a goat is added, then a tiger 
 time: '20'
 title: Goats and Tigers
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=P1fsFhA81G0
 ---
 
 # Goats and Tigers
@@ -43,7 +43,7 @@ walkthrough_video: ''
 ```{=html}
 <a href="https://www.onlinesologames.com/tigers-and-goats#google_vignette" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=P1fsFhA81G0" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1IJvta9OxTwU8bgE58yfkP81LU8ektVKY/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/15TpFdhwydZxAQZoqXE7YfSROmxEWgz9G/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

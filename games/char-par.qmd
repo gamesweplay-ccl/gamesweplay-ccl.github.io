@@ -18,7 +18,7 @@ summary: Lata and Raj each have 9 tokens in their colour that they take turns pl
 time: '20'
 title: Char Par
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=nvrrc32rVpk
 ---
 
 # Char Par
@@ -42,7 +42,7 @@ Lata and Raj each have 9 tokens in their colour that they take turns placing to 
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Char-Par/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=nvrrc32rVpk" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1TX4Z2-oIbXFVMI7vUk_wnc0tMcFfFO9X/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1YAxqNT-v-0Kez_f13YIvXc0QcC4gk3xJ/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

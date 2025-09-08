@@ -2,7 +2,7 @@
 airtable_id: recFMkne6YvIfVHrC
 board_links: https://drive.google.com/file/d/1QmAZ-NP16KO_DaLqsJCuFDcu93ol3Hvv/view?usp=sharing
 complexity: ★★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/Criss-Cross/
 filename: criss-cross
 format:
   html:
@@ -18,7 +18,7 @@ summary: 2 dice are rolled and each player enters both numbers to adjacent (like
 time: '10'
 title: Criss Cross
 type: Maths
-walkthrough_video: ''
+walkthrough_video: https://youtu.be/6O7SncFrN3Y?feature=shared
 ---
 
 # Criss Cross
@@ -40,9 +40,9 @@ walkthrough_video: ''
 
 :::{.game-actions}
 ```{=html}
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Criss-Cross/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="https://youtu.be/VHiODHtGAbo" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://youtu.be/6O7SncFrN3Y?feature=shared" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/14Uj8prrpssX19zwIjDBSfz61WzUqMc70/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1QmAZ-NP16KO_DaLqsJCuFDcu93ol3Hvv/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

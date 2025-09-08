@@ -18,7 +18,7 @@ summary: Battleship's smarter older sibling! Lata and Raj each decide their tetr
 time: '30'
 title: LAP
 type: Science
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?feature=shared&v=r9uKAQlMWdo
 ---
 
 # LAP
@@ -42,7 +42,7 @@ Battleship's smarter older sibling! Lata and Raj each decide their tetromino map
 ```{=html}
 <a href="https://mathgameswithbaddrawings.com/games/LAP" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?feature=shared&v=r9uKAQlMWdo" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1MkhmBpA9BpLOjTfOJ88zTkjtQsjoGMtM/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1_yf1q9FEa5wyormpVIxlP5P1uLbxarwc/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
