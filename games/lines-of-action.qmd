@@ -19,7 +19,7 @@ summary: Lata and Raj place their pieces on opposite edges of the board. A piece
 time: '20'
 title: Lines of Action
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?v=CtYBWQgWzg4
 ---
 
 # Lines of Action
@@ -43,7 +43,7 @@ Lata and Raj place their pieces on opposite edges of the board. A piece moves in
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Lines-of-Action/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?v=CtYBWQgWzg4" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/127OC1HbCecpP5SJFUllop8Von6Y3fmpa/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1A6lVBbkZ3ddkFqcULpYpBJTzr7i-eu15/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

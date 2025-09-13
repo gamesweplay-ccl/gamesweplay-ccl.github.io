@@ -2,7 +2,7 @@
 airtable_id: rec9kILYHjrxNmtj8
 board_links: https://drive.google.com/file/d/1zFw4yLx5sQE1NG5bzrkZZLBfq_HxTb6Q/view?usp=sharing
 complexity: ★
-external_links: https://www.battleshiponline.org/
+external_links: https://gamesweplay-ccl.github.io/Battle-Ship/
 filename: battle-ship
 format:
   html:
@@ -39,7 +39,7 @@ Players mark their battle ships on their hidden grid. Calling out grid locations
 
 :::{.game-actions}
 ```{=html}
-<a href="https://www.battleshiponline.org/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://gamesweplay-ccl.github.io/Battle-Ship/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="https://youtu.be/GkzSUzhTcgg" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1uDA7GrmwOGAtanRmU-Qj4T5r_n7-S4sO/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>

@@ -19,7 +19,7 @@ summary: Play starts with 3 dots on an empty page. Lata and Raj take turns joini
 time: '10'
 title: Sprouts
 type: Maths
-walkthrough_video: ''
+walkthrough_video: https://www.youtube.com/watch?app=desktop&v=NEXCuGqfnfc&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=150
 ---
 
 # Sprouts
@@ -43,7 +43,7 @@ Play starts with 3 dots on an empty page. Lata and Raj take turns joinining any 
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Sprouts/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="https://youtu.be/cuqrWrZsEXU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://www.youtube.com/watch?app=desktop&v=NEXCuGqfnfc&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=150" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1xHjbS9pIrWdXos5-EYDICIdO_RuGCQEX/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
