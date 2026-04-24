@@ -990,6 +990,28 @@
     }
   },
   {
+    "title": "Rahee",
+    "game_format": "Custom",
+    "players": "2-5",
+    "external_links": "",
+    "manual_links": "",
+    "board_links": "",
+    "rules_video": "",
+    "walkthrough_video": "",
+    "summary": "-",
+    "type": "Science",
+    "time": "40",
+    "complexity": "★★★",
+    "airtable_id": "reciy7kJ0rpwwxV0u",
+    "filename": "rahee",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
     "title": "Blockade",
     "game_format": "Dominoes",
     "players": "2",
