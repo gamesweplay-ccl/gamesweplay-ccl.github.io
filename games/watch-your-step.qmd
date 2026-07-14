@@ -11,13 +11,13 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/148mArFWU2rKL_kLRunj-KTi5hGoMxyOa/view?usp=sharing
 players: 2-4
-rules_video: https://youtu.be/s7sn8jtTTT4
+rules_video: https://youtu.be/BJ7l6oCY3CU
 summary: Players take turns rolling a dice trying to lead the pack but not fall off
   the cliff!
 time: '10'
 title: Watch Your Step
 type: Maths
-walkthrough_video: https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz
+walkthrough_video: https://youtu.be/Y6iU0MT_7WA
 ---
 
 # Watch Your Step
@@ -40,8 +40,8 @@ Players take turns rolling a dice trying to lead the pack but not fall off the c
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Watch-Your-Step/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/s7sn8jtTTT4" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://youtu.be/0xIsf21L4Cc?si=gS5hU2HD2ZPJgXmz" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://youtu.be/BJ7l6oCY3CU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/Y6iU0MT_7WA" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/148mArFWU2rKL_kLRunj-KTi5hGoMxyOa/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/11XE5fEB_VXf2XKrmCAjqah7LWLOPtiA8/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

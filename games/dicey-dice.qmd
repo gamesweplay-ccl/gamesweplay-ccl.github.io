@@ -11,14 +11,14 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1lY8hRocCEkJmlvx7U5QzDhVwdSE-NOHS/view?usp=sharing
 players: 2-100
-rules_video: ''
+rules_video: https://youtu.be/dxfz1vdlN-k
 summary: Players decide to place bets on up to 3 spaces on the board. 2 dice are rolled
   and payoffs earned for successful bids. The player with the most money after 10
   rounds wins the game.
 time: '10'
 title: Dicey Dice
 type: Maths
-walkthrough_video: https://www.youtube.com/watch?v=uo2qLeOmgq4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=2
+walkthrough_video: https://youtu.be/B6hwki0xyHs
 ---
 
 # Dicey Dice
@@ -41,8 +41,8 @@ Players decide to place bets on up to 3 spaces on the board. 2 dice are rolled a
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Dicey-Dice/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=uo2qLeOmgq4&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=2" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://youtu.be/dxfz1vdlN-k" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/B6hwki0xyHs" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1lY8hRocCEkJmlvx7U5QzDhVwdSE-NOHS/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1Ul4Z8kN_wIel8c9ppUArTZ_qCizRUN1O/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

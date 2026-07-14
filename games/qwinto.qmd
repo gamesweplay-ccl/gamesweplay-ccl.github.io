@@ -2,7 +2,7 @@
 airtable_id: rec01QRWm7ljzGERj
 board_links: https://drive.google.com/file/d/1EAwUvwUxiqXE2iT5ya_kjbJOSc5ZT9pL/view?usp=sharing
 complexity: ★★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/Qwinto/
 filename: qwinto
 format:
   html:
@@ -11,7 +11,7 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1VgoPTh4Oe7h-UR9TPKpq2IpNbPONO-eD/view?usp=sharing
 players: 2-4
-rules_video: ''
+rules_video: https://youtu.be/_436AbrATSQ
 summary: On a turn, a player decides which dice to roll. They can choose to roll one,
   two or all three but must write the combined total to one of the matching tracks
   on their board. Other players may also choose to use the roll. Players try to best
@@ -19,7 +19,7 @@ summary: On a turn, a player decides which dice to roll. They can choose to roll
 time: '30'
 title: Qwinto
 type: Maths
-walkthrough_video: ''
+walkthrough_video: https://youtu.be/rJPDKpE9vZU
 ---
 
 # Qwinto
@@ -41,9 +41,9 @@ On a turn, a player decides which dice to roll. They can choose to roll one, two
 
 :::{.game-actions}
 ```{=html}
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://gamesweplay-ccl.github.io/Qwinto/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://youtu.be/_436AbrATSQ" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/rJPDKpE9vZU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1VgoPTh4Oe7h-UR9TPKpq2IpNbPONO-eD/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1EAwUvwUxiqXE2iT5ya_kjbJOSc5ZT9pL/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

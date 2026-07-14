@@ -11,13 +11,13 @@ format:
 game_format: Tokens
 manual_links: https://drive.google.com/file/d/1RXHOunivrF8nuPu-lHdb94bPD2GXEZRf/view?usp=sharing
 players: '2'
-rules_video: https://youtu.be/qRsY49stw-g
+rules_video: https://youtu.be/p8UVAb1fb9Y
 summary: Lata and Raj take turns colouring in a hex on the board. Lata tries to connect
   the sides in her colour. Raj tries to connect the sides in his colour.
 time: '20'
 title: Hex
 type: Strategy
-walkthrough_video: https://www.youtube.com/watch?v=8rfZ9a4Du_g&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33&t=16s
+walkthrough_video: https://youtu.be/K5gibJaNjvM
 ---
 
 # Hex
@@ -40,8 +40,8 @@ Lata and Raj take turns colouring in a hex on the board. Lata tries to connect t
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Hex/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="https://youtu.be/qRsY49stw-g" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=8rfZ9a4Du_g&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=33&t=16s" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://youtu.be/p8UVAb1fb9Y" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/K5gibJaNjvM" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1RXHOunivrF8nuPu-lHdb94bPD2GXEZRf/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1KVpzPQHmjz6rDDkAbu8hybGJh6nEgTpa/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

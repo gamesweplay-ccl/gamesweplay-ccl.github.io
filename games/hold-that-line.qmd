@@ -11,14 +11,14 @@ format:
 game_format: Pen and Paper
 manual_links: https://drive.google.com/file/d/1bHUa-oNNy8Cr3ZLu4xpTq22ayiIjty3Q/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/02k7MpRNh1o
 summary: Lata draws a line connecting 2 dots on a 4 x 4 grid. Raj can now extend one
   end of the line, connecting to another dot. Play continues and the last one to extend
   the line loses!
 time: '10'
 title: Hold that Line
 type: Maths
-walkthrough_video: https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63
+walkthrough_video: https://youtu.be/ydcusRxmpIc
 ---
 
 # Hold that Line
@@ -41,8 +41,8 @@ Lata draws a line connecting 2 dots on a 4 x 4 grid. Raj can now extend one end 
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Hold-That-Line/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?v=BVAJvVpk1LA&list=PLmjuVk9xK8Lo3M4KZXFilobMBjNXIEOwq&index=63" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://youtu.be/02k7MpRNh1o" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/ydcusRxmpIc" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1bHUa-oNNy8Cr3ZLu4xpTq22ayiIjty3Q/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1cmin7U0ZX1tMWZFTpjb-fOBuan24S0KJ/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

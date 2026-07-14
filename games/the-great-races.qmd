@@ -11,7 +11,7 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1wE1X1AxOgw4Zpvy86Ra0McjBla5kMkGB/view?usp=sharing
 players: 2-6
-rules_video: ''
+rules_video: https://youtu.be/tW5nWPPW-RU
 summary: Each player participates in 11 races. On a turn roll 4 dice and pair them
   up, adding their outcomes. Move on the races corresponding to these numbers. Once
   8 races are completed, players score for being first or secnd in a race. The twist
@@ -19,7 +19,7 @@ summary: Each player participates in 11 races. On a turn roll 4 dice and pair th
 time: '30'
 title: The Great Races
 type: Maths
-walkthrough_video: https://www.youtube.com/watch?feature=shared&v=AiWlLYnyHmo
+walkthrough_video: https://youtu.be/tW5nWPPW-RU
 ---
 
 # The Great Races
@@ -42,8 +42,8 @@ Each player participates in 11 races. On a turn roll 4 dice and pair them up, ad
 :::{.game-actions}
 ```{=html}
 <a href="https://gamesweplay-ccl.github.io/Great-Races/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://www.youtube.com/watch?feature=shared&v=AiWlLYnyHmo" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://youtu.be/tW5nWPPW-RU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/tW5nWPPW-RU" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1wE1X1AxOgw4Zpvy86Ra0McjBla5kMkGB/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1rEzmcnOTY3PEZ-r6xHt0_JgVHgzKwmoE/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

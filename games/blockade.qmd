@@ -2,7 +2,7 @@
 airtable_id: reckPVRfonYlgtK2G
 board_links: https://drive.google.com/file/d/1EbCjfBzg-sfqqEowXQgzrxutIUP-WiDY/view?usp=sharing
 complexity: ★★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/Blockade/
 filename: blockade
 format:
   html:
@@ -11,14 +11,14 @@ format:
 game_format: Dominoes
 manual_links: https://drive.google.com/file/d/1z2Vrwue_y1Ei9whZYPfRU63xfU5oCyJX/view?usp=sharing
 players: '2'
-rules_video: ''
+rules_video: https://youtu.be/jn0Ob2bkBNE
 summary: Lata and Raj may either move their pawn forward a step or place a wall to
   block their opponent's progress. The first player to reach the other side wins the
   game.
 time: '20'
 title: Blockade
 type: Strategy
-walkthrough_video: ''
+walkthrough_video: https://youtu.be/jn0Ob2bkBNE
 ---
 
 # Blockade
@@ -40,9 +40,9 @@ Lata and Raj may either move their pawn forward a step or place a wall to block 
 
 :::{.game-actions}
 ```{=html}
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://gamesweplay-ccl.github.io/Blockade/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://youtu.be/jn0Ob2bkBNE" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/jn0Ob2bkBNE" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1z2Vrwue_y1Ei9whZYPfRU63xfU5oCyJX/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1EbCjfBzg-sfqqEowXQgzrxutIUP-WiDY/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```

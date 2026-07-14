@@ -2,7 +2,7 @@
 airtable_id: recdnoonK7cnr8ehT
 board_links: ''
 complexity: ★★★
-external_links: ''
+external_links: https://gamesweplay-ccl.github.io/Liar-s-Dice/
 filename: liars-dice
 format:
   html:
@@ -11,14 +11,14 @@ format:
 game_format: Dice
 manual_links: https://drive.google.com/file/d/1_nNJQ878Ihb14rzmP5q8EK-fnitZIwc3/view?usp=sharing
 players: 3-6
-rules_video: ''
+rules_video: https://youtu.be/Je0bzKGoviY
 summary: Players shake their dice in a cup and keep them covered on the table. After
   secretly looking at their own dice they bid on the rolls of the whole table. Succesful
   bids give points but unsuccesful ones result in the loss of dice!
 time: '30'
 title: Liar's Dice
 type: Maths
-walkthrough_video: https://youtu.be/rYL6IjGN-qc?feature=shared
+walkthrough_video: https://youtu.be/Je0bzKGoviY
 ---
 
 # Liar's Dice
@@ -40,9 +40,9 @@ Players shake their dice in a cup and keep them covered on the table. After secr
 
 :::{.game-actions}
 ```{=html}
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
-<a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
-<a href="https://youtu.be/rYL6IjGN-qc?feature=shared" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
+<a href="https://gamesweplay-ccl.github.io/Liar-s-Dice/" target="_blank" class="btn coloured-button"><i class="fa fa-gamepad"></i> Play the game</a>
+<a href="https://youtu.be/Je0bzKGoviY" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Rules video</a>
+<a href="https://youtu.be/Je0bzKGoviY" target="_blank" class="btn coloured-button"><i class="fa fa-video"></i> Watch us play</a>
 <a href="https://drive.google.com/file/d/1_nNJQ878Ihb14rzmP5q8EK-fnitZIwc3/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 ```
 :::
