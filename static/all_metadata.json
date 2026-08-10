@@ -594,6 +594,28 @@
     }
   },
   {
+    "title": "Akkam Pakkam",
+    "game_format": "Dice",
+    "players": "2-100",
+    "external_links": "https://gamesweplay-ccl.github.io/Akkam-Pakkam/",
+    "manual_links": "https://drive.google.com/file/d/1SsUQcZCTkWYI_kJom3QX2fCm2hE7GgEq/view?usp=sharing",
+    "board_links": "",
+    "rules_video": "",
+    "walkthrough_video": "",
+    "summary": "Each player has a 5 x 5 grid onto which they place the digit called. A digit forms a link with neighbours that have the same value. Players aim to pack their digits in for the most points once the grid is full.",
+    "type": "Maths",
+    "time": "10",
+    "complexity": "★★",
+    "airtable_id": "recSivlA60vR8xQHF",
+    "filename": "akkam-pakkam",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
     "title": "Ultimate Tic Tac Toe",
     "game_format": "Pen and Paper",
     "players": "2",
