@@ -682,6 +682,28 @@
     }
   },
   {
+    "title": "Twenty-One",
+    "game_format": "Playing Cards",
+    "players": "6-7",
+    "external_links": "",
+    "manual_links": "",
+    "board_links": "",
+    "rules_video": "",
+    "walkthrough_video": "",
+    "summary": "",
+    "type": "Maths",
+    "time": "",
+    "complexity": "★★",
+    "airtable_id": "recVcxNHEiCYmYvS7",
+    "filename": "twenty-one",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
     "title": "Hex",
     "game_format": "Tokens",
     "players": "2",
@@ -960,6 +982,28 @@
     "complexity": "★",
     "airtable_id": "recejrAfW0bncfwss",
     "filename": "neighbours",
+    "format": {
+      "html": {
+        "css": "../styles.css",
+        "page-layout": "full"
+      }
+    }
+  },
+  {
+    "title": "Strike it Out",
+    "game_format": "Dice",
+    "players": "2-100",
+    "external_links": "",
+    "manual_links": "",
+    "board_links": "",
+    "rules_video": "",
+    "walkthrough_video": "",
+    "summary": "",
+    "type": "Maths",
+    "time": "",
+    "complexity": "★",
+    "airtable_id": "recgaJnFBVeyCNG1t",
+    "filename": "strike-it-out",
     "format": {
       "html": {
         "css": "../styles.css",
