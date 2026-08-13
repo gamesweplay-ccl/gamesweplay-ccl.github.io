@@ -7,7 +7,7 @@ format:
       - static/indexpage.css
 ---
 
-# **Welcome to the Games We Play!**
+# **Welcome to Games We Play!**
 
 At the [Centre for Creative Learning](https://ccl.iitgn.ac.in), IIT Gandhinagar, we play games to explore ideas, develop ways of thinking, and learn with others. This site is a collection of games we have designed, developed and curated for use in classrooms, workshops and other settings. You can find a compilation of these games [here](https://drive.google.com/file/d/13S-vf8IqbYatISgTCyI206XpvO1koClt/view?usp=sharing).
 
@@ -82,6 +82,7 @@ We enjoy playing even the simplest of these so a low complexity game is not just
     Class 9 (14 years) +
   </div>
 </div> -->
+
 <div class="about-info-grid">
   <div class="item">
     <div class="label">
@@ -233,6 +234,7 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
     </div>
 
     <div class="nav-footer-center">
+
     </div>
 
     <div class="nav-footer-right">
@@ -241,6 +243,12 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
       <p>© 2025 Center for Creative Learning | IIT Gandhinagar</p>
     </div>
     
+    <div class="footer-bottom-text">
+      <p style="margin-top: 30px; font-size: 0.85rem;"><i>
+        <b>Curation and Game Variants:</b> Jyothi Krishnan. <b>Art and Graphic Design:</b> Parvathy Subramanian. <b>Website and Games Support:</b> Diya Shah, Neeldhara Misra, Shaumik Khanna, and Tanvi Chaubey.
+      </i></p>
+    </div>
+
   </div>
 </footer>
 
