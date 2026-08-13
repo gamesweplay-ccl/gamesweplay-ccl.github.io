@@ -195,14 +195,3 @@ h1 {
 .navbar-nav .nav-item.active .nav-link:hover {
   color: #af4478 !important;
 } */
-
-.footer-bottom-text {
-  width: 100%;
-  flex-basis: 100%;
-  text-align: left;
-  font-size: 1rem;
-}
-
-.footer-bottom-text p {
-  margin: 0;
-}

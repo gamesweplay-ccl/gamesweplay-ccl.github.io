@@ -231,23 +231,27 @@ What kind of game are you looking for? Let us <a href="#" id="lucky-link">pick o
       <a href="https://iitgn.ac.in/" target="_blank" rel="noopener noreferrer">
         <img src="static/images/iitgn_logo.png" class="footer-logo">
       </a>
+      <hr style="margin-top: 86px;">
+      <p style="margin-top: 63px"><b>Curation + Game Variants:</b><br>Jyothi Krishnan</p>
     </div>
 
     <div class="nav-footer-center">
-
+      <p style="margin-top: 250px"><b>Art + Graphic Design:</b><br>Parvathy Subramanian</p>
     </div>
 
     <div class="nav-footer-right">
-      <p><strong>Indian Institute of Technology, Gandhinagar, Gujarat - 382355</strong></p>
+      <p>Indian Institute of Technology, Gandhinagar, Gujarat - 382355</p>
       <p>Contact: 079-23952240 | <a href="mailto:gamesweplay.ccl@gmail.com">gamesweplay.ccl@gmail.com</a></p>
       <p>© 2025 Center for Creative Learning | IIT Gandhinagar</p>
+      <hr>
+      <p style="margin-top: 63px"><b>Website + Support:</b><br>Diya Shah<br> Neeldhara Misra<br> Shaumik Khanna<br> Tanvi Chaubey</p>
     </div>
     
-    <div class="footer-bottom-text">
+    <!-- <div class="footer-bottom-text">
       <p style="margin-top: 30px; font-size: 0.85rem;"><i>
-        <b>Curation and Game Variants:</b> Jyothi Krishnan. <b>Art and Graphic Design:</b> Parvathy Subramanian. <b>Website and Games Support:</b> Diya Shah, Neeldhara Misra, Shaumik Khanna, and Tanvi Chaubey.
+        <b>Curation and Game Variants:</b> Jyothi Krishnan. <b>Art and Graphic Design:</b> Parvathy Subramanian. <b>Website and Support:</b> Diya Shah, Neeldhara Misra, Shaumik Khanna, and Tanvi Chaubey.
       </i></p>
-    </div>
+    </div> -->
 
   </div>
 </footer>
