@@ -227,11 +227,18 @@ window.Quarto = {
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const colorMap = {
-      "Maths": "#ff9658",
+      "Maths": "#ff9f67ff",
       "SEL": "#70cdff",
-      "Strategy": "#fdd559",
-      "Science": "#bdd866"
+      "Strategy": "#fbcd44ff",
+      "Science": "#bbd662ff"
     };
+
+    // const shadowMap = { 
+    //   "Maths": "rgba(218, 154, 117, 0.6)",
+    //   "SEL": "#4fa3cfff",
+    //   "Strategy": "#be961a",
+    //   "Science": "#bbdc4fff, bdd866"
+    // };
 
     document.querySelectorAll("table tbody tr").forEach((row) => {
       const typeCell = row.cells[1]; // 2nd column = 'Type'
@@ -249,17 +256,21 @@ window.Quarto = {
           if (link) {
             link.style.color = color;
             link.style.fontWeight = "600";
+            // link.style.textShadow = `1px 1px 1px ${shadowMap[type]}`;
             link.style.textDecoration = "none";
 
             link.addEventListener("mouseenter", () => {
               link.style.color = "#af4478";
               link.style.textDecoration = "underline";
+              link.style.textShadow = "none";
             });
 
             link.addEventListener("mouseleave", () => {
               link.style.color = color;
               link.style.textDecoration = "none";
+              // link.style.textShadow = `1px 1px 1px ${shadowMap[type]}`;
             });
+
           } else {
             titleCell.style.fontWeight = "600";
           }
