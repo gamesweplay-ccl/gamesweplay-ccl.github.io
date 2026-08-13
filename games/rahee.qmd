@@ -9,7 +9,7 @@ format:
     css: ../styles.css
     page-layout: full
 game_format: Custom
-manual_links: https://drive.google.com/file/d/1wo_Y3jgl0dcnuHt-v_JpeMEW2F10SzN-/view?usp=sharing
+manual_links: https://drive.google.com/file/d/1sqfQkzWZQWgJfis2IZRGmKZ3ZF9e2IfH/view?usp=sharing
 players: 2-5
 rules_video: ''
 summary: '-'
@@ -41,7 +41,7 @@ walkthrough_video: ''
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-gamepad"></i> Play the game</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Rules video</a>
 <a href="#" target="_blank" class="btn disabled-button"><i class="fa fa-video"></i> Watch us play</a>
-<a href="https://drive.google.com/file/d/1wo_Y3jgl0dcnuHt-v_JpeMEW2F10SzN-/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
+<a href="https://drive.google.com/file/d/1sqfQkzWZQWgJfis2IZRGmKZ3ZF9e2IfH/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-book"></i> Read the manual</a>
 <a href="https://drive.google.com/file/d/1FmUKc5t7KFmC05jo_mhCW0Gkf98nYTwa/view?usp=sharing" target="_blank" class="btn coloured-button"><i class="fa fa-file-pdf"></i> Printable PDF</a>
 ```
 :::
